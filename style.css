@@ -717,3 +717,63 @@ footer p {
         flex-shrink: 0;
     }
 }
+/* ============================================= */
+/* SEARCHABLE DESTINATION SELECTOR (ADDED) */
+/* ============================================= */
+
+.quick-picks-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.quick-picks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.quick-pick-chip {
+    padding: 10px 18px;
+    border-radius: 50px;
+    border: 1px solid #2f5233;
+    background: white;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171717;
+}
+
+.quick-pick-chip:hover {
+    background: #2f5233;
+    color: white;
+}
+
+.search-wrap {
+    position: relative;
+    flex: 1;
+    min-width: 200px;
+}
+
+input.selector-dropdown {
+    width: 100%;
+}
+
+.selector-hint {
+    font-size: 13px;
+    color: #4caf6d;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+@media (max-width: 800px) {
+    .quick-picks {
+        flex-direction: column;
+    }
+    .quick-pick-chip {
+        text-align: left;
+    }
+}
