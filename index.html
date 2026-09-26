@@ -105,22 +105,105 @@
         </p>
 
         <div class="destination-selector">
-            <div class="selector-row">
-                <select id="countrySelect" class="selector-dropdown">
-                    <option value="">Select Country</option>
-                    <option value="vietnam">Vietnam</option>
-                    <option value="india">India</option>
-                </select>
+    <div class="selector-row">
+        <select id="countrySelect" class="selector-dropdown">
+            <option value="">Select Country</option>
+        </select>
 
-                <select id="stateSelect" class="selector-dropdown" disabled>
-                    <option value="">Select State/Region</option>
-                </select>
+        <select id="stateSelect" class="selector-dropdown" disabled>
+            <option value="">Select State/Region</option>
+        </select>
 
-                <button id="exploreBtn" class="button primary" disabled>Explore →</button>
-            </div>
-        </div>
+        <button id="exploreBtn" class="button primary" disabled>Explore →</button>
+    </div>
+</div>
 
-        <script>
+<script>
+    // Countries with REAL content (states + working page links)
+    const stateData = {
+        "Vietnam": [
+            { name: "Hoi An", url: null },
+            { name: "Ho Chi Minh City", url: null },
+            { name: "Hanoi", url: null },
+            { name: "Da Nang", url: null },
+            { name: "Mui Ne", url: null }
+        ],
+        "India": [
+            { name: "Nagaland", url: "hornbill-festival-nagaland.html" }
+        ]
+    };
+
+    // Full country list for the dropdown (alphabetical)
+    const allCountries = [
+        "Afghanistan","Albania","Algeria","Argentina","Armenia","Australia","Austria",
+        "Azerbaijan","Bahrain","Bangladesh","Belarus","Belgium","Belize","Bhutan",
+        "Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria",
+        "Cambodia","Cameroon","Canada","Chile","China","Colombia","Costa Rica",
+        "Croatia","Cuba","Cyprus","Czech Republic","Denmark","Dominican Republic",
+        "Ecuador","Egypt","El Salvador","Estonia","Ethiopia","Fiji","Finland",
+        "France","Georgia","Germany","Ghana","Greece","Guatemala","Honduras",
+        "Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland",
+        "Israel","Italy","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kuwait",
+        "Kyrgyzstan","Laos","Latvia","Lebanon","Lithuania","Luxembourg","Malaysia",
+        "Maldives","Malta","Mexico","Mongolia","Montenegro","Morocco","Myanmar",
+        "Nepal","Netherlands","New Zealand","Nicaragua","Nigeria","North Macedonia",
+        "Norway","Oman","Pakistan","Panama","Papua New Guinea","Paraguay","Peru",
+        "Philippines","Poland","Portugal","Qatar","Romania","Russia","Rwanda",
+        "Saudi Arabia","Serbia","Singapore","Slovakia","Slovenia","South Africa",
+        "South Korea","Spain","Sri Lanka","Sweden","Switzerland","Taiwan","Tajikistan",
+        "Tanzania","Thailand","Tunisia","Turkey","Turkmenistan","Uganda","Ukraine",
+        "United Arab Emirates","United Kingdom","United States","Uruguay","Uzbekistan",
+        "Venezuela","Vietnam","Zambia","Zimbabwe"
+    ];
+
+    const countrySelect = document.getElementById('countrySelect');
+    const stateSelect = document.getElementById('stateSelect');
+    const exploreBtn = document.getElementById('exploreBtn');
+
+    // Populate country dropdown, sorted, with visited ones marked
+    allCountries.sort().forEach(country => {
+        const opt = document.createElement('option');
+        opt.value = country;
+        opt.textContent = stateData[country] ? country : country + " (Coming Soon)";
+        countrySelect.appendChild(opt);
+    });
+
+    countrySelect.addEventListener('change', function() {
+        const country = this.value;
+        stateSelect.innerHTML = '<option value="">Select State/Region</option>';
+        exploreBtn.disabled = true;
+
+        if (country && stateData[country]) {
+            stateSelect.disabled = false;
+            stateData[country].forEach((state, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.textContent = state.url ? state.name : state.name + " (Coming Soon)";
+                stateSelect.appendChild(opt);
+            });
+        } else if (country) {
+            // No content yet for this country at all
+            stateSelect.disabled = false;
+            const opt = document.createElement('option');
+            opt.value = "";
+            opt.textContent = "Coming Soon — check back later";
+            stateSelect.appendChild(opt);
+        } else {
+            stateSelect.disabled = true;
+        }
+    });
+
+    stateSelect.addEventListener('change', function() {
+        const country = countrySelect.value;
+        const idx = this.value;
+        if (stateData[country] && idx !== "" && stateData[country][idx].url) {
+            exploreBtn.disabled = false;
+            exploreBtn.onclick = () => window.location.href = stateData[country][idx].url;
+        } else {
+            exploreBtn.disabled = true;
+        }
+    });
+</script>
             const stateData = {
                 vietnam: [
                     { name: "Hoi An", url: null },
