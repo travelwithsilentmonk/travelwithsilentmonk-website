@@ -660,14 +660,6 @@ footer p {
     border: 1px solid #2f5233;
 }
 
-/* Hero overlay — shift from pure black to black-green tint */
-.hero,
-.page-hero {
-    background:
-        linear-gradient(90deg, rgba(8,14,10,0.8), rgba(8,14,10,0.25)),
-        center/cover;
-}
-
 /* Info strip on festival pages — subtle green accent on values */
 .info-value {
     color: #1f3d2b;
