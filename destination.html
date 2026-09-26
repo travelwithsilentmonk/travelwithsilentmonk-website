@@ -121,6 +121,19 @@
         // DESTINATION DATA — add new places here, no new pages needed
         // Optional fields: infoStrip, logistics, budgetNote
         // ===================================================
+        const hornbillKazirangaItinerary = [
+            { title: "Nov 28 — Bangalore → Guwahati", items: ["Fly Bangalore to Guwahati", "Check into Zostel Guwahati", "Explore the city, focus on Assamese food", "Visit Kamakhya Temple", "Evening: Guwahati nightlife and food"] },
+            { title: "Nov 29 — Guwahati → Kaziranga", items: ["Travel from Guwahati to Kaziranga", "Check into homestay", "Relax after the journey", "Explore the area around the homestay", "Prepare for early morning safari"] },
+            { title: "Nov 30 — Kaziranga Elephant Safari", items: ["Very early morning wake-up", "Elephant safari", "Breakfast and relax back at homestay", "Explore Kaziranga surroundings if time permits"] },
+            { title: "Dec 1 — Kaziranga → Kigwema + Hornbill Day 1", items: ["Travel to Kigwema, Nagaland", "Check into ethnic homestay", "Head to Kisama Heritage Village", "Hornbill Festival Day 1 — Naga tribes, traditional houses, cultural performances, food, handicrafts", "Return to Kigwema"] },
+            { title: "Dec 2 — Hornbill + Village Exploration", items: ["Morning: explore Kigwema village, interact with locals", "Afternoon: back to Kisama for the festival", "Tribal food, performances, traditional games, stalls, music", "Return to Kigwema for dinner"] },
+            { title: "Dec 3 — Hornbill + Village Exploration", items: ["Morning: explore another nearby village", "Afternoon/night: back at the festival — food, performances, people, music", "Evening around Kohima/Kigwema", "Return to homestay"] },
+            { title: "Dec 4 — Kigwema → Dzukou Valley", items: ["Early start, trek to Dzukou Valley", "Scenic mountain and forest sections", "Explore the valley, sunset if weather permits", "Overnight in Dzukou"] },
+            { title: "Dec 5 — Dzukou Sunrise → Kigwema", items: ["Sunrise at Dzukou Valley", "Breakfast, explore a little longer", "Trek back and travel to Kigwema", "Final night in the ethnic homestay"] },
+            { title: "Dec 6 — Kigwema → Dimapur → Guwahati", items: ["Travel Kigwema to Dimapur", "Train from Dimapur to Guwahati", "Check into Zostel Guwahati", "Evening exploration and dinner"] },
+            { title: "Dec 7 — Guwahati → Bangalore", items: ["Last Assamese meal", "Fly Guwahati to Bangalore"] }
+        ];
+
         const destinationData = {
             "Thailand": {
                 "Chiang Mai": {
@@ -322,18 +335,10 @@
                         { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
                     ],
                     budgetNote: "Backpacker-tier Hornbill trips (shared transport, budget guesthouses, festival entry) typically start around ₹20,000–25,000 for a 4–5 day trip, excluding flights to Dimapur. Real day-by-day spend posted here after the December 2026 trip.",
-                    itinerary: [
-                        { title: "Dec 1 — Hornbill Day 1", items: ["Kaziranga → Kigwema", "Check in to ethnic homestay", "Head to Kisama for the first day of Hornbill Festival", "Naga food, tribes, performances, festival atmosphere", "Return to Kigwema"] },
-                        { title: "Dec 2 — Hornbill + Village", items: ["Morning: explore Kigwema and nearby village", "Afternoon: back to Kisama for the festival", "More time exploring food stalls and cultural performances", "Return to Kigwema"] },
-                        { title: "Dec 3 — Hornbill + Village", items: ["Explore another nearby village/location", "Return to Kisama for the festival", "Evening/night around Kohima/Kigwema", "Return to homestay"] },
-                        { title: "Dec 4 — Dzukou Valley", items: ["Early start from Kigwema", "Trek to Dzukou Valley", "Sunset if weather permits", "Camp/homestay experience in the valley"] },
-                        { title: "Dec 5 — Dzukou Sunrise → Kigwema", items: ["Early sunrise in Dzukou Valley", "Breakfast, then trek back", "Return to Kigwema for the last night in the homestay"] },
-                        { title: "Dec 6 — Onward to Guwahati", items: ["Kigwema → Dimapur", "Train: Dimapur → Guwahati", "Check into Zostel", "Explore Guwahati in the evening"] },
-                        { title: "Dec 7 — Fly Home", items: ["Guwahati → Bangalore"] }
-                    ]
+                    itinerary: hornbillKazirangaItinerary
                 },
                 "Kaziranga": {
-                    intro: "A UNESCO World Heritage Site on the banks of the Brahmaputra, and home to the largest population of one-horned rhinoceros on Earth. Part of SilentMonk's December 2026 Northeast India trip, right after Hornbill Festival.",
+                    intro: "A UNESCO World Heritage Site on the banks of the Brahmaputra, and home to the largest population of one-horned rhinoceros on Earth. This is one leg of a single Nov 28 – Dec 7, 2026 trip through Assam and Nagaland — see the full itinerary below.",
                     infoStrip: [
                         { label: "BEST SEASON", value: "November – April" },
                         { label: "STATE", value: "Assam, India" },
@@ -365,7 +370,8 @@
                         { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
                         { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
                     ],
-                    budgetNote: "Real day-by-day spend for Kaziranga (safaris, stay, transport from Nagaland) will be posted here after the December 2026 trip."
+                    budgetNote: "Real day-by-day spend for Kaziranga (safaris, stay, transport from Nagaland) will be posted here after the December 2026 trip.",
+                    itinerary: hornbillKazirangaItinerary
                 }
             }
         };
