@@ -54,6 +54,7 @@
             <button class="tab-btn" data-tab="attractions">Attractions</button>
             <button class="tab-btn" data-tab="food">Food</button>
             <button class="tab-btn" data-tab="things">Things To Do</button>
+            <button class="tab-btn" data-tab="itinerary" id="itineraryTabBtn" style="display:none;">Day-by-Day Itinerary</button>
         </div>
     </section>
 
@@ -79,6 +80,12 @@
         <p class="section-label">TOP 3 · BY SILENTMONK</p>
         <h2>Top Things To Do</h2>
         <div class="cards three-col" id="thingsCards"></div>
+    </section>
+
+    <section class="section tab-content" id="tab-itinerary" style="display:none;">
+        <p class="section-label">REAL TRIP · BY SILENTMONK</p>
+        <h2>Day-by-Day Itinerary</h2>
+        <div id="itineraryCards"></div>
     </section>
 
     <!-- OPTIONAL BUDGET BOX -->
@@ -314,7 +321,16 @@
                         { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
                         { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
                     ],
-                    budgetNote: "Backpacker-tier Hornbill trips (shared transport, budget guesthouses, festival entry) typically start around ₹20,000–25,000 for a 4–5 day trip, excluding flights to Dimapur. Real day-by-day spend posted here after the December 2026 trip."
+                    budgetNote: "Backpacker-tier Hornbill trips (shared transport, budget guesthouses, festival entry) typically start around ₹20,000–25,000 for a 4–5 day trip, excluding flights to Dimapur. Real day-by-day spend posted here after the December 2026 trip.",
+                    itinerary: [
+                        { title: "Dec 1 — Hornbill Day 1", items: ["Kaziranga → Kigwema", "Check in to ethnic homestay", "Head to Kisama for the first day of Hornbill Festival", "Naga food, tribes, performances, festival atmosphere", "Return to Kigwema"] },
+                        { title: "Dec 2 — Hornbill + Village", items: ["Morning: explore Kigwema and nearby village", "Afternoon: back to Kisama for the festival", "More time exploring food stalls and cultural performances", "Return to Kigwema"] },
+                        { title: "Dec 3 — Hornbill + Village", items: ["Explore another nearby village/location", "Return to Kisama for the festival", "Evening/night around Kohima/Kigwema", "Return to homestay"] },
+                        { title: "Dec 4 — Dzukou Valley", items: ["Early start from Kigwema", "Trek to Dzukou Valley", "Sunset if weather permits", "Camp/homestay experience in the valley"] },
+                        { title: "Dec 5 — Dzukou Sunrise → Kigwema", items: ["Early sunrise in Dzukou Valley", "Breakfast, then trek back", "Return to Kigwema for the last night in the homestay"] },
+                        { title: "Dec 6 — Onward to Guwahati", items: ["Kigwema → Dimapur", "Train: Dimapur → Guwahati", "Check into Zostel", "Explore Guwahati in the evening"] },
+                        { title: "Dec 7 — Fly Home", items: ["Guwahati → Bangalore"] }
+                    ]
                 },
                 "Kaziranga": {
                     intro: "A UNESCO World Heritage Site on the banks of the Brahmaputra, and home to the largest population of one-horned rhinoceros on Earth. Part of SilentMonk's December 2026 Northeast India trip, right after Hornbill Festival.",
@@ -410,6 +426,18 @@
             renderCards('attractionsCards', data.attractions);
             renderCards('foodCards', data.food);
             renderCards('thingsCards', data.things);
+
+            if (data.itinerary) {
+                document.getElementById('itineraryTabBtn').style.display = 'inline-block';
+                document.getElementById('itineraryCards').innerHTML = data.itinerary.map(day => `
+                    <div style="margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid #eee;">
+                        <h3 style="font-size: 20px; margin-bottom: 10px; color: #2f5233;">${day.title}</h3>
+                        <ul style="padding-left: 20px; color: #555;">
+                            ${day.items.map(i => `<li style="margin-bottom: 6px;">${i}</li>`).join('')}
+                        </ul>
+                    </div>
+                `).join('');
+            }
         } else if (state && country) {
             // Valid place, just not documented yet — friendly message, not an error
             document.title = `${state}, ${country} | TravelWithSilentMonk`;
