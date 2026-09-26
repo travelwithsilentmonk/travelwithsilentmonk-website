@@ -104,7 +104,7 @@
             Places I've explored and destinations waiting for the next adventure.
         </p>
 
-                <div class="destination-selector">
+                        <div class="destination-selector">
             <div class="selector-row">
                 <select id="countrySelect" class="selector-dropdown">
                     <option value="">Select Country</option>
@@ -119,21 +119,19 @@
         </div>
 
         <script>
-            // Countries with REAL content (states + working page links)
+            // Countries/states with content (feeds into destination.html template)
             const stateData = {
-                "Vietnam": [
-                    { name: "Hoi An", url: null },
-                    { name: "Ho Chi Minh City", url: null },
-                    { name: "Hanoi", url: null },
-                    { name: "Da Nang", url: null },
-                    { name: "Mui Ne", url: null }
-                ],
-                "India": [
-                    { name: "Nagaland", url: "hornbill-festival-nagaland.html" }
-                ]
+                "Thailand": ["Chiang Mai"],
+                "Vietnam": ["Hoi An", "Ho Chi Minh City", "Hanoi", "Da Nang", "Mui Ne"],
+                "India": ["Nagaland"]
             };
 
-            // Full country list for the dropdown (alphabetical)
+            // States that have REAL populated data in destination.html's destinationData object
+            const readyStates = {
+                "Thailand": ["Chiang Mai"],
+                "India": ["Nagaland"]
+            };
+
             const allCountries = [
                 "Afghanistan","Albania","Algeria","Argentina","Armenia","Australia","Austria",
                 "Azerbaijan","Bahrain","Bangladesh","Belarus","Belgium","Belize","Bhutan",
@@ -160,11 +158,10 @@
             const stateSelect = document.getElementById('stateSelect');
             const exploreBtn = document.getElementById('exploreBtn');
 
-            // Populate country dropdown, sorted, with visited ones marked
-            allCountries.sort().forEach(country => {
+            allCountries.sort().forEach(c => {
                 const opt = document.createElement('option');
-                opt.value = country;
-                opt.textContent = stateData[country] ? country : country + " (Coming Soon)";
+                opt.value = c;
+                opt.textContent = stateData[c] ? c : c + " (Coming Soon)";
                 countrySelect.appendChild(opt);
             });
 
@@ -175,14 +172,14 @@
 
                 if (country && stateData[country]) {
                     stateSelect.disabled = false;
-                    stateData[country].forEach((state, i) => {
+                    stateData[country].forEach(state => {
                         const opt = document.createElement('option');
-                        opt.value = i;
-                        opt.textContent = state.url ? state.name : state.name + " (Coming Soon)";
+                        opt.value = state;
+                        const isReady = readyStates[country] && readyStates[country].includes(state);
+                        opt.textContent = isReady ? state : state + " (Coming Soon)";
                         stateSelect.appendChild(opt);
                     });
                 } else if (country) {
-                    // No content yet for this country at all
                     stateSelect.disabled = false;
                     const opt = document.createElement('option');
                     opt.value = "";
@@ -195,10 +192,12 @@
 
             stateSelect.addEventListener('change', function() {
                 const country = countrySelect.value;
-                const idx = this.value;
-                if (stateData[country] && idx !== "" && stateData[country][idx].url) {
+                const state = this.value;
+                const isReady = state && readyStates[country] && readyStates[country].includes(state);
+                if (isReady) {
                     exploreBtn.disabled = false;
-                    exploreBtn.onclick = () => window.location.href = stateData[country][idx].url;
+                    exploreBtn.onclick = () => window.location.href =
+                        `destination.html?country=${encodeURIComponent(country)}&state=${encodeURIComponent(state)}`;
                 } else {
                     exploreBtn.disabled = true;
                 }
