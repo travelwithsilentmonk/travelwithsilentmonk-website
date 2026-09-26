@@ -37,6 +37,16 @@
         </div>
     </section>
 
+    <!-- OPTIONAL INFO STRIP (dates/venue/etc — used for festivals) -->
+    <section class="festival-info-strip" id="infoStripSection" style="display:none;"></section>
+
+    <!-- OPTIONAL LOGISTICS / HOW TO GET THERE -->
+    <section class="section dark-section" id="logisticsSection" style="display:none;">
+        <p class="section-label">BACKPACKER ESSENTIALS</p>
+        <h2>How to Get There</h2>
+        <div class="cards three-col" id="logisticsCards"></div>
+    </section>
+
     <!-- TABS -->
     <section class="tabs-section">
         <div class="tabs-nav" id="tabsNav">
@@ -47,32 +57,37 @@
         </div>
     </section>
 
-    <!-- HOSTELS TAB -->
     <section class="section tab-content" id="tab-hostels">
         <p class="section-label">TOP 3 · BY SILENTMONK</p>
         <h2>Best Hostels</h2>
         <div class="cards three-col" id="hostelsCards"></div>
     </section>
 
-    <!-- ATTRACTIONS TAB -->
     <section class="section dark-section tab-content" id="tab-attractions" style="display:none;">
         <p class="section-label">TOP 3 · BY SILENTMONK</p>
         <h2>Best Attractions</h2>
         <div class="cards three-col" id="attractionsCards"></div>
     </section>
 
-    <!-- FOOD TAB -->
     <section class="section tab-content" id="tab-food" style="display:none;">
         <p class="section-label">TOP 3 · BY SILENTMONK</p>
         <h2>Must-Try Foods</h2>
         <div class="cards three-col" id="foodCards"></div>
     </section>
 
-    <!-- THINGS TO DO TAB -->
     <section class="section dark-section tab-content" id="tab-things" style="display:none;">
         <p class="section-label">TOP 3 · BY SILENTMONK</p>
         <h2>Top Things To Do</h2>
         <div class="cards three-col" id="thingsCards"></div>
+    </section>
+
+    <!-- OPTIONAL BUDGET BOX -->
+    <section class="budget-box-section" id="budgetSection" style="display:none;">
+        <div class="budget-box">
+            <p class="section-label">BACKPACKER BUDGET</p>
+            <h2>What Should You Budget?</h2>
+            <p id="budgetText"></p>
+        </div>
     </section>
 
     <section class="social-section">
@@ -97,6 +112,7 @@
     <script>
         // ===================================================
         // DESTINATION DATA — add new places here, no new pages needed
+        // Optional fields: infoStrip, logistics, budgetNote
         // ===================================================
         const destinationData = {
             "Thailand": {
@@ -126,9 +142,20 @@
             },
             "India": {
                 "Nagaland": {
-                    intro: "Home to the Hornbill Festival — SilentMonk visits December 2026.",
+                    intro: "The \"Festival of Festivals\" — ten days where all of Nagaland's Naga tribes gather at Kisama to share music, food, dance and centuries of tradition. SilentMonk visits December 2026.",
+                    infoStrip: [
+                        { label: "DATES 2026", value: "1 – 10 December" },
+                        { label: "VENUE", value: "Kisama Heritage Village" },
+                        { label: "NEAREST CITY", value: "Kohima (~12 km)" },
+                        { label: "TRIP STATUS", value: "📍 SilentMonk visits Dec 2026" }
+                    ],
+                    logistics: [
+                        { title: "✈️ By Air", desc: "Fly into Dimapur Airport, Nagaland's only airport, with connections from Kolkata, Delhi and Guwahati. From Dimapur, it's roughly a 3-hour shared taxi or bus ride to Kohima." },
+                        { title: "🚆 By Train", desc: "Dimapur is also the nearest railhead, well connected to major Indian cities. Budget travelers often combine train + shared sumo (shared taxi) to keep costs low." },
+                        { title: "🚕 Kohima to Kisama", desc: "The festival ground at Kisama is about 12 km from Kohima. Shared taxis run regularly during festival days, or stay closer at Kigwema village, right next to the venue." }
+                    ],
                     hostels: [
-                        { name: "#1 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#1 — TBD", desc: "Reviewed in person, not copy-pasted from elsewhere. Coming after the December 2026 trip." },
                         { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
                         { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
                     ],
@@ -138,31 +165,62 @@
                         { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
                     ],
                     food: [
-                        { name: "#1 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#1 — TBD", desc: "Naga cuisine varies wildly by tribe — real tasting notes coming after the trip." },
                         { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
                         { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
                     ],
                     things: [
+                        { name: "#1 — TBD", desc: "From morung-hopping to the night rock concert — real picks after the trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ],
+                    budgetNote: "Backpacker-tier Hornbill trips (shared transport, budget guesthouses, festival entry) typically start around ₹20,000–25,000 for a 4–5 day trip, excluding flights to Dimapur. Real day-by-day spend posted here after the December 2026 trip."
+                },
+                "Kaziranga": {
+                    intro: "A UNESCO World Heritage Site on the banks of the Brahmaputra, and home to the largest population of one-horned rhinoceros on Earth. Part of SilentMonk's December 2026 Northeast India trip, right after Hornbill Festival.",
+                    infoStrip: [
+                        { label: "BEST SEASON", value: "November – April" },
+                        { label: "STATE", value: "Assam, India" },
+                        { label: "NEAREST TOWN", value: "Kohora" },
+                        { label: "TRIP STATUS", value: "📍 SilentMonk visits Dec 2026" }
+                    ],
+                    logistics: [
+                        { title: "✈️ By Air", desc: "Jorhat Airport is the closest, with Guwahati's Lokpriya Gopinath Bordoloi International Airport further out (~240 km) but better connected to major Indian cities." },
+                        { title: "🚙 Best Season", desc: "The park is open November through April and closed during monsoon season. November to February is prime time — cooler weather, lower grass, and the best rhino sightings." },
+                        { title: "🐘 Safari Zones", desc: "Four zones to choose from — Central, Western, Eastern and Burapahar — with both jeep and elephant-back safaris available depending on the zone." }
+                    ],
+                    hostels: [
+                        { name: "#1 — TBD", desc: "Reviewed in person, not copy-pasted from elsewhere. Coming after the December 2026 trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ],
+                    attractions: [
                         { name: "#1 — TBD", desc: "Coming after the December 2026 trip." },
                         { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
                         { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
-                    ]
+                    ],
+                    food: [
+                        { name: "#1 — TBD", desc: "Assamese cuisine picks coming after the trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ],
+                    things: [
+                        { name: "#1 — TBD", desc: "Real picks after the trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ],
+                    budgetNote: "Real day-by-day spend for Kaziranga (safaris, stay, transport from Nagaland) will be posted here after the December 2026 trip."
                 }
             }
         };
 
-        // ===================================================
-        // READ URL PARAMS: destination.html?country=Thailand&state=Chiang%20Mai
-        // ===================================================
         const params = new URLSearchParams(window.location.search);
         const country = params.get('country');
         const state = params.get('state');
-
         const data = (destinationData[country] && destinationData[country][state]) || null;
 
         function renderCards(containerId, items) {
-            const container = document.getElementById(containerId);
-            container.innerHTML = items.map(item => `
+            document.getElementById(containerId).innerHTML = items.map(item => `
                 <article class="card coming-soon-card">
                     <h3>${item.name}</h3>
                     <p>${item.desc}</p>
@@ -182,6 +240,32 @@
                 <span>${country}</span> /
                 <span>${state}</span>
             `;
+
+            if (data.infoStrip) {
+                document.getElementById('infoStripSection').style.display = 'flex';
+                document.getElementById('infoStripSection').innerHTML = data.infoStrip.map(item => `
+                    <div class="info-item">
+                        <span class="info-label">${item.label}</span>
+                        <span class="info-value">${item.value}</span>
+                    </div>
+                `).join('');
+            }
+
+            if (data.logistics) {
+                document.getElementById('logisticsSection').style.display = 'block';
+                document.getElementById('logisticsCards').innerHTML = data.logistics.map(item => `
+                    <article class="card info-card">
+                        <h3>${item.title}</h3>
+                        <p>${item.desc}</p>
+                    </article>
+                `).join('');
+            }
+
+            if (data.budgetNote) {
+                document.getElementById('budgetSection').style.display = 'flex';
+                document.getElementById('budgetText').textContent = data.budgetNote;
+            }
+
             renderCards('hostelsCards', data.hostels);
             renderCards('attractionsCards', data.attractions);
             renderCards('foodCards', data.food);
@@ -191,9 +275,6 @@
             document.getElementById('pageIntro').textContent = "This place hasn't been added yet.";
         }
 
-        // ===================================================
-        // TAB SWITCHING
-        // ===================================================
         document.querySelectorAll('.tab-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
