@@ -584,3 +584,91 @@ footer p {
         padding: 30px;
     }
 }
+/* ============================================= */
+/* COLOR THEME UPDATE — BLACK & GREEN (ADDED) */
+/* ============================================= */
+
+/* Buttons */
+.primary {
+    background: #4caf6d;
+    color: #0b0f0d;
+}
+
+.secondary {
+    border: 1px solid #4caf6d;
+    color: #f2f2f0;
+}
+
+.secondary:hover {
+    background: #4caf6d;
+    color: #0b0f0d;
+}
+
+/* Links / accents */
+.card-link {
+    color: #2f5233;
+}
+
+.logo span {
+    color: #4caf6d;
+    font-weight: 700;
+}
+
+/* About section — swap beige for deep charcoal-green */
+.about-section {
+    background: #0f1512;
+    color: #f2f2f0;
+}
+
+.about-content p {
+    color: #cfd6d0;
+}
+
+/* Budget box (festival pages) — dark green instead of beige */
+.budget-box {
+    background: #0f1512;
+    color: #f2f2f0;
+}
+
+.budget-box p:last-child {
+    color: #cfd6d0;
+}
+
+/* Coming soon badges — green instead of black */
+.coming-badge {
+    background: #2f5233;
+    color: #f2f2f0;
+}
+
+.coming-soon-card.dark .coming-badge {
+    background: #4caf6d;
+    color: #0b0f0d;
+}
+
+/* Social links — green hover instead of black */
+.social-links a {
+    border: 1px solid #2f5233;
+}
+
+.social-links a:hover {
+    background: #2f5233;
+    color: #f2f2f0;
+}
+
+/* Festival cards on dark sections — subtle green border */
+.festival-card {
+    border: 1px solid #2f5233;
+}
+
+/* Hero overlay — shift from pure black to black-green tint */
+.hero,
+.page-hero {
+    background:
+        linear-gradient(90deg, rgba(8,14,10,0.8), rgba(8,14,10,0.25)),
+        center/cover;
+}
+
+/* Info strip on festival pages — subtle green accent on values */
+.info-value {
+    color: #1f3d2b;
+}
