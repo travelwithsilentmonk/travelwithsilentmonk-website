@@ -465,6 +465,21 @@
                 document.getElementById('tab-' + btn.dataset.tab).style.display = 'block';
             });
         });
+
+        // Deep-link support: destination.html?country=X&state=Y&tab=itinerary
+        // opens the page with that specific tab already active
+        const requestedTab = params.get('tab');
+        if (requestedTab) {
+            const targetBtn = document.querySelector(`.tab-btn[data-tab="${requestedTab}"]`);
+            if (targetBtn) {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+                targetBtn.classList.add('active');
+                document.getElementById('tab-' + requestedTab).style.display = 'block';
+                // scroll to the tabs section so it's obvious which tab loaded
+                document.querySelector('.tabs-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
     </script>
 
 </body>
