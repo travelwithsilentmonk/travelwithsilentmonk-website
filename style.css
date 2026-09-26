@@ -794,3 +794,21 @@ input.selector-dropdown {
 .itinerary-suggestion-link:hover {
     color: #4caf6d;
 }
+
+/* FIX: cards rendered by JS inside dark sections were invisible (white text on white card) */
+.dark-section .card,
+.dark-section .coming-soon-card {
+    background: #1a1a1a;
+    border-color: #333;
+    color: #f2f2f0;
+}
+
+.dark-section .card p,
+.dark-section .coming-soon-card p {
+    color: #ccc;
+}
+
+.dark-section .card h3,
+.dark-section .coming-soon-card h3 {
+    color: #f2f2f0;
+}
