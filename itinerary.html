@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Suggested Itinerary | TravelWithSilentMonk</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo-navbar.png" alt="TravelWithSilentMonk" style="height: 44px; vertical-align: middle;">
+            </a>
+        </div>
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+            <a href="index.html#festivals">Festivals</a>
+            <a href="index.html#videos">Videos</a>
+            <a href="index.html#about">About</a>
+        </nav>
+    </header>
+
+    <div class="breadcrumb" id="breadcrumb">
+        <a href="index.html">Home</a> / <span>Loading...</span>
+    </div>
+
+    <section class="page-hero" id="pageHero">
+        <div class="page-hero-content">
+            <p class="eyebrow" id="pageEyebrow">SUGGESTED ITINERARY</p>
+            <h1 id="pageTitle2">Loading...</h1>
+            <p class="hero-text" id="pageIntro"></p>
+        </div>
+    </section>
+
+    <section class="tabs-section">
+        <div class="tabs-nav" id="durationTabs"></div>
+    </section>
+
+    <section class="section" id="itineraryContent">
+    </section>
+
+    <section class="social-section">
+        <p class="section-label">FOLLOW THE JOURNEY</p>
+        <h2>Planning your own trip?</h2>
+        <p class="section-description" style="margin: 0 auto 30px;">
+            Reach out with questions — happy to help you plan.
+        </p>
+        <div class="social-links">
+            <a href="#" target="_blank">YouTube</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">WhatsApp Community</a>
+        </div>
+    </section>
+
+    <footer>
+        <img src="logo-footer.png" alt="TravelWithSilentMonk" style="height: 80px; margin-bottom: 15px;">
+        <p>Travel • Food • Festivals • Hostels • Experiences</p>
+        <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // ===================================================
+        // ITINERARY DATA — by country, by duration
+        // Based on SilentMonk's real trip pacing, not generic filler
+        // ===================================================
+        const itineraryData = {
+            "Vietnam": {
+                intro: "Based on the actual route SilentMonk followed — Ho Chi Minh City to Mui Ne, Da Lat, Da Nang/Hoi An, and up to Hanoi. Pick a duration below for a realistic day-by-day split.",
+                plans: {
+                    "5": [
+                        { title: "Day 1–2 — Ho Chi Minh City", items: ["Arrive, settle into a hostel near Bui Vien", "War Remnants Museum", "Cu Chi Tunnels day trip", "Evening on Bui Vien Walking Street"] },
+                        { title: "Day 3 — Mui Ne", items: ["Morning bus from HCMC (~3–4 hrs)", "Sunset at Red Sand Dunes", "Evening at a beachside hostel"] },
+                        { title: "Day 4–5 — Da Nang / Hoi An", items: ["Fly or bus onward", "Ba Na Hills + Golden Bridge", "Evening lantern walk in Hoi An's Ancient Town"] }
+                    ],
+                    "7": [
+                        { title: "Day 1–2 — Ho Chi Minh City", items: ["War Remnants Museum, Cu Chi Tunnels", "Ben Thanh Market, Bui Vien nightlife"] },
+                        { title: "Day 3 — Mui Ne", items: ["Red Sand Dunes at sunset", "Sunrise at the fishing village"] },
+                        { title: "Day 4 — Da Lat", items: ["Crazy House", "Xuan Huong Lake", "Local coffee and strawberries"] },
+                        { title: "Day 5–6 — Da Nang / Hoi An", items: ["Ba Na Hills + Golden Bridge", "Marble Mountains", "Ancient Town + lantern release"] },
+                        { title: "Day 7 — Hanoi", items: ["Old Quarter walk", "Train Street"] }
+                    ],
+                    "10": [
+                        { title: "Day 1–2 — Ho Chi Minh City", items: ["War Remnants Museum, Cu Chi Tunnels", "Saigon Central Post Office, Japan Town"] },
+                        { title: "Day 3 — Mui Ne", items: ["Red Sand Dunes", "Kitesurfing or windsurfing"] },
+                        { title: "Day 4–5 — Da Lat", items: ["Crazy House, Linh Phuoc Pagoda", "Cu Lan Village, Alpine Coaster"] },
+                        { title: "Day 6–8 — Da Nang / Hoi An", items: ["Ba Na Hills + Golden Bridge", "Marble Mountains, Lady Buddha", "Ancient Town, Japanese Covered Bridge", "Dragon Bridge fire show (weekend)"] },
+                        { title: "Day 9–10 — Hanoi", items: ["Old Quarter, Train Street", "Ha Long Bay day trip"] }
+                    ]
+                }
+            }
+        };
+
+        const params = new URLSearchParams(window.location.search);
+        const country = params.get('country');
+        const data = itineraryData[country] || null;
+
+        function renderPlan(days) {
+            document.getElementById('itineraryContent').innerHTML = data.plans[days].map(stop => `
+                <div style="margin-bottom: 30px;">
+                    <h3 style="font-size: 22px; margin-bottom: 10px;">${stop.title}</h3>
+                    <ul style="padding-left: 20px; color: #555;">
+                        ${stop.items.map(i => `<li style="margin-bottom: 6px;">${i}</li>`).join('')}
+                    </ul>
+                </div>
+            `).join('');
+        }
+
+        if (data && country) {
+            document.title = `${country} Itinerary | TravelWithSilentMonk`;
+            document.getElementById('pageTitle2').textContent = `${country} Itinerary`;
+            document.getElementById('pageIntro').textContent = data.intro;
+            document.getElementById('breadcrumb').innerHTML = `
+                <a href="index.html">Home</a> /
+                <a href="index.html#destinations">Destinations</a> /
+                <span>${country}</span> /
+                <span>Itinerary</span>
+            `;
+
+            const durations = Object.keys(data.plans);
+            document.getElementById('durationTabs').innerHTML = durations.map((d, i) => `
+                <button class="tab-btn ${i === 0 ? 'active' : ''}" data-days="${d}">${d} Days</button>
+            `).join('');
+
+            renderPlan(durations[0]);
+
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    renderPlan(btn.dataset.days);
+                });
+            });
+        } else {
+            document.getElementById('pageTitle2').textContent = "No Itinerary Yet";
+            document.getElementById('pageIntro').textContent = "SilentMonk hasn't built a suggested itinerary for this country yet.";
+        }
+    </script>
+
+</body>
+</html>
