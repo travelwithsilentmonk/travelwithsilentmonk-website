@@ -270,6 +270,20 @@
             renderCards('attractionsCards', data.attractions);
             renderCards('foodCards', data.food);
             renderCards('thingsCards', data.things);
+        } else if (state && country) {
+            // Valid place, just not documented yet — friendly message, not an error
+            document.title = `${state}, ${country} | TravelWithSilentMonk`;
+            document.getElementById('pageTitle2').textContent = state;
+            document.getElementById('pageEyebrow').textContent = `DESTINATION GUIDE • ${country.toUpperCase()}`;
+            document.getElementById('pageIntro').textContent =
+                `SilentMonk hasn't covered ${state} yet — but it's on the map. Check back soon, or reach out on WhatsApp if you'd like it prioritized.`;
+            document.getElementById('breadcrumb').innerHTML = `
+                <a href="index.html">Home</a> /
+                <a href="index.html#destinations">Destinations</a> /
+                <span>${country}</span> /
+                <span>${state}</span>
+            `;
+            document.querySelectorAll('.tab-content, .tabs-section').forEach(el => el.style.display = 'none');
         } else {
             document.getElementById('pageTitle2').textContent = "Destination Not Found";
             document.getElementById('pageIntro').textContent = "This place hasn't been added yet.";
