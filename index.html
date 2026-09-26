@@ -104,7 +104,7 @@
             Places I've explored and destinations waiting for the next adventure.
         </p>
 
-                                                <div class="destination-selector">
+                                                        <div class="destination-selector">
             <p class="quick-picks-label">Popular right now:</p>
             <div class="quick-picks">
                 <button class="quick-pick-chip" data-country="Vietnam" data-state="Ho Chi Minh City">🇻🇳 Ho Chi Minh City</button>
@@ -127,6 +127,9 @@
                 </div>
 
                 <button id="exploreBtn" class="button primary" disabled>Explore →</button>
+            </div>
+            <div class="itinerary-link-row" id="itineraryLinkRow" style="display:none;">
+                <a href="#" id="itineraryLink" class="itinerary-suggestion-link">📅 Or see a suggested 5/7/10-day itinerary for <span id="itineraryCountryName"></span> →</a>
             </div>
             <p class="selector-hint" id="selectorHint"></p>
         </div>
@@ -181,6 +184,18 @@
                         stateListData.appendChild(opt);
                     });
                     selectorHint.textContent = `${stateData[match].length} regions available in ${match} — start typing to search.`;
+
+                    // Show itinerary link only for countries with real itinerary data
+                    const itineraryCountries = ["Vietnam"];
+                    if (itineraryCountries.includes(match)) {
+                        document.getElementById('itineraryLinkRow').style.display = 'block';
+                        document.getElementById('itineraryCountryName').textContent = match;
+                        document.getElementById('itineraryLink').href = `itinerary.html?country=${encodeURIComponent(match)}`;
+                    } else {
+                        document.getElementById('itineraryLinkRow').style.display = 'none';
+                    }
+                } else {
+                    document.getElementById('itineraryLinkRow').style.display = 'none';
                 }
             });
 
