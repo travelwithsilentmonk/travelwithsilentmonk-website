@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Loading... | TravelWithSilentMonk</title>
+    <meta id="pageDescription" name="description" content="">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo-navbar.png" alt="TravelWithSilentMonk" style="height: 44px; vertical-align: middle;">
+            </a>
+        </div>
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+            <a href="index.html#festivals">Festivals</a>
+            <a href="index.html#videos">Videos</a>
+            <a href="index.html#about">About</a>
+        </nav>
+    </header>
+
+    <div class="breadcrumb" id="breadcrumb">
+        <a href="index.html">Home</a> / <span>Loading...</span>
+    </div>
+
+    <section class="page-hero" id="pageHero">
+        <div class="page-hero-content">
+            <p class="eyebrow" id="pageEyebrow">DESTINATION GUIDE</p>
+            <h1 id="pageTitle2">Loading...</h1>
+            <p class="hero-text" id="pageIntro"></p>
+        </div>
+    </section>
+
+    <!-- TABS -->
+    <section class="tabs-section">
+        <div class="tabs-nav" id="tabsNav">
+            <button class="tab-btn active" data-tab="hostels">Hostels</button>
+            <button class="tab-btn" data-tab="attractions">Attractions</button>
+            <button class="tab-btn" data-tab="food">Food</button>
+            <button class="tab-btn" data-tab="things">Things To Do</button>
+        </div>
+    </section>
+
+    <!-- HOSTELS TAB -->
+    <section class="section tab-content" id="tab-hostels">
+        <p class="section-label">TOP 3 · BY SILENTMONK</p>
+        <h2>Best Hostels</h2>
+        <div class="cards three-col" id="hostelsCards"></div>
+    </section>
+
+    <!-- ATTRACTIONS TAB -->
+    <section class="section dark-section tab-content" id="tab-attractions" style="display:none;">
+        <p class="section-label">TOP 3 · BY SILENTMONK</p>
+        <h2>Best Attractions</h2>
+        <div class="cards three-col" id="attractionsCards"></div>
+    </section>
+
+    <!-- FOOD TAB -->
+    <section class="section tab-content" id="tab-food" style="display:none;">
+        <p class="section-label">TOP 3 · BY SILENTMONK</p>
+        <h2>Must-Try Foods</h2>
+        <div class="cards three-col" id="foodCards"></div>
+    </section>
+
+    <!-- THINGS TO DO TAB -->
+    <section class="section dark-section tab-content" id="tab-things" style="display:none;">
+        <p class="section-label">TOP 3 · BY SILENTMONK</p>
+        <h2>Top Things To Do</h2>
+        <div class="cards three-col" id="thingsCards"></div>
+    </section>
+
+    <section class="social-section">
+        <p class="section-label">FOLLOW THE JOURNEY</p>
+        <h2>Been here too?</h2>
+        <p class="section-description" style="margin: 0 auto 30px;">
+            Share your own tips — join the community.
+        </p>
+        <div class="social-links">
+            <a href="#" target="_blank">YouTube</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">WhatsApp Community</a>
+        </div>
+    </section>
+
+    <footer>
+        <img src="logo-footer.png" alt="TravelWithSilentMonk" style="height: 80px; margin-bottom: 15px;">
+        <p>Travel • Food • Festivals • Hostels • Experiences</p>
+        <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // ===================================================
+        // DESTINATION DATA — add new places here, no new pages needed
+        // ===================================================
+        const destinationData = {
+            "Thailand": {
+                "Chiang Mai": {
+                    intro: "Thailand's laid-back northern capital — temples, night markets, mountain trekking and one of Southeast Asia's best backpacker scenes.",
+                    hostels: [
+                        { name: "Mad Monkey Hostel Chiang Mai", desc: "[SAMPLE CONTENT] Legendary backpacker party hostel with a rooftop bar and daily social events. Great for solo travelers wanting to meet people fast." },
+                        { name: "Hostel #2", desc: "[SAMPLE CONTENT] Placeholder — replace with real pick after visiting." },
+                        { name: "Hostel #3", desc: "[SAMPLE CONTENT] Placeholder — replace with real pick after visiting." }
+                    ],
+                    attractions: [
+                        { name: "Doi Suthep Temple", desc: "[SAMPLE CONTENT] Mountaintop golden temple with panoramic city views." },
+                        { name: "Old City Temples", desc: "[SAMPLE CONTENT] Placeholder — replace with real pick after visiting." },
+                        { name: "Elephant Nature Park", desc: "[SAMPLE CONTENT] Placeholder — replace with real pick after visiting." }
+                    ],
+                    food: [
+                        { name: "Khao Soi", desc: "[SAMPLE CONTENT] Northern Thai curry noodle soup — a Chiang Mai signature dish." },
+                        { name: "Sunday Night Market food stalls", desc: "[SAMPLE CONTENT] Placeholder — replace with real pick after visiting." },
+                        { name: "Placeholder Food #3", desc: "[SAMPLE CONTENT] Replace after visiting." }
+                    ],
+                    things: [
+                        { name: "Jungle trekking", desc: "[SAMPLE CONTENT] Multi-day treks through nearby hill tribe villages." },
+                        { name: "Thai cooking class", desc: "[SAMPLE CONTENT] Placeholder — replace with real pick after visiting." },
+                        { name: "Muay Thai class or fight night", desc: "[SAMPLE CONTENT] Placeholder — replace with real pick after visiting." }
+                    ]
+                }
+            },
+            "India": {
+                "Nagaland": {
+                    intro: "Home to the Hornbill Festival — SilentMonk visits December 2026.",
+                    hostels: [
+                        { name: "#1 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ],
+                    attractions: [
+                        { name: "#1 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ],
+                    food: [
+                        { name: "#1 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ],
+                    things: [
+                        { name: "#1 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#2 — TBD", desc: "Coming after the December 2026 trip." },
+                        { name: "#3 — TBD", desc: "Coming after the December 2026 trip." }
+                    ]
+                }
+            }
+        };
+
+        // ===================================================
+        // READ URL PARAMS: destination.html?country=Thailand&state=Chiang%20Mai
+        // ===================================================
+        const params = new URLSearchParams(window.location.search);
+        const country = params.get('country');
+        const state = params.get('state');
+
+        const data = (destinationData[country] && destinationData[country][state]) || null;
+
+        function renderCards(containerId, items) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = items.map(item => `
+                <article class="card coming-soon-card">
+                    <h3>${item.name}</h3>
+                    <p>${item.desc}</p>
+                </article>
+            `).join('');
+        }
+
+        if (data && state && country) {
+            document.title = `${state}, ${country} | TravelWithSilentMonk`;
+            document.getElementById('pageTitle').textContent = `${state}, ${country} | TravelWithSilentMonk`;
+            document.getElementById('pageTitle2').textContent = state;
+            document.getElementById('pageEyebrow').textContent = `DESTINATION GUIDE • ${country.toUpperCase()}`;
+            document.getElementById('pageIntro').textContent = data.intro;
+            document.getElementById('breadcrumb').innerHTML = `
+                <a href="index.html">Home</a> /
+                <a href="index.html#destinations">Destinations</a> /
+                <span>${country}</span> /
+                <span>${state}</span>
+            `;
+            renderCards('hostelsCards', data.hostels);
+            renderCards('attractionsCards', data.attractions);
+            renderCards('foodCards', data.food);
+            renderCards('thingsCards', data.things);
+        } else {
+            document.getElementById('pageTitle2').textContent = "Destination Not Found";
+            document.getElementById('pageIntro').textContent = "This place hasn't been added yet.";
+        }
+
+        // ===================================================
+        // TAB SWITCHING
+        // ===================================================
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+                btn.classList.add('active');
+                document.getElementById('tab-' + btn.dataset.tab).style.display = 'block';
+            });
+        });
+    </script>
+
+</body>
+</html>
