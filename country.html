@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Country Guide | TravelWithSilentMonk</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo-navbar.png" alt="TravelWithSilentMonk" style="height: 44px; vertical-align: middle;">
+            </a>
+        </div>
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+            <a href="index.html#festivals">Festivals</a>
+            <a href="index.html#videos">Videos</a>
+            <a href="index.html#about">About</a>
+        </nav>
+    </header>
+
+    <div class="breadcrumb" id="breadcrumb">
+        <a href="index.html">Home</a> / <span>Loading...</span>
+    </div>
+
+    <section class="page-hero" id="pageHero">
+        <div class="page-hero-content">
+            <p class="eyebrow">COUNTRY GUIDE</p>
+            <h1 id="pageTitle2">Loading...</h1>
+            <p class="hero-text" id="pageIntro"></p>
+        </div>
+    </section>
+
+    <section class="tabs-section">
+        <div class="tabs-nav" id="tabsNav">
+            <button class="tab-btn active" data-tab="bestof">Best Places to Visit</button>
+            <button class="tab-btn" data-tab="itinerary">Suggested Itinerary</button>
+            <button class="tab-btn" data-tab="festivals">Festivals</button>
+            <button class="tab-btn" data-tab="culture">Cultural Experiences</button>
+            <button class="tab-btn" data-tab="events">Events</button>
+            <button class="tab-btn" data-tab="food">Food</button>
+            <button class="tab-btn" data-tab="stays">Hostels / Stays</button>
+        </div>
+    </section>
+
+    <section class="section tab-content" id="tab-bestof">
+        <p class="section-label">SILENTMONK'S PICKS</p>
+        <h2>Best Places to Visit</h2>
+        <p class="section-description">Where to prioritize if you can't do it all.</p>
+        <div class="cards three-col" id="bestofCards"></div>
+    </section>
+
+    <section class="section dark-section tab-content" id="tab-itinerary" style="display:none;">
+        <p class="section-label">SUGGESTED ROUTE</p>
+        <h2>Sample Itinerary</h2>
+        <div class="tabs-nav" id="durationTabs" style="margin-bottom: 30px;"></div>
+        <div id="itineraryContent"></div>
+    </section>
+
+    <section class="section tab-content" id="tab-festivals" style="display:none;">
+        <p class="section-label">TOP 3 · COUNTRY-WIDE</p>
+        <h2>Top Festivals</h2>
+        <div class="cards three-col" id="festivalsCards"></div>
+    </section>
+
+    <section class="section dark-section tab-content" id="tab-culture" style="display:none;">
+        <p class="section-label">TOP 3 · COUNTRY-WIDE</p>
+        <h2>Cultural Experiences</h2>
+        <div class="cards three-col" id="cultureCards"></div>
+    </section>
+
+    <section class="section tab-content" id="tab-events" style="display:none;">
+        <p class="section-label">TOP 3 · COUNTRY-WIDE</p>
+        <h2>Events</h2>
+        <div class="cards three-col" id="eventsCards"></div>
+    </section>
+
+    <section class="section dark-section tab-content" id="tab-food" style="display:none;">
+        <p class="section-label">TOP 3 · BY SILENTMONK</p>
+        <h2>Food</h2>
+        <div class="cards three-col" id="foodCards"></div>
+    </section>
+
+    <section class="section tab-content" id="tab-stays" style="display:none;">
+        <p class="section-label">TOP 3 · BY SILENTMONK</p>
+        <h2>Hostels / Stays</h2>
+        <div class="cards three-col" id="staysCards"></div>
+    </section>
+
+    <section class="social-section">
+        <p class="section-label">GO DEEPER</p>
+        <h2>Explore specific destinations</h2>
+        <p class="section-description" style="margin: 0 auto 30px;">
+            This page covers the whole country — for city and region-level guides, search on the homepage.
+        </p>
+        <div class="social-links">
+            <a href="index.html#destinations">Browse Destinations</a>
+        </div>
+    </section>
+
+    <footer>
+        <img src="logo-footer.png" alt="TravelWithSilentMonk" style="height: 80px; margin-bottom: 15px;">
+        <p>Travel • Food • Festivals • Hostels • Experiences</p>
+        <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const countryData = {
+            "Vietnam": {
+                intro: "Vietnam-wide highlights that go beyond any single city — national festivals, signature dishes found everywhere, and hostels worth knowing about across the country.",
+                bestOf: [
+                    { name: "Hoi An", desc: "Lantern-lit old town, tailor shops, and one of SilentMonk's actual favorite hostel experiences in the country.", url: "destination.html?country=Vietnam&state=Hoi An (Quang Nam)" },
+                    { name: "Ha Long Bay / Cat Ba", desc: "Vietnam's single most iconic landscape — limestone islands rising from the sea, best seen by boat.", url: "destination.html?country=Vietnam&state=Ha Long Bay / Cat Ba" },
+                    { name: "Ha Giang", desc: "For travelers who want mountains and motorbikes over beaches — the loop is one of Southeast Asia's great road trips.", url: "destination.html?country=Vietnam&state=Ha Giang" },
+                    { name: "Ho Chi Minh City", desc: "The country's fastest-paced city, and where its modern history is easiest to understand.", url: "destination.html?country=Vietnam&state=Ho Chi Minh City" },
+                    { name: "Phong Nha", desc: "Home to the world's largest cave — a must for anyone into serious adventure travel.", url: "destination.html?country=Vietnam&state=Phong Nha" },
+                    { name: "Ninh Binh", desc: "Karst cliffs rising out of rice paddies, an easy day or two from Hanoi.", url: "destination.html?country=Vietnam&state=Ninh Binh" }
+                ],
+                festivals: [
+                    { name: "Tet (Vietnamese Lunar New Year)", desc: "The biggest celebration in the Vietnamese calendar — most of the country closes down for it." },
+                    { name: "Hoi An Lantern Festival", desc: "Monthly on the full moon — the whole old town glows with silk lanterns." },
+                    { name: "Mid-Autumn Festival (Tet Trung Thu)", desc: "A lantern-filled festival celebrated nationwide, especially loved by kids." }
+                ],
+                culture: [
+                    { name: "Water Puppet Show", desc: "A centuries-old Vietnamese art form, most famously performed in Hanoi." },
+                    { name: "Mekong Delta Local Life", desc: "Boat markets, riverside villages, a totally different pace of life." },
+                    { name: "Ethnic Minority Village Experience", desc: "Found across the northern highlands — a window into Vietnam beyond the cities." }
+                ],
+                events: [
+                    { name: "Halloween in Vietnam", desc: "Increasingly big in cities like Hanoi and Ho Chi Minh City, especially at backpacker hostels." },
+                    { name: "Da Nang International Fireworks Festival", desc: "A major annual fireworks competition on the Han River." },
+                    { name: "Da Lat Flower Festival", desc: "Da Lat's biannual celebration of its flower-growing heritage." }
+                ],
+                food: [
+                    { name: "Pho", desc: "Vietnam's signature noodle soup, and rightly so — found everywhere, never the same twice." },
+                    { name: "Banh Mi", desc: "The Vietnamese sandwich, born from French colonial bread with a completely local filling." },
+                    { name: "Bun Cha", desc: "Grilled pork with noodles and dipping sauce — a Hanoi classic that's spread nationwide." }
+                ],
+                stays: [
+                    { name: "Mad Monkey Hostel — Hanoi / Hoi An", desc: "Different branches, different vibes — see the city-specific pages for the full breakdown." },
+                    { name: "The Hideout Hostel — Ho Chi Minh City", desc: "Right by Bui Vien, built for the pub-crawl crowd." },
+                    { name: "Backpackers Resort — Mui Ne", desc: "The relaxed, resort-style alternative to the party hostels." }
+                ],
+                itineraries: {
+                    "5": [
+                        { title: "Day 1–2 — Ho Chi Minh City", items: ["Arrive, settle into a hostel near Bui Vien", "War Remnants Museum", "Cu Chi Tunnels day trip", "Evening on Bui Vien Walking Street"] },
+                        { title: "Day 3 — Mui Ne", items: ["Morning bus from HCMC (~3–4 hrs)", "Sunset at Red Sand Dunes", "Evening at a beachside hostel"] },
+                        { title: "Day 4–5 — Da Nang / Hoi An", items: ["Fly or bus onward", "Ba Na Hills + Golden Bridge", "Evening lantern walk in Hoi An's Ancient Town"] }
+                    ],
+                    "7": [
+                        { title: "Day 1–2 — Ho Chi Minh City", items: ["War Remnants Museum, Cu Chi Tunnels", "Ben Thanh Market, Bui Vien nightlife"] },
+                        { title: "Day 3 — Mui Ne", items: ["Red Sand Dunes at sunset", "Sunrise at the fishing village"] },
+                        { title: "Day 4 — Da Lat", items: ["Crazy House", "Xuan Huong Lake", "Local coffee and strawberries"] },
+                        { title: "Day 5–6 — Da Nang / Hoi An", items: ["Ba Na Hills + Golden Bridge", "Marble Mountains", "Ancient Town + lantern release"] },
+                        { title: "Day 7 — Hanoi", items: ["Old Quarter walk", "Train Street"] }
+                    ],
+                    "10": [
+                        { title: "Day 1–2 — Ho Chi Minh City", items: ["War Remnants Museum, Cu Chi Tunnels", "Saigon Central Post Office, Japan Town"] },
+                        { title: "Day 3 — Mui Ne", items: ["Red Sand Dunes", "Kitesurfing or windsurfing"] },
+                        { title: "Day 4–5 — Da Lat", items: ["Crazy House, Linh Phuoc Pagoda", "Cu Lan Village, Alpine Coaster"] },
+                        { title: "Day 6–8 — Da Nang / Hoi An", items: ["Ba Na Hills + Golden Bridge", "Marble Mountains, Lady Buddha", "Ancient Town, Japanese Covered Bridge", "Dragon Bridge fire show (weekend)"] },
+                        { title: "Day 9–10 — Hanoi", items: ["Old Quarter, Train Street", "Ha Long Bay day trip"] }
+                    ]
+                }
+            }
+        };
+
+        const params = new URLSearchParams(window.location.search);
+        const country = params.get('country');
+        const data = countryData[country] || null;
+
+        function renderCards(containerId, items) {
+            document.getElementById(containerId).innerHTML = items.map(item => `
+                <article class="card coming-soon-card">
+                    <h3>${item.name}</h3>
+                    <p>${item.desc}</p>
+                </article>
+            `).join('');
+        }
+
+        if (data && country) {
+            document.title = `${country} Country Guide | TravelWithSilentMonk`;
+            document.getElementById('pageTitle2').textContent = `${country}: The Big Picture`;
+            document.getElementById('pageIntro').textContent = data.intro;
+            document.getElementById('breadcrumb').innerHTML = `
+                <a href="index.html">Home</a> /
+                <a href="index.html#destinations">Destinations</a> /
+                <span>${country}</span> /
+                <span>Country Guide</span>
+            `;
+            renderCards('festivalsCards', data.festivals);
+            renderCards('cultureCards', data.culture);
+            renderCards('eventsCards', data.events);
+            renderCards('foodCards', data.food);
+            renderCards('staysCards', data.stays);
+
+            if (data.bestOf) {
+                document.getElementById('bestofCards').innerHTML = data.bestOf.map(item => `
+                    <article class="card coming-soon-card">
+                        <h3>${item.name}</h3>
+                        <p>${item.desc}</p>
+                        <a href="${item.url}" class="card-link" style="color: #4caf6d;">Explore →</a>
+                    </article>
+                `).join('');
+            }
+
+            if (data.itineraries) {
+                const durations = Object.keys(data.itineraries);
+                document.getElementById('durationTabs').innerHTML = durations.map((d, i) => `
+                    <button class="tab-btn ${i === 0 ? 'active' : ''}" data-days="${d}" style="display:inline-block;">${d} Days</button>
+                `).join('');
+
+                function renderItinerary(days) {
+                    document.getElementById('itineraryContent').innerHTML = data.itineraries[days].map(stop => `
+                        <div style="margin-bottom: 24px;">
+                            <h3 style="font-size: 19px; margin-bottom: 8px; color: #4caf6d;">${stop.title}</h3>
+                            <ul style="padding-left: 20px; color: #ccc;">
+                                ${stop.items.map(i => `<li style="margin-bottom: 5px;">${i}</li>`).join('')}
+                            </ul>
+                        </div>
+                    `).join('');
+                }
+                renderItinerary(durations[0]);
+
+                document.querySelectorAll('#durationTabs .tab-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        e.stopPropagation();
+                        document.querySelectorAll('#durationTabs .tab-btn').forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        renderItinerary(btn.dataset.days);
+                    });
+                });
+            }
+        } else {
+            document.getElementById('pageTitle2').textContent = "No Guide Yet";
+            document.getElementById('pageIntro').textContent = "SilentMonk hasn't built a country-wide guide for this one yet.";
+        }
+
+        document.querySelectorAll('#tabsNav .tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#tabsNav .tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+                btn.classList.add('active');
+                document.getElementById('tab-' + btn.dataset.tab).style.display = 'block';
+            });
+        });
+    </script>
+
+</body>
+</html>
