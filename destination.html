@@ -52,6 +52,8 @@
         <div class="tabs-nav" id="tabsNav">
             <button class="tab-btn active" data-tab="hostels">Hostels</button>
             <button class="tab-btn" data-tab="attractions">Attractions</button>
+            <button class="tab-btn" data-tab="festivals" id="festivalsTabBtn" style="display:none;">Festivals</button>
+            <button class="tab-btn" data-tab="events" id="eventsTabBtn" style="display:none;">Events</button>
             <button class="tab-btn" data-tab="food">Food</button>
             <button class="tab-btn" data-tab="things">Things To Do</button>
             <button class="tab-btn" data-tab="itinerary" id="itineraryTabBtn" style="display:none;">Day-by-Day Itinerary</button>
@@ -59,26 +61,38 @@
     </section>
 
     <section class="section tab-content" id="tab-hostels">
-        <p class="section-label">TOP 3 · BY SILENTMONK</p>
-        <h2>Best Hostels</h2>
+        <p class="section-label" id="hostelsLabel">TOP 3 · BY SILENTMONK</p>
+        <h2 id="hostelsHeading">Best Hostels</h2>
         <div class="cards three-col" id="hostelsCards"></div>
     </section>
 
     <section class="section dark-section tab-content" id="tab-attractions" style="display:none;">
-        <p class="section-label">TOP 3 · BY SILENTMONK</p>
-        <h2>Best Attractions</h2>
+        <p class="section-label" id="attractionsLabel">TOP 3 · BY SILENTMONK</p>
+        <h2 id="attractionsHeading">Best Attractions</h2>
         <div class="cards three-col" id="attractionsCards"></div>
     </section>
 
+    <section class="section tab-content" id="tab-festivals" style="display:none;">
+        <p class="section-label" id="festivalsLabel">TRAVEL GUIDE</p>
+        <h2>Top Festivals</h2>
+        <div class="cards three-col" id="festivalsCards"></div>
+    </section>
+
+    <section class="section dark-section tab-content" id="tab-events" style="display:none;">
+        <p class="section-label" id="eventsLabel">TRAVEL GUIDE</p>
+        <h2>Events &amp; Fairs</h2>
+        <div class="cards three-col" id="eventsCards"></div>
+    </section>
+
     <section class="section tab-content" id="tab-food" style="display:none;">
-        <p class="section-label">TOP 3 · BY SILENTMONK</p>
-        <h2>Must-Try Foods</h2>
+        <p class="section-label" id="foodLabel">TOP 3 · BY SILENTMONK</p>
+        <h2 id="foodHeading">Must-Try Foods</h2>
         <div class="cards three-col" id="foodCards"></div>
     </section>
 
     <section class="section dark-section tab-content" id="tab-things" style="display:none;">
-        <p class="section-label">TOP 3 · BY SILENTMONK</p>
-        <h2>Top Things To Do</h2>
+        <p class="section-label" id="thingsLabel">TOP 3 · BY SILENTMONK</p>
+        <h2 id="thingsHeading">Top Things To Do</h2>
         <div class="cards three-col" id="thingsCards"></div>
     </section>
 
@@ -184,7 +198,7 @@
                         { name: "Saigon's Japan Town", desc: "A quieter, different side of the city worth a wander." }
                     ]
                 },
-                "Mui Ne (Binh Thuan)": {
+                "Mui Ne (Binh Thuan) / Phan Thiet": {
                     intro: "Once a quiet fishing village, Mui Ne has become one of Vietnam's most laid-back coastal escapes — equal parts beach town and desert, with a fishing-village soul still very much intact.",
                     hostels: [
                         { name: "Backpackers Resort, Mui Ne", desc: "A total reset after busier city hostels — peaceful, spacious, right near the beach, with enough games and activities to keep evenings fun without the chaos. One I'd happily return to." },
@@ -298,11 +312,381 @@
                         { name: "Wander Cu Lan Village", desc: "A quiet valley with pine trees, thatched houses, and small bridges over a gentle stream." },
                         { name: "Try the local produce", desc: "Da Lat is Vietnam's strawberry, coffee, and artichoke country." }
                     ]
+                },
+                "Sapa (Lao Cai)": {
+                    intro: "A former French hill station in Vietnam's far north, Sapa is the gateway to terraced rice fields, mountain trekking, and ethnic minority villages in the Hoang Lien Son range.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Backpacker hostels in Sapa town center", desc: "" },
+                        { name: "Homestays in nearby Cat Cat or Ta Van villages", desc: "" },
+                        { name: "Guesthouses along the main trekking routes", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Fansipan", desc: "Indochina's highest peak, reachable by cable car or trek" },
+                        { name: "Cat Cat Village", desc: "a Hmong village a short walk from town" },
+                        { name: "Muong Hoa Valley", desc: "the classic terraced rice field views" }
+                    ],
+                    food: [
+                        { name: "Thang Co (horse meat stew)", desc: "" },
+                        { name: "Grilled meats at the night market", desc: "" },
+                        { name: "Salmon hot pot, a Sapa specialty", desc: "" }
+                    ],
+                    things: [
+                        { name: "Trek through rice terraces to a minority village", desc: "" },
+                        { name: "Ride the Fansipan cable car", desc: "" },
+                        { name: "Visit Sapa's Sunday market", desc: "" }
+                    ]
+                },
+                "Ha Giang": {
+                    intro: "The most remote and dramatic province in Vietnam's far north — famous for the Ha Giang Loop, a multi-day motorbike route through some of the country's most spectacular mountain scenery.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Motorbike-rental hostels in Ha Giang town", desc: "" },
+                        { name: "Stilt-house homestays along the loop route", desc: "" },
+                        { name: "Family homestays in Dong Van or Meo Vac", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Ma Pi Leng Pass", desc: "one of Vietnam's most dramatic mountain roads" },
+                        { name: "Dong Van Karst Plateau", desc: "a UNESCO Global Geopark" },
+                        { name: "Lung Cu Flag Tower", desc: "Vietnam's northernmost point" }
+                    ],
+                    food: [
+                        { name: "Thang Co", desc: "" },
+                        { name: "Buckwheat cake (banh tam giac mach)", desc: "" },
+                        { name: "Men men (steamed corn dish)", desc: "" }
+                    ],
+                    things: [
+                        { name: "Ride the full Ha Giang Loop by motorbike", desc: "" },
+                        { name: "Visit a Sunday ethnic minority market", desc: "" },
+                        { name: "Stay overnight in a stilt-house homestay", desc: "" }
+                    ]
+                },
+                "Ninh Binh": {
+                    intro: "Often called 'Ha Long Bay on land,' Ninh Binh's limestone karsts rise straight out of rice paddies and slow-moving rivers — one of the most photographed landscapes in Vietnam.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Homestays around Tam Coc with rice-field views", desc: "" },
+                        { name: "Backpacker hostels in Ninh Binh town", desc: "" },
+                        { name: "Riverside guesthouses near Trang An", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Trang An Landscape Complex", desc: "a UNESCO World Heritage boat ride through caves and karst cliffs" },
+                        { name: "Tam Coc", desc: "a scenic three-cave boat ride through rice fields" },
+                        { name: "Bai Dinh Pagoda", desc: "the largest Buddhist complex in Vietnam" }
+                    ],
+                    food: [
+                        { name: "Com chay (crispy rice)", desc: "" },
+                        { name: "Goat meat dishes, a Ninh Binh specialty", desc: "" },
+                        { name: "Fresh river fish", desc: "" }
+                    ],
+                    things: [
+                        { name: "Take a rowboat through Trang An or Tam Coc", desc: "" },
+                        { name: "Climb Mua Cave viewpoint for the classic postcard view", desc: "" },
+                        { name: "Cycle between rice paddies and karst peaks", desc: "" }
+                    ]
+                },
+                "Ha Long Bay / Cat Ba": {
+                    intro: "Vietnam's most famous natural landmark — thousands of limestone islands rising from emerald water, best explored by boat, with Cat Ba Island as the main base for exploring the bay.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Overnight cruise boats on Ha Long Bay", desc: "" },
+                        { name: "Backpacker hostels on Cat Ba Island", desc: "" },
+                        { name: "Budget guesthouses in Cat Ba town", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Ha Long Bay boat cruise", desc: "the bay's thousands of limestone islands" },
+                        { name: "Cat Ba National Park", desc: "jungle trekking and rare langurs" },
+                        { name: "Lan Ha Bay", desc: "a quieter, less crowded alternative to the main bay" }
+                    ],
+                    food: [
+                        { name: "Fresh seafood, especially grilled squid", desc: "" },
+                        { name: "Cha muc (squid cake), a Ha Long specialty", desc: "" },
+                        { name: "Bun cha ca (fish cake noodle soup)", desc: "" }
+                    ],
+                    things: [
+                        { name: "Take an overnight boat cruise through the bay", desc: "" },
+                        { name: "Kayak among the limestone karsts", desc: "" },
+                        { name: "Trek or cycle through Cat Ba National Park", desc: "" }
+                    ]
+                },
+                "Mai Chau": {
+                    intro: "A quiet valley of rice paddies and stilt-house villages just a few hours from Hanoi — home to the White Thai ethnic community and one of the easiest rural escapes in northern Vietnam.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Stilt-house homestays in Ban Lac village", desc: "" },
+                        { name: "Ecolodges overlooking the valley", desc: "" },
+                        { name: "Family homestays across the Mai Chau valley", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Ban Lac Village", desc: "a White Thai stilt-house village open to visitors" },
+                        { name: "Mai Chau Valley", desc: "rice paddies framed by mountains" },
+                        { name: "Pu Luong Nature Reserve", desc: "nearby terraced hills and trekking" }
+                    ],
+                    food: [
+                        { name: "Com lam (bamboo rice)", desc: "" },
+                        { name: "Grilled river fish", desc: "" },
+                        { name: "Can wine, a local rice wine drunk from a communal jar", desc: "" }
+                    ],
+                    things: [
+                        { name: "Cycle through the valley's rice paddies", desc: "" },
+                        { name: "Stay overnight in a stilt-house homestay", desc: "" },
+                        { name: "Watch a traditional Thai dance performance", desc: "" }
+                    ]
+                },
+                "Hue (Thua Thien Hue)": {
+                    intro: "Vietnam's former imperial capital, home to a UNESCO-listed Citadel and centuries of royal history along the Perfume River.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Backpacker hostels near the Citadel", desc: "" },
+                        { name: "Guesthouses along the Perfume River", desc: "" },
+                        { name: "Budget hotels in Hue's backpacker quarter", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "The Imperial Citadel", desc: "the former royal palace complex" },
+                        { name: "Tomb of Khai Dinh", desc: "an elaborate royal tomb blending styles" },
+                        { name: "Thien Mu Pagoda", desc: "an iconic pagoda on the Perfume River" }
+                    ],
+                    food: [
+                        { name: "Bun bo Hue (spicy beef noodle soup)", desc: "" },
+                        { name: "Banh khoai (Hue-style savory pancake)", desc: "" },
+                        { name: "Com hen (baby clam rice)", desc: "" }
+                    ],
+                    things: [
+                        { name: "Explore the Imperial Citadel", desc: "" },
+                        { name: "Take a boat ride on the Perfume River", desc: "" },
+                        { name: "Visit the royal tombs outside the city", desc: "" }
+                    ]
+                },
+                "Phong Nha": {
+                    intro: "Home to some of the largest cave systems on Earth, including Son Doong — the world's largest cave — Phong Nha is Vietnam's premier destination for caving and jungle adventure.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Backpacker hostels near the national park entrance", desc: "" },
+                        { name: "Farmstays in the surrounding countryside", desc: "" },
+                        { name: "Guesthouses in Phong Nha town", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Phong Nha Cave", desc: "a vast river cave explorable by boat" },
+                        { name: "Paradise Cave", desc: "one of Asia's longest dry caves" },
+                        { name: "Son Doong Cave", desc: "the world's largest cave (permit and guided tour required)" }
+                    ],
+                    food: [
+                        { name: "Chao ca (fish porridge)", desc: "" },
+                        { name: "Grilled river snails", desc: "" },
+                        { name: "Local jungle vegetables and forest dishes", desc: "" }
+                    ],
+                    things: [
+                        { name: "Boat through Phong Nha Cave", desc: "" },
+                        { name: "Trek through Paradise Cave", desc: "" },
+                        { name: "Zipline or kayak in the national park", desc: "" }
+                    ]
+                },
+                "Nha Trang (Khanh Hoa)": {
+                    intro: "Vietnam's most popular beach city — a long stretch of coastline, island-hopping boat trips, and a lively backpacker and diving scene.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Backpacker hostels along the beachfront", desc: "" },
+                        { name: "Budget hotels in the city center", desc: "" },
+                        { name: "Dive-focused hostels near the main beach", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Nha Trang Bay islands", desc: "popular for snorkeling and diving" },
+                        { name: "Po Nagar Cham Towers", desc: "ancient Cham temple ruins" },
+                        { name: "Vinpearl Land", desc: "an island amusement park reached by cable car" }
+                    ],
+                    food: [
+                        { name: "Bun cha ca (fish cake noodle soup)", desc: "" },
+                        { name: "Nem nuong Nha Trang (grilled pork skewers)", desc: "" },
+                        { name: "Fresh seafood along the beach promenade", desc: "" }
+                    ],
+                    things: [
+                        { name: "Island-hop by boat", desc: "" },
+                        { name: "Try diving or snorkeling", desc: "" },
+                        { name: "Ride the Vinpearl cable car", desc: "" }
+                    ]
+                },
+                "Phu Yen": {
+                    intro: "A quieter stretch of central coast, known for dramatic rock formations and beaches that see a fraction of Nha Trang's crowds.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Guesthouses in Tuy Hoa", desc: "" },
+                        { name: "Beachside homestays near Bai Xep", desc: "" },
+                        { name: "Family-run stays along the coast", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Ganh Da Dia (Stone Plate Reef)", desc: "striking hexagonal basalt columns" },
+                        { name: "Xuan Dai Bay", desc: "a quiet, scenic bay" },
+                        { name: "Bai Xep", desc: "a small fishing village beach" }
+                    ],
+                    food: [
+                        { name: "Fresh seafood, especially tuna", desc: "" },
+                        { name: "Banh xeo (Vietnamese savory pancake)", desc: "" },
+                        { name: "Bun ca sua (jellyfish noodle soup), a local specialty", desc: "" }
+                    ],
+                    things: [
+                        { name: "Photograph the rock formations at Ganh Da Dia", desc: "" },
+                        { name: "Relax at Bai Xep beach", desc: "" },
+                        { name: "Explore Xuan Dai Bay by motorbike", desc: "" }
+                    ]
+                },
+                "Can Tho / Mekong Delta": {
+                    intro: "The heart of the Mekong Delta — a maze of rivers, floating markets, and fruit orchards that feels a world away from Vietnam's cities.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Homestays along the riverbanks", desc: "" },
+                        { name: "Backpacker hostels in Can Tho city", desc: "" },
+                        { name: "Orchard stays near the floating markets", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Cai Rang Floating Market", desc: "one of the largest floating markets in the delta" },
+                        { name: "Mekong River boat tours through orchards", desc: "" },
+                        { name: "Local fruit orchards and rice paper-maki", desc: "" }
+                    ],
+                    food: [
+                        { name: "Hu tieu (Southern-style noodle soup)", desc: "" },
+                        { name: "Fresh tropical fruit straight from the orchards", desc: "" },
+                        { name: "Grilled elephant ear fish", desc: "" }
+                    ],
+                    things: [
+                        { name: "Wake early for the Cai Rang floating market", desc: "" },
+                        { name: "Take a small boat through narrow canals", desc: "" },
+                        { name: "Visit a rice paper or coconut candy workshop", desc: "" }
+                    ]
+                },
+                "Phu Quoc (Kien Giang)": {
+                    intro: "Vietnam's largest island, with white-sand beaches, a growing resort scene, and enough undeveloped coastline to still feel like an escape.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Beachside backpacker hostels", desc: "" },
+                        { name: "Bungalow stays near Sao Beach", desc: "" },
+                        { name: "Budget guesthouses in Duong Dong town", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Sao Beach", desc: "one of the island's most beautiful stretches of sand" },
+                        { name: "Phu Quoc National Park", desc: "jungle interior with trekking" },
+                        { name: "Phu Quoc Night Market", desc: "seafood and local snacks" }
+                    ],
+                    food: [
+                        { name: "Fresh seafood, especially grilled squid and prawns", desc: "" },
+                        { name: "Nuoc mam Phu Quoc — the island's famous fish sauce", desc: "" },
+                        { name: "Ganh Dau crab", desc: "" }
+                    ],
+                    things: [
+                        { name: "Relax at Sao Beach", desc: "" },
+                        { name: "Snorkel or dive the surrounding reefs", desc: "" },
+                        { name: "Ride the world's longest over-sea cable car to Hon Thom Island", desc: "" }
+                    ]
+                },
+                "Con Dao": {
+                    intro: "A remote island archipelago with a heavy, important history as a former prison colony, now also known for pristine beaches and sea turtle nesting grounds.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Budget guesthouses in Con Dao town", desc: "" },
+                        { name: "Camping and eco-stays near the national park", desc: "" },
+                        { name: "Family-run homestays on the island", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Con Dao Prison (Phu Hai)", desc: "a former colonial-era prison, now a historical site" },
+                        { name: "Con Dao National Park", desc: "home to nesting sea turtles" },
+                        { name: "Dam Trau Beach", desc: "one of the island's most beautiful beaches" }
+                    ],
+                    food: [
+                        { name: "Fresh seafood, especially local fish and squid", desc: "" },
+                        { name: "Con Dao's own version of banh xeo", desc: "" },
+                        { name: "Local herbs and greens grown on the island", desc: "" }
+                    ],
+                    things: [
+                        { name: "Visit the former prison site for the island's history", desc: "" },
+                        { name: "See sea turtle nesting (seasonal)", desc: "" },
+                        { name: "Snorkel or dive around the surrounding reefs", desc: "" }
+                    ]
+                },
+                "Chau Doc": {
+                    intro: "A border town in the Mekong Delta near Cambodia, known for its floating villages, Cham community, and access to Sam Mountain.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Riverfront homestays", desc: "" },
+                        { name: "Budget guesthouses in Chau Doc town", desc: "" },
+                        { name: "Family stays near the floating villages", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Floating villages on the Bassac River", desc: "" },
+                        { name: "Sam Mountain", desc: "temples and panoramic delta views" },
+                        { name: "Cham community villages nearby", desc: "" }
+                    ],
+                    food: [
+                        { name: "Bun ca (fish noodle soup), a Chau Doc specialty", desc: "" },
+                        { name: "Mam (fermented fish), a Mekong Delta staple", desc: "" },
+                        { name: "Fresh river fish dishes", desc: "" }
+                    ],
+                    things: [
+                        { name: "Boat through the floating villages", desc: "" },
+                        { name: "Climb or drive up Sam Mountain", desc: "" },
+                        { name: "Visit a nearby Cham weaving village", desc: "" }
+                    ]
+                },
+                "Vung Tau (Ba Ria-Vung Tau)": {
+                    intro: "A beach town popular as a weekend escape from Ho Chi Minh City — less about pristine sand, more about an easy coastal break with seafood and sea breeze.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Beachfront mini-hotels near Back Beach", desc: "" },
+                        { name: "Backpacker guesthouses in the city center", desc: "" },
+                        { name: "Budget stays along Front Beach", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Christ of Vung Tau", desc: "a large statue overlooking the city" },
+                        { name: "Back Beach", desc: "the main swimming beach" },
+                        { name: "Ho May Park", desc: "a hilltop amusement and viewpoint park" }
+                    ],
+                    food: [
+                        { name: "Banh khot (mini savory pancakes), a Vung Tau specialty", desc: "" },
+                        { name: "Fresh seafood along the beachfront", desc: "" },
+                        { name: "Banh bong lan trung muoi (salted egg sponge cake)", desc: "" }
+                    ],
+                    things: [
+                        { name: "Climb to the Christ statue for coastal views", desc: "" },
+                        { name: "Relax at Back Beach", desc: "" },
+                        { name: "Ride the cable car up to Ho May Park", desc: "" }
+                    ]
+                },
+                "Kon Tum": {
+                    intro: "A quiet Central Highlands town best known for its wooden church, coffee country surroundings, and access to ethnic minority villages rarely visited by tourists.",
+                    guideOnly: true,
+                    hostels: [
+                        { name: "Homestays in Kon Tum town", desc: "" },
+                        { name: "Coffee farm stays in the surrounding highlands", desc: "" },
+                        { name: "Guesthouses near Bahnar villages", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Kon Tum Wooden Church", desc: "a striking French colonial-era church" },
+                        { name: "Kon Klor Bridge and nearby Bahnar villag", desc: "" },
+                        { name: "Surrounding coffee plantations of the Ce", desc: "" }
+                    ],
+                    food: [
+                        { name: "Gan ga nuong (grilled chicken), a highland specialty", desc: "" },
+                        { name: "Local Central Highlands coffee", desc: "" },
+                        { name: "Com lam (bamboo-cooked rice)", desc: "" }
+                    ],
+                    things: [
+                        { name: "Visit a Bahnar ethnic minority village", desc: "" },
+                        { name: "Tour a local coffee plantation", desc: "" },
+                        { name: "Photograph the wooden church", desc: "" }
+                    ]
                 }
             },
             "India": {
                 "Nagaland": {
-                    intro: "The \"Festival of Festivals\" — ten days where all of Nagaland's Naga tribes gather at Kisama to share music, food, dance and centuries of tradition. SilentMonk visits December 2026.",
+                    intro: "The \"Festival of Festivals\" — ten days where all of Nagaland's Naga tribes gather at Kisama to share music, food, dance and centuries of tradition. SilentMonk is here Nov 28 – Dec 7, 2026, as part of a longer trip through Assam and Nagaland.",
+                    festivals: [
+                        { name: "Hornbill Festival", desc: "" },
+                        { name: "Moatsu", desc: "" },
+                        { name: "Sekrenyi", desc: "" }
+                    ],
+                    events: [
+                        { name: "Hornbill Festival", desc: "" },
+                        { name: "Hornbill Night Carnival", desc: "" },
+                        { name: "Naga music events", desc: "" }
+                    ],
                     infoStrip: [
                         { label: "FESTIVAL DATES", value: "1 – 10 December" },
                         { label: "VENUE", value: "Kisama Heritage Village" },
@@ -372,6 +756,789 @@
                     ],
                     budgetNote: "Real day-by-day spend for Kaziranga (safaris, stay, transport from Nagaland) will be posted here after the December 2026 trip.",
                     itinerary: hornbillKazirangaItinerary
+                },
+                "Andhra Pradesh": {
+                    intro: "A quick travel-planning overview of Andhra Pradesh — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Ugadi", desc: "" },
+                        { name: "Sankranti", desc: "" },
+                        { name: "Tirumala Brahmotsavam", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Tirupati temple and pilgrimage culture", desc: "" },
+                        { name: "Kuchipudi dance village", desc: "" },
+                        { name: "Araku Valley tribal culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Visakha Utsav", desc: "" },
+                        { name: "Vijayawada Utsav", desc: "" },
+                        { name: "Lumbini Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Andhra Chicken Curry", desc: "" },
+                        { name: "Gongura Pachadi", desc: "" },
+                        { name: "Pulihora", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Hostels in Visakhapatnam", desc: "" },
+                        { name: "Backpacker stays in Vijayawada", desc: "" },
+                        { name: "Homestays in Araku Valley", desc: "" }
+                    ]
+                },
+                "Arunachal Pradesh": {
+                    intro: "A quick travel-planning overview of Arunachal Pradesh — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Losar", desc: "" },
+                        { name: "Solung", desc: "" },
+                        { name: "Nyokum", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Monastery culture in Tawang", desc: "" },
+                        { name: "Nishi and Adi tribal village experiences", desc: "" },
+                        { name: "Ziro Apatani culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Tawang Festival", desc: "" },
+                        { name: "Ziro Festival of Music", desc: "" },
+                        { name: "Siang River Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Thukpa", desc: "" },
+                        { name: "Momos", desc: "" },
+                        { name: "Zan / Apong-based traditional dishes", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Ziro homestays", desc: "" },
+                        { name: "Tawang hostels/homestays", desc: "" },
+                        { name: "Dirang homestays", desc: "" }
+                    ]
+                },
+                "Assam": {
+                    intro: "A quick travel-planning overview of Assam — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Bihu", desc: "" },
+                        { name: "Ambubachi Mela", desc: "" },
+                        { name: "Ali Ai Ligang", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Kaziranga wildlife safari", desc: "" },
+                        { name: "Majuli island and Assamese village culture", desc: "" },
+                        { name: "Sattriya / Sattra culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Ambubachi Mela", desc: "" },
+                        { name: "Jonbeel Mela", desc: "" },
+                        { name: "Rongali Bihu celebrations", desc: "" }
+                    ],
+                    food: [
+                        { name: "Masor Tenga", desc: "" },
+                        { name: "Khar", desc: "" },
+                        { name: "Duck curry", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Guwahati hostels", desc: "" },
+                        { name: "Kaziranga jungle resorts/homestays", desc: "" },
+                        { name: "Majuli homestays", desc: "" }
+                    ]
+                },
+                "Bihar": {
+                    intro: "A quick travel-planning overview of Bihar — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Chhath Puja", desc: "" },
+                        { name: "Sama-Chakeva", desc: "" },
+                        { name: "Makar Sankranti", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Buddhist circuit — Bodh Gaya", desc: "" },
+                        { name: "Nalanda ancient university", desc: "" },
+                        { name: "Madhubani art", desc: "" }
+                    ],
+                    events: [
+                        { name: "Sonepur Mela", desc: "" },
+                        { name: "Rajgir Mahotsav", desc: "" },
+                        { name: "Chhath celebrations", desc: "" }
+                    ],
+                    food: [
+                        { name: "Litti Chokha", desc: "" },
+                        { name: "Sattu Paratha", desc: "" },
+                        { name: "Thekua", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Bodh Gaya hostels", desc: "" },
+                        { name: "Patna hostels", desc: "" },
+                        { name: "Rajgir hotels/homestays", desc: "" }
+                    ]
+                },
+                "Chhattisgarh": {
+                    intro: "A quick travel-planning overview of Chhattisgarh — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Bastar Dussehra", desc: "" },
+                        { name: "Hareli", desc: "" },
+                        { name: "Goncha", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Bastar tribal villages", desc: "" },
+                        { name: "Bastar handicrafts", desc: "" },
+                        { name: "Tribal dance and music", desc: "" }
+                    ],
+                    events: [
+                        { name: "Bastar Dussehra", desc: "" },
+                        { name: "Rajim Kumbh", desc: "" },
+                        { name: "Madai Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Fara", desc: "" },
+                        { name: "Chila", desc: "" },
+                        { name: "Aamat", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Jagdalpur homestays", desc: "" },
+                        { name: "Chitrakote stays", desc: "" },
+                        { name: "Barnawapara eco-stays", desc: "" }
+                    ]
+                },
+                "Goa": {
+                    intro: "A quick travel-planning overview of Goa — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Goa Carnival", desc: "" },
+                        { name: "Shigmo", desc: "" },
+                        { name: "Sao João", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Old Goa Portuguese heritage", desc: "" },
+                        { name: "Goan village / Latin Quarter experience", desc: "" },
+                        { name: "Traditional feni and local food culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Sunburn Festival", desc: "" },
+                        { name: "Goa International Jazz Live", desc: "" },
+                        { name: "Serendipity Arts Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Goan Fish Curry", desc: "" },
+                        { name: "Pork Vindaloo", desc: "" },
+                        { name: "Bebinca", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "The Hosteller Goa", desc: "" },
+                        { name: "Pappi Chulo Hostel", desc: "" },
+                        { name: "Old Quarter Hostel", desc: "" }
+                    ]
+                },
+                "Gujarat": {
+                    intro: "A quick travel-planning overview of Gujarat — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Navratri", desc: "" },
+                        { name: "Uttarayan", desc: "" },
+                        { name: "Janmashtami", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Rann of Kutch", desc: "" },
+                        { name: "Gujarati Garba", desc: "" },
+                        { name: "Patola weaving", desc: "" }
+                    ],
+                    events: [
+                        { name: "Rann Utsav", desc: "" },
+                        { name: "Modhera Dance Festival", desc: "" },
+                        { name: "International Kite Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Gujarati Thali", desc: "" },
+                        { name: "Fafda-Jalebi", desc: "" },
+                        { name: "Dhokla", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Ahmedabad hostels", desc: "" },
+                        { name: "Bhuj homestays", desc: "" },
+                        { name: "Rann of Kutch tent stays", desc: "" }
+                    ]
+                },
+                "Haryana": {
+                    intro: "A quick travel-planning overview of Haryana — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Baisakhi", desc: "" },
+                        { name: "Teej", desc: "" },
+                        { name: "Lohri", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Haryanvi village experience", desc: "" },
+                        { name: "Traditional wrestling / akhara", desc: "" },
+                        { name: "Surajkund crafts", desc: "" }
+                    ],
+                    events: [
+                        { name: "Surajkund International Crafts Mela", desc: "" },
+                        { name: "Pinjore Heritage Festival", desc: "" },
+                        { name: "Haryana Day celebrations", desc: "" }
+                    ],
+                    food: [
+                        { name: "Bajra Khichdi", desc: "" },
+                        { name: "Bajra Roti", desc: "" },
+                        { name: "Hara Dhania Cholia", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Gurugram hostels", desc: "" },
+                        { name: "Faridabad stays", desc: "" },
+                        { name: "Morni Hills resorts/homestays", desc: "" }
+                    ]
+                },
+                "Himachal Pradesh": {
+                    intro: "A quick travel-planning overview of Himachal Pradesh — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Kullu Dussehra", desc: "" },
+                        { name: "Losar", desc: "" },
+                        { name: "Minjar Fair", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Spiti Valley village life", desc: "" },
+                        { name: "Himachali temple culture", desc: "" },
+                        { name: "Kinnauri tribal culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Kullu Dussehra", desc: "" },
+                        { name: "Parvati Valley Festival", desc: "" },
+                        { name: "Himachal Winter Carnival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Dham", desc: "" },
+                        { name: "Siddu", desc: "" },
+                        { name: "Chha Gosht", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Hosteller Manali", desc: "" },
+                        { name: "Zostel Kasol", desc: "" },
+                        { name: "Zostel Spiti", desc: "" }
+                    ]
+                },
+                "Jammu and Kashmir": {
+                    intro: "A quick travel-planning overview of Jammu and Kashmir — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Baisakhi", desc: "" },
+                        { name: "Herath", desc: "" },
+                        { name: "Eid celebrations", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Kashmiri houseboat stay", desc: "" },
+                        { name: "Srinagar old-city culture", desc: "" },
+                        { name: "Kashmiri handicrafts", desc: "" }
+                    ],
+                    events: [
+                        { name: "Tulip Festival", desc: "" },
+                        { name: "Kashmir Literature Festival", desc: "" },
+                        { name: "Snow Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Rogan Josh", desc: "" },
+                        { name: "Wazwan", desc: "" },
+                        { name: "Kashmiri Kahwa", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Srinagar houseboats", desc: "" },
+                        { name: "Zostel Srinagar", desc: "" },
+                        { name: "Pahalgam homestays", desc: "" }
+                    ]
+                },
+                "Jharkhand": {
+                    intro: "A quick travel-planning overview of Jharkhand — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Sarhul", desc: "" },
+                        { name: "Karma", desc: "" },
+                        { name: "Tusu", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Tribal village experience", desc: "" },
+                        { name: "Chhau dance", desc: "" },
+                        { name: "Tribal handicrafts", desc: "" }
+                    ],
+                    events: [
+                        { name: "Tusu Festival", desc: "" },
+                        { name: "Netarhat Mahotsav", desc: "" },
+                        { name: "Shravani Mela", desc: "" }
+                    ],
+                    food: [
+                        { name: "Dhuska", desc: "" },
+                        { name: "Rugra", desc: "" },
+                        { name: "Thekua", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Ranchi hostels", desc: "" },
+                        { name: "Netarhat homestays", desc: "" },
+                        { name: "Betla eco-stays", desc: "" }
+                    ]
+                },
+                "Karnataka": {
+                    intro: "A quick travel-planning overview of Karnataka — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Mysuru Dasara", desc: "" },
+                        { name: "Ugadi", desc: "" },
+                        { name: "Karaga", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Hampi heritage", desc: "" },
+                        { name: "Yakshagana", desc: "" },
+                        { name: "Coorg Kodava culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Hampi Utsav", desc: "" },
+                        { name: "Bengaluru Karaga", desc: "" },
+                        { name: "Bengaluru International Film Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Bisi Bele Bath", desc: "" },
+                        { name: "Mysore Masala Dosa", desc: "" },
+                        { name: "Mangalorean Fish Curry", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Zostel Bangalore", desc: "" },
+                        { name: "Zostel Hampi", desc: "" },
+                        { name: "Hosteller Gokarna", desc: "" }
+                    ]
+                },
+                "Kerala": {
+                    intro: "A quick travel-planning overview of Kerala — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Onam", desc: "" },
+                        { name: "Thrissur Pooram", desc: "" },
+                        { name: "Vishu", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Kathakali", desc: "" },
+                        { name: "Theyyam", desc: "" },
+                        { name: "Backwater houseboat", desc: "" }
+                    ],
+                    events: [
+                        { name: "Vallam Kali / Snake Boat Race", desc: "" },
+                        { name: "Kerala Literature Festival", desc: "" },
+                        { name: "Malabar River Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Kerala Sadya", desc: "" },
+                        { name: "Appam and Stew", desc: "" },
+                        { name: "Malabar Parotta and Beef", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Zostel Varkala", desc: "" },
+                        { name: "Zostel Alleppey", desc: "" },
+                        { name: "Fort Kochi hostels", desc: "" }
+                    ]
+                },
+                "Madhya Pradesh": {
+                    intro: "A quick travel-planning overview of Madhya Pradesh — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Bhagoria", desc: "" },
+                        { name: "Diwali", desc: "" },
+                        { name: "Holi", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Khajuraho temples", desc: "" },
+                        { name: "Gond tribal culture", desc: "" },
+                        { name: "Mandu heritage", desc: "" }
+                    ],
+                    events: [
+                        { name: "Khajuraho Dance Festival", desc: "" },
+                        { name: "Tansen Samaroh", desc: "" },
+                        { name: "Lokrang Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Poha-Jalebi", desc: "" },
+                        { name: "Bhutte Ka Kees", desc: "" },
+                        { name: "Dal Bafla", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Hostels in Indore", desc: "" },
+                        { name: "Khajuraho hostels", desc: "" },
+                        { name: "Pachmarhi homestays", desc: "" }
+                    ]
+                },
+                "Maharashtra": {
+                    intro: "A quick travel-planning overview of Maharashtra — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Ganesh Chaturthi", desc: "" },
+                        { name: "Gudi Padwa", desc: "" },
+                        { name: "Diwali", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Mumbai Ganpati celebrations", desc: "" },
+                        { name: "Warli tribal art", desc: "" },
+                        { name: "Ajanta and Ellora heritage", desc: "" }
+                    ],
+                    events: [
+                        { name: "Sunburn-style electronic music events", desc: "" },
+                        { name: "Kala Ghoda Arts Festival", desc: "" },
+                        { name: "SulaFest", desc: "" }
+                    ],
+                    food: [
+                        { name: "Vada Pav", desc: "" },
+                        { name: "Misal Pav", desc: "" },
+                        { name: "Puran Poli", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Hosteller Mumbai", desc: "" },
+                        { name: "Zostel Mumbai", desc: "" },
+                        { name: "Zostel Panchgani", desc: "" }
+                    ]
+                },
+                "Manipur": {
+                    intro: "A quick travel-planning overview of Manipur — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Yaoshang", desc: "" },
+                        { name: "Lai Haraoba", desc: "" },
+                        { name: "Kut", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Manipuri classical dance", desc: "" },
+                        { name: "Loktak Lake", desc: "" },
+                        { name: "Ima Keithel women's market", desc: "" }
+                    ],
+                    events: [
+                        { name: "Sangai Festival", desc: "" },
+                        { name: "Kut Festival", desc: "" },
+                        { name: "Manipur Polo events", desc: "" }
+                    ],
+                    food: [
+                        { name: "Eromba", desc: "" },
+                        { name: "Singju", desc: "" },
+                        { name: "Chak-hao rice dishes", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Imphal hostels", desc: "" },
+                        { name: "Loktak homestays", desc: "" },
+                        { name: "Ukhrul homestays", desc: "" }
+                    ]
+                },
+                "Meghalaya": {
+                    intro: "A quick travel-planning overview of Meghalaya — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Wangala", desc: "" },
+                        { name: "Nongkrem Dance Festival", desc: "" },
+                        { name: "Shad Suk Mynsiem", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Khasi village life", desc: "" },
+                        { name: "Living root bridges", desc: "" },
+                        { name: "Garo tribal culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Shillong Cherry Blossom Festival", desc: "" },
+                        { name: "Shillong Autumn Festival", desc: "" },
+                        { name: "Wangala Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Jadoh", desc: "" },
+                        { name: "Dohneiihong", desc: "" },
+                        { name: "Tungrymbai", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Zostel Shillong", desc: "" },
+                        { name: "Shillong hostels", desc: "" },
+                        { name: "Cherrapunji homestays", desc: "" }
+                    ]
+                },
+                "Mizoram": {
+                    intro: "A quick travel-planning overview of Mizoram — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Chapchar Kut", desc: "" },
+                        { name: "Mim Kut", desc: "" },
+                        { name: "Pawl Kut", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Mizo village culture", desc: "" },
+                        { name: "Traditional bamboo crafts", desc: "" },
+                        { name: "Mizo music and dance", desc: "" }
+                    ],
+                    events: [
+                        { name: "Chapchar Kut", desc: "" },
+                        { name: "Anthurium Festival", desc: "" },
+                        { name: "Thalfavang Kut", desc: "" }
+                    ],
+                    food: [
+                        { name: "Bai", desc: "" },
+                        { name: "Mizo smoked pork", desc: "" },
+                        { name: "Sawhchiar", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Aizawl hostels", desc: "" },
+                        { name: "Aizawl homestays", desc: "" },
+                        { name: "Reiek homestays", desc: "" }
+                    ]
+                },
+                "Odisha": {
+                    intro: "A quick travel-planning overview of Odisha — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Rath Yatra", desc: "" },
+                        { name: "Durga Puja", desc: "" },
+                        { name: "Raja Parba", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Jagannath culture", desc: "" },
+                        { name: "Odissi dance", desc: "" },
+                        { name: "Pattachitra art", desc: "" }
+                    ],
+                    events: [
+                        { name: "Dhanu Jatra", desc: "" },
+                        { name: "Puri Beach Festival", desc: "" },
+                        { name: "Konark Dance Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Pakhala Bhata", desc: "" },
+                        { name: "Dalma", desc: "" },
+                        { name: "Chhena Poda", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Bhubaneswar hostels", desc: "" },
+                        { name: "Puri hostels", desc: "" },
+                        { name: "Gopalpur beach stays", desc: "" }
+                    ]
+                },
+                "Punjab": {
+                    intro: "A quick travel-planning overview of Punjab — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Baisakhi", desc: "" },
+                        { name: "Lohri", desc: "" },
+                        { name: "Hola Mohalla", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Golden Temple langar", desc: "" },
+                        { name: "Punjabi village experience", desc: "" },
+                        { name: "Bhangra and Giddha", desc: "" }
+                    ],
+                    events: [
+                        { name: "Hola Mohalla", desc: "" },
+                        { name: "Punjabi cultural events", desc: "" },
+                        { name: "Punjab Heritage Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Amritsari Kulcha", desc: "" },
+                        { name: "Sarson da Saag and Makki di Roti", desc: "" },
+                        { name: "Chole Bhature", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Backpacker hostels in Amritsar", desc: "" },
+                        { name: "The Hosteller Amritsar", desc: "" },
+                        { name: "Amritsar heritage stays", desc: "" }
+                    ]
+                },
+                "Rajasthan": {
+                    intro: "A quick travel-planning overview of Rajasthan — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Gangaur", desc: "" },
+                        { name: "Teej", desc: "" },
+                        { name: "Diwali", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Desert village experience", desc: "" },
+                        { name: "Rajasthani folk music and dance", desc: "" },
+                        { name: "Block printing / handicrafts", desc: "" }
+                    ],
+                    events: [
+                        { name: "Pushkar Camel Fair", desc: "" },
+                        { name: "Jaisalmer Desert Festival", desc: "" },
+                        { name: "Magnetic Fields", desc: "" }
+                    ],
+                    food: [
+                        { name: "Dal Baati Churma", desc: "" },
+                        { name: "Laal Maas", desc: "" },
+                        { name: "Pyaaz Kachori", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Zostel Jaipur", desc: "" },
+                        { name: "Moustache Hostel Jaipur", desc: "" },
+                        { name: "Jaisalmer desert camps", desc: "" }
+                    ]
+                },
+                "Sikkim": {
+                    intro: "A quick travel-planning overview of Sikkim — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Losar", desc: "" },
+                        { name: "Pang Lhabsol", desc: "" },
+                        { name: "Saga Dawa", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Buddhist monasteries", desc: "" },
+                        { name: "Sikkimese village homestay", desc: "" },
+                        { name: "Lepcha culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Sikkim International Flower Festival", desc: "" },
+                        { name: "Pang Lhabsol celebrations", desc: "" },
+                        { name: "Sikkim Red Panda Winter Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Momos", desc: "" },
+                        { name: "Thukpa", desc: "" },
+                        { name: "Phagshapa", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Zostel Gangtok", desc: "" },
+                        { name: "Gangtok hostels", desc: "" },
+                        { name: "Pelling homestays", desc: "" }
+                    ]
+                },
+                "Tamil Nadu": {
+                    intro: "A quick travel-planning overview of Tamil Nadu — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Pongal", desc: "" },
+                        { name: "Thaipusam", desc: "" },
+                        { name: "Karthigai Deepam", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Temple architecture", desc: "" },
+                        { name: "Bharatanatyam", desc: "" },
+                        { name: "Chettinad heritage", desc: "" }
+                    ],
+                    events: [
+                        { name: "Chennai Music and Dance Season", desc: "" },
+                        { name: "Jallikattu", desc: "" },
+                        { name: "Mamallapuram Dance Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Dosa", desc: "" },
+                        { name: "Chettinad Chicken", desc: "" },
+                        { name: "Pongal", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Hosteller Chennai", desc: "" },
+                        { name: "Zostel Ooty", desc: "" },
+                        { name: "Pondicherry backpacker hostels", desc: "" }
+                    ]
+                },
+                "Telangana": {
+                    intro: "A quick travel-planning overview of Telangana — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Bathukamma", desc: "" },
+                        { name: "Bonalu", desc: "" },
+                        { name: "Ugadi", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Hyderabad old city", desc: "" },
+                        { name: "Charminar and bazaars", desc: "" },
+                        { name: "Perini dance / Telangana folk culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Hyderabad Literary Festival", desc: "" },
+                        { name: "Deccan Festival", desc: "" },
+                        { name: "Numaish", desc: "" }
+                    ],
+                    food: [
+                        { name: "Hyderabadi Biryani", desc: "" },
+                        { name: "Haleem", desc: "" },
+                        { name: "Sarva Pindi", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Hosteller Hyderabad", desc: "" },
+                        { name: "Hyderabad backpacker hostels", desc: "" },
+                        { name: "Warangal homestays", desc: "" }
+                    ]
+                },
+                "Tripura": {
+                    intro: "A quick travel-planning overview of Tripura — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Kharchi Puja", desc: "" },
+                        { name: "Garia Puja", desc: "" },
+                        { name: "Ker Puja", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Tripuri tribal culture", desc: "" },
+                        { name: "Neermahal", desc: "" },
+                        { name: "Unakoti rock carvings", desc: "" }
+                    ],
+                    events: [
+                        { name: "Neermahal Water Festival", desc: "" },
+                        { name: "Orange and Tourism Festival", desc: "" },
+                        { name: "Kharchi Puja", desc: "" }
+                    ],
+                    food: [
+                        { name: "Mui Borok", desc: "" },
+                        { name: "Chakhwi", desc: "" },
+                        { name: "Wahan Mosdeng", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Agartala hostels", desc: "" },
+                        { name: "Agartala heritage stays", desc: "" },
+                        { name: "Jampui Hills homestays", desc: "" }
+                    ]
+                },
+                "Uttar Pradesh": {
+                    intro: "A quick travel-planning overview of Uttar Pradesh — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Holi", desc: "" },
+                        { name: "Diwali", desc: "" },
+                        { name: "Janmashtami", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Varanasi Ganga Aarti", desc: "" },
+                        { name: "Mathura-Vrindavan Krishna culture", desc: "" },
+                        { name: "Lucknow Nawabi culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "Kumbh / Mahakumbh", desc: "" },
+                        { name: "Ayodhya Deepotsav", desc: "" },
+                        { name: "Taj Mahotsav", desc: "" }
+                    ],
+                    food: [
+                        { name: "Awadhi Biryani", desc: "" },
+                        { name: "Tunday Kababi", desc: "" },
+                        { name: "Banarasi Chaat", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Hostels in Varanasi", desc: "" },
+                        { name: "Zostel Agra", desc: "" },
+                        { name: "Varanasi riverside hostels", desc: "" }
+                    ]
+                },
+                "Uttarakhand": {
+                    intro: "A quick travel-planning overview of Uttarakhand — festivals, culture, food and places to consider. Informational for now; SilentMonk's own tested picks land here after a visit.",
+                    guideOnly: true,
+                    festivals: [
+                        { name: "Nanda Devi Raj Jat", desc: "" },
+                        { name: "Harela", desc: "" },
+                        { name: "Phool Dei", desc: "" }
+                    ],
+                    attractions: [
+                        { name: "Garhwali village life", desc: "" },
+                        { name: "Kumaoni culture", desc: "" },
+                        { name: "Himalayan temple/pilgrimage culture", desc: "" }
+                    ],
+                    events: [
+                        { name: "International Yoga Festival — Rishikesh", desc: "" },
+                        { name: "Nanda Devi Raj Jat", desc: "" },
+                        { name: "Uttarakhand Adventure Festival", desc: "" }
+                    ],
+                    food: [
+                        { name: "Kafuli", desc: "" },
+                        { name: "Aloo ke Gutke", desc: "" },
+                        { name: "Bal Mithai", desc: "" }
+                    ],
+                    hostels: [
+                        { name: "Zostel Rishikesh", desc: "" },
+                        { name: "Hosteller Rishikesh", desc: "" },
+                        { name: "Kasar Devi / Mukteshwar homestays", desc: "" }
+                    ]
                 }
             }
         };
@@ -431,7 +1598,47 @@
             renderCards('hostelsCards', data.hostels);
             renderCards('attractionsCards', data.attractions);
             renderCards('foodCards', data.food);
-            renderCards('thingsCards', data.things);
+
+            if (data.things) {
+                document.getElementById('thingsCards').innerHTML = '';
+                renderCards('thingsCards', data.things);
+            } else {
+                document.querySelector('.tab-btn[data-tab="things"]').style.display = 'none';
+            }
+
+            if (data.festivals) {
+                document.getElementById('festivalsTabBtn').style.display = 'inline-block';
+                renderCards('festivalsCards', data.festivals);
+            }
+
+            if (data.events) {
+                document.getElementById('eventsTabBtn').style.display = 'inline-block';
+                renderCards('eventsCards', data.events);
+            }
+
+            // Honest labeling: guide-only content (not yet personally visited)
+            // gets clearly different framing than "by SilentMonk" personal picks
+            if (data.guideOnly) {
+                const guideLabel = "TRAVEL GUIDE · GOOD TO KNOW";
+                document.getElementById('hostelsLabel').textContent = guideLabel;
+                document.getElementById('attractionsLabel').textContent = guideLabel;
+                document.getElementById('foodLabel').textContent = guideLabel;
+                document.getElementById('hostelsHeading').textContent = "Stays to Consider";
+                document.getElementById('attractionsHeading').textContent = "Cultural Experiences";
+                document.getElementById('foodHeading').textContent = "Foods You Should Try";
+
+                // Add a small, honest note right under each guide-only heading
+                const note = '<p style="font-size: 13px; color: #999; margin-top: -10px; margin-bottom: 30px; font-style: italic;">Researched for trip planning &mdash; SilentMonk hasn&#39;t visited yet. Real, tested picks replace this after a visit.</p>';
+                ['hostelsHeading', 'attractionsHeading', 'foodHeading'].forEach(id => {
+                    document.getElementById(id).insertAdjacentHTML('afterend', note);
+                });
+                if (data.festivals) {
+                    document.querySelector('#tab-festivals h2').insertAdjacentHTML('afterend', note);
+                }
+                if (data.events) {
+                    document.querySelector('#tab-events h2').insertAdjacentHTML('afterend', note);
+                }
+            }
 
             if (data.itinerary) {
                 document.getElementById('itineraryTabBtn').style.display = 'inline-block';
@@ -443,6 +1650,15 @@
                         </ul>
                     </div>
                 `).join('');
+            }
+
+            // Set the first visible tab as active (handles states with different tab sets)
+            const firstVisibleBtn = Array.from(document.querySelectorAll('.tab-btn')).find(b => b.style.display !== 'none');
+            if (firstVisibleBtn && !firstVisibleBtn.classList.contains('active')) {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+                firstVisibleBtn.classList.add('active');
+                document.getElementById('tab-' + firstVisibleBtn.dataset.tab).style.display = 'block';
             }
         } else if (state && country) {
             // Valid place, just not documented yet — friendly message, not an error
