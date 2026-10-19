@@ -62,6 +62,7 @@
         <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
     </footer>
 
+    <script src="countries-data.js"></script>
     <script>
         // ===================================================
         // ITINERARY DATA — by country, by duration
@@ -96,7 +97,14 @@
 
         const params = new URLSearchParams(window.location.search);
         const country = params.get('country');
-        const data = itineraryData[country] || null;
+        let data = itineraryData[country] || null;
+        const shared = (window.COUNTRY_GUIDES || {})[country];
+        if (!data && shared && shared.itineraries) {
+            data = {
+                intro: `Pick 5, 7 or 10 days for a realistic day-by-day route through ${country}. Want the festivals, food and stays too? See the full ${country} country guide.`,
+                plans: shared.itineraries
+            };
+        }
 
         function renderPlan(days) {
             document.getElementById('itineraryContent').innerHTML = data.plans[days].map(stop => `
@@ -135,8 +143,8 @@
                 });
             });
         } else {
-            document.getElementById('pageTitle2').textContent = "No Itinerary Yet";
-            document.getElementById('pageIntro').textContent = "SilentMonk hasn't built a suggested itinerary for this country yet.";
+            document.getElementById('pageTitle2').textContent = "Country Not Found";
+            document.getElementById('pageIntro').textContent = "Pick a country from the search on the homepage to see its suggested itineraries.";
         }
     </script>
 
