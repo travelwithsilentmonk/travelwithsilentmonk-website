@@ -130,6 +130,7 @@
         <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
     </footer>
 
+    <script src="countries-data.js"></script>
     <script>
         // ===================================================
         // DESTINATION DATA — add new places here, no new pages needed
@@ -2554,13 +2555,17 @@
                 firstVisibleBtn.classList.add('active');
                 document.getElementById('tab-' + firstVisibleBtn.dataset.tab).style.display = 'block';
             }
+        } else if (state && country && window.COUNTRY_GUIDES && window.COUNTRY_GUIDES[country]) {
+            // Region without its own page yet: show the country's full guide
+            // (festivals, food, stays, 5/7/10-day itineraries) instead of an empty page
+            window.location.replace(`country.html?country=${encodeURIComponent(country)}&from=${encodeURIComponent(state)}`);
         } else if (state && country) {
-            // Valid place, just not documented yet — friendly message, not an error
+            // Fallback if a country has no guide data at all
             document.title = `${state}, ${country} | TravelWithSilentMonk`;
             document.getElementById('pageTitle2').textContent = state;
             document.getElementById('pageEyebrow').textContent = `DESTINATION GUIDE • ${country.toUpperCase()}`;
             document.getElementById('pageIntro').textContent =
-                `SilentMonk hasn't covered ${state} yet — but it's on the map. Check back soon, or reach out on WhatsApp if you'd like it prioritized.`;
+                `A full guide for ${state} is being added. In the meantime, browse the other destinations on the homepage.`;
             document.getElementById('breadcrumb').innerHTML = `
                 <a href="index.html">Home</a> /
                 <a href="index.html#destinations">Destinations</a> /
