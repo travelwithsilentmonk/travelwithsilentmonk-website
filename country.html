@@ -109,66 +109,9 @@
         <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
     </footer>
 
+    <script src="countries-data.js"></script>
     <script>
-        const countryData = {
-            "Vietnam": {
-                intro: "Vietnam-wide highlights that go beyond any single city — national festivals, signature dishes found everywhere, and hostels worth knowing about across the country.",
-                bestOf: [
-                    { name: "Hoi An", desc: "Lantern-lit old town, tailor shops, and one of SilentMonk's actual favorite hostel experiences in the country.", url: "destination.html?country=Vietnam&state=Hoi An (Quang Nam)" },
-                    { name: "Ha Long Bay / Cat Ba", desc: "Vietnam's single most iconic landscape — limestone islands rising from the sea, best seen by boat.", url: "destination.html?country=Vietnam&state=Ha Long Bay / Cat Ba" },
-                    { name: "Ha Giang", desc: "For travelers who want mountains and motorbikes over beaches — the loop is one of Southeast Asia's great road trips.", url: "destination.html?country=Vietnam&state=Ha Giang" },
-                    { name: "Ho Chi Minh City", desc: "The country's fastest-paced city, and where its modern history is easiest to understand.", url: "destination.html?country=Vietnam&state=Ho Chi Minh City" },
-                    { name: "Phong Nha", desc: "Home to the world's largest cave — a must for anyone into serious adventure travel.", url: "destination.html?country=Vietnam&state=Phong Nha" },
-                    { name: "Ninh Binh", desc: "Karst cliffs rising out of rice paddies, an easy day or two from Hanoi.", url: "destination.html?country=Vietnam&state=Ninh Binh" }
-                ],
-                festivals: [
-                    { name: "Tet (Vietnamese Lunar New Year)", desc: "The biggest celebration in the Vietnamese calendar — most of the country closes down for it." },
-                    { name: "Hoi An Lantern Festival", desc: "Monthly on the full moon — the whole old town glows with silk lanterns." },
-                    { name: "Mid-Autumn Festival (Tet Trung Thu)", desc: "A lantern-filled festival celebrated nationwide, especially loved by kids." }
-                ],
-                culture: [
-                    { name: "Water Puppet Show", desc: "A centuries-old Vietnamese art form, most famously performed in Hanoi." },
-                    { name: "Mekong Delta Local Life", desc: "Boat markets, riverside villages, a totally different pace of life." },
-                    { name: "Ethnic Minority Village Experience", desc: "Found across the northern highlands — a window into Vietnam beyond the cities." }
-                ],
-                events: [
-                    { name: "Halloween in Vietnam", desc: "Increasingly big in cities like Hanoi and Ho Chi Minh City, especially at backpacker hostels." },
-                    { name: "Da Nang International Fireworks Festival", desc: "A major annual fireworks competition on the Han River." },
-                    { name: "Da Lat Flower Festival", desc: "Da Lat's biannual celebration of its flower-growing heritage." }
-                ],
-                food: [
-                    { name: "Pho", desc: "Vietnam's signature noodle soup, and rightly so — found everywhere, never the same twice." },
-                    { name: "Banh Mi", desc: "The Vietnamese sandwich, born from French colonial bread with a completely local filling." },
-                    { name: "Bun Cha", desc: "Grilled pork with noodles and dipping sauce — a Hanoi classic that's spread nationwide." }
-                ],
-                stays: [
-                    { name: "Mad Monkey Hostel — Hanoi / Hoi An", desc: "Different branches, different vibes — see the city-specific pages for the full breakdown." },
-                    { name: "The Hideout Hostel — Ho Chi Minh City", desc: "Right by Bui Vien, built for the pub-crawl crowd." },
-                    { name: "Backpackers Resort — Mui Ne", desc: "The relaxed, resort-style alternative to the party hostels." }
-                ],
-                itineraries: {
-                    "5": [
-                        { title: "Day 1–2 — Ho Chi Minh City", items: ["Arrive, settle into a hostel near Bui Vien", "War Remnants Museum", "Cu Chi Tunnels day trip", "Evening on Bui Vien Walking Street"] },
-                        { title: "Day 3 — Mui Ne", items: ["Morning bus from HCMC (~3–4 hrs)", "Sunset at Red Sand Dunes", "Evening at a beachside hostel"] },
-                        { title: "Day 4–5 — Da Nang / Hoi An", items: ["Fly or bus onward", "Ba Na Hills + Golden Bridge", "Evening lantern walk in Hoi An's Ancient Town"] }
-                    ],
-                    "7": [
-                        { title: "Day 1–2 — Ho Chi Minh City", items: ["War Remnants Museum, Cu Chi Tunnels", "Ben Thanh Market, Bui Vien nightlife"] },
-                        { title: "Day 3 — Mui Ne", items: ["Red Sand Dunes at sunset", "Sunrise at the fishing village"] },
-                        { title: "Day 4 — Da Lat", items: ["Crazy House", "Xuan Huong Lake", "Local coffee and strawberries"] },
-                        { title: "Day 5–6 — Da Nang / Hoi An", items: ["Ba Na Hills + Golden Bridge", "Marble Mountains", "Ancient Town + lantern release"] },
-                        { title: "Day 7 — Hanoi", items: ["Old Quarter walk", "Train Street"] }
-                    ],
-                    "10": [
-                        { title: "Day 1–2 — Ho Chi Minh City", items: ["War Remnants Museum, Cu Chi Tunnels", "Saigon Central Post Office, Japan Town"] },
-                        { title: "Day 3 — Mui Ne", items: ["Red Sand Dunes", "Kitesurfing or windsurfing"] },
-                        { title: "Day 4–5 — Da Lat", items: ["Crazy House, Linh Phuoc Pagoda", "Cu Lan Village, Alpine Coaster"] },
-                        { title: "Day 6–8 — Da Nang / Hoi An", items: ["Ba Na Hills + Golden Bridge", "Marble Mountains, Lady Buddha", "Ancient Town, Japanese Covered Bridge", "Dragon Bridge fire show (weekend)"] },
-                        { title: "Day 9–10 — Hanoi", items: ["Old Quarter, Train Street", "Ha Long Bay day trip"] }
-                    ]
-                }
-            }
-        };
+        const countryData = window.COUNTRY_GUIDES || {};
 
         const params = new URLSearchParams(window.location.search);
         const country = params.get('country');
@@ -193,6 +136,13 @@
                 <span>${country}</span> /
                 <span>Country Guide</span>
             `;
+            const fromPlace = params.get('from');
+            if (fromPlace) {
+                const note = document.createElement('p');
+                note.style.cssText = 'margin-top:18px;font-size:15px;opacity:0.9;';
+                note.textContent = `Looking for ${fromPlace}? Here's everything you need for ${country} — where to go, when to go, what to eat, where to stay, and a 5, 7 or 10-day route.`;
+                document.getElementById('pageIntro').after(note);
+            }
             renderCards('festivalsCards', data.festivals);
             renderCards('cultureCards', data.culture);
             renderCards('eventsCards', data.events);
@@ -204,7 +154,7 @@
                     <article class="card coming-soon-card">
                         <h3>${item.name}</h3>
                         <p>${item.desc}</p>
-                        <a href="${item.url}" class="card-link" style="color: #4caf6d;">Explore →</a>
+                        ${item.url ? `<a href="${item.url}" class="card-link" style="color: #4caf6d;">Explore →</a>` : ''}
                     </article>
                 `).join('');
             }
@@ -237,8 +187,8 @@
                 });
             }
         } else {
-            document.getElementById('pageTitle2').textContent = "No Guide Yet";
-            document.getElementById('pageIntro').textContent = "SilentMonk hasn't built a country-wide guide for this one yet.";
+            document.getElementById('pageTitle2').textContent = "Country Not Found";
+            document.getElementById('pageIntro').textContent = "Pick a country from the search on the homepage to see its full guide.";
         }
 
         document.querySelectorAll('#tabsNav .tab-btn').forEach(btn => {
