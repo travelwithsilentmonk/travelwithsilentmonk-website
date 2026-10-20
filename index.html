@@ -451,6 +451,15 @@
 
         </div>
 
+        <div id="monthFestivals" style="margin-top:60px; display:none;">
+            <p class="section-label">PLAN BY MONTH</p>
+            <h2 id="monthFestivalsTitle" style="margin-bottom:12px;">Festivals &amp; Events This Month</h2>
+            <p class="section-description" style="margin-bottom:20px;">Pick a month to see festivals and events from our country guides. Dates shift each year, so confirm before you book.</p>
+            <div class="tabs-nav" id="monthTabs" style="margin-bottom:24px;"></div>
+            <div class="cards three-col" id="monthFestivalCards"></div>
+            <div style="text-align:center; margin-top:20px;"><button id="monthMoreBtn" class="tab-btn" style="display:none;">Show more</button></div>
+        </div>
+
     </section>
 
 
@@ -569,5 +578,69 @@
     </footer>
 
 
+    <script>
+    (function () {
+        const guides = window.COUNTRY_GUIDES || {};
+        const M = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+        const re = new RegExp('\\b(' + M.join('|') + ')\\b', 'g');
+        const FEST = /festival|carnival|fireworks|marathon|fair|parade|day\b|nyepi|songkran|tet\b|holi|loy|diwali|eid|oktoberfest|tomatina|fiesta|feria|fallas|palio|perahera|mela|matsuri|odori|pooram/i;
+        function monthsOf(desc) {
+            const first = (desc || '').split(/(?<=[.!?])\s/)[0];
+            if (/dates? (vary|change)|varies|every (210|two)|monthly|full moon|Easter|Ramadan|Eid|Orthodox/i.test(first)) return [];
+            const idx = []; let m; re.lastIndex = 0;
+            while ((m = re.exec(first))) idx.push([M.indexOf(m[1]), m.index]);
+            const set = new Set();
+            for (let i = 0; i < idx.length; i++) {
+                const a = idx[i][0];
+                const between = i + 1 < idx.length ? first.slice(idx[i][1] + M[a].length, idx[i + 1][1]) : '';
+                if (i + 1 < idx.length && /^\s*(to|–|-|through)\s*$/.test(between)) {
+                    const b = idx[i + 1][0]; let k = a; set.add(k);
+                    while (k !== b) { k = (k + 1) % 12; set.add(k); }
+                    i++;
+                } else set.add(a);
+            }
+            return [...set];
+        }
+        const byMonth = Array.from({ length: 12 }, () => []);
+        Object.keys(guides).sort().forEach(country => {
+            const g = guides[country];
+            ['festivals', 'events'].forEach(sec => {
+                (g[sec] || []).forEach(it => {
+                    if (sec === 'events' && !FEST.test(it.name)) return;
+                    if (/season/i.test(it.name)) return;
+                    monthsOf(it.desc).forEach(mi => byMonth[mi].push({ country, name: it.name, desc: it.desc }));
+                });
+            });
+        });
+        const box = document.getElementById('monthFestivals');
+        if (!box || !byMonth.some(a => a.length)) return;
+        box.style.display = 'block';
+        const tabs = document.getElementById('monthTabs');
+        const cards = document.getElementById('monthFestivalCards');
+        const moreBtn = document.getElementById('monthMoreBtn');
+        const PAGE = 9;
+        let current = new Date().getMonth(), shown = PAGE;
+        const esc = t => String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+        tabs.innerHTML = M.map((m, i) => `<button class="tab-btn ${i === current ? 'active' : ''}" data-m="${i}" style="display:inline-block;">${m.slice(0, 3)}</button>`).join('');
+        function render() {
+            const list = byMonth[current];
+            document.getElementById('monthFestivalsTitle').textContent = `Festivals & Events in ${M[current]}`;
+            cards.innerHTML = list.slice(0, shown).map(it => {
+                const sentence = it.desc.split(/(?<=[.!?])\s/).slice(0, 2).join(' ');
+                return `<article class="card coming-soon-card"><h3>${esc(it.name)}</h3><p style="opacity:.75;margin-bottom:6px;">${esc(it.country)}</p><p>${esc(sentence)}</p><a href="country.html?country=${encodeURIComponent(it.country)}" class="card-link" style="color:#4caf6d;">${esc(it.country)} guide →</a></article>`;
+            }).join('') || '<p>No dated festivals listed for this month yet.</p>';
+            moreBtn.style.display = list.length > shown ? 'inline-block' : 'none';
+            moreBtn.textContent = `Show more (${list.length - shown} left)`;
+        }
+        tabs.addEventListener('click', e => {
+            const b = e.target.closest('[data-m]'); if (!b) return;
+            current = +b.dataset.m; shown = PAGE;
+            tabs.querySelectorAll('.tab-btn').forEach(x => x.classList.toggle('active', x === b));
+            render();
+        });
+        moreBtn.addEventListener('click', () => { shown += PAGE; render(); });
+        render();
+    })();
+    </script>
 </body>
 </html>
