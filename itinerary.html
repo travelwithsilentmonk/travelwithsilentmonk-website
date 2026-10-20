@@ -119,7 +119,8 @@
         }
 
         if (data && country) {
-            document.title = `${country} Itinerary | TravelWithSilentMonk`;
+            document.title = `${country} 5, 7 & 10 Day Itinerary | TravelWithSilentMonk`;
+            const md = document.createElement("meta"); md.name = "description"; md.content = `Day-by-day 5, 7 and 10-day ${country} itineraries with the best places, routes and what to see.`; document.head.appendChild(md);
             document.getElementById('pageTitle2').textContent = `${country} Itinerary`;
             document.getElementById('pageIntro').textContent = data.intro;
             document.getElementById('breadcrumb').innerHTML = `
