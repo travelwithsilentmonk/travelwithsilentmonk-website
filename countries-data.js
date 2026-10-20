@@ -347,7 +347,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Albanian lek (ALL). Euros are often accepted on the coast, but carry lek for small purchases.",
    "safety": "Generally safe for visitors. Drive carefully, avoid unmarked mountain tracks and watch for petty theft in Tirana.",
    "tipping": "Around 10% in restaurants is appreciated.",
-   "transport": "Furgons (minibuses) and buses link towns, with fewer set timetables. Renting a car helps for the Albanian Riviera and mountains, but roads can be rough."
+   "transport": "Furgons (minibuses) and buses link towns, with fewer set timetables. Renting a car helps for the Albanian Riviera and mountains, but roads can be rough.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 90 days. Holders of certain residence permits or multi-entry visas may be exempt under conditions. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -718,7 +719,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Argentine peso (ARS). Exchange rates and prices change quickly, so check current rules for cards and cash before arriving.",
    "safety": "Pickpocketing and phone theft are common in Buenos Aires. Keep valuables out of sight and use registered taxis.",
    "tipping": "About 10% in restaurants.",
-   "transport": "Long-distance buses are comfortable, and domestic flights save time to Patagonia. Buenos Aires has a metro and taxis, and ride apps are available."
+   "transport": "Long-distance buses are comfortable, and domestic flights save time to Patagonia. Buenos Aires has a metro and taxis, and ride apps are available.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Indians with certain valid US visas or a US Green Card can enter visa-free, with entry verified on arrival. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -911,7 +913,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Armenian dram (AMD). Cards are common in Yerevan, but carry cash in villages.",
    "safety": "Generally safe. Avoid border areas near Azerbaijan and check your government's advice before travelling.",
    "tipping": "About 10% in restaurants if no service charge is added.",
-   "transport": "Marshrutkas (minibuses) link towns cheaply, and taxi apps like GG work in Yerevan."
+   "transport": "Marshrutkas (minibuses) link towns cheaply, and taxi apps like GG work in Yerevan.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 90 days. Holders of certain EU, UK, US and other valid visas or residence permits can get visa on arrival. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -1088,7 +1091,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Australian dollar (AUD). Cards and contactless payments are accepted nearly everywhere.",
    "safety": "Respect sun, surf and wildlife warnings. Swim between the flags, carry water in remote areas, and check weather and road conditions.",
    "tipping": "Not expected, but rounding up for good service is common.",
-   "transport": "Domestic flights cover long distances, and rental cars suit road trips. Check distances, as they are much larger than they look on a map."
+   "transport": "Domestic flights cover long distances, and rental cars suit road trips. Check distances, as they are much larger than they look on a map.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Apply online for the visitor (e600) visa. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -1276,7 +1280,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe. Take normal care with pickpockets in tourist areas and with mountain weather.",
    "tipping": "Round up or leave 5–10% in restaurants.",
-   "transport": "Trains (ÖBB) are efficient, and Vienna has trams, buses and a metro. Mountain areas are well served by buses."
+   "transport": "Trains (ÖBB) are efficient, and Vienna has trams, buses and a metro. Mountain areas are well served by buses.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -1457,7 +1462,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Azerbaijani manat (AZN). Cards work in Baku, but carry cash outside the capital.",
    "safety": "Check your government's advice and avoid areas near the borders with Armenia and the Nagorno-Karabakh region.",
    "tipping": "Around 10% in restaurants if a service charge is not added.",
-   "transport": "Baku has a metro and taxis (Bolt, Uber), and buses and shared taxis link other cities."
+   "transport": "Baku has a metro and taxis (Bolt, Uber), and buses and shared taxis link other cities.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 30 days, about US$30. Land borders require the e-visa in advance. Screening can be stricter for travellers with Armenian entry stamps. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -1666,7 +1672,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Bahraini dinar (BHD). Cards are widely accepted.",
    "safety": "Generally safe, but check your government's advice. Respect local laws and dress codes.",
    "tipping": "About 10% in restaurants if no service charge is added.",
-   "transport": "Taxis and ride apps are the main option, and renting a car is practical. The King Fahd Causeway links to Saudi Arabia."
+   "transport": "Taxis and ride apps are the main option, and renting a car is practical. The King Fahd Causeway links to Saudi Arabia.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa or visa on arrival for up to 14 days, with multiple-entry e-visa options. Apply on the official Bahrain e-visa site. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -1841,7 +1848,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Bangladeshi taka (BDT). Carry cash, as cards are limited outside cities.",
    "safety": "Watch for petty theft and political demonstrations. Check your government's advice for the Chittagong Hill Tracts.",
    "tipping": "A small tip of around 10% in restaurants is common.",
-   "transport": "Trains and buses connect cities, and river ferries serve the delta. Dhaka traffic is heavy, so allow extra time. Use Uber or Pathao for rides."
+   "transport": "Trains and buses connect cities, and river ferries serve the delta. Dhaka traffic is heavy, so allow extra time. Use Uber or Pathao for rides.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Apply through the Bangladesh High Commission or visa application centres in India. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -2231,7 +2239,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Generally safe. Watch for pickpockets in Brussels and on trains.",
    "tipping": "Service is included; rounding up is optional.",
-   "transport": "The rail network is dense and cheap, and Brussels has a metro, trams and buses."
+   "transport": "The rail network is dense and cheap, and Brussels has a metro, trams and buses.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -2609,7 +2618,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Bhutanese ngultrum (BTN), which is pegged to the Indian rupee. Indian rupees are widely accepted.",
    "safety": "Very safe. Altitude and weather are the main considerations on treks.",
    "tipping": "Guides and drivers are tipped at the end of a tour, usually a modest amount.",
-   "transport": "Roads wind through mountains, so journeys take longer than distances suggest. Most visitors use a licensed guide and driver."
+   "transport": "Roads wind through mountains, so journeys take longer than distances suggest. Most visitors use a licensed guide and driver.",
+   "visa": "Indian passport holders (checked Oct 2026): no visa, but you need a permit and must pay the daily fee (Sustainable Development Fee). Passport or voter ID is accepted. Book through the official Bhutan tourism process. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -2972,7 +2982,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Convertible mark (BAM). Euros are accepted in some tourist places.",
    "safety": "Generally safe. Stay on marked paths in rural areas, as landmines remain in some regions.",
    "tipping": "Round up or leave 10% in restaurants.",
-   "transport": "Buses link major towns, and a rental car helps for rural areas."
+   "transport": "Buses link major towns, and a rental car helps for rural areas.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, though a valid multiple-entry Schengen or US visa can substitute. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -3163,7 +3174,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Botswana pula (BWP). US dollars are often used for camps and lodges.",
    "safety": "Follow guides in wildlife areas and take malaria precautions.",
    "tipping": "Tip guides and camp staff at the end of a stay.",
-   "transport": "Light aircraft link the Okavango camps, and self-drive needs a 4x4 in parks."
+   "transport": "Light aircraft link the Okavango camps, and self-drive needs a 4x4 in parks.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 3 months. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -3357,7 +3369,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Brazilian real (BRL). Cards and Pix are common, though foreign visitors usually pay by card or cash.",
    "safety": "Petty theft and phone snatching are common in big cities, especially around beaches and favelas. Use licensed taxis or apps, and avoid displaying valuables.",
    "tipping": "A 10% service charge is often included in restaurant bills.",
-   "transport": "Domestic flights cover long distances, and buses are comfortable and cheap. Use Uber in cities, and take care at night."
+   "transport": "Domestic flights cover long distances, and buses are comfortable and cheap. Use Uber in cities, and take care at night.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Apply through the Brazilian embassy or consulate, and check the current e-visa availability. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -3734,7 +3747,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Bulgarian lev (BGN), with the euro adopted from 2026, so check which prices are displayed.",
    "safety": "Generally safe. Take care with taxi scams, especially at the airport and bus stations.",
    "tipping": "About 10% in restaurants.",
-   "transport": "Buses and trains link cities, and Sofia has a metro and trams."
+   "transport": "Buses and trains link cities, and Sofia has a metro and trams.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -3919,7 +3933,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Cambodia uses both US dollars and Cambodian riel (KHR); US dollars are common for larger prices.",
    "safety": "Watch for bag snatching in Phnom Penh. Avoid unexploded ordnance areas away from marked paths.",
    "tipping": "Not expected, but small tips are appreciated.",
-   "transport": "Buses and mini-vans link Phnom Penh, Siem Reap, Kampot and the coast. Use PassApp or Grab for tuk-tuks in cities."
+   "transport": "Buses and mini-vans link Phnom Penh, Siem Reap, Kampot and the coast. Use PassApp or Grab for tuk-tuks in cities.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa or visa on arrival, about US$36 for 30 days. The e-visa lets you skip the airport queue; apply only on the official Cambodian e-visa site to avoid lookalike sites that add fees. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -4267,7 +4282,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Canadian dollar (CAD). Cards and contactless payments are accepted widely.",
    "safety": "Be bear-aware in wilderness areas and check weather, wildfire and road conditions.",
    "tipping": "15–20% in restaurants and for taxis.",
-   "transport": "Flights cover long distances, and rental cars suit national parks. VIA Rail connects major cities."
+   "transport": "Flights cover long distances, and rental cars suit national parks. VIA Rail connects major cities.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Apply online and at visa application centres, and allow time for biometrics. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -4635,7 +4651,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Chinese yuan (CNY). Foreign cards often don't work, so set up Alipay or WeChat Pay with a foreign card and carry some cash.",
    "safety": "Generally safe for visitors, but internet access is restricted, so install a VPN or eSIM with roaming before you go. Check current entry and visa rules.",
    "tipping": "Not customary.",
-   "transport": "High-speed trains are fast and cheap. Use apps like Trip.com and DiDi, and keep your passport handy for train tickets."
+   "transport": "High-speed trains are fast and cheap. Use apps like Trip.com and DiDi, and keep your passport handy for train tickets.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, with 24-hour visa-free transit at some international airports. Apply through the Chinese visa application centre in India. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -4817,7 +4834,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Colombian peso (COP). Carry cash in small towns.",
    "safety": "Check your government's advice by region. Use licensed taxis, avoid displaying valuables and avoid some border areas.",
    "tipping": "A 10% voluntary service charge is common in restaurants.",
-   "transport": "Flights are cheap and important for long distances. Use Uber, InDrive or taxi apps in cities."
+   "transport": "Flights are cheap and important for long distances. Use Uber, InDrive or taxi apps in cities.",
+   "visa": "Indian passport holders (checked Oct 2026): an online visa is required, though certain Schengen or US visas may substitute. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -5204,7 +5222,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Generally safe. Take care of sea urchins, strong sun and unexploded mines away from marked paths in some inland areas.",
    "tipping": "Round up or leave 10% in restaurants.",
-   "transport": "Buses link coastal towns, and ferries serve islands. Book ferries early in summer."
+   "transport": "Buses link coastal towns, and ferries serve islands. Book ferries early in summer.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -5784,7 +5803,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Czech koruna (CZK). Avoid exchange booths with poor rates.",
    "safety": "Watch for pickpockets in Prague and unofficial taxis.",
    "tipping": "Round up or leave around 10% in restaurants.",
-   "transport": "Trains and buses are cheap, and Prague has trams and a metro."
+   "transport": "Trains and buses are cheap, and Prague has trams and a metro.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -5977,7 +5997,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Danish krone (DKK). Cards are accepted nearly everywhere.",
    "safety": "Very safe. Watch for pickpockets in central Copenhagen.",
    "tipping": "Service is included; rounding up is optional.",
-   "transport": "Trains and buses link cities, and cycling is common. Copenhagen has an excellent metro and bike lanes."
+   "transport": "Trains and buses link cities, and cycling is common. Copenhagen has an excellent metro and bike lanes.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -6534,7 +6555,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Egyptian pound (EGP). Carry small notes for tips and entrance fees, as they are widely needed.",
    "safety": "Touts are persistent at tourist sites; a firm no and agreeing prices upfront helps. Check your government's advice for the Sinai peninsula and border areas.",
    "tipping": "Baksheesh (small tips) is expected for many services, usually 5–10% in restaurants.",
-   "transport": "Trains and overnight sleepers link Cairo, Luxor and Aswan; domestic flights are cheap. Use Uber or Careem in Cairo."
+   "transport": "Trains and overnight sleepers link Cairo, Luxor and Aswan; domestic flights are cheap. Use Uber or Careem in Cairo.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 30 days. Apply online on the official Egyptian portal before travel. Visa on arrival is limited to certain groups, so don't rely on it. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -6913,7 +6935,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe. Take normal city precautions.",
    "tipping": "Round up or leave around 10%.",
-   "transport": "Buses link towns, and Tallinn has trams and buses. Ride apps like Bolt were founded here."
+   "transport": "Buses link towns, and Tallinn has trams and buses. Ride apps like Bolt were founded here.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -7104,7 +7127,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Ethiopian birr (ETB). Carry cash, as cards are limited outside Addis Ababa.",
    "safety": "Check your government's advice. Some regions have conflict, so stick to approved routes and use reputable operators.",
    "tipping": "Small tips of around 10% are common.",
-   "transport": "Domestic flights connect main sights, and roads can be slow."
+   "transport": "Domestic flights connect main sights, and roads can be slow.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa of 30 or 90 days, or visa on arrival at Addis Ababa Bole Airport only. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -7279,7 +7303,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Fijian dollar (FJD).",
    "safety": "Generally safe. Use sun protection, check water conditions and use licensed boat operators.",
    "tipping": "Not expected, but welcome.",
-   "transport": "Boats and small planes link islands, and buses and taxis serve Viti Levu."
+   "transport": "Boats and small planes link islands, and buses and taxis serve Viti Levu.",
+   "visa": "Indian passport holders (checked Oct 2026): visa-free for up to 4 months. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -7454,7 +7479,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe. Dress for the cold in winter and watch for ice.",
    "tipping": "Not expected; rounding up is fine.",
-   "transport": "Trains and buses are efficient. Flights and night trains serve Lapland."
+   "transport": "Trains and buses are efficient. Flights and night trains serve Lapland.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -7643,7 +7669,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Pickpockets target tourists around major sights and the metro. Strikes can disrupt transport, so check ahead.",
    "tipping": "Service is included by law; leaving a few extra euros is optional.",
-   "transport": "TGV trains link major cities and regional trains reach most towns. Paris has an extensive metro, RER and bus network."
+   "transport": "TGV trains link major cities and regional trains reach most towns. Paris has an extensive metro, RER and bus network.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -7831,7 +7858,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Georgian lari (GEL).",
    "safety": "Generally safe. Avoid the breakaway regions of Abkhazia and South Ossetia.",
    "tipping": "A 10% tip is common if no service charge is added.",
-   "transport": "Marshrutkas link towns cheaply, and Bolt and Yandex are used for taxis."
+   "transport": "Marshrutkas link towns cheaply, and Bolt and Yandex are used for taxis.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 30 days. Holders of certain foreign visas or residence permits can enter visa-free for longer. Apply on the official Georgian e-visa site. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -8019,7 +8047,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR). Cash is still common in smaller places.",
    "safety": "Germany is generally safe, with pickpockets in stations and busy areas.",
    "tipping": "Round up or tip around 5–10% in restaurants.",
-   "transport": "Deutsche Bahn trains link most cities, and the Deutschlandticket covers regional transport. Book long-distance trains early for cheaper fares."
+   "transport": "Deutsche Bahn trains link most cities, and the Deutschlandticket covers regional transport. Book long-distance trains early for cheaper fares.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -8216,7 +8245,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Ghanaian cedi (GHS).",
    "safety": "Generally safe. Use registered taxis, avoid walking alone at night and require yellow fever vaccination.",
    "tipping": "Around 10% in restaurants.",
-   "transport": "Trotros (minibuses) and buses link towns, and Bolt and Uber work in Accra."
+   "transport": "Trotros (minibuses) and buses link towns, and Bolt and Uber work in Accra.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Apply through the Ghana High Commission or official e-visa channels. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -8398,7 +8428,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Greece is generally safe. Watch for pickpockets in Athens, and check wildfire and ferry strike news in summer.",
    "tipping": "Around 5–10% for good service is common; round up taxi fares.",
-   "transport": "Ferries connect the islands, with more services in summer; check timetables and book ahead for peak season. Athens has a metro and buses."
+   "transport": "Ferries connect the islands, with more services in summer; check timetables and book ahead for peak season. Athens has a metro and buses.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -8957,7 +8988,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Hong Kong dollar (HKD). Octopus cards work on transport and in shops.",
    "safety": "Very safe. Check current entry rules and local laws before travelling.",
    "tipping": "A 10% service charge is often added.",
-   "transport": "The MTR, trams, buses and ferries are efficient and cheap."
+   "transport": "The MTR, trams, buses and ferries are efficient and cheap.",
+   "visa": "Indian passport holders (checked Oct 2026): an online pre-arrival registration is required, for stays up to 14 days. Check the official Hong Kong Immigration site. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -9150,7 +9182,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Hungarian forint (HUF). Avoid street exchange offices.",
    "safety": "Generally safe. Beware of overcharging in tourist restaurants and taxi scams.",
    "tipping": "10–15% in restaurants unless a service charge is added.",
-   "transport": "Budapest has trams, metro and buses, and trains link other cities."
+   "transport": "Budapest has trams, metro and buses, and trains link other cities.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -9359,7 +9392,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Icelandic króna (ISK). Cards are accepted nearly everywhere.",
    "safety": "Weather and road conditions change quickly. Check road.is and safetravel.is, and never approach waves or glaciers carelessly.",
    "tipping": "Not expected.",
-   "transport": "Renting a car is the easiest way to see the Ring Road, and guided tours serve many highlights."
+   "transport": "Renting a car is the easiest way to see the Ring Road, and guided tours serve many highlights.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -10492,7 +10526,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Israeli new shekel (ILS).",
    "safety": "Check your government's current advice, as conditions can change quickly. Follow local guidance and avoid border areas.",
    "tipping": "About 10–15% in restaurants.",
-   "transport": "Trains and buses link main cities, though public transport runs reduced on Shabbat. Gett and Yango are ride apps."
+   "transport": "Trains and buses link main cities, though public transport runs reduced on Shabbat. Gett and Yango are ride apps.",
+   "visa": "Indian passport holders (checked Oct 2026): a digital e-visa has been available to Indian passport holders resident in India since 1 January 2025, valid for up to 90 days. Apply on the official Israeli portal. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -10680,7 +10715,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR). Cards are widely accepted, but keep some cash for small cafés.",
    "safety": "Pickpocketing is common near major sights and on public transport. Be careful of fake petition scams and unlicensed taxis.",
    "tipping": "Service is often included (servizio or coperto); leaving small change is optional.",
-   "transport": "High-speed trains connect major cities, and regional trains are cheap. Validate regional train tickets before boarding, and book popular museums and sights in advance."
+   "transport": "High-speed trains connect major cities, and regional trains are cheap. Validate regional train tickets before boarding, and book popular museums and sights in advance.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -11268,7 +11304,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Jordanian dinar (JOD). Keep small notes for tips and taxis.",
    "safety": "Jordan is generally safe for visitors. Check your government's advice for border areas.",
    "tipping": "About 10% in restaurants; small tips for guides and drivers.",
-   "transport": "JETT buses link Amman, Petra and Aqaba. Taxis are cheap, and rental cars suit the King's Highway."
+   "transport": "JETT buses link Amman, Petra and Aqaba. Taxis are cheap, and rental cars suit the King's Highway.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa or visa on arrival for up to 30 days. Consider the Jordan Pass, which can cover the visa fee and Petra entry for qualifying stays. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -11463,7 +11500,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Kazakhstani tenge (KZT).",
    "safety": "Generally safe. Respect local customs and carry a copy of your passport and registration.",
    "tipping": "Around 10% in restaurants.",
-   "transport": "Trains and domestic flights cover long distances. Yandex Go is a popular taxi app."
+   "transport": "Trains and domestic flights cover long distances. Yandex Go is a popular taxi app.",
+   "visa": "Indian passport holders (checked Oct 2026): visa-free for up to 14 days. Closed or restricted areas need special permission. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -11654,7 +11692,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Kenyan shilling (KES). Mobile money (M-Pesa) is widely used by locals.",
    "safety": "Take care in Nairobi at night and avoid displaying valuables. Check your government's advice for areas near the Somali border.",
    "tipping": "Around 10% in restaurants; tip guides and drivers on safari.",
-   "transport": "Flights connect Nairobi, Mombasa and the Mara, and the SGR train links Nairobi and Mombasa. Use Uber or Bolt in Nairobi."
+   "transport": "Flights connect Nairobi, Mombasa and the Mara, and the SGR train links Nairobi and Mombasa. Use Uber or Bolt in Nairobi.",
+   "visa": "Indian passport holders (checked Oct 2026): an Electronic Travel Authorisation (ETA) is required, about US$30–33, applied for 3–90 days before travel for up to 90 days. A yellow fever certificate and accommodation proof may be requested. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -12241,7 +12280,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Lao kip (LAK). Thai baht and US dollars are also accepted in some places.",
    "safety": "Avoid unexploded ordnance areas away from marked paths, and use official boats and tours.",
    "tipping": "Not expected, but small tips are appreciated.",
-   "transport": "Buses, minivans and the high-speed train link Vientiane and Luang Prabang. Slow boats run on the Mekong."
+   "transport": "Buses, minivans and the high-speed train link Vientiane and Luang Prabang. Slow boats run on the Mekong.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa or visa on arrival for up to 30 days. Visa on arrival is available at major airports and several land borders; e-visa holders can use limited crossings. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -12434,7 +12474,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe. Take normal city precautions.",
    "tipping": "Round up or leave around 10%.",
-   "transport": "Buses and trains link towns, and Riga has trams and trolleybuses."
+   "transport": "Buses and trains link towns, and Riga has trams and trolleybuses.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -12813,7 +12854,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe. Take normal city precautions.",
    "tipping": "Around 10% in restaurants.",
-   "transport": "Trains and buses link cities, and Bolt works in Vilnius."
+   "transport": "Trains and buses link cities, and Bolt works in Vilnius.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -13016,7 +13058,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe.",
    "tipping": "Service is included; rounding up is optional.",
-   "transport": "Public transport is free nationwide, which is convenient for day trips."
+   "transport": "Public transport is free nationwide, which is convenient for day trips.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -13362,7 +13405,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Maldivian rufiyaa (MVR). US dollars are widely used at resorts.",
    "safety": "Respect local laws, as alcohol is only sold at resorts. Check currents before swimming and snorkelling.",
    "tipping": "Resorts add a service charge, with extra tips for staff appreciated.",
-   "transport": "Speedboats, ferries and seaplanes link islands. Budget travellers use local ferries between inhabited islands."
+   "transport": "Speedboats, ferries and seaplanes link islands. Budget travellers use local ferries between inhabited islands.",
+   "visa": "Indian passport holders (checked Oct 2026): visa-free arrival, listed as up to 90 days for Indians. Staying on non-resort islands may need government permission, and you must show a confirmed booking and a return ticket. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -13554,7 +13598,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe. Take normal precautions at night in Paceville.",
    "tipping": "Around 10% in restaurants if not included.",
-   "transport": "Buses are cheap and cover the islands, and ferries link Malta and Gozo. Bolt and eCabs are common."
+   "transport": "Buses are cheap and cover the islands, and ferries link Malta and Gozo. Bolt and eCabs are common.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -13734,7 +13779,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Mexican peso (MXN). Use ATMs inside banks, and carry cash for markets and small towns.",
    "safety": "Check your government's advice by state, as security varies widely. Use licensed taxis or apps, and avoid driving at night in remote areas.",
    "tipping": "10–15% in restaurants; tip drivers, guides and hotel staff.",
-   "transport": "Comfortable long-distance buses (ADO, ETN) cover much of the country. Use Uber in big cities and colectivos for short trips."
+   "transport": "Comfortable long-distance buses (ADO, ETN) cover much of the country. Use Uber in big cities and colectivos for short trips.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, unless you hold a valid US, Canadian, Japanese, UK or Schengen visa or residence documents, which can substitute. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -13927,7 +13973,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Mongolian tögrög (MNT).",
    "safety": "Generally safe. Watch for pickpockets in Ulaanbaatar and carry spare food and water on long drives.",
    "tipping": "Small tips of around 10% in restaurants.",
-   "transport": "Roads are rough outside Ulaanbaatar, so most visitors travel with a driver and guide."
+   "transport": "Roads are rough outside Ulaanbaatar, so most visitors travel with a driver and guide.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa or visa on arrival for up to 30 days. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -14114,7 +14161,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Generally safe. Take care on winding mountain roads.",
    "tipping": "Around 10% in restaurants.",
-   "transport": "Buses link towns, and a rental car helps for national parks."
+   "transport": "Buses link towns, and a rental car helps for national parks.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, but valid visas or residence permits from Schengen countries, the UK, Ireland, the US, Japan, Canada, New Zealand or Australia can substitute for stays up to 30 days. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -14323,7 +14371,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Moroccan dirham (MAD). Exchanging currency outside Morocco is difficult, so withdraw from ATMs on arrival.",
    "safety": "Be wary of unofficial guides in medinas, and agree prices before accepting any service. Dress modestly, especially for women away from tourist areas.",
    "tipping": "Around 10% in restaurants; small tips for guides and porters.",
-   "transport": "ONCF trains link Casablanca, Rabat, Marrakech, Fes and Tangier, and CTM buses cover most other towns. Use petit taxis in cities, with the meter on."
+   "transport": "ONCF trains link Casablanca, Rabat, Marrakech, Fes and Tangier, and CTM buses cover most other towns. Use petit taxis in cities, with the meter on.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 30 days. Apply online on the official Moroccan e-visa site before travel. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -14872,7 +14921,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR). Cards are widely accepted, but some places do not take foreign credit cards.",
    "safety": "Very safe. Watch for pickpockets, and beware of cyclists.",
    "tipping": "Round up or leave around 5–10%.",
-   "transport": "Trains are fast, and cycling is common. Use an OV-chipkaart or contactless in cities."
+   "transport": "Trains are fast, and cycling is common. Use an OV-chipkaart or contactless in cities.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -15063,7 +15113,8 @@ window.COUNTRY_GUIDES = {
    "currency": "New Zealand dollar (NZD).",
    "safety": "Very safe, but weather and road conditions change quickly, so check conditions for hikes and mountain roads.",
    "tipping": "Not expected.",
-   "transport": "Renting a campervan or car is popular, and domestic flights save time between islands."
+   "transport": "Renting a campervan or car is popular, and domestic flights save time between islands.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, and a New Zealand Electronic Travel Authority (NZeTA) is needed before departure where applicable. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -15409,7 +15460,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Nigerian naira (NGN). Carry cash, as cards may not work.",
    "safety": "Check your government's advice. Some regions have security risks, so avoid road travel at night and use trusted drivers.",
    "tipping": "About 10% is common.",
-   "transport": "Domestic flights link major cities, and Uber and Bolt work in Lagos and Abuja."
+   "transport": "Domestic flights link major cities, and Uber and Bolt work in Lagos and Abuja.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 30 days. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -15776,7 +15828,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Norwegian krone (NOK). Cards are used almost everywhere.",
    "safety": "Very safe. Weather changes quickly in the mountains, so follow hiking safety advice.",
    "tipping": "Not expected; rounding up is common.",
-   "transport": "Trains, buses and ferries link towns, and scenic routes such as the Bergen Line are popular."
+   "transport": "Trains, buses and ferries link towns, and scenic routes such as the Bergen Line are popular.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -15985,7 +16038,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Omani rial (OMR).",
    "safety": "Generally safe, but check your government's advice. Be careful at wadis during rain and drive carefully on desert roads.",
    "tipping": "About 10% in restaurants.",
-   "transport": "Renting a car is the best way to see the country, and taxis are available in Muscat."
+   "transport": "Renting a car is the best way to see the country, and taxis are available in Muscat.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Holders of certain Australian, Canadian, Japanese, UK, US or Schengen visas or residence permits can get a 14-day visa on arrival. Apply for the e-visa on the Royal Oman Police site. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -16914,7 +16968,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Peruvian sol (PEN). Soles are best for small purchases.",
    "safety": "Use registered taxis and watch for pickpockets in Lima and Cusco. Altitude sickness is common in Cusco, so acclimatise and drink coca tea.",
    "tipping": "About 10% in restaurants; tip guides and porters on treks.",
-   "transport": "Buses connect the main towns, and flights save time to Cusco and Iquitos. Trains run to Machu Picchu, so book in advance. Use Uber or Cabify in Lima."
+   "transport": "Buses connect the main towns, and flights save time to Cusco and Iquitos. Trains run to Machu Picchu, so book in advance. Use Uber or Cabify in Lima.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Indians holding certain valid Australian, Canadian, UK, US or Schengen visas or residence can enter visa-free for up to 180 days in any 365. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -17097,7 +17152,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Philippine peso (PHP). Carry cash on smaller islands, as ATMs may be scarce.",
    "safety": "Check your government's advice for the south and Mindanao regions. Use official boats and check weather before island hopping.",
    "tipping": "10% in restaurants if service charge is not included.",
-   "transport": "Flights and ferries connect the islands. Use Grab in Manila and Cebu, and trikes or jeepneys for short trips."
+   "transport": "Flights and ferries connect the islands. Use Grab in Manila and Cebu, and trikes or jeepneys for short trips.",
+   "visa": "Indian passport holders (checked Oct 2026): visa-free for tourism, usually 14 days (some visa holders from countries such as the US, UK, Japan, Australia, Canada, Singapore and Schengen can get up to 30 days). Complete the eTravel registration before arrival and carry a return ticket. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -17279,7 +17335,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Polish złoty (PLN).",
    "safety": "Very safe. Watch for pickpockets in tourist areas.",
    "tipping": "About 10% in restaurants.",
-   "transport": "Trains and buses are cheap, and Warsaw, Kraków and Wrocław have trams and buses."
+   "transport": "Trains and buses are cheap, and Warsaw, Kraków and Wrocław have trams and buses.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -17455,7 +17512,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Pickpocketing is common on tram 28 and in tourist areas of Lisbon.",
    "tipping": "Not required; rounding up or leaving small change is common.",
-   "transport": "Trains link Lisbon, Porto and Coimbra, and buses cover smaller places. Lisbon and Porto have metros, and Lisbon's trams and hills are part of the experience."
+   "transport": "Trains link Lisbon, Porto and Coimbra, and buses cover smaller places. Lisbon and Porto have metros, and Lisbon's trams and hills are part of the experience.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -17658,7 +17716,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Qatari riyal (QAR).",
    "safety": "Generally safe, but check your government's advice. Respect local laws and dress codes.",
    "tipping": "About 10% in restaurants if no service charge is added.",
-   "transport": "The Doha Metro and Uber or Karwa taxis are convenient."
+   "transport": "The Doha Metro and Uber or Karwa taxis are convenient.",
+   "visa": "Indian passport holders (checked Oct 2026): visa-free for up to 30 days, with a confirmed return ticket and a hotel booking made through Discover Qatar (minimum two nights). Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -17844,7 +17903,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Romanian leu (RON).",
    "safety": "Generally safe. Use licensed taxis and watch for petty theft.",
    "tipping": "About 10% in restaurants.",
-   "transport": "Trains and buses link cities, and Bucharest has a metro. Use Bolt or Uber."
+   "transport": "Trains and buses link cities, and Bucharest has a metro. Use Bolt or Uber.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -18214,7 +18274,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Rwandan franc (RWF).",
    "safety": "Very safe in towns, but check your government's advice, especially for border areas with the DR Congo.",
    "tipping": "Not expected, but welcome.",
-   "transport": "Buses and moto-taxis link towns, and Kigali has taxi apps."
+   "transport": "Buses and moto-taxis link towns, and Kigali has taxi apps.",
+   "visa": "Indian passport holders (checked Oct 2026): visa-free for up to 30 days. The East Africa Tourist Visa (about US$100) covers Kenya, Rwanda and Uganda for up to 90 days. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -18387,7 +18448,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Saudi riyal (SAR).",
    "safety": "Check your government's advice, as some regions are restricted. Follow local laws and dress codes.",
    "tipping": "About 10% in restaurants if no service charge is added.",
-   "transport": "Domestic flights, a growing rail network and rideshare apps like Uber and Careem."
+   "transport": "Domestic flights, a growing rail network and rideshare apps like Uber and Careem.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Tourist e-visas are available through official Saudi portals, and visa on arrival is limited to some Schengen, UK or US visa holders. Hajj and Umrah rules are separate. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -18568,7 +18630,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Serbian dinar (RSD).",
    "safety": "Generally safe. Check advice for Kosovo and border areas.",
    "tipping": "About 10% in restaurants.",
-   "transport": "Buses and trains link Belgrade, Novi Sad and other towns."
+   "transport": "Buses and trains link Belgrade, Novi Sad and other towns.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 90 days in any 180. A private visit may need an invitation letter. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -18764,7 +18827,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Singapore dollar (SGD). Cards and contactless payments are accepted nearly everywhere.",
    "safety": "Singapore is very safe, but laws are strict on littering, chewing gum, vaping and drugs.",
    "tipping": "Not expected; a 10% service charge is often added.",
-   "transport": "The MRT and buses are clean and efficient. Use a contactless bank card or an EZ-Link card for fares."
+   "transport": "The MRT and buses are clean and efficient. Use a contactless bank card or an EZ-Link card for fares.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, applied for through authorised travel agencies or a local sponsor. A conditional 96-hour visa-free transit may apply for some travellers. Complete the SG Arrival Card online before arrival. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -18950,7 +19014,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe.",
    "tipping": "Around 10% in restaurants.",
-   "transport": "Trains and buses link Bratislava, Košice and mountain areas."
+   "transport": "Trains and buses link Bratislava, Košice and mountain areas.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -19147,7 +19212,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Very safe.",
    "tipping": "Around 10% for good service.",
-   "transport": "Trains and buses link Ljubljana, Bled and other towns. A rental car helps for rural areas."
+   "transport": "Trains and buses link Ljubljana, Bled and other towns. A rental car helps for rural areas.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -19333,7 +19399,8 @@ window.COUNTRY_GUIDES = {
    "currency": "South African rand (ZAR). Cards are widely used.",
    "safety": "Crime is a concern in cities. Avoid walking at night, keep valuables out of sight, and use ride apps.",
    "tipping": "10–15% in restaurants; tip guides and petrol attendants.",
-   "transport": "Renting a car is common. Use Uber or Bolt in cities, and domestic flights for long distances."
+   "transport": "Renting a car is common. Use Uber or Bolt in cities, and domestic flights for long distances.",
+   "visa": "Indian passport holders (checked Oct 2026): an Electronic Travel Authorisation (ETA), valid for up to 90 days, applies at certain airports including OR Tambo, Cape Town and Lanseria. Check the official South African home affairs site. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -19526,7 +19593,8 @@ window.COUNTRY_GUIDES = {
    "currency": "South Korean won (KRW). Cards are common, but some small shops and markets prefer cash.",
    "safety": "South Korea is very safe. Check news for the northern border area.",
    "tipping": "Not customary.",
-   "transport": "KTX high-speed trains and intercity buses connect cities. In Seoul, a T-money card works on the metro and buses."
+   "transport": "KTX high-speed trains and intercity buses connect cities. In Seoul, a T-money card works on the metro and buses.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. Some travellers with certain US, Australian, Canadian, New Zealand or Schengen visas or residence can qualify for a 30-day tourist or transit visa. Apply through the Korean embassy or visa centre. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -19707,7 +19775,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Euro (EUR).",
    "safety": "Pickpocketing is common in Barcelona and Madrid, especially at tourist spots and on public transport.",
    "tipping": "Not expected; round up or leave small change.",
-   "transport": "The AVE high-speed train links major cities and buses cover most other places. Cities have metros and cheap taxis."
+   "transport": "The AVE high-speed train links major cities and buses cover most other places. Cities have metros and cheap taxis.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -20067,7 +20136,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Swedish krona (SEK). Many places are cashless.",
    "safety": "Generally safe. Take care in some suburban areas and keep your belongings secure in crowded places.",
    "tipping": "Not expected; round up for good service.",
-   "transport": "Trains and buses link cities. Stockholm has a metro, buses and ferries."
+   "transport": "Trains and buses link cities. Stockholm has a metro, buses and ferries.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -20264,7 +20334,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Swiss franc (CHF).",
    "safety": "Very safe. Mountain weather changes quickly.",
    "tipping": "Service is included; rounding up is common.",
-   "transport": "The Swiss Travel Pass covers trains, buses and boats and many mountain railways."
+   "transport": "The Swiss Travel Pass covers trains, buses and boats and many mountain railways.",
+   "visa": "Indian passport holders (checked Oct 2026): a Schengen visa is required, and it works across the Schengen area. Apply through the embassy or visa centre of the country where you'll spend the most time, with travel insurance, accommodation and funds proof, and allow several weeks. Check each country's official site. Rules change often."
   },
   "stays": [
    {
@@ -20453,7 +20524,8 @@ window.COUNTRY_GUIDES = {
    "currency": "New Taiwan dollar (TWD).",
    "safety": "Very safe. Typhoons and earthquakes are natural hazards.",
    "tipping": "Not expected.",
-   "transport": "High-speed rail, metro and buses are efficient, and EasyCard works across most transport."
+   "transport": "High-speed rail, metro and buses are efficient, and EasyCard works across most transport.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required. An online travel authorisation is available for eligible Indians who hold certain permanent residence or valid visas. Apply through the Taiwan embassy office or online if eligible. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -20842,7 +20914,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Tanzanian shilling (TZS). US dollars are often used for park fees and tours.",
    "safety": "Use registered safari operators and check recent reviews. Take malaria precautions and drink bottled water.",
    "tipping": "Tip safari guides, cooks and porters; commonly $10–20 per guide per day on safari, adjusted for group size.",
-   "transport": "Light aircraft and long-distance buses connect main destinations. Ferries link Dar es Salaam and Zanzibar."
+   "transport": "Light aircraft and long-distance buses connect main destinations. Ferries link Dar es Salaam and Zanzibar.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa or visa on arrival, with stays of up to 90 days. Apply for the e-visa on the official Tanzanian immigration site. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -21241,7 +21314,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Tunisian dinar (TND). It is illegal to import or export it, so exchange at the airport or use ATMs.",
    "safety": "Check your government's advice for border areas and the south. Haggle politely in souks.",
    "tipping": "Small tips of about 10% are common.",
-   "transport": "Trains, buses and louages (shared taxis) link cities."
+   "transport": "Trains, buses and louages (shared taxis) link cities.",
+   "visa": "Indian passport holders (checked Oct 2026): visa-free only in conditional cases (for example groups of five or more through a travel agency, with return ticket and hotel booking). Otherwise a visa is needed. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -21826,7 +21900,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Ugandan shilling (UGX).",
    "safety": "Check your government's advice. Avoid border areas with the DR Congo and South Sudan, and follow park rules.",
    "tipping": "About 10% in restaurants, with tips for guides and rangers.",
-   "transport": "Boda-bodas (motorbike taxis) and buses link towns, and SafeBoda and Uber operate in Kampala. Road travel can be slow."
+   "transport": "Boda-bodas (motorbike taxis) and buses link towns, and SafeBoda and Uber operate in Kampala. Road travel can be slow.",
+   "visa": "Indian passport holders (checked Oct 2026): an e-visa is required before arrival, valid for up to 3 months. The East Africa Tourist Visa is an option for multi-country trips. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -22374,7 +22449,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Pound sterling (GBP). Contactless payment is widely used.",
    "safety": "The UK is generally safe, and phone theft is a risk in big cities. Check the rail strike calendar before travelling.",
    "tipping": "10–12.5% in restaurants if no service charge is added.",
-   "transport": "National Rail connects cities, with cheaper advance tickets. London has the Tube, buses and contactless fares via Oyster or bank cards."
+   "transport": "National Rail connects cities, with cheaper advance tickets. London has the Tube, buses and contactless fares via Oyster or bank cards.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, applied for online and at visa application centres. Transit also needs a visa unless you hold a valid visa or residence in certain countries. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -22557,7 +22633,8 @@ window.COUNTRY_GUIDES = {
    "currency": "US dollar (USD). Cards are accepted nearly everywhere.",
    "safety": "Generally safe, but crime and safety vary by area. Check local conditions, drive carefully and carry travel health insurance.",
    "tipping": "Tipping is expected: 15–20% in restaurants, and tips for taxis and hotel staff.",
-   "transport": "Domestic flights and rental cars cover long distances. Amtrak serves some corridors, and big cities have metros and ride apps."
+   "transport": "Domestic flights and rental cars cover long distances. Amtrak serves some corridors, and big cities have metros and ride apps.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required, applied for through the US embassy or consulates, and wait times can be long. Transit also needs a visa. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -22944,7 +23021,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Uzbekistani som (UZS).",
    "safety": "Generally safe. Carry your passport and registration documents.",
    "tipping": "About 10% in restaurants.",
-   "transport": "High-speed trains link Tashkent, Samarkand, Bukhara and Khiva."
+   "transport": "High-speed trains link Tashkent, Samarkand, Bukhara and Khiva.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 30 days. A visa-free option for Indians has been reported in 2026, so check the latest rules on the official Uzbekistan e-visa site. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -23519,7 +23597,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Zambian kwacha (ZMW).",
    "safety": "Take malaria precautions and follow guides' instructions in parks.",
    "tipping": "Tip guides and camp staff at the end of a stay.",
-   "transport": "Flights link Lusaka, Livingstone and the parks. Buses link towns."
+   "transport": "Flights link Lusaka, Livingstone and the parks. Buses link towns.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa for up to 90 days. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
@@ -23698,7 +23777,8 @@ window.COUNTRY_GUIDES = {
    "currency": "US dollars are widely used, with the local Zimbabwe Gold (ZiG) also in circulation. Carry small notes.",
    "safety": "Check your government's advice. Avoid political demonstrations and use licensed operators.",
    "tipping": "About 10% in restaurants, with tips for guides.",
-   "transport": "Flights and buses link Harare, Bulawayo and Victoria Falls."
+   "transport": "Flights and buses link Harare, Bulawayo and Victoria Falls.",
+   "visa": "Indian passport holders (checked Oct 2026): e-visa or visa on arrival for up to one month. A KAZA UniVisa can cover Zimbabwe and Zambia for day trips and short stays, so check availability. Rules change often, so confirm on the official government or embassy site before booking."
   },
   "stays": [
    {
