@@ -396,7 +396,21 @@ footer p {
     }
 
     .navbar nav {
+        display: flex;
+        gap: 16px;
+        overflow-x: auto;
+        white-space: nowrap;
+        max-width: 62%;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+    }
+
+    .navbar nav::-webkit-scrollbar {
         display: none;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
     }
 
     .hero {
@@ -458,7 +472,7 @@ footer p {
     color: white;
     background:
         linear-gradient(90deg, rgba(0,0,0,0.75), rgba(0,0,0,0.25)),
-        center/cover;
+        linear-gradient(135deg, #0f2a1d 0%, #1b4332 55%, #2d6a4f 100%);
 }
 
 .hornbill-hero {
