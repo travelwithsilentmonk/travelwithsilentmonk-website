@@ -9175,7 +9175,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Indonesian rupiah (IDR). Use bank-attached ATMs, since skimming has been reported at standalone machines.",
    "safety": "Volcanoes and earthquakes are natural hazards, so check local advisories. Watch drinks and methanol cocktails, and drink bottled or filtered water.",
    "tipping": "A 5–10% service charge is often included; extra tips are appreciated but optional.",
-   "transport": "Flights connect the islands, and ferries serve nearby ones. In Bali, hire a scooter only with a licence and insurance, or use a driver or Grab and Gojek."
+   "transport": "Flights connect the islands, and ferries serve nearby ones. In Bali, hire a scooter only with a licence and insurance, or use a driver or Grab and Gojek.",
+   "visa": "Indian passport holders (checked Oct 2026): visa on arrival costs IDR 500,000 for a 30-day stay, extendable once. You can apply for an e-VOA online before travel. Bali also charges a one-time tourist levy of IDR 150,000, paid online. Use official Indonesian immigration and Bali government sites, since third-party sites add fees."
   },
   "stays": [
    {
@@ -10419,7 +10420,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Japanese yen (JPY). Cash is still widely used. 7-Eleven and Japan Post ATMs accept foreign cards.",
    "safety": "Japan is very safe. Natural hazards such as earthquakes and typhoons are the main risks, so know your hotel's evacuation information.",
    "tipping": "Tipping is not customary and can cause confusion.",
-   "transport": "Trains are fast and punctual, and IC cards (Suica or Pasmo) work on trains, buses and for vending machines. Check whether a Japan Rail Pass or regional pass is worthwhile for your route."
+   "transport": "Trains are fast and punctual, and IC cards (Suica or Pasmo) work on trains, buses and for vending machines. Check whether a Japan Rail Pass or regional pass is worthwhile for your route.",
+   "visa": "Indian passport holders (checked Oct 2026): a tourist visa is required. You can apply through VFS Global in India, and some applicants receive a digital eVisa. Stays are up to 90 days, with processing of about 5 working days or more. Fees are low (around ₹450–500 plus the VFS service fee) but Japan has proposed fee changes, so check VFS Global or the Japanese embassy for current fees and documents."
   },
   "stays": [
    {
@@ -12449,7 +12451,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Malaysian ringgit (MYR).",
    "safety": "Malaysia is generally safe, but watch for bag snatching on motorbikes in cities. Check jellyfish and sea conditions on beaches.",
    "tipping": "Not expected; a service charge is often added in restaurants.",
-   "transport": "Buses and trains link the peninsula, and flights are cheap to Borneo. Use Grab in cities."
+   "transport": "Buses and trains link the peninsula, and flights are cheap to Borneo. Use Grab in cities.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa-free stay of up to 30 days has been offered for Indian citizens and was extended to 31 December 2026, so check whether it continues for your travel dates. Carry a return ticket and accommodation proof, and complete the Malaysia Digital Arrival Card (MDAC) online before arrival."
   },
   "stays": [
    {
@@ -13851,7 +13854,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Nepali rupee (NPR). Carry cash for trekking areas, where ATMs are rare.",
    "safety": "Altitude sickness is the main trekking risk, so ascend gradually and use licensed guides where required. Check road and weather conditions during monsoon.",
    "tipping": "Guides and porters on treks are usually tipped at the end, commonly 10–15% of the fee.",
-   "transport": "Tourist buses link Kathmandu and Pokhara, and domestic flights serve Lukla. In towns, taxis and ride apps like Pathao are available."
+   "transport": "Tourist buses link Kathmandu and Pokhara, and domestic flights serve Lukla. In towns, taxis and ride apps like Pathao are available.",
+   "visa": "Indian citizens do not need a visa for Nepal and can enter by land or air. Carry a valid photo ID such as a passport or voter ID card. Confirm current ID requirements with your airline or the Nepal embassy before travel."
   },
   "stays": [
    {
@@ -18782,7 +18786,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Sri Lankan rupee (LKR). ATMs are common in towns.",
    "safety": "Agree tuk-tuk prices first or use an app. Be cautious of gem scams and sea conditions on west coast beaches in monsoon.",
    "tipping": "A 10% service charge is often included; extra tips are optional.",
-   "transport": "Scenic trains through the hill country sell out, so book ahead. Tuk-tuks, PickMe and Uber help for short trips."
+   "transport": "Scenic trains through the hill country sell out, so book ahead. Tuk-tuks, PickMe and Uber help for short trips.",
+   "visa": "Indian passport holders (checked Oct 2026): a free 30-day tourist ETA is reported to be in place from May 2026. Apply online at eta.gov.lk before travel, usually approved within 1–2 days, and carry a passport valid 6+ months, onward ticket and accommodation proof. Confirm the scheme is still active before you book."
   },
   "stays": [
    {
@@ -19864,7 +19869,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Thai baht (THB). ATMs charge a foreign card fee, so withdraw larger amounts less often.",
    "safety": "Common scams include tuk-tuk detours to gem shops and jet-ski damage claims. Agree prices first and use official operators.",
    "tipping": "Not required; rounding up or leaving small change is common in restaurants.",
-   "transport": "Overnight trains and buses link major cities, with cheap domestic flights. Use Grab or Bolt in cities, and ferries for islands."
+   "transport": "Overnight trains and buses link major cities, with cheap domestic flights. Use Grab or Bolt in cities, and ferries for islands.",
+   "visa": "Indian passport holders (checked Oct 2026, from travel-news sources): visa-free for tourism, 30 days per entry from 15 September 2026 (it was 60 days before), extendable once for 30 days at an immigration office. You also need a Thailand Digital Arrival Card (free, filed online within 3 days before landing), a passport valid 6+ months, an onward ticket, accommodation proof and funds proof of THB 10,000 per person if asked. Rules change often, so confirm on the official Thai immigration or e-visa site before booking."
   },
   "stays": [
    {
@@ -20239,7 +20245,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Turkish lira (TRY). Prices change quickly, so check current exchange rates and use ATMs or cards in cities.",
    "safety": "Agree taxi fares or use a meter, and be careful of carpet shop pressure sales. Check your government's advice for regions near the Syrian border.",
    "tipping": "Around 5–10% in restaurants; round up taxi fares.",
-   "transport": "Long-distance buses are comfortable and cheap, and domestic flights save time. Istanbul has trams, ferries and the Istanbulkart transit card."
+   "transport": "Long-distance buses are comfortable and cheap, and domestic flights save time. Istanbul has trams, ferries and the Istanbulkart transit card.",
+   "visa": "Indian passport holders (checked Oct 2026): visa on arrival is not available. An e-visa is only available if you hold a valid Schengen, US, UK or Ireland visa or residence permit (single entry, up to 30 days, around ₹4,300–5,100 including charges). Otherwise you need a sticker visa from a VFS or Gateway centre, which can take 5–15 working days. Travel insurance is required for sticker visas."
   },
   "stays": [
    {
@@ -20958,7 +20965,8 @@ window.COUNTRY_GUIDES = {
    "currency": "UAE dirham (AED). Cards are widely accepted.",
    "safety": "The UAE is very safe, but laws are strict. Avoid public displays of affection, drunkenness in public and photographing people without permission.",
    "tipping": "Around 10–15% in restaurants if service charge is not included.",
-   "transport": "Dubai has a metro and tram, and Abu Dhabi has buses and taxis. Careem and Uber are common, and renting a car helps to reach the other emirates."
+   "transport": "Dubai has a metro and tram, and Abu Dhabi has buses and taxis. Careem and Uber are common, and renting a car helps to reach the other emirates.",
+   "visa": "Indian passport holders (checked Oct 2026): visa on arrival depends on holding a valid visa or residence permit from certain countries, such as the US, EU, Australia, Canada, Japan, Singapore and South Korea. Rules were tightened for UK-visa holders, so do not assume. Most travellers apply for an e-visa through an airline or an official UAE site before travel."
   },
   "stays": [
    {
@@ -22064,7 +22072,8 @@ window.COUNTRY_GUIDES = {
    "currency": "Vietnamese dong (VND). ATMs are common in cities; carry cash for markets, small restaurants and rural areas.",
    "safety": "Watch for bag snatching on motorbikes in big cities, and agree taxi fares or use a meter or app. Traffic is the main risk, so cross roads slowly and steadily.",
    "tipping": "Not expected, but rounding up or small tips are appreciated in tourist restaurants and for guides.",
-   "transport": "Sleeper buses and trains link the length of the country, and domestic flights are cheap. Use Grab for city taxis and motorbike rides."
+   "transport": "Sleeper buses and trains link the length of the country, and domestic flights are cheap. Use Grab for city taxis and motorbike rides.",
+   "visa": "Indian passport holders (checked Oct 2026): a visa is required for mainland Vietnam. The e-visa at evisa.gov.vn costs about US$25 for single entry or US$50 for multiple entry, is valid up to 90 days and takes about 3–5 working days. Beware of lookalike sites that charge extra. Phu Quoc allows visa-free entry up to 30 days only if you fly in directly and stay on the island, and the Indian Embassy advises getting an e-visa anyway. Passport must be valid 6+ months."
   },
   "stays": [
    {
