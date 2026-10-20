@@ -101,7 +101,7 @@
         <h2>Destinations</h2>
 
         <p class="section-description">
-            Places I've explored and destinations waiting for the next adventure.
+            Festivals, food, stays and itineraries for every destination, from places I've explored to ones still on the map.
         </p>
 
                                                                         <div class="destination-selector">
@@ -113,6 +113,11 @@
                 <button class="quick-pick-chip" data-country="Thailand" data-state="Chiang Mai">🇹🇭 Chiang Mai, Thailand</button>
                 <button class="quick-pick-chip" data-country="India" data-state="Nagaland">🇮🇳 Nagaland, India</button>
                 <button class="quick-pick-chip" data-country="India" data-state="Kaziranga">🇮🇳 Kaziranga, India</button>
+                <button class="quick-pick-chip" data-country="Japan">🇯🇵 Japan</button>
+                <button class="quick-pick-chip" data-country="Turkey">🇹🇷 Turkey</button>
+                <button class="quick-pick-chip" data-country="Morocco">🇲🇦 Morocco</button>
+                <button class="quick-pick-chip" data-country="Indonesia">🇮🇩 Indonesia</button>
+                <button class="quick-pick-chip" data-country="Egypt">🇪🇬 Egypt</button>
             </div>
 
             <div class="selector-row">
@@ -150,13 +155,34 @@
 
             const countryNames = Object.keys(stateData);
             function findCountry(typed) {
-                const match = countryNames.find(c => c.toLowerCase() === typed.trim().toLowerCase());
-                return match || null;
+                const t = typed.trim().toLowerCase();
+                if (!t) return null;
+                const exact = countryNames.find(c => c.toLowerCase() === t);
+                if (exact) return exact;
+                if (t.length >= 4) {
+                    const starts = countryNames.filter(c => c.toLowerCase().startsWith(t));
+                    if (starts.length === 1) return starts[0];
+                }
+                return null;
+            }
+            // Typing a region or city (e.g. "Rio de Janeiro") in the country box finds its country.
+            function findCountryByRegion(typed) {
+                const t = typed.trim().toLowerCase();
+                if (t.length < 3) return null;
+                for (const c of countryNames) {
+                    const st = stateData[c].find(x => x.toLowerCase() === t);
+                    if (st) return { country: c, state: st };
+                }
+                return null;
             }
             function findState(country, typed) {
                 if (!country || !stateData[country]) return null;
-                const match = stateData[country].find(s => s.toLowerCase() === typed.trim().toLowerCase());
-                return match || null;
+                const t = typed.trim().toLowerCase();
+                if (!t) return null;
+                const exact = stateData[country].find(s => s.toLowerCase() === t);
+                if (exact) return exact;
+                const partial = stateData[country].filter(s => s.toLowerCase().startsWith(t) || s.toLowerCase().includes('(' + t));
+                return partial.length === 1 && t.length >= 3 ? partial[0] : null;
             }
 
             countryNames.sort().forEach(c => {
@@ -173,7 +199,29 @@
                 selectorHint.textContent = '';
             }
 
+            function updateExplore() {
+                const fc = findCountry(countryInput.value);
+                if (!fc) { exploreBtn.disabled = true; exploreBtn.textContent = 'Explore →'; return; }
+                const fs = findState(fc, stateInput.value);
+                exploreBtn.disabled = false;
+                if (fs) {
+                    exploreBtn.textContent = 'Explore →';
+                    exploreBtn.onclick = () => window.location.href =
+                        `destination.html?country=${encodeURIComponent(fc)}&state=${encodeURIComponent(fs)}`;
+                } else if (window.COUNTRY_GUIDES && window.COUNTRY_GUIDES[fc]) {
+                    exploreBtn.textContent = `Explore ${fc} →`;
+                    exploreBtn.onclick = () => window.location.href = `country.html?country=${encodeURIComponent(fc)}`;
+                } else {
+                    exploreBtn.disabled = true;
+                }
+            }
+
             countryInput.addEventListener('input', function() {
+                const byRegion = findCountryByRegion(this.value);
+                if (byRegion && !findCountry(this.value)) {
+                    window.location.href = `destination.html?country=${encodeURIComponent(byRegion.country)}&state=${encodeURIComponent(byRegion.state)}`;
+                    return;
+                }
                 const match = findCountry(this.value);
                 resetState();
                 if (match) {
@@ -184,7 +232,8 @@
                         opt.value = state;
                         stateListData.appendChild(opt);
                     });
-                    selectorHint.textContent = `${stateData[match].length} regions available in ${match} — start typing to search.`;
+                    selectorHint.textContent = `${stateData[match].length} regions available in ${match} — pick one, or press Explore for the full ${match} guide.`;
+                    updateExplore();
 
                     const itineraryCountries = Object.keys(window.COUNTRY_GUIDES || {});
                     if (itineraryCountries.includes(match)) {
@@ -209,24 +258,13 @@
                 }
             });
 
-            stateInput.addEventListener('input', function() {
-                const country = countryInput.value;
-                const state = this.value;
-                const foundCountry = findCountry(country);
-                const foundState = findState(foundCountry, state);
-                if (foundCountry && foundState) {
-                    exploreBtn.disabled = false;
-                    exploreBtn.onclick = () => window.location.href =
-                        `destination.html?country=${encodeURIComponent(foundCountry)}&state=${encodeURIComponent(foundState)}`;
-                } else {
-                    exploreBtn.disabled = true;
-                }
-            });
+            stateInput.addEventListener('input', updateExplore);
 
             document.querySelectorAll('.quick-pick-chip').forEach(chip => {
                 chip.addEventListener('click', () => {
                     const country = chip.dataset.country;
                     const state = chip.dataset.state;
+                    if (!state) { window.location.href = `country.html?country=${encodeURIComponent(country)}`; return; }
                     window.location.href = `destination.html?country=${encodeURIComponent(country)}&state=${encodeURIComponent(state)}`;
                 });
             });
