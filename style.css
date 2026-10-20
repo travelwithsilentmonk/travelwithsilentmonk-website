@@ -74,8 +74,7 @@ a {
             rgba(0,0,0,0.75),
             rgba(0,0,0,0.20)
         ),
-        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=85")
-        center/cover;
+        linear-gradient(135deg, #0f2a1d 0%, #1b4332 55%, #2d6a4f 100%);
     color: white;
 }
 
@@ -465,8 +464,7 @@ footer p {
 .hornbill-hero {
     background:
         linear-gradient(90deg, rgba(0,0,0,0.75), rgba(0,0,0,0.25)),
-        url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85")
-        center/cover;
+        linear-gradient(135deg, #1a1a2e 0%, #3a1c1c 55%, #6b2d2d 100%);
 }
 
 .page-hero h1 {
