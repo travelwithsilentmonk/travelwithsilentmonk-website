@@ -812,3 +812,9 @@ input.selector-dropdown {
 .dark-section .coming-soon-card h3 {
     color: #f2f2f0;
 }
+
+@media print {
+    .navbar, .tabs-section, .breadcrumb, footer, .no-print, .social-section { display: none !important; }
+    body, .section, .dark-section { background: #fff !important; color: #000 !important; }
+    .section h2, .section h3, .section li, .section p { color: #000 !important; }
+}
