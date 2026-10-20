@@ -100,6 +100,7 @@
         <p class="section-label">BEFORE YOU GO</p>
         <h2>Practical Info</h2>
         <p class="section-description">Quick facts to plan your trip. Always confirm visa and entry rules with official sources before you travel.</p>
+        <div id="visaBox" style="display:none; margin-bottom:28px;"></div>
         <div class="cards three-col" id="practicalCards"></div>
     </section>
 
@@ -131,6 +132,7 @@
     </footer>
 
     <script src="countries-data.js"></script>
+    <script src="visa-data.js"></script>
     <script>
         const countryData = window.COUNTRY_GUIDES || {};
 
@@ -183,13 +185,45 @@
             renderCards('foodCards', data.food);
             renderCards('staysCards', data.stays);
 
-            if (data.practical) {
+            const visa = window.VISA_DATA && window.VISA_DATA[country];
+            if (data.practical || visa) {
                 const labels = {bestTime:'Best time to visit', currency:'Currency & money', visa:'Visa & entry', budget:'Daily budget', sim:'SIM & internet', transport:'Getting around', safety:'Safety & scams', tipping:'Tipping'};
-                const cards = Object.keys(labels).filter(k => data.practical[k]).map(k => ({name: labels[k], desc: data.practical[k]}));
-                if (cards.length) {
-                    renderCards('practicalCards', cards);
-                    document.getElementById('practicalTabBtn').style.display = 'inline-block';
+                const prac = data.practical || {};
+                const cards = Object.keys(labels).filter(k => prac[k] && !(k === 'visa' && visa)).map(k => ({name: labels[k], desc: prac[k]}));
+                if (cards.length) renderCards('practicalCards', cards);
+                if (visa) renderVisa(visa, prac.visa);
+                if (cards.length || visa) document.getElementById('practicalTabBtn').style.display = 'inline-block';
+            }
+
+            function renderVisa(v, indianNote) {
+                const P = {IN:'India', US:'United States', GB:'United Kingdom', EU:'EU / Schengen country', CA:'Canada', AU:'Australia', AE:'United Arab Emirates', SG:'Singapore', CN:'China (mainland)', JP:'Japan'};
+                const T = {free:'Visa-free', voa:'Visa on arrival', eta:'Online travel authorisation needed', evisa:'E-visa', visa:'Visa required before travel', noentry:'Entry not permitted', check:'Check the official site', home:'Your own country'};
+                const esc = t => String(t == null ? '' : t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+                let saved = 'ALL';
+                try { saved = localStorage.getItem('twsm_passport') || 'ALL'; } catch (e) {}
+                const box = document.getElementById('visaBox');
+                box.style.display = 'block';
+                box.innerHTML = `<article class="card coming-soon-card"><h3>Visa & entry</h3>
+                    <p>${esc(v.overview)}</p>
+                    <p style="margin-top:14px;"><label for="passportSel"><strong>Your passport:</strong></label>
+                    <select id="passportSel" style="margin-left:8px;padding:6px 10px;border-radius:6px;"><option value="ALL">Select your passport…</option>${Object.keys(P).map(k => `<option value="${k}">${P[k]}</option>`).join('')}<option value="OTHER">Other passport</option></select></p>
+                    <div id="passportResult" style="margin-top:12px;"></div>
+                    <p style="margin-top:14px;font-size:14px;opacity:.8;">Checked ${esc(v.checked)}. Visa rules change often and this is general information, not legal advice. Always confirm with the official source or the embassy before you book.${v.official ? ` <a href="${esc(v.official)}" target="_blank" rel="noopener" style="color:#4caf6d;">Official visa information →</a>` : ''}</p></article>`;
+                const sel = document.getElementById('passportSel');
+                function show() {
+                    const k = sel.value, out = document.getElementById('passportResult');
+                    try { localStorage.setItem('twsm_passport', k); } catch (e) {}
+                    if (k === 'ALL') { out.innerHTML = ''; return; }
+                    const r = v.rules && v.rules[k];
+                    if (!r) { out.innerHTML = '<p>We have not listed rules for this passport. Please check the official visa information link below.</p>'; return; }
+                    const days = r.d ? ` (up to ${esc(r.d)} days)` : '';
+                    const extra = k === 'IN' && indianNote ? `<p style="margin-top:8px;">${esc(indianNote)}</p>` : '';
+                    out.innerHTML = `<p style="font-size:18px;"><strong style="color:#4caf6d;">${esc(T[r.t] || r.t)}${days}</strong></p>${r.n ? `<p>${esc(r.n)}</p>` : ''}${extra}`;
                 }
+                sel.value = P[saved] || saved === 'OTHER' ? saved : 'ALL';
+                if (!sel.value) sel.value = 'ALL';
+                sel.addEventListener('change', show);
+                show();
             }
 
             if (data.bestOf) {
