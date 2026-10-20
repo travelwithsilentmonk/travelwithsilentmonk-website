@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="pageTitle">Country Guide | TravelWithSilentMonk</title>
+    <meta name="description" id="metaDesc" content="Travel guide with best places, festivals, food, stays and 5, 7 and 10-day itineraries by TravelWithSilentMonk.">
+    <link rel="canonical" id="canonicalLink" href="https://travelwithsilentmonk.com/country.html">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -45,6 +47,7 @@
             <button class="tab-btn" data-tab="events">Events</button>
             <button class="tab-btn" data-tab="food">Food</button>
             <button class="tab-btn" data-tab="stays">Hostels / Stays</button>
+            <button class="tab-btn" data-tab="practical" id="practicalTabBtn" style="display:none;">Practical Info</button>
         </div>
     </section>
 
@@ -60,6 +63,7 @@
         <h2>Sample Itinerary</h2>
         <div class="tabs-nav" id="durationTabs" style="margin-bottom: 30px;"></div>
         <div id="itineraryContent"></div>
+        <button class="tab-btn no-print" id="printItinerary" style="margin-top:10px;">🖨 Print / Save as PDF</button>
     </section>
 
     <section class="section tab-content" id="tab-festivals" style="display:none;">
@@ -90,6 +94,22 @@
         <p class="section-label">TOP 3 · BY SILENTMONK</p>
         <h2>Hostels / Stays</h2>
         <div class="cards three-col" id="staysCards"></div>
+    </section>
+
+    <section class="section tab-content" id="tab-practical" style="display:none;">
+        <p class="section-label">BEFORE YOU GO</p>
+        <h2>Practical Info</h2>
+        <p class="section-description">Quick facts to plan your trip. Always confirm visa and entry rules with official sources before you travel.</p>
+        <div class="cards three-col" id="practicalCards"></div>
+    </section>
+
+    <section class="social-section no-print">
+        <p class="section-label">SEE A MISTAKE?</p>
+        <h2>Help keep this guide accurate</h2>
+        <p class="section-description" style="margin: 0 auto 20px;">Spotted a wrong date, a closed hostel or something missing? Tell the community.</p>
+        <div class="social-links">
+            <a href="https://chat.whatsapp.com/C3p3SAuVMl3CoI6VROSWdT?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener">Suggest a correction</a>
+        </div>
     </section>
 
     <section class="social-section">
@@ -128,7 +148,10 @@
         }
 
         if (data && country) {
-            document.title = `${country} Country Guide | TravelWithSilentMonk`;
+            document.title = `${country} Travel Guide: Festivals, Food, Stays & Itineraries | TravelWithSilentMonk`;
+            const plain = (data.intro || '').replace(/\s+/g, ' ');
+            document.getElementById('metaDesc').setAttribute('content', `${country} travel guide: best places, top festivals, food, where to stay and 5, 7 and 10-day itineraries. ${plain}`.slice(0, 300));
+            document.getElementById('canonicalLink').setAttribute('href', `https://travelwithsilentmonk.com/country.html?country=${encodeURIComponent(country)}`);
             document.getElementById('pageTitle2').textContent = `${country}: The Big Picture`;
             document.getElementById('pageIntro').textContent = data.intro;
             document.getElementById('breadcrumb').innerHTML = `
@@ -149,6 +172,15 @@
             renderCards('eventsCards', data.events);
             renderCards('foodCards', data.food);
             renderCards('staysCards', data.stays);
+
+            if (data.practical) {
+                const labels = {bestTime:'Best time to visit', currency:'Currency & money', visa:'Visa & entry', budget:'Daily budget', sim:'SIM & internet', transport:'Getting around', safety:'Safety & scams', tipping:'Tipping'};
+                const cards = Object.keys(labels).filter(k => data.practical[k]).map(k => ({name: labels[k], desc: data.practical[k]}));
+                if (cards.length) {
+                    renderCards('practicalCards', cards);
+                    document.getElementById('practicalTabBtn').style.display = 'inline-block';
+                }
+            }
 
             if (data.bestOf) {
                 document.getElementById('bestofCards').innerHTML = data.bestOf.map(item => `
@@ -191,6 +223,12 @@
             document.getElementById('pageTitle2').textContent = "Country Not Found";
             document.getElementById('pageIntro').textContent = "Pick a country from the search on the homepage to see its full guide.";
         }
+
+        document.getElementById('printItinerary').addEventListener('click', () => {
+            document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+            document.getElementById('tab-itinerary').style.display = 'block';
+            window.print();
+        });
 
         document.querySelectorAll('#tabsNav .tab-btn').forEach(btn => {
             btn.addEventListener('click', () => {

@@ -3143,6 +3143,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for the dry season in much of the country, and December–March for summer beaches and Carnival (February or March). The Amazon and Pantanal have different best times for wildlife.",
+   "currency": "Brazilian real (BRL). Cards and Pix are common, though foreign visitors usually pay by card or cash.",
+   "safety": "Petty theft and phone snatching are common in big cities, especially around beaches and favelas. Use licensed taxis or apps, and avoid displaying valuables.",
+   "tipping": "A 10% service charge is often included in restaurant bills.",
+   "transport": "Domestic flights cover long distances, and buses are comfortable and cheap. Use Uber in cities, and take care at night."
+  },
   "stays": [
    {
     "desc": "A South American hostel chain with branches in Rio, Salvador and Foz do Iguaçu. Reliable, social, easy to book. Check current branches before you go.",
@@ -3668,6 +3675,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Kampot & Kep"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "November–February is the coolest and driest. March–May is very hot, and the rainy season (June–October) is green with fewer crowds.",
+   "currency": "Cambodia uses both US dollars and Cambodian riel (KHR); US dollars are common for larger prices.",
+   "safety": "Watch for bag snatching in Phnom Penh. Avoid unexploded ordnance areas away from marked paths.",
+   "tipping": "Not expected, but small tips are appreciated.",
+   "transport": "Buses and mini-vans link Phnom Penh, Siem Reap, Kampot and the coast. Use PassApp or Grab for tuk-tuks in cities."
   },
   "stays": [
    {
@@ -6116,6 +6130,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "October–April is cooler for Luxor, Aswan and Cairo. Summer is very hot in the south, but the Red Sea coast is good for diving most of the year.",
+   "currency": "Egyptian pound (EGP). Carry small notes for tips and entrance fees, as they are widely needed.",
+   "safety": "Touts are persistent at tourist sites; a firm no and agreeing prices upfront helps. Check your government's advice for the Sinai peninsula and border areas.",
+   "tipping": "Baksheesh (small tips) is expected for many services, usually 5–10% in restaurants.",
+   "transport": "Trains and overnight sleepers link Cairo, Luxor and Aswan; domestic flights are cheap. Use Uber or Careem in Cairo."
+  },
   "stays": [
    {
     "desc": "Backpacker-friendly seaside hostels with dive centres.",
@@ -7153,6 +7174,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October. July and August are busy and hot in Paris and the south, and winter is good for the Alps.",
+   "currency": "Euro (EUR).",
+   "safety": "Pickpockets target tourists around major sights and the metro. Strikes can disrupt transport, so check ahead.",
+   "tipping": "Service is included by law; leaving a few extra euros is optional.",
+   "transport": "TGV trains link major cities and regional trains reach most towns. Paris has an extensive metro, RER and bus network."
+  },
   "stays": [
    {
     "desc": "A design-led hostel near Canal Saint-Martin with a rooftop bar.",
@@ -7504,6 +7532,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Munich"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "May–September for pleasant weather and festivals. December has Christmas markets, and Oktoberfest runs mid-September to early October.",
+   "currency": "Euro (EUR). Cash is still common in smaller places.",
+   "safety": "Germany is generally safe, with pickpockets in stations and busy areas.",
+   "tipping": "Round up or tip around 5–10% in restaurants.",
+   "transport": "Deutsche Bahn trains link most cities, and the Deutschlandticket covers regional transport. Book long-distance trains early for cheaper fares."
   },
   "stays": [
    {
@@ -7859,6 +7894,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Santorini"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "May–June and September–October for warm sea and fewer crowds. July and August are hot and busy, and many island services are reduced in winter.",
+   "currency": "Euro (EUR).",
+   "safety": "Greece is generally safe. Watch for pickpockets in Athens, and check wildfire and ferry strike news in summer.",
+   "tipping": "Around 5–10% for good service is common; round up taxi fares.",
+   "transport": "Ferries connect the islands, with more services in summer; check timetables and book ahead for peak season. Athens has a metro and buses."
   },
   "stays": [
    {
@@ -8947,6 +8989,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "October–March for most of the country. Summer (April–June) is extremely hot on the plains, the monsoon (June–September) brings heavy rain, and Ladakh and the high Himalaya are best June–September.",
+   "currency": "Indian rupee (INR). UPI payments are widely used by locals, and ATMs are common in cities.",
+   "safety": "Use registered taxis or apps, especially at night, and be wary of overly helpful strangers at stations. Drink bottled water and take care with street food hygiene at first.",
+   "tipping": "Around 5–10% in restaurants if service charge is not included; small tips for drivers and guides.",
+   "transport": "Indian Railways is extensive; book popular trains in advance on IRCTC. Domestic flights, long-distance buses and Uber or Ola help in cities."
+  },
   "stays": [
    {
     "desc": "India's biggest backpacker hostel brand, with branches in Delhi, Jaipur, Varanasi, Goa, Manali and more. Easy to book and social.",
@@ -9120,6 +9169,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Nusa Penida or Gili Islands"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "Dry season is generally April–October, and this is best for Bali, Lombok, Komodo and Java. The rainy season runs roughly November–March but varies by island.",
+   "currency": "Indonesian rupiah (IDR). Use bank-attached ATMs, since skimming has been reported at standalone machines.",
+   "safety": "Volcanoes and earthquakes are natural hazards, so check local advisories. Watch drinks and methanol cocktails, and drink bottled or filtered water.",
+   "tipping": "A 5–10% service charge is often included; extra tips are appreciated but optional.",
+   "transport": "Flights connect the islands, and ferries serve nearby ones. In Bali, hire a scooter only with a licence and insurance, or use a driver or Grab and Gojek."
   },
   "stays": [
    {
@@ -9997,6 +10053,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October for good weather and fewer crowds. July and August are hot and busy, especially in Rome, Florence and Venice.",
+   "currency": "Euro (EUR). Cards are widely accepted, but keep some cash for small cafés.",
+   "safety": "Pickpocketing is common near major sights and on public transport. Be careful of fake petition scams and unlicensed taxis.",
+   "tipping": "Service is often included (servizio or coperto); leaving small change is optional.",
+   "transport": "High-speed trains connect major cities, and regional trains are cheap. Validate regional train tickets before boarding, and book popular museums and sights in advance."
+  },
   "stays": [
    {
     "desc": "A famously social hostel near Termini station, with a bar and common room.",
@@ -10351,6 +10414,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "Spring (March–May) for cherry blossom and autumn (October–November) for leaves are the most popular. Summer is hot and humid, winter is good for skiing in Hokkaido and Nagano.",
+   "currency": "Japanese yen (JPY). Cash is still widely used. 7-Eleven and Japan Post ATMs accept foreign cards.",
+   "safety": "Japan is very safe. Natural hazards such as earthquakes and typhoons are the main risks, so know your hotel's evacuation information.",
+   "tipping": "Tipping is not customary and can cause confusion.",
+   "transport": "Trains are fast and punctual, and IC cards (Suica or Pasmo) work on trains, buses and for vending machines. Check whether a Japan Rail Pass or regional pass is worthwhile for your route."
+  },
   "stays": [
    {
     "desc": "A long-running hostel chain in Tokyo, Kyoto, Hakone and elsewhere. Clean, social and well located.",
@@ -10547,6 +10617,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Wadi Rum & Aqaba"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "March–May and September–November. Summer is hot, especially in Petra and Wadi Rum, and winter can be cold at night.",
+   "currency": "Jordanian dinar (JOD). Keep small notes for tips and taxis.",
+   "safety": "Jordan is generally safe for visitors. Check your government's advice for border areas.",
+   "tipping": "About 10% in restaurants; small tips for guides and drivers.",
+   "transport": "JETT buses link Amman, Petra and Aqaba. Taxis are cheap, and rental cars suit the King's Highway."
   },
   "stays": [
    {
@@ -10909,6 +10986,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Amboseli"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "July–October for the Great Migration in the Maasai Mara. January–February is good for wildlife and beaches, and the long rains in April and May bring fewer visitors.",
+   "currency": "Kenyan shilling (KES). Mobile money (M-Pesa) is widely used by locals.",
+   "safety": "Take care in Nairobi at night and avoid displaying valuables. Check your government's advice for areas near the Somali border.",
+   "tipping": "Around 10% in restaurants; tip guides and drivers on safari.",
+   "transport": "Flights connect Nairobi, Mombasa and the Mara, and the SGR train links Nairobi and Mombasa. Use Uber or Bolt in Nairobi."
   },
   "stays": [
    {
@@ -12360,6 +12444,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "The west coast (Penang, Langkawi) is best December–March, and the east coast and islands (Perhentian, Tioman) May–September. Borneo is wetter from November to February.",
+   "currency": "Malaysian ringgit (MYR).",
+   "safety": "Malaysia is generally safe, but watch for bag snatching on motorbikes in cities. Check jellyfish and sea conditions on beaches.",
+   "tipping": "Not expected; a service charge is often added in restaurants.",
+   "transport": "Buses and trains link the peninsula, and flights are cheap to Borneo. Use Grab in cities."
+  },
   "stays": [
    {
     "desc": "A well-known hostel in Chinatown with a rooftop bar and lively social events.",
@@ -12856,6 +12947,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Mérida & Chichén Itzá"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "November–April is dry and pleasant in most regions. The Caribbean coast sees hurricane season roughly June–November, and Day of the Dead (1–2 November) is a highlight.",
+   "currency": "Mexican peso (MXN). Use ATMs inside banks, and carry cash for markets and small towns.",
+   "safety": "Check your government's advice by state, as security varies widely. Use licensed taxis or apps, and avoid driving at night in remote areas.",
+   "tipping": "10–15% in restaurants; tip drivers, guides and hotel staff.",
+   "transport": "Comfortable long-distance buses (ADO, ETN) cover much of the country. Use Uber in big cities and colectivos for short trips."
   },
   "stays": [
    {
@@ -13410,6 +13508,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "March–May and September–November. Summer is very hot inland and in the desert, and winter can be cold in the Atlas mountains.",
+   "currency": "Moroccan dirham (MAD). Exchanging currency outside Morocco is difficult, so withdraw from ATMs on arrival.",
+   "safety": "Be wary of unofficial guides in medinas, and agree prices before accepting any service. Dress modestly, especially for women away from tourist areas.",
+   "tipping": "Around 10% in restaurants; small tips for guides and porters.",
+   "transport": "ONCF trains link Casablanca, Rabat, Marrakech, Fes and Tangier, and CTM buses cover most other towns. Use petit taxis in cities, with the meter on."
+  },
   "stays": [
    {
     "desc": "Courtyard guesthouses inside the medina, many with breakfast included.",
@@ -13740,6 +13845,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 7 — Chitwan or Bandipur"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "October–November and March–May for trekking. December–February is cold but clear at lower altitude, and the monsoon runs June–September.",
+   "currency": "Nepali rupee (NPR). Carry cash for trekking areas, where ATMs are rare.",
+   "safety": "Altitude sickness is the main trekking risk, so ascend gradually and use licensed guides where required. Check road and weather conditions during monsoon.",
+   "tipping": "Guides and porters on treks are usually tipped at the end, commonly 10–15% of the fee.",
+   "transport": "Tourist buses link Kathmandu and Pokhara, and domestic flights serve Lukla. In towns, taxis and ride apps like Pathao are available."
   },
   "stays": [
    {
@@ -15832,6 +15944,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September is the dry season for Machu Picchu and the Andes, and the Inca Trail closes in February for maintenance. The Amazon is best in the drier months, June to September.",
+   "currency": "Peruvian sol (PEN). Soles are best for small purchases.",
+   "safety": "Use registered taxis and watch for pickpockets in Lima and Cusco. Altitude sickness is common in Cusco, so acclimatise and drink coca tea.",
+   "tipping": "About 10% in restaurants; tip guides and porters on treks.",
+   "transport": "Buses connect the main towns, and flights save time to Cusco and Iquitos. Trains run to Machu Picchu, so book in advance. Use Uber or Cabify in Lima."
+  },
   "stays": [
    {
     "desc": "A big, social, party-friendly hostel close to the main plaza.",
@@ -16002,6 +16121,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 5–7 — Siquijor / Dumaguete"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "December–May is the dry season for most islands. The typhoon season runs roughly June–November, particularly affecting the eastern and northern islands.",
+   "currency": "Philippine peso (PHP). Carry cash on smaller islands, as ATMs may be scarce.",
+   "safety": "Check your government's advice for the south and Mindanao regions. Use official boats and check weather before island hopping.",
+   "tipping": "10% in restaurants if service charge is not included.",
+   "transport": "Flights and ferries connect the islands. Use Grab in Manila and Cebu, and trikes or jeepneys for short trips."
   },
   "stays": [
    {
@@ -16336,6 +16462,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 5–7 — Porto & Douro"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "April–June and September–October. Summer is warm, with the Algarve busiest in July and August.",
+   "currency": "Euro (EUR).",
+   "safety": "Pickpocketing is common on tram 28 and in tourist areas of Lisbon.",
+   "tipping": "Not required; rounding up or leaving small change is common.",
+   "transport": "Trains link Lisbon, Porto and Coimbra, and buses cover smaller places. Lisbon and Porto have metros, and Lisbon's trams and hills are part of the experience."
   },
   "stays": [
    {
@@ -17562,6 +17695,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "February–April is slightly drier, though it is hot and humid all year. Rain can come at any time, so carry an umbrella.",
+   "currency": "Singapore dollar (SGD). Cards and contactless payments are accepted nearly everywhere.",
+   "safety": "Singapore is very safe, but laws are strict on littering, chewing gum, vaping and drugs.",
+   "tipping": "Not expected; a 10% service charge is often added.",
+   "transport": "The MRT and buses are clean and efficient. Use a contactless bank card or an EZ-Link card for fares."
+  },
   "stays": [
    {
     "desc": "Capsule-style hostel in Chinatown with good facilities and a social vibe.",
@@ -18095,6 +18235,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for dry-season safaris in Kruger. November–March for Cape Town beaches and summer, and June–November for whale watching.",
+   "currency": "South African rand (ZAR). Cards are widely used.",
+   "safety": "Crime is a concern in cities. Avoid walking at night, keep valuables out of sight, and use ride apps.",
+   "tipping": "10–15% in restaurants; tip guides and petrol attendants.",
+   "transport": "Renting a car is common. Use Uber or Bolt in cities, and domestic flights for long distances."
+  },
   "stays": [
    {
     "desc": "Social hostels in the City Bowl, Gardens and Green Point.",
@@ -18276,6 +18423,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–November. Summer is hot and humid with a rainy season, and winter is cold, good for skiing.",
+   "currency": "South Korean won (KRW). Cards are common, but some small shops and markets prefer cash.",
+   "safety": "South Korea is very safe. Check news for the northern border area.",
+   "tipping": "Not customary.",
+   "transport": "KTX high-speed trains and intercity buses connect cities. In Seoul, a T-money card works on the metro and buses."
+  },
   "stays": [
    {
     "desc": "Plenty of social hostels near the nightlife, with good subway access.",
@@ -18444,6 +18598,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Seville"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "April–June and September–October. Summer is very hot in the south and interior, while the northern coast stays cooler.",
+   "currency": "Euro (EUR).",
+   "safety": "Pickpocketing is common in Barcelona and Madrid, especially at tourist spots and on public transport.",
+   "tipping": "Not expected; round up or leave small change.",
+   "transport": "The AVE high-speed train links major cities and buses cover most other places. Cities have metros and cheap taxis."
   },
   "stays": [
    {
@@ -18615,6 +18776,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 5–7 — Ella"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "The south and west coasts are best December–March. The east coast and Trincomalee are best April–September. The hill country is pleasant year-round, with the most rain from October to January.",
+   "currency": "Sri Lankan rupee (LKR). ATMs are common in towns.",
+   "safety": "Agree tuk-tuk prices first or use an app. Be cautious of gem scams and sea conditions on west coast beaches in monsoon.",
+   "tipping": "A 10% service charge is often included; extra tips are optional.",
+   "transport": "Scenic trains through the hill country sell out, so book ahead. Tuk-tuks, PickMe and Uber help for short trips."
   },
   "stays": [
    {
@@ -19507,6 +19675,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–October is the main dry season for safaris and Kilimanjaro. January–February is good for the calving season in the south Serengeti, and Zanzibar is best June–October and December–February.",
+   "currency": "Tanzanian shilling (TZS). US dollars are often used for park fees and tours.",
+   "safety": "Use registered safari operators and check recent reviews. Take malaria precautions and drink bottled water.",
+   "tipping": "Tip safari guides, cooks and porters; commonly $10–20 per guide per day on safari, adjusted for group size.",
+   "transport": "Light aircraft and long-distance buses connect main destinations. Ferries link Dar es Salaam and Zanzibar."
+  },
   "stays": [
    {
     "desc": "Base for safari trips, with a range of budgets.",
@@ -19683,6 +19858,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Krabi / Phuket"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "November–February is cool and dry for most of the country. The Andaman coast (Phuket, Krabi) is best November–April. The Gulf islands (Koh Samui, Koh Tao) are drier from January to August.",
+   "currency": "Thai baht (THB). ATMs charge a foreign card fee, so withdraw larger amounts less often.",
+   "safety": "Common scams include tuk-tuk detours to gem shops and jet-ski damage claims. Agree prices first and use official operators.",
+   "tipping": "Not required; rounding up or leaving small change is common in restaurants.",
+   "transport": "Overnight trains and buses link major cities, with cheap domestic flights. Use Grab or Bolt in cities, and ferries for islands."
   },
   "stays": [
    {
@@ -20051,6 +20233,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Pamukkale & Ephesus"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "April–June and September–October for pleasant weather. July and August are hot, especially on the coast and in the south-east. Cappadocia balloon flights are best in spring and autumn.",
+   "currency": "Turkish lira (TRY). Prices change quickly, so check current exchange rates and use ATMs or cards in cities.",
+   "safety": "Agree taxi fares or use a meter, and be careful of carpet shop pressure sales. Check your government's advice for regions near the Syrian border.",
+   "tipping": "Around 5–10% in restaurants; round up taxi fares.",
+   "transport": "Long-distance buses are comfortable and cheap, and domestic flights save time. Istanbul has trams, ferries and the Istanbulkart transit card."
   },
   "stays": [
    {
@@ -20764,6 +20953,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March has the mildest weather. Summer is extremely hot and humid, with fewer crowds and lower prices.",
+   "currency": "UAE dirham (AED). Cards are widely accepted.",
+   "safety": "The UAE is very safe, but laws are strict. Avoid public displays of affection, drunkenness in public and photographing people without permission.",
+   "tipping": "Around 10–15% in restaurants if service charge is not included.",
+   "transport": "Dubai has a metro and tram, and Abu Dhabi has buses and taxis. Careem and Uber are common, and renting a car helps to reach the other emirates."
+  },
   "stays": [
    {
     "desc": "Deira and Bur Dubai have the best value.",
@@ -20939,6 +21135,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Edinburgh"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "May–September has the longest days and best weather, though it can rain at any time. Winter suits Christmas markets and city breaks.",
+   "currency": "Pound sterling (GBP). Contactless payment is widely used.",
+   "safety": "The UK is generally safe, and phone theft is a risk in big cities. Check the rail strike calendar before travelling.",
+   "tipping": "10–12.5% in restaurants if no service charge is added.",
+   "transport": "National Rail connects cities, with cheaper advance tickets. London has the Tube, buses and contactless fares via Oyster or bank cards."
   },
   "stays": [
    {
@@ -21855,6 +22058,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 7 — Hanoi"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "Varies by region. North (Hanoi, Sapa): October–April, cold in winter. Centre (Hoi An, Hue, Da Nang): February–August, typhoon and flood risk in autumn. South (Ho Chi Minh City, Mekong): December–April is dry.",
+   "currency": "Vietnamese dong (VND). ATMs are common in cities; carry cash for markets, small restaurants and rural areas.",
+   "safety": "Watch for bag snatching on motorbikes in big cities, and agree taxi fares or use a meter or app. Traffic is the main risk, so cross roads slowly and steadily.",
+   "tipping": "Not expected, but rounding up or small tips are appreciated in tourist restaurants and for guides.",
+   "transport": "Sleeper buses and trains link the length of the country, and domestic flights are cheap. Use Grab for city taxis and motorbike rides."
   },
   "stays": [
    {
