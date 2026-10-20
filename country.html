@@ -160,6 +160,16 @@
                 <span>${country}</span> /
                 <span>Country Guide</span>
             `;
+            if (data.advisory && data.advisory.level >= 2) {
+                const lv = data.advisory.level;
+                const text = {2: 'Exercise increased caution', 3: 'Reconsider travel', 4: 'Do not travel'}[lv];
+                const colour = {2: '#e0b04a', 3: '#e08a3c', 4: '#d9534f'}[lv];
+                const adv = document.createElement('div');
+                adv.setAttribute('role', 'note');
+                adv.style.cssText = `margin-top:18px;padding:12px 16px;border-left:4px solid ${colour};background:rgba(255,255,255,0.08);border-radius:6px;font-size:15px;max-width:760px;`;
+                adv.innerHTML = `<strong>Travel advisory: Level ${lv} (${text})</strong> per the ${data.advisory.source}, checked ${data.advisory.checked}. Conditions can change quickly, so check your own government's current advice before booking (Indian travellers: <a href="https://www.mea.gov.in/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">MEA</a>), and consider travel insurance.`;
+                document.getElementById('pageIntro').after(adv);
+            }
             const fromPlace = params.get('from');
             if (fromPlace) {
                 const note = document.createElement('p');
