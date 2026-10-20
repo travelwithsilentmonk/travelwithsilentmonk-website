@@ -6017,7 +6017,7 @@ window.COUNTRY_GUIDES = {
     "name": "Cairo International Film Festival"
    },
    {
-    "desc": "Held yearly in Aswan, focusing on films by women.",
+    "desc": "Usually April or May. A festival in Aswan focused on films by and about women; the 2026 edition was the tenth.",
     "name": "Aswan International Festival of Women's Film"
    },
    {
@@ -13380,7 +13380,7 @@ window.COUNTRY_GUIDES = {
     "name": "Rose Festival, Kelaat M'Gouna"
    },
    {
-    "desc": "Late spring. A large international music festival.",
+    "desc": "Usually June (the 2026 edition ran 19–27 June). A large international music festival in Rabat.",
     "name": "Mawazine, Rabat"
    }
   ],
@@ -18672,7 +18672,7 @@ window.COUNTRY_GUIDES = {
     "name": "Whale Watching Season"
    },
    {
-    "desc": "Usually January. A literary gathering in the historic Galle Fort.",
+    "desc": "Usually January (the 2026 edition ran 22–25 January). A literary gathering in the historic Galle Fort.",
     "name": "Galle Literary Festival"
    },
    {
@@ -21923,11 +21923,11 @@ window.COUNTRY_GUIDES = {
     "name": "Halloween in Vietnam"
    },
    {
-    "desc": "A major annual fireworks competition on the Han River.",
+    "desc": "Usually late May to July (2026 ran 30 May to 11 July). A major international fireworks competition on the Han River, with ticketed viewing areas.",
     "name": "Da Nang International Fireworks Festival"
    },
    {
-    "desc": "Da Lat's biannual celebration of its flower-growing heritage.",
+    "desc": "A celebration of Da Lat's flower-growing heritage with floral displays and parades. Dates and frequency vary, so check local listings before you plan around it.",
     "name": "Da Lat Flower Festival"
    }
   ],
