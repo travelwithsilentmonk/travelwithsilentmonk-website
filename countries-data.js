@@ -1,6 +1,11 @@
 // Country guides for TravelWithSilentMonk. Used by country.html, itinerary.html, index.html, destination.html.
 window.COUNTRY_GUIDES = {
  "Afghanistan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Cliff niches that once held giant Buddha statues, plus nearby caves and valley scenery.",
@@ -146,6 +151,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October are the most moderate. Winters are very cold in the highlands and summers are very hot in the south.",
+   "currency": "Afghan afghani (AFN). International cards and ATMs are unreliable, so cash in US dollars is usually needed.",
+   "safety": "Most governments advise against all travel. Do not plan a trip without current official advice, specialist support and appropriate insurance.",
+   "tipping": "Not customary.",
+   "transport": "Road travel is difficult and flights are limited. Independent travel is not advisable under current conditions."
+  },
   "stays": [
    {
     "desc": "Independent travel is currently not advised; any stay should be arranged through a licensed local operator with security guidance.",
@@ -162,6 +174,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Albania": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Colourful buildings, Skanderbeg Square, Bunk'Art museums and a lively café culture.",
@@ -325,6 +342,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–June and September–October for good weather. July and August are hot and busy on the coast.",
+   "currency": "Albanian lek (ALL). Euros are often accepted on the coast, but carry lek for small purchases.",
+   "safety": "Generally safe for visitors. Drive carefully, avoid unmarked mountain tracks and watch for petty theft in Tirana.",
+   "tipping": "Around 10% in restaurants is appreciated.",
+   "transport": "Furgons (minibuses) and buses link towns, with fewer set timetables. Renting a car helps for the Albanian Riviera and mountains, but roads can be rough."
+  },
   "stays": [
    {
     "desc": "A social hostel in the city centre, popular with backpackers.",
@@ -341,6 +365,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Algeria": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A UNESCO-listed hillside old town above the bay.",
@@ -504,6 +533,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "March–May and September–November. The Sahara is best from November to February, since summer heat is extreme.",
+   "currency": "Algerian dinar (DZD). The official rate differs from the street rate and cards are rarely accepted, so carry cash.",
+   "safety": "Check your government's advice, as some regions near borders and in the south are restricted. Travel to the Sahara with a registered agency.",
+   "tipping": "Small tips of around 10% in restaurants are common.",
+   "transport": "Domestic flights and trains link the north, and shared taxis (louages) cover many routes. Desert travel needs a licensed guide."
+  },
   "stays": [
    {
     "desc": "Mid-range hotels in Hydra, Didouche Mourad and near the Casbah.",
@@ -520,6 +556,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Argentina": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Tango, steak, cafés and a European-style city, with distinct neighbourhoods like Palermo and San Telmo.",
@@ -672,6 +713,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "Buenos Aires is best in spring (September–November) and autumn (March–May). Patagonia is best November–March, and Iguazú Falls from March to October.",
+   "currency": "Argentine peso (ARS). Exchange rates and prices change quickly, so check current rules for cards and cash before arriving.",
+   "safety": "Pickpocketing and phone theft are common in Buenos Aires. Keep valuables out of sight and use registered taxis.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Long-distance buses are comfortable, and domestic flights save time to Patagonia. Buenos Aires has a metro and taxis, and ride apps are available."
+  },
   "stays": [
    {
     "desc": "A big, social hostel in the centre, good for meeting other travellers.",
@@ -688,6 +736,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Armenia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Republic Square, the Cascade, markets and a thriving café scene.",
@@ -853,6 +906,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–June and September–October. Summers are hot in Yerevan, and winters are cold in the mountains.",
+   "currency": "Armenian dram (AMD). Cards are common in Yerevan, but carry cash in villages.",
+   "safety": "Generally safe. Avoid border areas near Azerbaijan and check your government's advice before travelling.",
+   "tipping": "About 10% in restaurants if no service charge is added.",
+   "transport": "Marshrutkas (minibuses) link towns cheaply, and taxi apps like GG work in Yerevan."
+  },
   "stays": [
    {
     "desc": "A good selection near Republic Square and the Cascade.",
@@ -869,6 +929,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Australia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Opera House, Harbour Bridge, Bondi Beach and the Blue Mountains.",
@@ -1018,6 +1083,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "The north (Darwin, Cairns) is best May–October in the dry season. The south (Sydney, Melbourne) is best September–November and March–May.",
+   "currency": "Australian dollar (AUD). Cards and contactless payments are accepted nearly everywhere.",
+   "safety": "Respect sun, surf and wildlife warnings. Swim between the flags, carry water in remote areas, and check weather and road conditions.",
+   "tipping": "Not expected, but rounding up for good service is common.",
+   "transport": "Domestic flights cover long distances, and rental cars suit road trips. Check distances, as they are much larger than they look on a map."
+  },
   "stays": [
    {
     "desc": "A network of hostels in major cities and national parks, usually well run.",
@@ -1034,6 +1106,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Austria": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Schönbrunn Palace, coffeehouses, opera and museums in an imperial capital.",
@@ -1194,6 +1271,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "December–March for skiing and Christmas markets, and June–September for hiking and lakes.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Take normal care with pickpockets in tourist areas and with mountain weather.",
+   "tipping": "Round up or leave 5–10% in restaurants.",
+   "transport": "Trains (ÖBB) are efficient, and Vienna has trams, buses and a metro. Mountain areas are well served by buses."
+  },
   "stays": [
    {
     "desc": "A stylish hostel near Naschmarkt with a bar and rooftop.",
@@ -1210,6 +1294,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Azerbaijan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Icherisheher (Old City), Flame Towers, Heydar Aliyev Center and the boulevard.",
@@ -1363,6 +1452,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October. Summers are hot in Baku, and winters are cold in the mountains.",
+   "currency": "Azerbaijani manat (AZN). Cards work in Baku, but carry cash outside the capital.",
+   "safety": "Check your government's advice and avoid areas near the borders with Armenia and the Nagorno-Karabakh region.",
+   "tipping": "Around 10% in restaurants if a service charge is not added.",
+   "transport": "Baku has a metro and taxis (Bolt, Uber), and buses and shared taxis link other cities."
+  },
   "stays": [
    {
     "desc": "A few hostels inside or close to Icherisheher.",
@@ -1379,6 +1475,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Bahrain": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Gold, spices and textiles in the old market.",
@@ -1560,6 +1661,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March has the mildest weather. Summers are very hot and humid.",
+   "currency": "Bahraini dinar (BHD). Cards are widely accepted.",
+   "safety": "Generally safe, but check your government's advice. Respect local laws and dress codes.",
+   "tipping": "About 10% in restaurants if no service charge is added.",
+   "transport": "Taxis and ride apps are the main option, and renting a car is practical. The King Fahd Causeway links to Saudi Arabia."
+  },
   "stays": [
    {
     "desc": "Adliya and the Seef district.",
@@ -1576,6 +1684,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Bangladesh": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Old Dhaka's chaos, Lalbagh Fort, Sadarghat river port and rickshaw art.",
@@ -1723,6 +1836,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–February is the cool, dry season. The monsoon runs June–September.",
+   "currency": "Bangladeshi taka (BDT). Carry cash, as cards are limited outside cities.",
+   "safety": "Watch for petty theft and political demonstrations. Check your government's advice for the Chittagong Hill Tracts.",
+   "tipping": "A small tip of around 10% in restaurants is common.",
+   "transport": "Trains and buses connect cities, and river ferries serve the delta. Dhaka traffic is heavy, so allow extra time. Use Uber or Pathao for rides."
+  },
   "stays": [
    {
     "desc": "Guesthouses and mid-range hotels in Gulshan, Banani and Motijheel; book ahead.",
@@ -1739,6 +1859,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Belarus": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Soviet-era boulevards, the Upper Town and museums.",
@@ -1902,6 +2027,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September has the best weather. Winters are cold.",
+   "currency": "Belarusian ruble (BYN). Foreign cards may not work, so carry cash in euros or US dollars to exchange.",
+   "safety": "Many governments advise against travel. Check current advice, entry rules and insurance coverage before planning.",
+   "tipping": "Not expected; round up in restaurants.",
+   "transport": "Trains and buses link major cities. Minsk has a metro and trams."
+  },
   "stays": [
    {
     "desc": "City centre.",
@@ -1918,6 +2050,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Belgium": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Grand-Place, Atomium, comic-strip murals and waffles.",
@@ -2089,6 +2226,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for the mildest weather. December is good for Christmas markets.",
+   "currency": "Euro (EUR).",
+   "safety": "Generally safe. Watch for pickpockets in Brussels and on trains.",
+   "tipping": "Service is included; rounding up is optional.",
+   "transport": "The rail network is dense and cheap, and Brussels has a metro, trams and buses."
+  },
   "stays": [
    {
     "desc": "A social hostel on the Markt, close to the sights.",
@@ -2105,6 +2249,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Belize": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A tiny, car-free island with snorkelling at Hol Chan and the Split.",
@@ -2253,6 +2402,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–April is the dry season. June–November brings rain and hurricane risk.",
+   "currency": "Belize dollar (BZD), pegged at 2:1 to the US dollar. US dollars are widely accepted.",
+   "safety": "Take care in Belize City, avoid walking alone at night and use registered guides for caves and reef trips.",
+   "tipping": "About 10–15% in restaurants if not included.",
+   "transport": "Domestic flights, water taxis and buses link towns and cayes."
+  },
   "stays": [
    {
     "desc": "A long-running hostel on Caye Caulker, known for its social, laid-back vibe.",
@@ -2269,6 +2425,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Bhutan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A monastery clinging to a cliff, reached by a half-day hike. The country's most iconic sight.",
@@ -2443,6 +2604,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "March–May and September–November. The spring festival season (tsechu) is popular.",
+   "currency": "Bhutanese ngultrum (BTN), which is pegged to the Indian rupee. Indian rupees are widely accepted.",
+   "safety": "Very safe. Altitude and weather are the main considerations on treks.",
+   "tipping": "Guides and drivers are tipped at the end of a tour, usually a modest amount.",
+   "transport": "Roads wind through mountains, so journeys take longer than distances suggest. Most visitors use a licensed guide and driver."
+  },
   "stays": [
    {
     "desc": "Sleep in a traditional farmhouse and eat with the family. Arranged through your tour operator.",
@@ -2459,6 +2627,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Bolivia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The world's largest salt flat, a mirror in the wet season (roughly January to March) and a white desert in the dry.",
@@ -2612,6 +2785,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–October is the dry season for the altiplano and Salar de Uyuni. Heavy rain falls from December to March.",
+   "currency": "Bolivian boliviano (BOB). Carry cash, as ATMs can be unreliable.",
+   "safety": "Altitude sickness is common in La Paz and Sucre. Use registered taxis and check for strikes and road blockades.",
+   "tipping": "Small tips in restaurants are appreciated.",
+   "transport": "Buses connect cities, but road blockades can disrupt journeys. Domestic flights save time."
+  },
   "stays": [
    {
     "desc": "A well-known social hostel in the city centre.",
@@ -2628,6 +2808,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Bosnia and Herzegovina": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Baščaršija old bazaar, the Latin Bridge and the Tunnel of Hope museum.",
@@ -2782,6 +2967,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for outdoor activities. Winter is good for skiing near Sarajevo.",
+   "currency": "Convertible mark (BAM). Euros are accepted in some tourist places.",
+   "safety": "Generally safe. Stay on marked paths in rural areas, as landmines remain in some regions.",
+   "tipping": "Round up or leave 10% in restaurants.",
+   "transport": "Buses link major towns, and a rental car helps for rural areas."
+  },
   "stays": [
    {
     "desc": "A good range of hostels close to Baščaršija.",
@@ -2798,6 +2990,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Botswana": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A flooded inland delta explored by mokoro canoe and on foot.",
@@ -2961,6 +3158,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–October is dry, with the best wildlife viewing. The green season from November to March has fewer visitors.",
+   "currency": "Botswana pula (BWP). US dollars are often used for camps and lodges.",
+   "safety": "Follow guides in wildlife areas and take malaria precautions.",
+   "tipping": "Tip guides and camp staff at the end of a stay.",
+   "transport": "Light aircraft link the Okavango camps, and self-drive needs a 4x4 in parks."
+  },
   "stays": [
    {
     "desc": "Gateway for delta trips.",
@@ -2977,6 +3181,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Brazil": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Christ the Redeemer, Sugarloaf at sunset, Ipanema and Copacabana beaches, samba nights in Lapa. Three days minimum.",
@@ -3166,6 +3375,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Brunei": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The golden-domed landmark of Bandar Seri Begawan, set beside a lagoon.",
@@ -3324,6 +3538,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "February–April is drier. Rain can occur year-round.",
+   "currency": "Brunei dollar (BND), which is interchangeable with the Singapore dollar.",
+   "safety": "Very safe. Alcohol is not sold, and dress codes and local laws are strict.",
+   "tipping": "Not expected.",
+   "transport": "Taxis and buses are limited, so renting a car or using ride apps helps."
+  },
   "stays": [
    {
     "desc": "Few hostels exist; budget hotels and guesthouses are near Gadong and the waterfront.",
@@ -3340,6 +3561,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Bulgaria": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Alexander Nevsky Cathedral, Vitosha mountain views and cafés.",
@@ -3503,6 +3729,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for the Black Sea coast and hiking. December–March for skiing in Bansko.",
+   "currency": "Bulgarian lev (BGN), with the euro adopted from 2026, so check which prices are displayed.",
+   "safety": "Generally safe. Take care with taxi scams, especially at the airport and bus stations.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Buses and trains link cities, and Sofia has a metro and trams."
+  },
   "stays": [
    {
     "desc": "A well-known hostel in central Sofia with a social atmosphere.",
@@ -3519,6 +3752,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Cambodia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Angkor Wat at sunrise, Bayon's smiling faces and the tree-covered Ta Prohm. Get a multi-day pass.",
@@ -3699,6 +3937,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Cameroon": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Beaches and waterfalls that reach the sea.",
@@ -3844,6 +4087,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–February is drier for most of the country. Rainy seasons vary by region.",
+   "currency": "Central African CFA franc (XAF). Carry cash, as cards are limited.",
+   "safety": "Check your government's advice. Some regions have security risks, so avoid the Far North and the Anglophone west unless advice allows.",
+   "tipping": "Small tips of around 10% in restaurants.",
+   "transport": "Buses and shared taxis link towns, and domestic flights connect Douala and Yaoundé."
+  },
   "stays": [
    {
     "desc": "Simple bungalows near the beach.",
@@ -3860,6 +4110,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Canada": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Turquoise lakes, mountain gondolas, hot springs and wildlife in the Canadian Rockies.",
@@ -4007,6 +4262,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–September for hiking and cities. December–March for skiing, and September–October for autumn leaves.",
+   "currency": "Canadian dollar (CAD). Cards and contactless payments are accepted widely.",
+   "safety": "Be bear-aware in wilderness areas and check weather, wildfire and road conditions.",
+   "tipping": "15–20% in restaurants and for taxis.",
+   "transport": "Flights cover long distances, and rental cars suit national parks. VIA Rail connects major cities."
+  },
   "stays": [
    {
     "desc": "Hostelling International has hostels in Banff, Jasper, Vancouver, Toronto and more, often in great locations.",
@@ -4023,6 +4285,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Chile": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Cerro San Cristóbal, Bellavista and Lastarria neighbourhoods, plus nearby wine valleys.",
@@ -4178,6 +4445,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March for Patagonia, and September–November or March–May for Santiago and wine regions. The Atacama is good year-round.",
+   "currency": "Chilean peso (CLP). Cards are common in cities.",
+   "safety": "Petty theft happens in Santiago and Valparaíso. Seismic activity is a natural hazard, so know evacuation routes in coastal areas.",
+   "tipping": "A 10% tip is standard in restaurants.",
+   "transport": "Long-distance buses are comfortable, and flights save time between Santiago and Patagonia."
+  },
   "stays": [
    {
     "desc": "Walkable neighbourhoods near bars, restaurants and the metro.",
@@ -4194,6 +4468,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "China": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Forbidden City, Temple of Heaven and the Great Wall at Mutianyu or Jinshanling.",
@@ -4351,6 +4630,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–May and September–October for most regions. Winter suits Harbin's ice festival and southern China.",
+   "currency": "Chinese yuan (CNY). Foreign cards often don't work, so set up Alipay or WeChat Pay with a foreign card and carry some cash.",
+   "safety": "Generally safe for visitors, but internet access is restricted, so install a VPN or eSIM with roaming before you go. Check current entry and visa rules.",
+   "tipping": "Not customary.",
+   "transport": "High-speed trains are fast and cheap. Use apps like Trip.com and DiDi, and keep your passport handy for train tickets."
+  },
   "stays": [
    {
     "desc": "Small hostels in old alleys near Nanluoguxiang and the Drum Tower, with courtyard atmosphere.",
@@ -4367,6 +4653,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Colombia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A walled colonial city on the Caribbean, with colourful streets, street food and nightlife.",
@@ -4521,6 +4812,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "December–March and July–August are drier for most of the Andes and cities. The Caribbean coast is best December–April.",
+   "currency": "Colombian peso (COP). Carry cash in small towns.",
+   "safety": "Check your government's advice by region. Use licensed taxis, avoid displaying valuables and avoid some border areas.",
+   "tipping": "A 10% voluntary service charge is common in restaurants.",
+   "transport": "Flights are cheap and important for long distances. Use Uber, InDrive or taxi apps in cities."
+  },
   "stays": [
    {
     "desc": "A Colombian hostel chain with branches in Bogotá, Medellín and Cartagena. Social and well run.",
@@ -4537,6 +4835,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Costa Rica": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Hot springs, waterfalls and hikes in the shadow of a classic cone volcano.",
@@ -4703,6 +5006,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "December–April is the dry season. The green season (May–November) has fewer crowds and lower prices.",
+   "currency": "Costa Rican colón (CRC). US dollars are widely accepted in tourist areas.",
+   "safety": "Petty theft from cars and beaches is common. Never leave valuables in a parked car, and watch for rip currents.",
+   "tipping": "A 10% service charge is usually included.",
+   "transport": "Shuttle vans and buses cover tourist routes, and rental cars help in rural areas."
+  },
   "stays": [
    {
     "desc": "A popular San José hostel with a social vibe; a useful first or last night.",
@@ -4719,6 +5029,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Croatia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "City walls above the sea, old stone streets and cable car views.",
@@ -4884,6 +5199,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–June and September for good weather and fewer crowds. July and August are hot and busy on the coast.",
+   "currency": "Euro (EUR).",
+   "safety": "Generally safe. Take care of sea urchins, strong sun and unexploded mines away from marked paths in some inland areas.",
+   "tipping": "Round up or leave 10% in restaurants.",
+   "transport": "Buses link coastal towns, and ferries serve islands. Book ferries early in summer."
+  },
   "stays": [
    {
     "desc": "A well-known hostel with stylish rooms and a central location.",
@@ -4900,6 +5222,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Cuba": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Old Havana, the Malecón, vintage cars, music and the vibrant Vedado district.",
@@ -5055,6 +5382,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–April is the dry season. Hurricane season is June–November.",
+   "currency": "Cuban peso (CUP), but US dollars and euros are widely used. Cards are rarely accepted, so bring enough cash.",
+   "safety": "Petty theft happens. Power and fuel shortages can disrupt travel, so bring flexibility.",
+   "tipping": "Tips are important for staff, often in cash.",
+   "transport": "Viazul buses link major cities, and shared taxis are common. Domestic flights are limited."
+  },
   "stays": [
    {
     "desc": "Family homes licensed to host visitors, usually with breakfast. Much cheaper than hotels and a great way to meet locals.",
@@ -5071,6 +5405,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Cyprus": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Roman mosaics, the Tombs of the Kings and nearby Aphrodite's Rock.",
@@ -5241,6 +5580,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October. July and August are very hot.",
+   "currency": "Euro (EUR) in the Republic of Cyprus. Turkish lira is used in the north.",
+   "safety": "Generally safe. Check advice about crossing into the north and the buffer zone.",
+   "tipping": "About 10% in restaurants if no service charge is included.",
+   "transport": "A rental car is the best way to see the island. Buses link main towns."
+  },
   "stays": [
    {
     "desc": "Small hotels and guesthouses near the harbour.",
@@ -5257,6 +5603,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Czech Republic": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Charles Bridge, Prague Castle, Old Town Square and beer halls.",
@@ -5428,6 +5779,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October. December is good for Christmas markets.",
+   "currency": "Czech koruna (CZK). Avoid exchange booths with poor rates.",
+   "safety": "Watch for pickpockets in Prague and unofficial taxis.",
+   "tipping": "Round up or leave around 10% in restaurants.",
+   "transport": "Trains and buses are cheap, and Prague has trams and a metro."
+  },
   "stays": [
    {
     "desc": "A stylish, central hostel in Vinohrady with a bar.",
@@ -5444,6 +5802,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Denmark": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Nyhavn, Tivoli Gardens, Christiania and an excellent food scene.",
@@ -5609,6 +5972,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for the best weather and long days.",
+   "currency": "Danish krone (DKK). Cards are accepted nearly everywhere.",
+   "safety": "Very safe. Watch for pickpockets in central Copenhagen.",
+   "tipping": "Service is included; rounding up is optional.",
+   "transport": "Trains and buses link cities, and cycling is common. Copenhagen has an excellent metro and bike lanes."
+  },
   "stays": [
    {
     "desc": "A design-led hostel in the centre, with a bar and events.",
@@ -5625,6 +5995,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Dominican Republic": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The first European city in the Americas, with cobbled streets and fortress walls.",
@@ -5779,6 +6154,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "December–April is the dry season. Hurricane season runs June–November.",
+   "currency": "Dominican peso (DOP). US dollars are widely accepted in resorts.",
+   "safety": "Petty theft and scams occur. Use registered taxis and avoid unlit areas at night.",
+   "tipping": "A 10% service charge is often included, and an extra tip is appreciated.",
+   "transport": "Buses link major cities, and taxis and ride apps work in Santo Domingo."
+  },
   "stays": [
    {
     "desc": "A handful of hostels in the colonial quarter within walking distance of sights.",
@@ -5795,6 +6177,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Ecuador": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A UNESCO old town, Basilica del Voto Nacional and the TelefériQo cable car.",
@@ -5955,6 +6342,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–September is the dry season in the Andes and Amazon. The Galápagos is good year-round.",
+   "currency": "US dollar (USD).",
+   "safety": "Check your government's advice on regions and cities. Use registered taxis and avoid displaying valuables.",
+   "tipping": "A 10% service charge is often included.",
+   "transport": "Buses link towns, and flights connect to the Galápagos."
+  },
   "stays": [
    {
     "desc": "A well-known hostel in the old town with a rooftop view over the city.",
@@ -5971,6 +6365,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Egypt": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The last surviving Wonder of the Ancient World; go at opening time.",
@@ -6153,6 +6552,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "El Salvador": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Black-sand beaches and surf breaks like Sunzal and El Zonte.",
@@ -6316,6 +6720,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–April is the dry season.",
+   "currency": "US dollar (USD). Bitcoin is legal tender but rarely used.",
+   "safety": "Security has improved, but keep to tourist areas, avoid walking at night and use official transport.",
+   "tipping": "Around 10% in restaurants if not included.",
+   "transport": "Buses and shuttles link main destinations. Use ride apps in San Salvador."
+  },
   "stays": [
    {
     "desc": "Plenty of hostels within a short walk to the surf and restaurants.",
@@ -6332,6 +6743,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Estonia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A medieval Old Town, Toompea hill and a trendy Telliskivi creative district.",
@@ -6492,6 +6908,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August for long days and festivals. December for Christmas markets, and winter for saunas.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Take normal city precautions.",
+   "tipping": "Round up or leave around 10%.",
+   "transport": "Buses link towns, and Tallinn has trams and buses. Ride apps like Bolt were founded here."
+  },
   "stays": [
    {
     "desc": "A good selection in the medieval centre.",
@@ -6508,6 +6931,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Ethiopia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Eleven rock-hewn churches carved from solid stone.",
@@ -6671,6 +7099,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "October–March is the dry season. The rainy season runs June–September.",
+   "currency": "Ethiopian birr (ETB). Carry cash, as cards are limited outside Addis Ababa.",
+   "safety": "Check your government's advice. Some regions have conflict, so stick to approved routes and use reputable operators.",
+   "tipping": "Small tips of around 10% are common.",
+   "transport": "Domestic flights connect main sights, and roads can be slow."
+  },
   "stays": [
    {
     "desc": "Mid-range guesthouses in Bole and Piazza.",
@@ -6687,6 +7122,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Fiji": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Short boat rides from Nadi, with beaches, snorkelling and day resorts.",
@@ -6834,6 +7274,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–October is the dry season. Cyclone season runs November–April.",
+   "currency": "Fijian dollar (FJD).",
+   "safety": "Generally safe. Use sun protection, check water conditions and use licensed boat operators.",
+   "tipping": "Not expected, but welcome.",
+   "transport": "Boats and small planes link islands, and buses and taxis serve Viti Levu."
+  },
   "stays": [
    {
     "desc": "A well-known hostel near the airport, a convenient starting point.",
@@ -6850,6 +7297,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Finland": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Suomenlinna fortress, Temppeliaukio Church, design district and saunas.",
@@ -6997,6 +7449,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August for midnight sun. December–March for Lapland, northern lights and snow activities.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Dress for the cold in winter and watch for ice.",
+   "tipping": "Not expected; rounding up is fine.",
+   "transport": "Trains and buses are efficient. Flights and night trains serve Lapland."
+  },
   "stays": [
    {
     "desc": "A budget hostel near the harbour and ferries.",
@@ -7013,6 +7472,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "France": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Eiffel Tower, Louvre, Montmartre, Seine walks and café culture. Give it at least three days.",
@@ -7197,6 +7661,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Georgia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Old Town balconies, sulphur baths, Narikala Fortress and a creative scene.",
@@ -7357,6 +7826,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–June and September–October. Summers are hot in Tbilisi, and winters are good for skiing in Gudauri.",
+   "currency": "Georgian lari (GEL).",
+   "safety": "Generally safe. Avoid the breakaway regions of Abkhazia and South Ossetia.",
+   "tipping": "A 10% tip is common if no service charge is added.",
+   "transport": "Marshrutkas link towns cheaply, and Bolt and Yandex are used for taxis."
+  },
   "stays": [
    {
     "desc": "A famous hostel in a former Soviet sewing factory with a courtyard, bars and workshops.",
@@ -7373,6 +7849,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Germany": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Brandenburg Gate, East Side Gallery, museums and one of Europe's best nightlife scenes.",
@@ -7556,6 +8037,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Ghana": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Markets, Jamestown, Osu nightlife and the Kwame Nkrumah Memorial Park.",
@@ -7725,6 +8211,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March is the dry season.",
+   "currency": "Ghanaian cedi (GHS).",
+   "safety": "Generally safe. Use registered taxis, avoid walking alone at night and require yellow fever vaccination.",
+   "tipping": "Around 10% in restaurants.",
+   "transport": "Trotros (minibuses) and buses link towns, and Bolt and Uber work in Accra."
+  },
   "stays": [
    {
     "desc": "Osu and Labone have mid-range stays.",
@@ -7741,6 +8234,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Greece": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Acropolis, Plaka's lanes, Monastiraki flea market and lively tavernas.",
@@ -7918,6 +8416,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Guatemala": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Colourful colonial streets with three volcanoes in the background; hike Pacaya for lava views.",
@@ -8073,6 +8576,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–April is the dry season.",
+   "currency": "Guatemalan quetzal (GTQ).",
+   "safety": "Check your government's advice. Avoid night travel, use tourist shuttles, and take care on volcano hikes.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Shuttles serve tourist routes, and chicken buses cover local trips. Use Uber in Guatemala City."
+  },
   "stays": [
    {
     "desc": "Many hostels in the centre, ideal for meeting people and joining volcano hikes.",
@@ -8089,6 +8599,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Honduras": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Intricately carved Maya stelae and the Hieroglyphic Stairway, in a small colonial town.",
@@ -8235,6 +8750,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "February–May is dry. The Bay Islands are best December–April.",
+   "currency": "Honduran lempira (HNL).",
+   "safety": "Check your government's advice. Violent crime is a concern in cities, so use registered transport and stay in tourist areas such as Roatán and Copán.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Buses link cities, and flights serve the Bay Islands."
+  },
   "stays": [
    {
     "desc": "A handful of hostels in the town centre, a short walk to the ruins.",
@@ -8251,6 +8773,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Hong Kong": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The classic skyline view; go at sunset and stay for the lights.",
@@ -8425,6 +8952,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "October–December is dry and mild. Summer is hot and humid with typhoon risk.",
+   "currency": "Hong Kong dollar (HKD). Octopus cards work on transport and in shops.",
+   "safety": "Very safe. Check current entry rules and local laws before travelling.",
+   "tipping": "A 10% service charge is often added.",
+   "transport": "The MTR, trams, buses and ferries are efficient and cheap."
+  },
   "stays": [
    {
     "desc": "A budget hostel brand with locations on Hong Kong Island and Kowloon. Compact rooms, good locations.",
@@ -8441,6 +8975,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Hungary": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Parliament, Buda Castle, thermal baths and ruin bars.",
@@ -8606,6 +9145,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October. December is good for Christmas markets.",
+   "currency": "Hungarian forint (HUF). Avoid street exchange offices.",
+   "safety": "Generally safe. Beware of overcharging in tourist restaurants and taxi scams.",
+   "tipping": "10–15% in restaurants unless a service charge is added.",
+   "transport": "Budapest has trams, metro and buses, and trains link other cities."
+  },
   "stays": [
    {
     "desc": "A well-rated hostel in the city centre with a lively atmosphere.",
@@ -8622,6 +9168,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Iceland": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Hallgrímskirkja, the harbour and a lively café and music scene.",
@@ -8803,6 +9354,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August for midnight sun and open roads. September–March for northern lights.",
+   "currency": "Icelandic króna (ISK). Cards are accepted nearly everywhere.",
+   "safety": "Weather and road conditions change quickly. Check road.is and safetravel.is, and never approach waves or glaciers carelessly.",
+   "tipping": "Not expected.",
+   "transport": "Renting a car is the easiest way to see the Ring Road, and guided tours serve many highlights."
+  },
   "stays": [
    {
     "desc": "A stylish, social hostel in a former biscuit factory, with a bar.",
@@ -8819,6 +9377,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "India": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Jaipur, Udaipur, Jodhpur, Jaisalmer: forts, palaces and desert camps in one classic circuit.",
@@ -9012,6 +9575,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Indonesia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Rice terraces, temples, yoga studios and the cultural heart of Bali.",
@@ -9194,6 +9762,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Iran": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Naqsh-e Jahan Square, Shah Mosque and the Si-o-se-pol bridge.",
@@ -9351,6 +9924,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "March–May and September–November. Summers are very hot in the south and centre.",
+   "currency": "Iranian rial (IRR), with prices often quoted in toman. Foreign bank cards do not work, so bring enough cash in euros or US dollars.",
+   "safety": "Many governments advise against all travel and some nationalities risk detention. Check your government's advice, and women must follow dress rules.",
+   "tipping": "Tipping is common, and taarof (polite refusal) is part of etiquette.",
+   "transport": "Buses, trains and domestic flights are cheap. Snapp and Tapsi are ride-hailing apps."
+  },
   "stays": [
    {
     "desc": "Courtyard guesthouses near the square.",
@@ -9367,6 +9947,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Iraq": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "One of the world's oldest continually inhabited sites.",
@@ -9530,6 +10115,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "October–April has milder weather. Summers are extremely hot.",
+   "currency": "Iraqi dinar (IQD). US dollars are also widely used. Cards are limited.",
+   "safety": "Many governments advise against travel to most of Iraq. The Kurdistan Region is generally more stable. Check current advice and use a licensed local operator.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Flights connect Baghdad, Erbil and Basra, and road travel needs local advice."
+  },
   "stays": [
    {
     "desc": "Near the citadel and bazaar.",
@@ -9546,6 +10138,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Ireland": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Trinity College, Guinness Storehouse, Temple Bar and literary pubs.",
@@ -9698,6 +10295,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for longer days. Weather is changeable year-round.",
+   "currency": "Euro (EUR) in the Republic of Ireland.",
+   "safety": "Very safe. Take care on narrow rural roads.",
+   "tipping": "About 10–15% in restaurants if service is not included.",
+   "transport": "Rental cars are useful outside Dublin, and buses and trains link main towns. Drive on the left."
+  },
   "stays": [
    {
     "desc": "A small, friendly hostel in Temple Bar with a social atmosphere.",
@@ -9714,6 +10318,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Israel": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Western Wall, Church of the Holy Sepulchre and Dome of the Rock area.",
@@ -9878,6 +10487,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "March–May and September–November. Summers are hot and the Dead Sea is very hot.",
+   "currency": "Israeli new shekel (ILS).",
+   "safety": "Check your government's current advice, as conditions can change quickly. Follow local guidance and avoid border areas.",
+   "tipping": "About 10–15% in restaurants.",
+   "transport": "Trains and buses link main cities, though public transport runs reduced on Shabbat. Gett and Yango are ride apps."
+  },
   "stays": [
    {
     "desc": "A well-known social hostel with tours and events.",
@@ -9894,6 +10510,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Italy": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Colosseum, Roman Forum, Vatican Museums and countless piazzas. Plan at least three days.",
@@ -10077,6 +10698,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Jamaica": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Bob Marley Museum, Trench Town, Devon House and a thriving music and food scene.",
@@ -10240,6 +10866,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "December–April is the dry season. Hurricane season runs June–November.",
+   "currency": "Jamaican dollar (JMD). US dollars are widely accepted in tourist areas.",
+   "safety": "Take care outside resorts, avoid isolated areas at night and use licensed guides.",
+   "tipping": "A 10–15% tip is common.",
+   "transport": "Taxis and route taxis are common. Use licensed operators and agree fares first."
+  },
   "stays": [
    {
     "desc": "A few hostels and guesthouses in New Kingston and Mona.",
@@ -10256,6 +10889,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Japan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Shibuya, Shinjuku, Asakusa, Akihabara and endless food. Easily three days.",
@@ -10439,6 +11077,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Jordan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The rose-red Nabataean city; hike up to the Monastery.",
@@ -10643,6 +11286,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Kazakhstan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Green Bazaar, Panfilov Park, Medeu skating rink and Shymbulak ski resort.",
@@ -10810,6 +11458,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for most areas, with skiing in Almaty from December to March.",
+   "currency": "Kazakhstani tenge (KZT).",
+   "safety": "Generally safe. Respect local customs and carry a copy of your passport and registration.",
+   "tipping": "Around 10% in restaurants.",
+   "transport": "Trains and domestic flights cover long distances. Yandex Go is a popular taxi app."
+  },
   "stays": [
    {
     "desc": "A good selection of hostels near Republic Square and Panfilov Park.",
@@ -10826,6 +11481,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Kenya": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Big cats and the Great Migration, usually July to October.",
@@ -11012,6 +11672,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Kuwait": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The city's icon, with a viewing sphere.",
@@ -11193,6 +11858,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March has the mildest weather. Summers are extremely hot.",
+   "currency": "Kuwaiti dinar (KWD). Cards are widely accepted.",
+   "safety": "Check your government's advice. Respect local laws and customs, and alcohol is banned.",
+   "tipping": "About 10% in restaurants if no service charge is added.",
+   "transport": "Taxis and ride apps are the main option, and renting a car is common."
+  },
   "stays": [
    {
     "desc": "Salmiya and the city centre.",
@@ -11209,6 +11881,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Kyrgyzstan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The second-largest alpine lake in the world, with beaches on the north shore and hot springs.",
@@ -11374,6 +12051,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–September for trekking and yurt stays. Winter suits skiing around Karakol.",
+   "currency": "Kyrgyz som (KGS). Carry cash for rural areas.",
+   "safety": "Generally safe. Take care with altitude, weather and river crossings on treks.",
+   "tipping": "Around 10% in restaurants.",
+   "transport": "Marshrutkas and shared taxis link towns, and Yandex Go works in Bishkek."
+  },
   "stays": [
    {
     "desc": "Family homestays and yurts across the country, booked through the CBT network or local offices.",
@@ -11390,6 +12074,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Laos": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A UNESCO town of temples, morning alms, Kuang Si Falls and night markets.",
@@ -11547,6 +12236,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–February is cool and dry. March–May is hot, and the rainy season runs June–October.",
+   "currency": "Lao kip (LAK). Thai baht and US dollars are also accepted in some places.",
+   "safety": "Avoid unexploded ordnance areas away from marked paths, and use official boats and tours.",
+   "tipping": "Not expected, but small tips are appreciated.",
+   "transport": "Buses, minivans and the high-speed train link Vientiane and Luang Prabang. Slow boats run on the Mekong."
+  },
   "stays": [
    {
     "desc": "Several hostels near the night market with easy access to Kuang Si Falls tours.",
@@ -11563,6 +12259,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Latvia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A UNESCO old town and Europe's best Art Nouveau district.",
@@ -11728,6 +12429,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August for beaches and festivals. December for Christmas markets.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Take normal city precautions.",
+   "tipping": "Round up or leave around 10%.",
+   "transport": "Buses and trains link towns, and Riga has trams and trolleybuses."
+  },
   "stays": [
    {
     "desc": "A good selection within walking distance of sights and bars.",
@@ -11744,6 +12452,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Lebanon": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Corniche, Gemmayzeh bars, National Museum and Mar Mikhael.",
@@ -11907,6 +12620,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–November. Winters are good for skiing in the mountains.",
+   "currency": "Lebanese pound (LBP), but US dollars are widely used. Banks and ATMs are unreliable, so bring cash.",
+   "safety": "Many governments advise against travel. Check current advice, avoid border areas in the south and east and have an evacuation plan.",
+   "tipping": "About 10–15% in restaurants.",
+   "transport": "Service taxis and shared minibuses are common, and renting a car with a driver may be easier."
+  },
   "stays": [
    {
     "desc": "Gemmayzeh and Hamra.",
@@ -11923,6 +12643,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Lithuania": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A baroque old town, the Republic of Užupis and a lively café scene.",
@@ -12083,6 +12808,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September. Winters are cold and dark.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Take normal city precautions.",
+   "tipping": "Around 10% in restaurants.",
+   "transport": "Trains and buses link cities, and Bolt works in Vilnius."
+  },
   "stays": [
    {
     "desc": "A good range in the centre, close to bars and sights.",
@@ -12099,6 +12831,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Luxembourg": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Bock Casemates, Grund quarter and viewpoints over the Alzette gorge.",
@@ -12274,6 +13011,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe.",
+   "tipping": "Service is included; rounding up is optional.",
+   "transport": "Public transport is free nationwide, which is convenient for day trips."
+  },
   "stays": [
    {
     "desc": "A modern hostel in the Pfaffenthal district, linked by lift to the old town.",
@@ -12290,6 +13034,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Malaysia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Petronas Towers, Batu Caves, Chinatown and Bukit Bintang. A food lover's city.",
@@ -12470,6 +13219,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Maldives": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The most developed local island, close to Malé, with guesthouses, diving and a bikini beach.",
@@ -12603,6 +13357,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–April is the dry season. May–October brings rain but lower prices.",
+   "currency": "Maldivian rufiyaa (MVR). US dollars are widely used at resorts.",
+   "safety": "Respect local laws, as alcohol is only sold at resorts. Check currents before swimming and snorkelling.",
+   "tipping": "Resorts add a service charge, with extra tips for staff appreciated.",
+   "transport": "Speedboats, ferries and seaplanes link islands. Budget travellers use local ferries between inhabited islands."
+  },
   "stays": [
    {
     "desc": "Dozens of budget guesthouses with easy ferry access from Malé.",
@@ -12619,6 +13380,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Malta": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A UNESCO capital with baroque palaces, Upper Barrakka Gardens and harbour views.",
@@ -12783,6 +13549,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Take normal precautions at night in Paceville.",
+   "tipping": "Around 10% in restaurants if not included.",
+   "transport": "Buses are cheap and cover the islands, and ferries link Malta and Gozo. Bolt and eCabs are common."
+  },
   "stays": [
    {
     "desc": "Social hostels close to nightlife and the waterfront.",
@@ -12799,6 +13572,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Mexico": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Zócalo, Frida Kahlo's house, Teotihuacan, markets and one of the world's best food scenes.",
@@ -12974,6 +13752,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Mongolia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The capital, with Gandan Monastery, Sukhbaatar Square and museums on Genghis Khan and dinosaurs.",
@@ -13139,6 +13922,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–September for the steppe and Naadam festival in July. Winter is very cold.",
+   "currency": "Mongolian tögrög (MNT).",
+   "safety": "Generally safe. Watch for pickpockets in Ulaanbaatar and carry spare food and water on long drives.",
+   "tipping": "Small tips of around 10% in restaurants.",
+   "transport": "Roads are rough outside Ulaanbaatar, so most visitors travel with a driver and guide."
+  },
   "stays": [
    {
     "desc": "A handful of hostels and guesthouses near Sukhbaatar Square, often with tour desks.",
@@ -13155,6 +13945,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Montenegro": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A walled old town below steep mountains, with a climb up to the fortress.",
@@ -13314,6 +14109,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–June and September. July and August are hot and busy on the coast.",
+   "currency": "Euro (EUR).",
+   "safety": "Generally safe. Take care on winding mountain roads.",
+   "tipping": "Around 10% in restaurants.",
+   "transport": "Buses link towns, and a rental car helps for national parks."
+  },
   "stays": [
    {
     "desc": "A few hostels inside or near the walls, with easy access to the fortress.",
@@ -13330,6 +14132,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Morocco": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Jemaa el-Fnaa square, souks, Majorelle Garden and riads.",
@@ -13534,6 +14341,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Myanmar": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Thousands of temples across a dry plain; hot-air balloons at sunrise when operating.",
@@ -13684,6 +14496,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–February is cool and dry. March–May is very hot, and the rainy season runs June–October.",
+   "currency": "Myanmar kyat (MMK). Carry clean US dollar notes and cash.",
+   "safety": "Many governments advise against all travel because of armed conflict. Do not travel without current official advice.",
+   "tipping": "Small tips are appreciated.",
+   "transport": "Domestic flights, trains and buses are available but conditions vary."
+  },
   "stays": [
    {
     "desc": "Downtown guesthouses near Sule Pagoda and the Strand are budget-friendly.",
@@ -13700,6 +14519,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Nepal": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Boudhanath Stupa, Pashupatinath, Swayambhunath and the medieval city of Bhaktapur.",
@@ -13873,6 +14697,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Netherlands": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Canal rings, the Rijksmuseum, Van Gogh Museum, Anne Frank House and cycling everywhere.",
@@ -14038,6 +14867,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–May for tulips, and June–September for pleasant weather.",
+   "currency": "Euro (EUR). Cards are widely accepted, but some places do not take foreign credit cards.",
+   "safety": "Very safe. Watch for pickpockets, and beware of cyclists.",
+   "tipping": "Round up or leave around 5–10%.",
+   "transport": "Trains are fast, and cycling is common. Use an OV-chipkaart or contactless in cities."
+  },
   "stays": [
    {
     "desc": "A long-established social hostel brand with several branches in Amsterdam.",
@@ -14054,6 +14890,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "New Zealand": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The adventure capital: bungee jumping, skiing, jet boats and lakeside views.",
@@ -14217,6 +15058,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "December–March for summer and hiking. June–September for skiing.",
+   "currency": "New Zealand dollar (NZD).",
+   "safety": "Very safe, but weather and road conditions change quickly, so check conditions for hikes and mountain roads.",
+   "tipping": "Not expected.",
+   "transport": "Renting a campervan or car is popular, and domestic flights save time between islands."
+  },
   "stays": [
    {
     "desc": "A network of hostels across the country, including in national parks.",
@@ -14233,6 +15081,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Nicaragua": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A colourful colonial city on Lake Nicaragua, with a lively calle.",
@@ -14378,6 +15231,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–April is the dry season.",
+   "currency": "Nicaraguan córdoba (NIO). US dollars are widely accepted.",
+   "safety": "Check your government's advice, as the political situation can affect travel. Use registered transport and avoid demonstrations.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Shuttle vans and buses connect Granada, León and the coast."
+  },
   "stays": [
    {
     "desc": "A long-running party hostel in Granada, popular with backpackers.",
@@ -14394,6 +15254,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Nigeria": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Art galleries, Nike Art Centre, beaches and Afrobeats nightlife.",
@@ -14539,6 +15404,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March is the dry season.",
+   "currency": "Nigerian naira (NGN). Carry cash, as cards may not work.",
+   "safety": "Check your government's advice. Some regions have security risks, so avoid road travel at night and use trusted drivers.",
+   "tipping": "About 10% is common.",
+   "transport": "Domestic flights link major cities, and Uber and Bolt work in Lagos and Abuja."
+  },
   "stays": [
    {
     "desc": "Mid-range hotels for business and leisure.",
@@ -14555,6 +15427,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "North Macedonia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "One of Europe's oldest and deepest lakes, with the church of St John at Kaneo.",
@@ -14707,6 +15584,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–June and September for Ohrid and hiking.",
+   "currency": "Macedonian denar (MKD).",
+   "safety": "Generally safe. Watch for petty theft.",
+   "tipping": "Around 10% in restaurants.",
+   "transport": "Buses link Skopje, Ohrid and other towns."
+  },
   "stays": [
    {
     "desc": "Hostels in the old town with views of the lake.",
@@ -14723,6 +15607,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Norway": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Opera House, Vigeland Sculpture Park and museums on the Bygdøy peninsula.",
@@ -14882,6 +15771,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August for fjords and midnight sun. November–March for northern lights.",
+   "currency": "Norwegian krone (NOK). Cards are used almost everywhere.",
+   "safety": "Very safe. Weather changes quickly in the mountains, so follow hiking safety advice.",
+   "tipping": "Not expected; rounding up is common.",
+   "transport": "Trains, buses and ferries link towns, and scenic routes such as the Bergen Line are popular."
+  },
   "stays": [
    {
     "desc": "A popular, budget hostel in the Grünerløkka area.",
@@ -14898,6 +15794,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Oman": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Sultan Qaboos Grand Mosque, Mutrah Souq and old forts.",
@@ -15079,6 +15980,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "October–April has the mildest weather. Salalah is best in the khareef (June–September).",
+   "currency": "Omani rial (OMR).",
+   "safety": "Generally safe, but check your government's advice. Be careful at wadis during rain and drive carefully on desert roads.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Renting a car is the best way to see the country, and taxis are available in Muscat."
+  },
   "stays": [
    {
     "desc": "Mutrah and Qurum.",
@@ -15095,6 +16003,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Pakistan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Badshahi Mosque, Lahore Fort, the walled city's food street and Wagah Border ceremony.",
@@ -15248,6 +16161,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–October for the northern mountains, and October–March for Lahore, Karachi and the south.",
+   "currency": "Pakistani rupee (PKR). Carry cash.",
+   "safety": "Check your government's advice. Some regions, including border areas, have security risks, so travel with reputable local operators.",
+   "tipping": "A 5–10% tip is common.",
+   "transport": "Domestic flights, trains and buses connect cities. Careem and Uber operate in big cities."
+  },
   "stays": [
    {
     "desc": "Budget guesthouses near the old city and Mall Road.",
@@ -15264,6 +16184,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Panama": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A UNESCO old quarter with colonial plazas, rooftop bars and craft shops.",
@@ -15412,6 +16337,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "January–April is the dry season.",
+   "currency": "Panamanian balboa (PAB) is pegged to the US dollar and US dollars are used.",
+   "safety": "Petty theft happens in Panama City. Avoid isolated areas and the Darién Gap.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Buses and a metro serve Panama City, and flights serve Bocas del Toro."
+  },
   "stays": [
    {
     "desc": "A well-known hostel in the old town with a communal vibe.",
@@ -15428,6 +16360,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Papua New Guinea": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A challenging trek over the Owen Stanley Range, linked with World War II history.",
@@ -15574,6 +16511,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–October is the drier season.",
+   "currency": "Papua New Guinean kina (PGK). Carry cash.",
+   "safety": "Check your government's advice. Crime is a concern, so travel with trusted local operators and avoid walking at night.",
+   "tipping": "Not expected.",
+   "transport": "Flights are the main way to travel between regions."
+  },
   "stays": [
    {
     "desc": "Most visitors stay at lodges or guesthouses arranged by their tour operator for safety.",
@@ -15590,6 +16534,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Paraguay": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A relaxed capital with a riverside Palacio de los López and old-town cafes.",
@@ -15754,6 +16703,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–October has milder weather. Summers are hot.",
+   "currency": "Paraguayan guaraní (PYG).",
+   "safety": "Generally safe. Watch for petty theft in Asunción.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Buses link towns, and rental cars help for the Jesuit missions."
+  },
   "stays": [
    {
     "desc": "A few hostels in the centre and the Villa Morra district.",
@@ -15770,6 +16726,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Peru": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Inca citadel and the old Inca capital, with a base for Sacred Valley trips.",
@@ -15971,6 +16932,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Philippines": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Limestone cliffs, lagoons and clear water. Palawan is the Philippines' postcard destination.",
@@ -16149,6 +17115,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Poland": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Rynek Główny, Wawel Castle, Kazimierz district and nearby Wieliczka Salt Mine.",
@@ -16303,6 +17274,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September. December for Christmas markets.",
+   "currency": "Polish złoty (PLN).",
+   "safety": "Very safe. Watch for pickpockets in tourist areas.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Trains and buses are cheap, and Warsaw, Kraków and Wrocław have trams and buses."
+  },
   "stays": [
    {
     "desc": "A popular hostel close to the Old Town, with a social vibe.",
@@ -16319,6 +17297,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Portugal": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Hilltop viewpoints, tram 28, Alfama's fado bars and pastéis de nata.",
@@ -16490,6 +17473,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Qatar": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A landmark building on the Corniche.",
@@ -16665,6 +17653,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March has the mildest weather. Summers are extremely hot.",
+   "currency": "Qatari riyal (QAR).",
+   "safety": "Generally safe, but check your government's advice. Respect local laws and dress codes.",
+   "tipping": "About 10% in restaurants if no service charge is added.",
+   "transport": "The Doha Metro and Uber or Karwa taxis are convenient."
+  },
   "stays": [
    {
     "desc": "Central stays near the sights.",
@@ -16681,6 +17676,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Romania": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A medieval old town and the castle linked to Dracula.",
@@ -16839,6 +17839,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September. Winter suits skiing in the Carpathians.",
+   "currency": "Romanian leu (RON).",
+   "safety": "Generally safe. Use licensed taxis and watch for petty theft.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Trains and buses link cities, and Bucharest has a metro. Use Bolt or Uber."
+  },
   "stays": [
    {
     "desc": "A good range of hostels near the Old Town and Piața Universității.",
@@ -16855,6 +17862,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Russia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Red Square, the Kremlin, St Basil's and the metro stations.",
@@ -17006,6 +18018,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August for long days and St Petersburg's white nights. December–February for snow.",
+   "currency": "Russian ruble (RUB). Foreign cards generally do not work, so cash is needed.",
+   "safety": "Many governments advise against travel. Check current advice, entry rules and insurance coverage before considering a trip.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "High-speed trains link Moscow and St Petersburg. Flights are limited by sanctions and airspace restrictions."
+  },
   "stays": [
    {
     "desc": "Near Arbat and Tverskaya.",
@@ -17022,6 +18041,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Rwanda": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Mountain gorilla and golden monkey trekking.",
@@ -17185,6 +18209,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–September and December–February are drier. Gorilla trekking is possible year-round.",
+   "currency": "Rwandan franc (RWF).",
+   "safety": "Very safe in towns, but check your government's advice, especially for border areas with the DR Congo.",
+   "tipping": "Not expected, but welcome.",
+   "transport": "Buses and moto-taxis link towns, and Kigali has taxi apps."
+  },
   "stays": [
    {
     "desc": "A few hostels and guesthouses in Kacyiru and Kimihurura.",
@@ -17201,6 +18232,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Saudi Arabia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Nabataean tombs, canyons and Elephant Rock.",
@@ -17346,6 +18382,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March has the mildest weather. Summers are extremely hot.",
+   "currency": "Saudi riyal (SAR).",
+   "safety": "Check your government's advice, as some regions are restricted. Follow local laws and dress codes.",
+   "tipping": "About 10% in restaurants if no service charge is added.",
+   "transport": "Domestic flights, a growing rail network and rideshare apps like Uber and Careem."
+  },
   "stays": [
    {
     "desc": "Olaya district.",
@@ -17362,6 +18405,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Serbia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Kalemegdan Fortress, Knez Mihailova Street and river barges known as splavovi.",
@@ -17515,6 +18563,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September.",
+   "currency": "Serbian dinar (RSD).",
+   "safety": "Generally safe. Check advice for Kosovo and border areas.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Buses and trains link Belgrade, Novi Sad and other towns."
+  },
   "stays": [
    {
     "desc": "Plenty of hostels around Republic Square and Skadarlija.",
@@ -17531,6 +18586,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Singapore": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Giant Supertrees, the Cloud Forest dome and the nightly light show.",
@@ -17722,6 +18782,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Slovakia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A compact old town, a castle, and easy access to Vienna.",
@@ -17880,6 +18945,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for hiking in the High Tatras. Winter suits skiing.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe.",
+   "tipping": "Around 10% in restaurants.",
+   "transport": "Trains and buses link Bratislava, Košice and mountain areas."
+  },
   "stays": [
    {
     "desc": "Small hostels in the centre, close to the castle and river.",
@@ -17896,6 +18968,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Slovenia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A car-free centre with a castle, river cafés and dragon bridges.",
@@ -18065,6 +19142,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for lakes and hiking. December–March for skiing.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe.",
+   "tipping": "Around 10% for good service.",
+   "transport": "Trains and buses link Ljubljana, Bled and other towns. A rental car helps for rural areas."
+  },
   "stays": [
    {
     "desc": "A converted prison with cells turned into rooms, known for its artists' design.",
@@ -18081,6 +19165,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "South Africa": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Cable car or hike, Cape Point, Robben Island and the V&A Waterfront.",
@@ -18262,6 +19351,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "South Korea": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Gyeongbokgung Palace, Bukchon Hanok Village, Hongdae nightlife and Myeongdong street food.",
@@ -18450,6 +19544,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Spain": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Sagrada Família, Park Güell, Gothic Quarter and beaches.",
@@ -18626,6 +19725,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Sri Lanka": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Tea hills, the Nine Arch Bridge and the famous train ride from Kandy.",
@@ -18805,6 +19909,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Sweden": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Gamla Stan, Vasa Museum and archipelago boats.",
@@ -18953,6 +20062,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August for long days. December–March for Lapland and northern lights.",
+   "currency": "Swedish krona (SEK). Many places are cashless.",
+   "safety": "Generally safe. Take care in some suburban areas and keep your belongings secure in crowded places.",
+   "tipping": "Not expected; round up for good service.",
+   "transport": "Trains and buses link cities. Stockholm has a metro, buses and ferries."
+  },
   "stays": [
    {
     "desc": "A hostel on a historic ship and an island in central Stockholm.",
@@ -18969,6 +20085,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Switzerland": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Alpine villages, Lauterbrunnen waterfalls and the train to Jungfraujoch.",
@@ -19138,6 +20259,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–September for hiking, and December–March for skiing.",
+   "currency": "Swiss franc (CHF).",
+   "safety": "Very safe. Mountain weather changes quickly.",
+   "tipping": "Service is included; rounding up is common.",
+   "transport": "The Swiss Travel Pass covers trains, buses and boats and many mountain railways."
+  },
   "stays": [
    {
     "desc": "A famous backpacker hostel with a bar and adventure tours.",
@@ -19154,6 +20282,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Taiwan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Taipei 101, Shilin Night Market, temples and hot springs in Beitou.",
@@ -19315,6 +20448,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "October–April has more pleasant weather. Typhoon season is July–October.",
+   "currency": "New Taiwan dollar (TWD).",
+   "safety": "Very safe. Typhoons and earthquakes are natural hazards.",
+   "tipping": "Not expected.",
+   "transport": "High-speed rail, metro and buses are efficient, and EasyCard works across most transport."
+  },
   "stays": [
    {
     "desc": "A stylish, popular hostel near Taipei Main Station, good for solo travellers.",
@@ -19331,6 +20471,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Tajikistan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "One of the world's great road trips, through high passes, desert plateaus and lakes.",
@@ -19489,6 +20634,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–September for the Pamir mountains.",
+   "currency": "Tajikistani somoni (TJS).",
+   "safety": "Check your government's advice. Avoid the Afghan border area, carry permits for the Pamirs and be prepared for altitude.",
+   "tipping": "Not expected.",
+   "transport": "Shared taxis and minibuses link towns. The Pamir Highway needs a 4x4 and planning."
+  },
   "stays": [
    {
     "desc": "Simple family homes with shared meals. Book through local operators or arrive and ask.",
@@ -19505,6 +20657,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Tanzania": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Endless plains, big cats and the migration.",
@@ -19703,6 +20860,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Thailand": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Grand Palace, Wat Pho, Chatuchak market and some of the best street food on Earth. Two to three days is enough.",
@@ -19888,6 +21050,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Tunisia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A lively souk and one of the great Roman mosaic collections.",
@@ -20069,6 +21236,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October.",
+   "currency": "Tunisian dinar (TND). It is illegal to import or export it, so exchange at the airport or use ATMs.",
+   "safety": "Check your government's advice for border areas and the south. Haggle politely in souks.",
+   "tipping": "Small tips of about 10% are common.",
+   "transport": "Trains, buses and louages (shared taxis) link cities."
+  },
   "stays": [
    {
     "desc": "Courtyard houses converted to guesthouses.",
@@ -20085,6 +21259,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Turkey": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Hagia Sophia, the Blue Mosque, the Grand Bazaar and Bosphorus ferries.",
@@ -20264,6 +21443,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Turkmenistan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "A natural gas field that has burned for decades, best seen at night.",
@@ -20434,6 +21618,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–May and September–October. Summers are extremely hot.",
+   "currency": "Turkmenistani manat (TMT).",
+   "safety": "Safe but tightly controlled. Entry rules and visa requirements are strict.",
+   "tipping": "Not expected.",
+   "transport": "Visitors usually need a guide and an organised itinerary."
+  },
   "stays": [
    {
     "desc": "Hotels are generally arranged as part of your visa-supported tour.",
@@ -20450,6 +21641,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Uganda": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Home to about half the world's mountain gorillas.",
@@ -20625,6 +21821,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "June–August and December–February are drier. Gorilla trekking is year-round, but trails are muddier in rains.",
+   "currency": "Ugandan shilling (UGX).",
+   "safety": "Check your government's advice. Avoid border areas with the DR Congo and South Sudan, and follow park rules.",
+   "tipping": "About 10% in restaurants, with tips for guides and rangers.",
+   "transport": "Boda-bodas (motorbike taxis) and buses link towns, and SafeBoda and Uber operate in Kampala. Road travel can be slow."
+  },
   "stays": [
    {
     "desc": "Backpacker places around Kabalagala and Entebbe.",
@@ -20641,6 +21844,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Ukraine": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "UNESCO old town, cafés and Austro-Hungarian architecture.",
@@ -20786,6 +21994,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–September for most areas. Winters are cold.",
+   "currency": "Ukrainian hryvnia (UAH).",
+   "safety": "Many governments advise against all travel because of the war. Do not travel without official advice, specialist insurance and a safety plan.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Rail is the main link between cities, and air travel is suspended."
+  },
   "stays": [
    {
     "desc": "Old Town.",
@@ -20802,6 +22017,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "United Arab Emirates": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Burj Khalifa, Dubai Mall, the old Al Fahidi district and creek abras.",
@@ -20984,6 +22204,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "United Kingdom": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Tower of London, British Museum, Borough Market and endless parks and pubs.",
@@ -21327,6 +22552,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "Depends on region. Spring (April–June) and autumn (September–October) are good for many cities and parks, and winter suits skiing and Florida.",
+   "currency": "US dollar (USD). Cards are accepted nearly everywhere.",
+   "safety": "Generally safe, but crime and safety vary by area. Check local conditions, drive carefully and carry travel health insurance.",
+   "tipping": "Tipping is expected: 15–20% in restaurants, and tips for taxis and hotel staff.",
+   "transport": "Domestic flights and rental cars cover long distances. Amtrak serves some corridors, and big cities have metros and ride apps."
+  },
   "stays": [
    {
     "desc": "Hostels in New York, San Francisco, Los Angeles, Washington DC and more. Reliable and budget friendly.",
@@ -21343,6 +22575,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Uruguay": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Ciudad Vieja, Mercado del Puerto, the Rambla promenade and candombe drumming.",
@@ -21507,6 +22744,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "November–March for beaches. Spring and autumn are good for Montevideo.",
+   "currency": "Uruguayan peso (UYU).",
+   "safety": "Generally safe. Watch for petty theft in Montevideo.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "Buses link Montevideo, Colonia and Punta del Este."
+  },
   "stays": [
    {
     "desc": "A good selection of hostels near the old port and Plaza Independencia.",
@@ -21523,6 +22767,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Uzbekistan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Registan, Shah-i-Zinda and Gur-e-Amir, among the most beautiful Islamic monuments in the world.",
@@ -21690,6 +22939,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "April–June and September–October. Summers are hot, and winters are cold.",
+   "currency": "Uzbekistani som (UZS).",
+   "safety": "Generally safe. Carry your passport and registration documents.",
+   "tipping": "About 10% in restaurants.",
+   "transport": "High-speed trains link Tashkent, Samarkand, Bukhara and Khiva."
+  },
   "stays": [
    {
     "desc": "Family-run guesthouses with courtyards and breakfast, easy to find via booking sites.",
@@ -21706,6 +22962,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Venezuela": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The world's tallest uninterrupted waterfall, reached by plane and boat in Canaima National Park.",
@@ -21855,6 +23116,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "December–April is drier for most areas.",
+   "currency": "Venezuelan bolívar (VES), though US dollars are widely used. Carry cash, as cards are unreliable.",
+   "safety": "Check your government's advice. Security risks are high in many areas, so travel only with trusted local operators.",
+   "tipping": "Tips in US dollars are appreciated.",
+   "transport": "Flights and buses link main cities, and road conditions vary."
+  },
   "stays": [
    {
     "desc": "Family-run posadas are the standard stay. Book through a reputable operator familiar with current conditions.",
@@ -21871,6 +23139,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Vietnam": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Lantern-lit old town, tailor shops, and one of SilentMonk's actual favorite hostel experiences in the country.",
@@ -22091,6 +23364,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Zambia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "The Devil's Pool, Knife-Edge Bridge and white-water rafting.",
@@ -22236,6 +23514,13 @@ window.COUNTRY_GUIDES = {
     }
    ]
   },
+  "practical": {
+   "bestTime": "May–October is dry, with the best wildlife viewing. Victoria Falls is at its fullest in March–May.",
+   "currency": "Zambian kwacha (ZMW).",
+   "safety": "Take malaria precautions and follow guides' instructions in parks.",
+   "tipping": "Tip guides and camp staff at the end of a stay.",
+   "transport": "Flights link Lusaka, Livingstone and the parks. Buses link towns."
+  },
   "stays": [
    {
     "desc": "Hostels with adventure activity booking.",
@@ -22252,6 +23537,11 @@ window.COUNTRY_GUIDES = {
   ]
  },
  "Zimbabwe": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
   "bestOf": [
    {
     "desc": "Spray, rainforest walks and the Victoria Falls Bridge.",
@@ -22402,6 +23692,13 @@ window.COUNTRY_GUIDES = {
      "title": "Day 6–7 — Matobo Hills"
     }
    ]
+  },
+  "practical": {
+   "bestTime": "May–October is the dry season. Victoria Falls is fullest in March–May.",
+   "currency": "US dollars are widely used, with the local Zimbabwe Gold (ZiG) also in circulation. Carry small notes.",
+   "safety": "Check your government's advice. Avoid political demonstrations and use licensed operators.",
+   "tipping": "About 10% in restaurants, with tips for guides.",
+   "transport": "Flights and buses link Harare, Bulawayo and Victoria Falls."
   },
   "stays": [
    {
