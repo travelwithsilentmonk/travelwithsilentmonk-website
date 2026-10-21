@@ -107,6 +107,24 @@
         const inp = 'padding:8px 10px;border-radius:6px;border:1px solid #444;background:#111;color:#fff;font-size:15px;';
         const lab = 'display:block;font-size:13px;opacity:.8;margin-bottom:4px;';
 
+
+        function tripBox() {
+            const t = b.trip; if (!t) return '';
+            const val = (inr, usd) => st.cur === 'INR' ? '₹' + inr.toLocaleString('en-IN') : (st.cur === 'EUR' ? '€' : '$') + Math.round(st.cur === 'EUR' ? usd * RATES.EUR : usd).toLocaleString('en-US');
+            const tot = 'about ' + val(t.total_inr, t.total_usd);
+            const perDay = val(Math.round(t.total_inr / t.days / 10) * 10, Math.round(t.total_usd / t.days));
+            const rows = t.cats.map(c => `<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #2c2c2c;"><span>${esc(c[0])}</span><span>${val(c[1], c[2])}</span></div>`).join('');
+            return `<div style="${panel}margin-top:20px;">
+                <p style="color:#4caf6d;font-weight:700;font-size:13px;letter-spacing:1px;">FROM OUR TRIP · ${esc(t.checked).toUpperCase()}</p>
+                <h3 style="margin:6px 0;">${esc(t.title)}: ${esc(t.route)}</h3>
+                <p style="opacity:.85;margin-bottom:12px;">${esc(t.when)} · ${t.days} days · ${esc(t.who)}</p>
+                <p style="font-size:26px;font-weight:800;color:#4caf6d;">${tot} <span style="font-size:15px;font-weight:400;color:#fff;opacity:.8;">in total · about ${perDay} a day</span></p>
+                <div style="margin-top:10px;">${rows}</div>
+                <ul style="padding-left:18px;margin-top:12px;line-height:1.6;font-size:14px;opacity:.9;">${t.notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul>
+                <p style="font-size:13px;opacity:.7;margin-top:8px;">${esc(t.approx || '')} Converted at the rates we got then. ${st.cur === 'USD' || st.cur === 'EUR' ? 'Dollar and euro figures are approximate.' : ''} Your costs will differ.</p>
+            </div>`;
+        }
+
         function draw() {
             const r = calc();
             const lo = r.total * 0.85, hi = r.total * 1.25;
@@ -148,6 +166,7 @@
                 </div>
               </div>
             </div>
+            ${tripBox()}
             <p style="margin-top:18px;font-size:14px;line-height:1.6;opacity:.85;">${esc(r.total ? `A ${r.days}-night ${({ budget: 'budget', mid: 'mid-range', comfort: 'comfort' })[st.style]} trip to ${country} costs roughly ${money(lo)}–${money(hi)} for ${st.n} traveller${st.n > 1 ? 's' : ''}.` : '')} Prices are estimates in US dollars per person from sources checked in ${esc(b.checked)} (confidence: ${esc(b.confidence || 'medium')}), shown as a range because real costs vary by season. ${esc(b.currency_note || '')} ${st.cur !== 'USD' ? 'Currency conversion is approximate.' : ''} Flights to ${esc(country)} are not included.</p>`;
             const q = id => document.getElementById(id);
             q('bTrip').onchange = e => { st.trip = e.target.value; applyPreset(); draw(); };
