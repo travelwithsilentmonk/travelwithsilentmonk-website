@@ -111,8 +111,8 @@
         function tripBox() {
             const t = b.trip; if (!t) return '';
             const val = (inr, usd) => st.cur === 'INR' ? '₹' + inr.toLocaleString('en-IN') : (st.cur === 'EUR' ? '€' : '$') + Math.round(st.cur === 'EUR' ? usd * RATES.EUR : usd).toLocaleString('en-US');
-            const tot = val(t.total_inr, t.total_usd);
-            const perDay = val(Math.round(t.total_inr / t.days), Math.round(t.total_usd / t.days));
+            const tot = 'about ' + val(t.total_inr, t.total_usd);
+            const perDay = val(Math.round(t.total_inr / t.days / 10) * 10, Math.round(t.total_usd / t.days));
             const rows = t.cats.map(c => `<div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #2c2c2c;"><span>${esc(c[0])}</span><span>${val(c[1], c[2])}</span></div>`).join('');
             return `<div style="${panel}margin-top:20px;">
                 <p style="color:#4caf6d;font-weight:700;font-size:13px;letter-spacing:1px;">FROM OUR TRIP · ${esc(t.checked).toUpperCase()}</p>
@@ -121,7 +121,7 @@
                 <p style="font-size:26px;font-weight:800;color:#4caf6d;">${tot} <span style="font-size:15px;font-weight:400;color:#fff;opacity:.8;">in total · about ${perDay} a day</span></p>
                 <div style="margin-top:10px;">${rows}</div>
                 <ul style="padding-left:18px;margin-top:12px;line-height:1.6;font-size:14px;opacity:.9;">${t.notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul>
-                <p style="font-size:13px;opacity:.7;margin-top:8px;">Real receipts and notes, converted at the rates we got then. ${st.cur === 'USD' || st.cur === 'EUR' ? 'Dollar and euro figures are approximate.' : ''} Your costs will differ.</p>
+                <p style="font-size:13px;opacity:.7;margin-top:8px;">${esc(t.approx || '')} Converted at the rates we got then. ${st.cur === 'USD' || st.cur === 'EUR' ? 'Dollar and euro figures are approximate.' : ''} Your costs will differ.</p>
             </div>`;
         }
 
