@@ -25,16 +25,19 @@
         const box = document.getElementById('bookContent');
         if (!box || !keys.length) return false;
         let hasAff = false;
+        const rank = list => list.map((p, i) => [p, i]).sort((a, b) => (b[0].pick ? 1 : 0) - (a[0].pick ? 1 : 0) || a[1] - b[1]).map(x => x[0]).slice(0, 3);
         const html = keys.map(k => `
-            <h3 style="margin:30px 0 14px;font-size:20px;">${esc(CAT[k])}</h3>
-            <div class="cards three-col">${cats[k].map(p => {
+            <h3 style="margin:30px 0 14px;font-size:20px;">${esc(CAT[k])} <span style="font-size:14px;font-weight:600;color:#2d6a4f;">· Top ${Math.min(3, cats[k].length)} by SilentMonk</span></h3>
+            <div class="cards three-col">${rank(cats[k]).map((p, i) => {
                 const href = p.aff || p.url; if (p.aff) hasAff = true;
+                const badge = i === 0 ? '#1 Top pick' : '#' + (i + 1);
                 return `<article class="card coming-soon-card">
-                    ${p.pick ? '<span style="display:inline-block;background:#2d6a4f;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;margin-bottom:8px;">Our pick</span>' : ''}
+                    <span style="display:inline-block;background:${i === 0 ? '#2d6a4f' : '#555'};color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;margin-bottom:8px;">${badge}</span>
                     <h3>${esc(p.name)}</h3>
                     <p>${esc(p.why)}</p>
                     ${p.suits ? `<p style="opacity:.75;font-size:14px;margin-top:6px;">Good for: ${esc(p.suits)}</p>` : ''}
                     <a href="${esc(href)}" class="card-link" target="_blank" rel="${p.aff ? 'sponsored ' : ''}noopener" style="color:#4caf6d;">${p.aff ? 'Book now' : 'Visit site'} →</a>
+                    ${p.video ? `<a href="${esc(p.video)}" class="card-link" target="_blank" rel="noopener" style="color:#4caf6d;margin-left:14px;">▶ Watch our video</a>` : ''}
                 </article>`;
             }).join('')}</div>`).join('');
         const tips = (own.tips || []).length ? `<h3 style="margin:30px 0 10px;font-size:20px;">Booking tips for ${esc(country)}</h3><ul style="padding-left:20px;line-height:1.7;">${own.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : '';
