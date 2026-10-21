@@ -830,3 +830,7 @@ input.selector-dropdown {
     body, .section, .dark-section { background: #fff !important; color: #000 !important; }
     .section h2, .section h3, .section li, .section p { color: #000 !important; }
 }
+
+/* Dark navbar to match the black logo background */
+.navbar { background: #000; border-bottom: 1px solid #222; }
+.navbar nav a { color: #fff; }
