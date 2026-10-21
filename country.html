@@ -42,11 +42,13 @@
         <div class="tabs-nav" id="tabsNav">
             <button class="tab-btn active" data-tab="bestof">Best Places to Visit</button>
             <button class="tab-btn" data-tab="itinerary">Suggested Itinerary</button>
+            <button class="tab-btn" data-tab="budget" id="budgetTabBtn" style="display:none;">Budget Calculator</button>
             <button class="tab-btn" data-tab="festivals">Festivals</button>
             <button class="tab-btn" data-tab="culture">Cultural Experiences</button>
             <button class="tab-btn" data-tab="events">Events</button>
             <button class="tab-btn" data-tab="food">Food</button>
             <button class="tab-btn" data-tab="stays">Hostels / Stays</button>
+            <button class="tab-btn" data-tab="book">Book &amp; Get Around</button>
             <button class="tab-btn" data-tab="practical" id="practicalTabBtn" style="display:none;">Practical Info</button>
         </div>
     </section>
@@ -64,6 +66,20 @@
         <div class="tabs-nav" id="durationTabs" style="margin-bottom: 30px;"></div>
         <div id="itineraryContent"></div>
         <button class="tab-btn no-print" id="printItinerary" style="margin-top:10px;">🖨 Print / Save as PDF</button>
+    </section>
+
+    <section class="section dark-section tab-content" id="tab-budget" style="display:none;">
+        <p class="section-label">PLAN YOUR MONEY</p>
+        <h2>Budget Calculator</h2>
+        <p class="section-description" style="margin-bottom:24px;">Pick a trip length and your travel style, change the places and nights, and see an estimated cost.</p>
+        <div id="budgetContent"></div>
+    </section>
+
+    <section class="section tab-content" id="tab-book" style="display:none;">
+        <p class="section-label">BOOK YOUR TRIP</p>
+        <h2>Book &amp; Get Around</h2>
+        <p class="section-description">The apps and sites that work best for trains, buses, flights, stays and tours here.</p>
+        <div id="bookContent"></div>
     </section>
 
     <section class="section tab-content" id="tab-festivals" style="display:none;">
@@ -133,6 +149,9 @@
 
     <script src="countries-data.js"></script>
     <script src="visa-data.js"></script>
+    <script src="partners-data.js"></script>
+    <script src="budget-data.js"></script>
+    <script src="trip-tools.js"></script>
     <script>
         const countryData = window.COUNTRY_GUIDES || {};
 
@@ -185,6 +204,7 @@
             renderCards('foodCards', data.food);
             renderCards('staysCards', data.stays);
 
+            if (window.TripTools) window.TripTools.init(country, data);
             const visa = window.VISA_DATA && window.VISA_DATA[country];
             if (data.practical || visa) {
                 const labels = {bestTime:'Best time to visit', currency:'Currency & money', visa:'Visa & entry', budget:'Daily budget', sim:'SIM & internet', transport:'Getting around', safety:'Safety & scams', tipping:'Tipping'};
