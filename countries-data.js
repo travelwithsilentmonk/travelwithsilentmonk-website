@@ -23794,5 +23794,14613 @@ window.COUNTRY_GUIDES = {
     "name": "Harare Guesthouses (area)"
    }
   ]
+ },
+ "Andorra": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Andorra la Vella",
+    "desc": "The compact capital with a historic quarter, Casa de la Vall and plenty of shopping."
+   },
+   {
+    "name": "Caldea and Escaldes-Engordany",
+    "desc": "A large thermal spa complex in a town with a pedestrian street and modern art."
+   },
+   {
+    "name": "Ordino",
+    "desc": "A quiet mountain village with small museums and a stone-built centre."
+   },
+   {
+    "name": "Vallnord and Grandvalira",
+    "desc": "Two ski areas that double as hiking and mountain-biking terrain in summer."
+   },
+   {
+    "name": "Madriu-Perafita-Claror Valley",
+    "desc": "A UNESCO-listed glacial valley with long hiking routes and stone huts."
+   },
+   {
+    "name": "Santa Coloma and Sant Joan de Caselles",
+    "desc": "Romanesque churches that show the country medieval roots."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Romanesque Churches",
+    "desc": "Small stone chapels with bell towers dot the valleys; many are free to see from outside."
+   },
+   {
+    "name": "Catalan Language",
+    "desc": "Catalan is the sole official language, though Spanish, French and English are widely understood."
+   },
+   {
+    "name": "Tobacco and Smuggling History",
+    "desc": "Local museums explain how mountain trade routes shaped the principality."
+   }
+  ],
+  "events": [
+   {
+    "name": "Andorra Ski World Cup Races",
+    "desc": "Winter, Soldeu. Top skiers compete when the calendar includes a stop in the country."
+   },
+   {
+    "name": "Tour de France Stages",
+    "desc": "July, in some years. The race occasionally crosses the Pyrenees into Andorra."
+   },
+   {
+    "name": "Andorra Ordino Arcalis Cycling Climbs",
+    "desc": "Summer. High mountain passes attract road cyclists of all levels."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Festa Major d Andorra la Vella",
+    "desc": "August. Concerts, parades, dancing and local street events in the capital."
+   },
+   {
+    "name": "Sant Joan Bonfires",
+    "desc": "Late June. Fires and gatherings mark midsummer in many villages."
+   },
+   {
+    "name": "Carnival",
+    "desc": "February. Costumes and parades in several parishes."
+   }
+  ],
+  "food": [
+   {
+    "name": "Escudella",
+    "desc": "A hearty winter stew of meats, vegetables, pasta and beans."
+   },
+   {
+    "name": "Trinxat",
+    "desc": "Cabbage, potato and bacon fried into a thick cake."
+   },
+   {
+    "name": "Coca and Mountain Cheese",
+    "desc": "Flat pastry served with local cured meats and cheeses."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Mountain Hotels in Soldeu and Pas de la Casa",
+    "desc": "Close to the slopes in winter and trails in summer; prices rise in peak ski season."
+   },
+   {
+    "name": "Town Hotels in Escaldes-Engordany",
+    "desc": "Easy access to the spa, shops and buses; many are mid-range."
+   },
+   {
+    "name": "Rural Guesthouses near Ordino",
+    "desc": "Smaller, quieter places in village settings."
+   }
+  ],
+  "intro": "Andorra is a small Pyrenean principality between France and Spain, known for skiing, hiking, thermal spas and duty-free shopping. It is not in the EU or Schengen, but uses the euro and has open road borders with both neighbours. Towns sit in narrow valleys at about 1,000 to 1,500 metres. This guide has 5, 7 and 10-day routes, built around Andorra with day trips to nearby Spain and France.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Andorra la Vella",
+     "items": [
+      "Old quarter and Casa de la Vall",
+      "Shopping on Meritxell Avenue"
+     ]
+    },
+    {
+     "title": "Day 2 — Escaldes-Engordany",
+     "items": [
+      "Thermal spa visit",
+      "Walk along the Valira river"
+     ]
+    },
+    {
+     "title": "Day 3 — Ordino and La Massana",
+     "items": [
+      "Village museums",
+      "Cable car or short hike"
+     ]
+    },
+    {
+     "title": "Day 4 — Mountains",
+     "items": [
+      "Choose a day hike or a lake route (season dependent)"
+     ]
+    },
+    {
+     "title": "Day 5 — Romanesque churches",
+     "items": [
+      "Santa Coloma and Sant Joan de Caselles, then departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Andorra la Vella",
+     "items": [
+      "Old town, museums, shopping"
+     ]
+    },
+    {
+     "title": "Day 3 — Escaldes-Engordany",
+     "items": [
+      "Spa and town stroll"
+     ]
+    },
+    {
+     "title": "Day 4 — Ordino",
+     "items": [
+      "Village and museums"
+     ]
+    },
+    {
+     "title": "Day 5 — Madriu-Perafita-Claror",
+     "items": [
+      "Full-day hike (summer) or snowshoe tour (winter)"
+     ]
+    },
+    {
+     "title": "Day 6 — La Seu d Urgell, Spain",
+     "items": [
+      "Day trip across the border to a cathedral town"
+     ]
+    },
+    {
+     "title": "Day 7 — Soldeu or Canillo",
+     "items": [
+      "Mountain day and Romanesque church"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Andorra la Vella",
+     "items": [
+      "Capital highlights"
+     ]
+    },
+    {
+     "title": "Day 3 — Escaldes-Engordany",
+     "items": [
+      "Spa day"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Ordino and Arcalis",
+     "items": [
+      "Villages and high mountain scenery"
+     ]
+    },
+    {
+     "title": "Day 6 — Madriu-Perafita-Claror",
+     "items": [
+      "Long hike with a local guide"
+     ]
+    },
+    {
+     "title": "Day 7 — La Seu d Urgell, Spain",
+     "items": [
+      "Cathedral and market town day trip"
+     ]
+    },
+    {
+     "title": "Day 8 — Foix, France",
+     "items": [
+      "Medieval castle day trip (drive via Pas de la Casa)"
+     ]
+    },
+    {
+     "title": "Day 9 — Canillo",
+     "items": [
+      "Church, cable car and walks"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Leave time for mountain road transfers"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "December to March for skiing; June to September for hiking and warmer weather.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Mountain weather and snow on roads are the main risks, so carry chains or use winter tyres in season.",
+   "tipping": "Not required; rounding up or 5 to 10 percent in restaurants is common.",
+   "transport": "Local buses link the main towns; there is no train or airport in the country. Most visitors arrive by road from Barcelona, Toulouse or Perpignan areas."
+  }
+ },
+ "Angola": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Luanda",
+    "desc": "The capital, with a fortress, a coastal promenade and museums; costs are high."
+   },
+   {
+    "name": "Kalandula Falls",
+    "desc": "One of Africa's largest waterfalls by volume, in Malanje province."
+   },
+   {
+    "name": "Pedras Negras de Pungo Andongo",
+    "desc": "Huge black rock formations with local legends, also in Malanje."
+   },
+   {
+    "name": "Tundavala Gap",
+    "desc": "A dramatic escarpment viewpoint near Lubango."
+   },
+   {
+    "name": "Miradouro da Lua",
+    "desc": "Eroded cliffs south of Luanda with a lunar-like look."
+   },
+   {
+    "name": "Quiçama National Park",
+    "desc": "A reserve south of Luanda being restocked with wildlife."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Kizomba and Semba",
+    "desc": "Angolan music and dance traditions that shaped kizomba worldwide."
+   },
+   {
+    "name": "Museums in Luanda",
+    "desc": "The National Museum of Anthropology and the Slavery Museum explore the country's history."
+   },
+   {
+    "name": "Mbunda and Ovimbundu Traditions",
+    "desc": "Regional crafts and masks reflect Angola's varied peoples."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "11 November. National holiday marking independence in 1975."
+   },
+   {
+    "name": "Luanda Jazz and Music Events",
+    "desc": "Held at various times of year; check local listings."
+   },
+   {
+    "name": "Peace Day",
+    "desc": "4 April. A public holiday marking the end of the civil war in 2002."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Carnival",
+    "desc": "February or March. Colourful parades in Luanda and other cities."
+   },
+   {
+    "name": "Luanda Cultural Events",
+    "desc": "Held during the year; dates change."
+   },
+   {
+    "name": "Easter and Christmas",
+    "desc": "Widely observed in this largely Christian country."
+   }
+  ],
+  "food": [
+   {
+    "name": "Muamba de Galinha",
+    "desc": "Chicken stewed with palm oil, okra and garlic, often served with funge."
+   },
+   {
+    "name": "Funge",
+    "desc": "A cassava or maize porridge eaten with stews."
+   },
+   {
+    "name": "Calulu",
+    "desc": "A fish or meat dish with vegetables and palm oil."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Luanda Hotels",
+    "desc": "Business-oriented hotels, generally expensive."
+   },
+   {
+    "name": "Lubango Guesthouses",
+    "desc": "Cooler highland town close to natural sights."
+   },
+   {
+    "name": "Benguela and Lobito Hotels",
+    "desc": "Beachside towns with a lower pace of travel."
+   }
+  ],
+  "intro": "Angola is a large country on Africa's south-west coast, with an Atlantic shoreline, highland plateaus and waterfalls. Tourism infrastructure is still developing and costs in Luanda are high. Landmines remain in some rural areas, so stick to established roads and sites. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Luanda",
+     "items": [
+      "Arrive, fortress and museums"
+     ]
+    },
+    {
+     "title": "Day 2 — Miradouro da Lua and Quiçama",
+     "items": [
+      "Day trip south of the capital"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Malanje",
+     "items": [
+      "Kalandula Falls and Pungo Andongo"
+     ]
+    },
+    {
+     "title": "Day 5 — Return",
+     "items": [
+      "Back to Luanda for departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Luanda",
+     "items": [
+      "City sights and museums"
+     ]
+    },
+    {
+     "title": "Day 3 — Miradouro da Lua",
+     "items": [
+      "Cliffs and coast"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Malanje",
+     "items": [
+      "Kalandula Falls and rocks"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Return",
+     "items": [
+      "Back to Luanda"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Luanda",
+     "items": [
+      "City highlights"
+     ]
+    },
+    {
+     "title": "Day 3 — Quiçama",
+     "items": [
+      "Wildlife reserve"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Malanje",
+     "items": [
+      "Falls and rock formations"
+     ]
+    },
+    {
+     "title": "Day 6 — Fly to Lubango",
+     "items": [
+      "Domestic flight"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Lubango",
+     "items": [
+      "Tundavala Gap and the highlands"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Benguela and Lobito",
+     "items": [
+      "Coastal stay, then fly back"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May–September is the cooler, dry season. The rainy season runs roughly November–April, when some roads become difficult.",
+   "currency": "Angolan kwanza (AOA). Cards are accepted in some hotels in Luanda; carry cash elsewhere.",
+   "safety": "Petty crime is common in Luanda, so avoid displaying valuables. Landmines remain in some rural areas; stay on well-used roads and follow local guidance.",
+   "tipping": "Not obligatory; rounding up or about 10% in restaurants is appreciated.",
+   "transport": "Domestic flights link the main cities. Roads vary in quality, and a 4x4 with a local driver is wise outside cities."
+  }
+ },
+ "Antigua and Barbuda": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "English Harbour & Nelson's Dockyard",
+    "desc": "A restored Georgian naval dockyard, a UNESCO World Heritage site."
+   },
+   {
+    "name": "Shirley Heights",
+    "desc": "A hilltop viewpoint known for sunset gatherings on Sundays."
+   },
+   {
+    "name": "St John's",
+    "desc": "The capital, with a cathedral, museum and market."
+   },
+   {
+    "name": "Beaches of Antigua",
+    "desc": "Many bays and beaches around the island."
+   },
+   {
+    "name": "Barbuda",
+    "desc": "A flat, quiet island with pink-sand beaches and a frigatebird sanctuary."
+   },
+   {
+    "name": "Devil's Bridge",
+    "desc": "A natural limestone arch on the east coast."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Cricket",
+    "desc": "The islands are known for their cricketing heritage."
+   },
+   {
+    "name": "Steel Band and Calypso",
+    "desc": "Music traditions heard at festivals and venues."
+   },
+   {
+    "name": "Sugar Heritage",
+    "desc": "Ruined mills across the island recall its sugar-plantation past."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "1 November. Marks independence from Britain in 1981."
+   },
+   {
+    "name": "Antigua Sailing Week",
+    "desc": "Typically late April or early May. A major regatta based at English Harbour."
+   },
+   {
+    "name": "Antigua Classic Yacht Regatta",
+    "desc": "Typically April. A gathering of traditional yachts."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Antigua Carnival",
+    "desc": "Late July to early August. Parades, calypso and steelband competitions."
+   },
+   {
+    "name": "Barbuda Caribana",
+    "desc": "Typically June. A cultural festival on Barbuda."
+   },
+   {
+    "name": "Antigua Jazz Festival",
+    "desc": "Typically annually. Music events across the island."
+   }
+  ],
+  "food": [
+   {
+    "name": "Ducana and Saltfish",
+    "desc": "Sweet potato dumplings with salted cod, a national favourite."
+   },
+   {
+    "name": "Fungee and Pepperpot",
+    "desc": "Cornmeal side dish with a vegetable stew."
+   },
+   {
+    "name": "Fresh Seafood",
+    "desc": "Grilled fish and lobster at beachside restaurants."
+   }
+  ],
+  "stays": [
+   {
+    "name": "English Harbour Inns",
+    "desc": "Small hotels near the dockyard."
+   },
+   {
+    "name": "Beach Resorts",
+    "desc": "Larger resorts on the north and west coasts."
+   },
+   {
+    "name": "Villas and Guesthouses",
+    "desc": "Self-catering options across Antigua."
+   }
+  ],
+  "intro": "Antigua and Barbuda is a twin-island nation in the eastern Caribbean. Antigua has many beaches and a historic naval dockyard, while Barbuda is smaller, quieter and less developed. Most visitors arrive at V.C. Bird International Airport on Antigua. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — St John's",
+     "items": [
+      "Cathedral, museum and market"
+     ]
+    },
+    {
+     "title": "Day 2 — West Coast",
+     "items": [
+      "Beaches"
+     ]
+    },
+    {
+     "title": "Day 3 — English Harbour",
+     "items": [
+      "Nelson's Dockyard"
+     ]
+    },
+    {
+     "title": "Day 4 — Shirley Heights",
+     "items": [
+      "Walk and viewpoint"
+     ]
+    },
+    {
+     "title": "Day 5 — East Coast",
+     "items": [
+      "Devil's Bridge, then departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — St John's",
+     "items": [
+      "Town sights"
+     ]
+    },
+    {
+     "title": "Day 2–3 — West Coast",
+     "items": [
+      "Beaches and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 4 — English Harbour",
+     "items": [
+      "Dockyard and trails"
+     ]
+    },
+    {
+     "title": "Day 5 — Shirley Heights",
+     "items": [
+      "Viewpoint"
+     ]
+    },
+    {
+     "title": "Day 6–7 — East Coast",
+     "items": [
+      "Devil's Bridge and departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — St John's",
+     "items": [
+      "Town sights"
+     ]
+    },
+    {
+     "title": "Day 3–4 — West Coast",
+     "items": [
+      "Beaches"
+     ]
+    },
+    {
+     "title": "Day 5–6 — English Harbour",
+     "items": [
+      "Dockyard and trails"
+     ]
+    },
+    {
+     "title": "Day 7 — Shirley Heights",
+     "items": [
+      "Viewpoint"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Barbuda",
+     "items": [
+      "Day or overnight trip by ferry or flight"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "December–April is dry and busiest. June–November has hurricane risk.",
+   "currency": "Eastern Caribbean dollar (XCD), pegged to the US dollar; US dollars are often accepted.",
+   "safety": "Generally safe for visitors, but petty crime occurs. Secure valuables and follow local advice on water conditions.",
+   "tipping": "About 10–15 percent in restaurants unless a service charge is included.",
+   "transport": "Taxis, minibuses and rental cars; a local driving permit is required. Ferries and flights to Barbuda."
+  }
+ },
+ "Bahamas": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Nassau & Paradise Island",
+    "desc": "The capital, with colonial-era forts, a straw market and busy waterfront, plus resort areas across the bridge."
+   },
+   {
+    "name": "Exuma Cays",
+    "desc": "A chain of small islands known for clear shallow water, sandbars and the swimming pigs of Big Major Cay."
+   },
+   {
+    "name": "Eleuthera & Harbour Island",
+    "desc": "A long, narrow island with pink-tinted beaches, plus a small, walkable island town nearby."
+   },
+   {
+    "name": "Andros",
+    "desc": "The largest island, with a huge barrier reef and blue holes popular with divers."
+   },
+   {
+    "name": "Abaco",
+    "desc": "Boating and sailing islands with colourful settlements such as Hope Town and its candy-striped lighthouse."
+   },
+   {
+    "name": "Grand Bahama",
+    "desc": "Home to Freeport and Lucaya, with beaches, nature reserves and cave systems."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Junkanoo",
+    "desc": "A street parade tradition with costumes, cowbells, drums and brass, rooted in the islands' Afro-Bahamian history."
+   },
+   {
+    "name": "Straw Work",
+    "desc": "Plaited palm-fibre bags and hats sold at markets; ask makers about the techniques."
+   },
+   {
+    "name": "Rake-and-Scrape Music",
+    "desc": "A folk style led by the accordion, saw and goatskin drum, heard at local gatherings."
+   }
+  ],
+  "events": [
+   {
+    "name": "Junkanoo Parades",
+    "desc": "26 December and 1 January in Nassau. Large groups compete in the early hours."
+   },
+   {
+    "name": "Bahamas Independence Celebrations",
+    "desc": "10 July. Marks independence from Britain in 1973, with events across the islands."
+   },
+   {
+    "name": "Regatta Season",
+    "desc": "Summer, various islands. Traditional wooden sloop races, notably in Exuma and Long Island."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Junkanoo Carnival",
+    "desc": "May, Nassau. A carnival-style festival with music, costumes and street events."
+   },
+   {
+    "name": "Goombay Summer",
+    "desc": "Summer months. A programme of cultural events and live music across several islands."
+   },
+   {
+    "name": "Pineapple Festival",
+    "desc": "June, Gambier/Eleuthera area. A local celebration of the island's pineapple farming heritage."
+   }
+  ],
+  "food": [
+   {
+    "name": "Conch",
+    "desc": "The national shellfish, served as salad, fritters or cracked (battered and fried)."
+   },
+   {
+    "name": "Johnnycake",
+    "desc": "A dense, lightly sweet bread, often served with fish or stews."
+   },
+   {
+    "name": "Guava Duff",
+    "desc": "A rolled, steamed pudding with guava, served with a warm sauce."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Nassau Guesthouses & Hotels",
+    "desc": "Options range from small guesthouses in town to large resorts on Paradise Island."
+   },
+   {
+    "name": "Out Island Lodges",
+    "desc": "Smaller inns and cottages on islands such as Exuma, Eleuthera and Abaco; book ahead in high season."
+   },
+   {
+    "name": "Villa and Apartment Rentals",
+    "desc": "Good for groups, especially on the less developed islands."
+   }
+  ],
+  "intro": "The Bahamas is an archipelago of roughly 700 islands and many more cays in the Atlantic, close to the south-east coast of Florida. Most visitors fly to Nassau or Freeport, then use short flights or ferries to reach the Out Islands. Prices are high compared with many Caribbean destinations, and hurricane season runs from June to November. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Nassau",
+     "items": [
+      "Arrive and explore the waterfront",
+      "Fort Charlotte and the straw market"
+     ]
+    },
+    {
+     "title": "Day 2 — Paradise Island",
+     "items": [
+      "Beach time and a snorkelling trip"
+     ]
+    },
+    {
+     "title": "Day 3 — Fly or ferry to Eleuthera",
+     "items": [
+      "Settle in and visit Glass Window Bridge"
+     ]
+    },
+    {
+     "title": "Day 4 — Harbour Island",
+     "items": [
+      "Walk the town and its beach"
+     ]
+    },
+    {
+     "title": "Day 5 — Return to Nassau",
+     "items": [
+      "Onward flight"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Nassau",
+     "items": [
+      "Historic sites, markets and local food"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Exuma Cays",
+     "items": [
+      "Boat day among the cays and sandbars"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Eleuthera",
+     "items": [
+      "Beaches, Preacher's Cave and island settlements"
+     ]
+    },
+    {
+     "title": "Day 7 — Nassau",
+     "items": [
+      "Departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Nassau",
+     "items": [
+      "Forts, markets and a food walk"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Exuma Cays",
+     "items": [
+      "Boat trips and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Eleuthera & Harbour Island",
+     "items": [
+      "Beaches and settlements"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Abaco",
+     "items": [
+      "Hope Town and boat outings"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Grand Bahama or Nassau",
+     "items": [
+      "Nature reserves, then departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "December–April is dry and pleasant but most expensive. May–November is hotter and wetter, with hurricane risk from June to November.",
+   "currency": "Bahamian dollar (BSD), pegged one-to-one with the US dollar, which is widely accepted.",
+   "safety": "Generally welcoming, but petty crime and some violent crime occur, especially in parts of Nassau. Keep valuables secure, avoid isolated areas at night and follow local advice on water safety.",
+   "tipping": "Around 15–20 percent in restaurants unless a service charge is already included; check the bill.",
+   "transport": "Taxis and shared jitneys in Nassau; domestic flights and ferries link the islands. Schedules can change with weather, so allow buffer time."
+  }
+ },
+ "Barbados": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Bridgetown & Garrison",
+    "desc": "The capital and its historic garrison are a UNESCO World Heritage site, with museums and old streets."
+   },
+   {
+    "name": "Oistins",
+    "desc": "A fishing town known for its Friday evening fish fry and seaside atmosphere."
+   },
+   {
+    "name": "Bathsheba & the East Coast",
+    "desc": "Rugged Atlantic coastline with large waves and rock formations."
+   },
+   {
+    "name": "West Coast Beaches",
+    "desc": "Calmer water and resort areas, including Holetown and Speightstown."
+   },
+   {
+    "name": "Harrison's Cave",
+    "desc": "A limestone cave explored by tram, with streams and formations."
+   },
+   {
+    "name": "St Nicholas Abbey",
+    "desc": "A restored 17th-century plantation house with rum heritage and gardens."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Cricket",
+    "desc": "The national passion; watching a match at Kensington Oval or a village game is a social event."
+   },
+   {
+    "name": "Bajan Dialect and Music",
+    "desc": "Calypso, soca and tuk bands are part of everyday life."
+   },
+   {
+    "name": "Plantation and Slavery History",
+    "desc": "Museums and heritage sites in Bridgetown explain the island's colonial past; visit with respect."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "30 November. Marks independence from Britain in 1966, with parades and ceremonies."
+   },
+   {
+    "name": "Barbados Agrofest",
+    "desc": "Typically in autumn. A showcase of farming and food."
+   },
+   {
+    "name": "Oistins Fish Festival",
+    "desc": "Around Easter, Oistins. A seafood-themed celebration with music and boat races."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Crop Over",
+    "desc": "Late June to early August. Barbados' main summer festival, ending with the Grand Kadooment parade."
+   },
+   {
+    "name": "Holetown Festival",
+    "desc": "February. A cultural festival marking the island's first English settlement."
+   },
+   {
+    "name": "Barbados Jazz Festival",
+    "desc": "Typically January. Concerts across the island."
+   }
+  ],
+  "food": [
+   {
+    "name": "Cou-Cou and Flying Fish",
+    "desc": "Cornmeal and okra paired with steamed or fried flying fish, widely regarded as the national dish."
+   },
+   {
+    "name": "Pudding and Souse",
+    "desc": "A Saturday tradition of pickled pork with steamed sweet potato."
+   },
+   {
+    "name": "Fish Cakes",
+    "desc": "Salted-cod fritters, often eaten in a bread roll."
+   }
+  ],
+  "stays": [
+   {
+    "name": "West Coast Hotels",
+    "desc": "Calm seas and resorts, with higher prices in winter."
+   },
+   {
+    "name": "South Coast Guesthouses",
+    "desc": "Livelier area with apartments and small hotels."
+   },
+   {
+    "name": "East Coast Cottages",
+    "desc": "Quiet, breezy stays near Bathsheba, good for surfers and walkers."
+   }
+  ],
+  "intro": "Barbados is a small, relatively flat coral island in the eastern Caribbean, with calm beaches on the west and south and rough Atlantic surf on the east. It has a strong British colonial heritage and became a republic in 2021. Most visitors arrive at Grantley Adams International Airport and can reach most places by road in under an hour. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Bridgetown",
+     "items": [
+      "Historic Bridgetown and Garrison"
+     ]
+    },
+    {
+     "title": "Day 2 — West Coast",
+     "items": [
+      "Holetown, beach time and Speightstown"
+     ]
+    },
+    {
+     "title": "Day 3 — Interior",
+     "items": [
+      "Harrison's Cave and gardens"
+     ]
+    },
+    {
+     "title": "Day 4 — East Coast",
+     "items": [
+      "Bathsheba and the coastline"
+     ]
+    },
+    {
+     "title": "Day 5 — Oistins",
+     "items": [
+      "Seaside town, then departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Bridgetown",
+     "items": [
+      "Museum visits and old town"
+     ]
+    },
+    {
+     "title": "Day 3 — West Coast",
+     "items": [
+      "Beaches and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 4 — Interior",
+     "items": [
+      "Harrison's Cave and plantation house"
+     ]
+    },
+    {
+     "title": "Day 5 — East Coast",
+     "items": [
+      "Bathsheba and a coastal walk"
+     ]
+    },
+    {
+     "title": "Day 6–7 — South Coast",
+     "items": [
+      "Oistins and departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Bridgetown",
+     "items": [
+      "Heritage sites and markets"
+     ]
+    },
+    {
+     "title": "Day 3–4 — West Coast",
+     "items": [
+      "Beaches and boat trip"
+     ]
+    },
+    {
+     "title": "Day 5 — Interior",
+     "items": [
+      "Caves and gardens"
+     ]
+    },
+    {
+     "title": "Day 6–7 — East Coast",
+     "items": [
+      "Surf spots and walking"
+     ]
+    },
+    {
+     "title": "Day 8–10 — South Coast",
+     "items": [
+      "Oistins, beaches and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "December–April is dry and busiest. June–November is hotter and wetter, with some hurricane risk.",
+   "currency": "Barbadian dollar (BBD), pegged at two to one against the US dollar; US dollars are often accepted.",
+   "safety": "Generally safe for visitors, but petty theft happens. Secure valuables on beaches and take care on rough east coast waters.",
+   "tipping": "Typically 10–15 percent in restaurants unless service is already added.",
+   "transport": "Public buses, shared minibuses, taxis and rental cars. Driving is on the left."
+  }
+ },
+ "Benin": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Ouidah",
+    "desc": "A coastal town tied to the history of the slave trade and the Vodun religion, with a memorial route to the beach."
+   },
+   {
+    "name": "Abomey",
+    "desc": "Former capital of the Dahomey kingdom, with royal palaces now forming a UNESCO-listed museum complex."
+   },
+   {
+    "name": "Ganvie",
+    "desc": "A lake village built on stilts on Lake Nokoué, reached by boat from the Cotonou area."
+   },
+   {
+    "name": "Pendjari National Park",
+    "desc": "One of West Africa's better parks for elephants, lions and antelope. Northern areas have security considerations, so check current advice."
+   },
+   {
+    "name": "Porto-Novo",
+    "desc": "The official capital, with colonial-era buildings, small museums and a relaxed pace."
+   },
+   {
+    "name": "Grand-Popo",
+    "desc": "A quiet beach and lagoon area near the Togo border, good for easy days and birdwatching."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Vodun Heritage",
+    "desc": "Vodun is an officially recognised religion in Benin. Visit temples and ceremonies only with a local guide and ask before taking photos."
+   },
+   {
+    "name": "Royal Palaces of Abomey",
+    "desc": "Bas-reliefs and objects tell the story of the Dahomey kings. Guided visits are the best way to understand them."
+   },
+   {
+    "name": "Village Craft Visits",
+    "desc": "Weavers, potters and appliqué makers work in many towns. Buying directly supports local families."
+   }
+  ],
+  "events": [
+   {
+    "name": "Vodun Day",
+    "desc": "10 January. A national holiday with ceremonies and gatherings, especially around Ouidah."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "1 August. National celebrations and parades mark independence from France."
+   },
+   {
+    "name": "Gaani Festival",
+    "desc": "Usually around August in Nikki in the north. The Bariba community celebrates with horse riding and royal ceremony."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Fête du Vodun (Ouidah)",
+    "desc": "Early January. Dancing, drumming and ceremonies, including masked Egungun figures."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, dates shift each year. Widely observed in northern towns with family meals."
+   },
+   {
+    "name": "Easter",
+    "desc": "March or April. Church services and gatherings, especially in the south."
+   }
+  ],
+  "food": [
+   {
+    "name": "Pâte with Sauce",
+    "desc": "A firm maize or yam dough eaten with tomato, okra or peanut sauce."
+   },
+   {
+    "name": "Poulet Bicyclette",
+    "desc": "Local free-range chicken, usually grilled and served with spicy sauce."
+   },
+   {
+    "name": "Igname Pilée",
+    "desc": "Pounded yam, a northern staple, served with a rich sauce."
+   }
+  ],
+  "intro": "Benin is a small West African country with a long coast and a savanna north. It is known for the Vodun religion, the history of the Dahomey kingdom and the stilt village of Ganvie. Tourism infrastructure is modest and travel in the far north needs extra care. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Cotonou",
+     "items": [
+      "Arrive, Dantokpa market (watch belongings)",
+      "Fidjrossè beach evening"
+     ]
+    },
+    {
+     "title": "Day 2 — Ganvie and Porto-Novo",
+     "items": [
+      "Boat to Ganvie stilt village",
+      "Porto-Novo museums and old quarter"
+     ]
+    },
+    {
+     "title": "Day 3 — Ouidah",
+     "items": [
+      "Python temple, Route des Esclaves and Door of No Return"
+     ]
+    },
+    {
+     "title": "Day 4 — Abomey",
+     "items": [
+      "Royal palaces museum and craft workshops"
+     ]
+    },
+    {
+     "title": "Day 5 — Return",
+     "items": [
+      "Drive back to Cotonou for departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Cotonou",
+     "items": [
+      "Arrival and city orientation"
+     ]
+    },
+    {
+     "title": "Day 2 — Ganvie and Porto-Novo",
+     "items": [
+      "Lake village and capital"
+     ]
+    },
+    {
+     "title": "Day 3 — Ouidah",
+     "items": [
+      "Slave route and Vodun heritage"
+     ]
+    },
+    {
+     "title": "Day 4 — Grand-Popo",
+     "items": [
+      "Beach, lagoon boat trip"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Abomey",
+     "items": [
+      "Palaces and surrounding villages"
+     ]
+    },
+    {
+     "title": "Day 7 — Cotonou",
+     "items": [
+      "Departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1 — Cotonou",
+     "items": [
+      "Arrival and market"
+     ]
+    },
+    {
+     "title": "Day 2 — Ganvie and Porto-Novo",
+     "items": [
+      "Lake village and capital"
+     ]
+    },
+    {
+     "title": "Day 3 — Ouidah",
+     "items": [
+      "Heritage sites"
+     ]
+    },
+    {
+     "title": "Day 4 — Grand-Popo",
+     "items": [
+      "Beach and lagoon"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Abomey",
+     "items": [
+      "Royal palaces"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Dassa-Zoumè area",
+     "items": [
+      "Hills and rural stops, journey north"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Northern Benin",
+     "items": [
+      "Pendjari or Tanougou only after checking current security advice, otherwise stay in the south"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to February is driest and cooler. The long rainy season runs roughly April to July, with a shorter one in the autumn.",
+   "currency": "West African CFA franc (XOF), pegged to the euro. Cash is useful outside Cotonou.",
+   "safety": "Petty theft happens in cities. Avoid the northern border areas unless current advice allows travel. Yellow fever vaccination is required for entry and malaria precautions are advised.",
+   "tipping": "Not required but small tips for guides and drivers are appreciated.",
+   "transport": "Shared taxis, minibuses and motorbike taxis (zémidjans) are common. Private cars with drivers are the easiest for longer trips."
+  },
+  "stays": [
+   {
+    "name": "Cotonou Hotels",
+    "desc": "A range of mid-range and business hotels, mostly near the coast and airport."
+   },
+   {
+    "name": "Ouidah and Grand-Popo Guesthouses",
+    "desc": "Small beachside and heritage-area guesthouses with simple comforts."
+   },
+   {
+    "name": "Abomey and Northern Lodges",
+    "desc": "Basic hotels and a few lodges near parks. Book ahead and check prices locally."
+   }
+  ]
+ },
+ "Burkina Faso": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Ouagadougou",
+    "desc": "The capital, known for its crafts, music and cinema culture. Security conditions require current advice."
+   },
+   {
+    "name": "Bobo-Dioulasso",
+    "desc": "A cultural second city with an old mosque and a lively music scene."
+   },
+   {
+    "name": "Ruins of Loropéni",
+    "desc": "A UNESCO-listed ruined stone fortification in the south-west."
+   },
+   {
+    "name": "Banfora Region",
+    "desc": "Waterfalls, rock formations and sugar cane fields in the south-west."
+   },
+   {
+    "name": "Sindou Peaks",
+    "desc": "Dramatic sandstone formations near Banfora."
+   },
+   {
+    "name": "Tiébélé",
+    "desc": "A Kassena village famous for its painted mud-walled compounds."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Painted Compounds of Tiébélé",
+    "desc": "Women decorate house walls with geometric patterns. Visits should be arranged respectfully through the community."
+   },
+   {
+    "name": "Mossi Traditions",
+    "desc": "The Mossi are the largest ethnic group, with a long tradition of chiefs and ceremonies."
+   },
+   {
+    "name": "Craft and Cinema Culture",
+    "desc": "Ouagadougou has long been a centre for African film and handicrafts such as bronze casting."
+   }
+  ],
+  "events": [
+   {
+    "name": "FESPACO",
+    "desc": "A major pan-African film festival held in Ouagadougou every two years in February or March."
+   },
+   {
+    "name": "SIAO Craft Fair",
+    "desc": "A large international craft fair held in Ouagadougou in some years. Check the current schedule."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "5 August. National commemorations mark independence from France."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Semaine Nationale de la Culture",
+    "desc": "Held in Bobo-Dioulasso every second year in the spring. Music, dance and crafts from many regions."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, dates shift yearly. Widely observed by family gatherings and prayers."
+   },
+   {
+    "name": "Tabaski (Eid al-Adha)",
+    "desc": "Dates vary yearly. Sheep are sacrificed and meat is shared with family and neighbours."
+   }
+  ],
+  "food": [
+   {
+    "name": "Tô",
+    "desc": "A thick millet or sorghum paste eaten with leafy or okra sauce."
+   },
+   {
+    "name": "Riz Gras",
+    "desc": "Rice cooked with tomato and meat or vegetables, a common celebration dish."
+   },
+   {
+    "name": "Poulet Bicyclette",
+    "desc": "Free-range chicken grilled over charcoal with onions and spices."
+   }
+  ],
+  "intro": "Burkina Faso has a rich culture of crafts, music and film, but it faces serious security risks, with militant violence across large parts of the country and limited consular help. Most governments advise against travel. This page is for general information and is not a recommendation to travel. This guide has 5, 7 and 10-day routes, shown for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Ouagadougou",
+     "items": [
+      "Markets, crafts and museums, only with current security advice"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Bobo-Dioulasso",
+     "items": [
+      "Old mosque and music scene"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Ouagadougou",
+     "items": [
+      "City sights with local guidance"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Bobo-Dioulasso",
+     "items": [
+      "Culture and music"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Banfora Region",
+     "items": [
+      "Waterfalls and Sindou Peaks"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Ouagadougou",
+     "items": [
+      "City and crafts"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Bobo-Dioulasso",
+     "items": [
+      "Old town"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Banfora Region",
+     "items": [
+      "Landscapes"
+     ]
+    },
+    {
+     "title": "Day 8–10 — South-west",
+     "items": [
+      "Loropéni ruins, only if current advice allows"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to February is the coolest and driest period. March to May is very hot, with rains from June to September.",
+   "currency": "West African CFA franc (XOF), pegged to the euro. Cash is essential.",
+   "safety": "Most governments advise against all or most travel. Do not travel without current official advice, specialist support and insurance.",
+   "tipping": "Not customary, though small gratuities are appreciated.",
+   "transport": "Roads are variable and road travel outside major cities can be dangerous. Flights to Ouagadougou are limited, so check current availability."
+  },
+  "stays": [
+   {
+    "name": "Ouagadougou Hotels",
+    "desc": "A few international-standard and mid-range hotels. Check current security advice and availability."
+   },
+   {
+    "name": "Bobo-Dioulasso Guesthouses",
+    "desc": "Small hotels and guesthouses in the city. Verify current conditions."
+   },
+   {
+    "name": "Banfora Lodges",
+    "desc": "Basic lodgings near the waterfalls, subject to security advice."
+   }
+  ]
+ },
+ "Burundi": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Lake Tanganyika Shore",
+    "desc": "Beaches and fishing boats along one of the world's deepest lakes, close to Bujumbura."
+   },
+   {
+    "name": "Bujumbura",
+    "desc": "The largest city, with a lakeside setting, markets and a national museum."
+   },
+   {
+    "name": "Gitega",
+    "desc": "The political capital, with a national museum and royal drum heritage."
+   },
+   {
+    "name": "Rusizi National Park",
+    "desc": "Wetlands near the Rusizi River, known for hippos, crocodiles and many bird species."
+   },
+   {
+    "name": "Kibira National Park",
+    "desc": "Mountain rainforest in the north-west, linked with Rwanda's Nyungwe Forest."
+   },
+   {
+    "name": "Source of the Nile Area (Rutovu)",
+    "desc": "A site in the south marked as a possible southernmost source of the Nile."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Royal Drummers",
+    "desc": "Burundi's drumming tradition is famous for powerful group performances and dance."
+   },
+   {
+    "name": "Gitega National Museum",
+    "desc": "Displays cover traditional life, crafts and Burundian history."
+   },
+   {
+    "name": "Craft Markets",
+    "desc": "Baskets, woven pieces and wooden items made by local artisans."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "1 July. National holiday marking independence from Belgium in 1962."
+   },
+   {
+    "name": "Drum Performances",
+    "desc": "Held on national occasions and by cultural groups; ask locally about dates."
+   },
+   {
+    "name": "Lake Tanganyika Sports Days",
+    "desc": "Informal beach football and boating events along the shore on weekends."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Observed by the Muslim community with prayers and family meals."
+   },
+   {
+    "name": "Christmas",
+    "desc": "25 December. Widely observed in this largely Christian country."
+   },
+   {
+    "name": "Assumption Day",
+    "desc": "15 August. A public religious holiday with church services."
+   }
+  ],
+  "food": [
+   {
+    "name": "Grilled Lake Fish",
+    "desc": "Fresh fish from Lake Tanganyika, often grilled and served with fried plantain."
+   },
+   {
+    "name": "Isombe",
+    "desc": "Pounded cassava leaves cooked with oil and often served with rice or beans."
+   },
+   {
+    "name": "Brochettes",
+    "desc": "Skewered grilled meat, common at roadside stalls and in restaurants."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Bujumbura Hotels",
+    "desc": "Most travellers stay in the capital, with a limited choice of mid-range hotels."
+   },
+   {
+    "name": "Lakeside Guesthouses",
+    "desc": "Small lodgings near the lake shore south of Bujumbura."
+   },
+   {
+    "name": "Gitega Guesthouses",
+    "desc": "Simple, limited options; check availability beforehand."
+   }
+  ],
+  "intro": "Burundi is a small, hilly country in the African Great Lakes region, bordered by Rwanda, Tanzania and the Democratic Republic of the Congo. It has a Lake Tanganyika coastline and mountain forests, but it also faces security, political and health challenges, and the US government advises reconsidering travel. Tourism infrastructure is very limited, so check official advice first. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Bujumbura",
+     "items": [
+      "Lakefront, markets, museum visit"
+     ]
+    },
+    {
+     "title": "Day 3 — Lake Shore",
+     "items": [
+      "Beach day south of the city, subject to current advice"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Rusizi National Park",
+     "items": [
+      "Wildlife and birdwatching with a guide"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Bujumbura",
+     "items": [
+      "City sights and lakefront"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Lake Tanganyika",
+     "items": [
+      "Shore towns and boats"
+     ]
+    },
+    {
+     "title": "Day 5 — Rusizi National Park",
+     "items": [
+      "Hippos and birds"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Gitega",
+     "items": [
+      "National museum and drummers"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Bujumbura",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Lake Tanganyika",
+     "items": [
+      "Shore and beaches"
+     ]
+    },
+    {
+     "title": "Day 5 — Rusizi National Park",
+     "items": [
+      "Wildlife"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Gitega",
+     "items": [
+      "Museum and cultural sites"
+     ]
+    },
+    {
+     "title": "Day 8–10 — South and Highlands",
+     "items": [
+      "Rutovu Nile source area and countryside, if security permits"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "The dry season, roughly June to September, is generally easier for travel. Rains run roughly October to May.",
+   "currency": "Burundian franc (BIF). Cash is used widely; cards and ATMs are limited, and US dollars are often preferred for exchange.",
+   "safety": "The US government advises reconsidering travel. Risks include crime, political tension, grenade attacks and health problems. Follow your government's current advice and avoid demonstrations and night travel.",
+   "tipping": "Not required; small tips for guides and drivers are appreciated.",
+   "transport": "Taxis and shared minibuses within cities; roads between towns can be rough. Fuel shortages have occurred. Hire a trusted driver."
+  }
+ },
+ "Cape Verde": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Santiago and Cidade Velha",
+    "desc": "The largest island, home to the capital Praia and the old colonial settlement of Cidade Velha, a UNESCO World Heritage site."
+   },
+   {
+    "name": "Sal and Santa Maria",
+    "desc": "Flat, sunny island with long beaches, water sports and the salt pans at Pedra de Lume."
+   },
+   {
+    "name": "Santo Antao",
+    "desc": "Dramatic green valleys and cliff-edge walking trails, popular with hikers."
+   },
+   {
+    "name": "Fogo",
+    "desc": "A volcanic island with a large crater, wine-growing villages and a challenging hike to the rim."
+   },
+   {
+    "name": "Sao Vicente and Mindelo",
+    "desc": "A lively port city known for its music scene and colonial-era buildings."
+   },
+   {
+    "name": "Boa Vista",
+    "desc": "Dunes, wide beaches and a quiet atmosphere; turtles nest on some beaches in summer."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Morna Music",
+    "desc": "Soulful songs associated with Cesaria Evora; live performances are common in Mindelo."
+   },
+   {
+    "name": "Creole Language",
+    "desc": "Kabuverdianu is the everyday language, with Portuguese used officially."
+   },
+   {
+    "name": "Island Hospitality",
+    "desc": "Visitors are usually greeted warmly; a few words of Portuguese or Creole are appreciated."
+   }
+  ],
+  "events": [
+   {
+    "name": "Gamboa Music Festival",
+    "desc": "Held in Praia, usually around August, with live music on the beach."
+   },
+   {
+    "name": "Baia das Gatas Festival",
+    "desc": "A music festival on Sao Vicente, traditionally held around the August full moon."
+   },
+   {
+    "name": "Sal Carnival Season",
+    "desc": "Parades and costumes in Mindelo and other towns, usually in February or March."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Carnival",
+    "desc": "February or March. Mindelo is best known for its parades and costumes."
+   },
+   {
+    "name": "Tabanka",
+    "desc": "Spring, on Santiago. A traditional drum-led procession with deep local roots."
+   },
+   {
+    "name": "Sao Joao",
+    "desc": "Late June. Saint's day celebrations with music and street gatherings on several islands."
+   }
+  ],
+  "food": [
+   {
+    "name": "Cachupa",
+    "desc": "A slow-cooked stew of corn and beans with meat or fish, regarded as the national dish."
+   },
+   {
+    "name": "Fresh Grilled Fish",
+    "desc": "Tuna and other local catches, typically served simply with rice and vegetables."
+   },
+   {
+    "name": "Pastel com Diabo Dentro",
+    "desc": "Fried pastry filled with seasoned fish, a popular snack."
+   }
+  ],
+  "intro": "Cape Verde is an archipelago of ten volcanic islands in the Atlantic, roughly 570 km off the coast of West Africa. It is known for beaches, music, hiking and a relaxed pace, and is one of the more stable countries in the region. Flights and ferries link the islands but schedules can change. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Arrive in Sal",
+     "items": [
+      "Settle in at Santa Maria",
+      "Beach time and sunset on the shore"
+     ]
+    },
+    {
+     "title": "Day 2 — Sal",
+     "items": [
+      "Pedra de Lume salt pans",
+      "Boat or snorkelling trip"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Santiago",
+     "items": [
+      "Fly to Praia and see the old town",
+      "Cidade Velha",
+      "Local markets"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Sal",
+     "items": [
+      "Beaches and the salt pans"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Sao Vicente",
+     "items": [
+      "Fly to the island, explore Mindelo",
+      "Live music evening"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Santo Antao",
+     "items": [
+      "Take the ferry and hike a green valley"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Sal",
+     "items": [
+      "Beaches and the salt pans"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Sao Vicente",
+     "items": [
+      "Mindelo, music and harbour"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Santo Antao",
+     "items": [
+      "Valley and coastal hikes"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Santiago",
+     "items": [
+      "Cidade Velha and Praia",
+      "Return flights"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to June is dry and pleasant. Hotter, more humid weather and occasional rain arrive from August to October.",
+   "currency": "Cape Verdean escudo (CVE), pegged to the euro. Euros are accepted in some tourist areas; cards work in larger hotels but carry cash elsewhere.",
+   "safety": "Generally safe, but petty theft and bag snatching occur, especially in towns. Strong currents affect some beaches; heed local flags and advice.",
+   "tipping": "Not obligatory; rounding up or adding around 10 percent in restaurants is appreciated.",
+   "transport": "Inter-island travel is by short flights or ferries, which may be delayed or cancelled in rough seas. On islands, shared minibuses (aluguer) and taxis are common."
+  },
+  "stays": [
+   {
+    "name": "All-Inclusive Resorts (Sal and Boa Vista)",
+    "desc": "Large beachfront resorts, convenient but far from everyday island life."
+   },
+   {
+    "name": "Guesthouses in Mindelo and Santo Antao",
+    "desc": "Small family-run places with local meals and hiking advice."
+   },
+   {
+    "name": "Mid-Range Hotels in Praia",
+    "desc": "Practical for exploring Santiago and Cidade Velha."
+   }
+  ]
+ },
+ "Central African Republic": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Bangui",
+    "desc": "The capital on the Ubangi River; the situation in the city and beyond can change quickly."
+   },
+   {
+    "name": "Dzanga-Sangha Reserve",
+    "desc": "Rainforest in the south-west with forest elephants and lowland gorillas, reached with specialist operators."
+   },
+   {
+    "name": "Dzanga Bai",
+    "desc": "A large forest clearing where elephants gather, within the Dzanga-Sangha area."
+   },
+   {
+    "name": "Ubangi River",
+    "desc": "The river forming the border with the DR Congo, used by traders and fishers."
+   },
+   {
+    "name": "Boali Falls",
+    "desc": "Waterfalls near Bangui, depending on current security."
+   },
+   {
+    "name": "Bayanga",
+    "desc": "A small town in the south-west that serves as the base for the Dzanga-Sangha area."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Baka and Other Forest Communities",
+    "desc": "Forest peoples in the south-west have deep knowledge of the rainforest; visit only with respectful, community-approved guides."
+   },
+   {
+    "name": "Music and Dance",
+    "desc": "Music, drumming and dance are important at celebrations in many communities."
+   },
+   {
+    "name": "Local Markets",
+    "desc": "Markets sell cassava, produce and crafts, with security varying by town."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "13 August. Marks independence from France in 1960."
+   },
+   {
+    "name": "Proclamation of the Republic",
+    "desc": "1 December. A national holiday."
+   },
+   {
+    "name": "Barthélemy Boganda Day",
+    "desc": "29 March. A holiday honouring the country's first prime minister."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Christmas",
+    "desc": "25 December. A major holiday with church services and family meals."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Observed by Muslim communities."
+   },
+   {
+    "name": "Easter",
+    "desc": "Date varies yearly. Observed with church services across the country."
+   }
+  ],
+  "food": [
+   {
+    "name": "Gozo",
+    "desc": "A stiff cassava paste eaten with sauces."
+   },
+   {
+    "name": "Ngunza",
+    "desc": "Cassava leaves cooked with groundnut and often fish or meat."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "River fish is commonly grilled or smoked and served with sauce."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Bangui Hotels",
+    "desc": "A few hotels with security arrangements; book ahead and check current conditions."
+   },
+   {
+    "name": "Dzanga-Sangha Lodges",
+    "desc": "Lodging in the south-west is arranged through conservation operators."
+   },
+   {
+    "name": "Mission and Guesthouse Lodging",
+    "desc": "Used by aid workers; availability varies."
+   }
+  ],
+  "intro": "The Central African Republic has dense rainforest, big rivers and wildlife in the south-west, but ongoing armed conflict and weak infrastructure make travel extremely dangerous. Most governments advise against all travel and consular help is very limited. This guide is for general information only and is not a recommendation to travel. It has 5, 7 and 10-day routes, shown only as outlines that depend on current security advice.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Bangui",
+     "items": [
+      "Arrive and stay under security guidance"
+     ]
+    },
+    {
+     "title": "Day 2–5 — Dzanga-Sangha",
+     "items": [
+      "Rainforest and elephants at Dzanga Bai, only with a specialist operator"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Bangui",
+     "items": [
+      "Arrival and briefing"
+     ]
+    },
+    {
+     "title": "Day 2–7 — Dzanga-Sangha",
+     "items": [
+      "Forest walks, wildlife viewing and community visits with operator support"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Bangui",
+     "items": [
+      "Arrival, briefing and city sights if safe"
+     ]
+    },
+    {
+     "title": "Day 3–9 — Dzanga-Sangha",
+     "items": [
+      "Extended forest and wildlife stay with a specialist operator"
+     ]
+    },
+    {
+     "title": "Day 10 — Bangui",
+     "items": [
+      "Departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "The drier months of December to February are generally easier for travel, while the rainy season makes many roads impassable.",
+   "currency": "Central African CFA franc (XAF). Cash is essential and cards are almost unusable.",
+   "safety": "Most governments advise against or strongly discourage travel to the Central African Republic; check your own government's advice and consider whether travel is possible at all. Armed groups, banditry and kidnapping are real risks outside the capital.",
+   "tipping": "Not customary; small gifts for guides and drivers are appreciated.",
+   "transport": "Roads are very poor, and the river and limited flights are key links. Overland travel is dangerous."
+  }
+ },
+ "Chad": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "N'Djamena",
+    "desc": "The capital on the Chari River, with the National Museum and busy markets; security conditions need checking."
+   },
+   {
+    "name": "Zakouma National Park",
+    "desc": "A well-known wildlife park in the south-east, managed by a conservation partnership, with elephants and many birds."
+   },
+   {
+    "name": "Lake Chad",
+    "desc": "A shrinking shallow lake on the western border; the region has serious security problems."
+   },
+   {
+    "name": "Ennedi Plateau",
+    "desc": "A remote sandstone landscape of arches and canyons in the north-east, listed by UNESCO."
+   },
+   {
+    "name": "Lakes of Ounianga",
+    "desc": "A group of desert lakes in the north, also a World Heritage site."
+   },
+   {
+    "name": "Tibesti Mountains",
+    "desc": "A remote volcanic range in the far north that is generally unsuitable for ordinary visitors."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Sahelian Markets",
+    "desc": "Weekly markets sell textiles, leather goods and spices; go with a local contact."
+   },
+   {
+    "name": "Hospitality and Greetings",
+    "desc": "Greetings are long and polite. Dress modestly and ask before taking photos."
+   },
+   {
+    "name": "Camel Herding Communities",
+    "desc": "Nomadic and semi-nomadic groups in the north and centre keep long-standing pastoral traditions."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "11 August. Marks independence from France in 1960, with official ceremonies."
+   },
+   {
+    "name": "Freedom and Democracy Day",
+    "desc": "1 December. A public holiday with official events."
+   },
+   {
+    "name": "Labour Day",
+    "desc": "1 May. A national holiday with official events."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Family visits, prayers and shared meals."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and shared meals."
+   },
+   {
+    "name": "Mawlid",
+    "desc": "Date varies yearly. Marks the birthday of the Prophet with religious gatherings."
+   }
+  ],
+  "food": [
+   {
+    "name": "Daraba",
+    "desc": "A okra-based sauce or stew eaten with millet porridge."
+   },
+   {
+    "name": "Boule",
+    "desc": "A thick millet or sorghum porridge, the staple of many meals."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Fish from the Chari River is often grilled and served with sauce in N'Djamena."
+   }
+  ],
+  "stays": [
+   {
+    "name": "N'Djamena Hotels",
+    "desc": "A small number of international-standard hotels in the capital, often with security staff; book ahead."
+   },
+   {
+    "name": "Zakouma Safari Camps",
+    "desc": "Seasonal tented camps near the park operate through the dry season; check availability."
+   },
+   {
+    "name": "Licensed Operator Arrangements",
+    "desc": "Outside the capital, accommodation is usually arranged through an operator."
+   }
+  ],
+  "intro": "Chad is a large Sahel country with striking desert scenery, wildlife in the south and a rich mix of cultures. It also has serious security risks, including armed groups, crime, landmines in some areas and limited consular help, and many governments advise against travel. This guide is for general information only and is not a recommendation to travel. It has 5, 7 and 10-day routes, outlined with the caveat that they depend on current official advice.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — N'Djamena",
+     "items": [
+      "National Museum, markets and the riverfront, with local security advice"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Zakouma National Park",
+     "items": [
+      "Fly or travel with an operator in the dry season for wildlife viewing"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — N'Djamena",
+     "items": [
+      "City sights with a licensed guide"
+     ]
+    },
+    {
+     "title": "Day 3–7 — Zakouma National Park",
+     "items": [
+      "Game drives and birdwatching in the dry season"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — N'Djamena",
+     "items": [
+      "City sights with a licensed guide"
+     ]
+    },
+    {
+     "title": "Day 3–6 — Zakouma National Park",
+     "items": [
+      "Wildlife viewing"
+     ]
+    },
+    {
+     "title": "Day 7–10 — Ennedi Plateau",
+     "items": [
+      "Only through a specialist operator with current security clearance"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to February is the coolest and driest. The southern rains run roughly June to September, and the north is extremely hot in spring and summer.",
+   "currency": "Central African CFA franc (XAF). Cash is important and cards are rarely accepted outside a few hotels.",
+   "safety": "Most governments advise against or strongly discourage travel to Chad; check your own government's advice and consider whether travel is possible at all. Landmines, banditry and conflict affect some regions, and the border areas are especially risky.",
+   "tipping": "Not expected; small tips are appreciated for guides and drivers.",
+   "transport": "Roads outside the capital are poor and many are impassable in the rainy season. Domestic flights are limited, and overland desert travel needs specialist support."
+  }
+ },
+ "Comoros": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Moroni",
+    "desc": "The capital on Grande Comore, with an old medina, the Old Friday Mosque and a harbour."
+   },
+   {
+    "name": "Mount Karthala",
+    "desc": "An active volcano on Grande Comore that can be hiked with a guide when conditions allow."
+   },
+   {
+    "name": "Mohéli Marine Park",
+    "desc": "A protected area known for turtles, whales in season and quiet beaches."
+   },
+   {
+    "name": "Anjouan (Ndzuwani)",
+    "desc": "A green, hilly island with old towns, waterfalls and spice plantations."
+   },
+   {
+    "name": "Mitsamiouli",
+    "desc": "A northern town on Grande Comore with white-sand beaches."
+   },
+   {
+    "name": "Lac Salé",
+    "desc": "A salt crater lake on Grande Comore, reached by a short trip from Mitsamiouli."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Swahili-Arab Heritage",
+    "desc": "Islam shapes daily life; dress modestly and ask before photographing people."
+   },
+   {
+    "name": "Grand Mariage",
+    "desc": "A traditional, expensive wedding custom that is central to social life, especially on Grande Comore."
+   },
+   {
+    "name": "Ylang-Ylang Perfume",
+    "desc": "The islands produce ylang-ylang essence and cloves, and some distilleries can be visited."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "6 July. National celebrations."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Date varies. A major celebration with prayers and family meals."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Date varies. Marked with prayers and shared meals."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Ramadan",
+    "desc": "Date varies. A month of fasting and evening gatherings; daytime food may be limited."
+   },
+   {
+    "name": "Mawlid",
+    "desc": "Date varies. Religious gatherings and chanting."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Date varies. Prayers, new clothes and family celebrations."
+   }
+  ],
+  "food": [
+   {
+    "name": "Langouste à la Vanille",
+    "desc": "Lobster in a vanilla sauce, a local speciality in some restaurants."
+   },
+   {
+    "name": "Mkatra Foutra",
+    "desc": "A flatbread-style pancake often eaten at breakfast."
+   },
+   {
+    "name": "Coconut Fish and Cassava",
+    "desc": "Fish cooked in coconut milk, served with cassava or rice."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Small Hotels in Moroni",
+    "desc": "The most practical base on Grande Comore."
+   },
+   {
+    "name": "Beach Guesthouses",
+    "desc": "Simple lodges near the coast on Mohéli and Grande Comore."
+   },
+   {
+    "name": "Homestays and Lodges",
+    "desc": "Available on Anjouan and Mohéli; arrange in advance."
+   }
+  ],
+  "intro": "Comoros is a small volcanic island nation in the Mozambique Channel between Madagascar and the African mainland. Grande Comore, Anjouan and Mohéli are the main islands. Tourism is limited, services are basic and flights and ferries can change. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Moroni",
+     "items": [
+      "Arrive, medina and Old Friday Mosque"
+     ]
+    },
+    {
+     "title": "Day 2 — Grande Comore",
+     "items": [
+      "Day trip to Mitsamiouli and Lac Salé"
+     ]
+    },
+    {
+     "title": "Day 3 — Karthala",
+     "items": [
+      "Guided volcano hike if conditions allow"
+     ]
+    },
+    {
+     "title": "Day 4 — Beach",
+     "items": [
+      "Coast and rest"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Airport transfer"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Moroni",
+     "items": [
+      "Medina, market, harbour"
+     ]
+    },
+    {
+     "title": "Day 3 — Karthala",
+     "items": [
+      "Guided hike"
+     ]
+    },
+    {
+     "title": "Day 4 — North",
+     "items": [
+      "Mitsamiouli beaches"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Mohéli",
+     "items": [
+      "Flight and marine park"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return flight"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Grande Comore",
+     "items": [
+      "Moroni, north coast, Karthala"
+     ]
+    },
+    {
+     "title": "Day 4–6 — Mohéli",
+     "items": [
+      "Marine park, beaches, village visits"
+     ]
+    },
+    {
+     "title": "Day 7–9 — Anjouan",
+     "items": [
+      "Old towns and hills"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Return to Moroni and flight"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is drier and cooler. November to April is hotter and wetter, with cyclone risk early in the year.",
+   "currency": "Comorian franc (KMF), pegged to the euro. Cash is common; cards are rarely accepted outside a few hotels.",
+   "safety": "Take normal precautions and follow official advice, as political tension has occurred on the islands. Respect local dress norms.",
+   "tipping": "Not expected, but small tips are appreciated for guides and drivers.",
+   "transport": "Shared taxis and minibuses on the islands; domestic flights and ferries link them, and schedules can change at short notice."
+  }
+ },
+ "Democratic Republic of the Congo": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Kinshasa",
+    "desc": "A huge capital on the Congo River with lively music, markets and nightlife; crime and unrest need caution."
+   },
+   {
+    "name": "Virunga National Park",
+    "desc": "Africa's oldest national park, with volcanoes and mountain gorillas; access depends heavily on security in the east."
+   },
+   {
+    "name": "Congo River",
+    "desc": "One of the world's great rivers, with riverboat journeys in some areas."
+   },
+   {
+    "name": "Kahuzi-Biega National Park",
+    "desc": "A park near Bukavu known for eastern lowland gorillas; the area has serious security risks."
+   },
+   {
+    "name": "Lola ya Bonobo",
+    "desc": "A sanctuary near Kinshasa caring for orphaned bonobos."
+   },
+   {
+    "name": "Lake Kivu",
+    "desc": "A large lake on the eastern border; the surrounding region is affected by conflict."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Congolese Music",
+    "desc": "Rumba and soukous are central to the country's identity and are especially strong in Kinshasa."
+   },
+   {
+    "name": "Art and Masks",
+    "desc": "Many peoples have long traditions of sculpture, masks and textiles."
+   },
+   {
+    "name": "Sapeur Style",
+    "desc": "An elegant, colourful dress culture associated with both Congos."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "30 June. Marks independence from Belgium in 1960."
+   },
+   {
+    "name": "Martyrs' Day",
+    "desc": "17 January. Commemorates Patrice Lumumba, with official observances."
+   },
+   {
+    "name": "Liberation Day",
+    "desc": "17 May. A national holiday with official events."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Christmas",
+    "desc": "25 December. Church services and family meals."
+   },
+   {
+    "name": "Easter",
+    "desc": "Date varies yearly. Widely observed with services."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Observed by Muslim communities."
+   }
+  ],
+  "food": [
+   {
+    "name": "Pondu",
+    "desc": "Cassava leaves cooked with oil and often fish or meat."
+   },
+   {
+    "name": "Fufu",
+    "desc": "A stiff paste from cassava or maize flour, eaten with stews."
+   },
+   {
+    "name": "Moambe",
+    "desc": "A rich stew made with palm nut sauce, often with chicken or fish."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Kinshasa Hotels",
+    "desc": "The capital has international-standard hotels, usually with security, and prices are high."
+   },
+   {
+    "name": "Virunga Lodges",
+    "desc": "Lodges in the park have operated with strict conditions; check current status."
+   },
+   {
+    "name": "Operator-Arranged Lodging",
+    "desc": "Outside major cities, accommodation is best arranged through an established operator."
+   }
+  ],
+  "intro": "The Democratic Republic of the Congo is huge, with rainforest, the Congo River, volcanoes and a vibrant music scene. Ongoing conflict in the east, crime and weak infrastructure mean many governments advise against all travel or travel to large parts of the country. This guide is for general information only and is not a recommendation to travel. It has 5, 7 and 10-day routes, shown only as outlines subject to current official advice.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–3 — Kinshasa",
+     "items": [
+      "Music venues, markets, museums and the river with local guidance"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Lola ya Bonobo",
+     "items": [
+      "Visit the sanctuary near the capital"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Kinshasa",
+     "items": [
+      "City sights with local guidance"
+     ]
+    },
+    {
+     "title": "Day 4 — Lola ya Bonobo",
+     "items": [
+      "Bonobo sanctuary"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Congo River",
+     "items": [
+      "River-based excursions with an operator, if conditions allow"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Kinshasa",
+     "items": [
+      "City sights and music"
+     ]
+    },
+    {
+     "title": "Day 4 — Lola ya Bonobo",
+     "items": [
+      "Bonobo sanctuary"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Congo River",
+     "items": [
+      "River excursions with a local operator"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Eastern parks",
+     "items": [
+      "Only if the official advice and operator briefings allow; conditions change quickly"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Dry seasons differ by region: roughly June to September in the south, and December to February in parts of the north. The east has rain much of the year.",
+   "currency": "Congolese franc (CDF); US dollars are widely used in cities. Bring clean, recent notes and expect limited card use.",
+   "safety": "Most governments advise against or strongly discourage travel to the DR Congo; check your own government's advice and consider whether travel is possible at all. Armed conflict, kidnapping, crime and health risks are significant, especially in the east.",
+   "tipping": "Small tips are common in hotels and restaurants, and for guides and drivers.",
+   "transport": "Roads are very poor and the country is vast; domestic flights, boats and trains are used, with variable safety and reliability."
+  }
+ },
+ "Djibouti": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Lake Assal",
+    "desc": "A salt lake far below sea level, ringed by white salt flats and black volcanic rock."
+   },
+   {
+    "name": "Lake Abbe",
+    "desc": "Limestone chimneys and steaming vents near the Ethiopian border, with a moonscape feel."
+   },
+   {
+    "name": "Tadjoura",
+    "desc": "A relaxed old port town of white buildings on the Gulf of Tadjoura."
+   },
+   {
+    "name": "Moucha Island",
+    "desc": "A small island offshore with beaches and snorkelling."
+   },
+   {
+    "name": "Djibouti City",
+    "desc": "The capital, with a busy port, markets and French and Arab influences."
+   },
+   {
+    "name": "Day Forest National Park",
+    "desc": "A green highland pocket with juniper forest and cooler air."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Afar Traditions",
+    "desc": "The Afar people live in the north and west, and are known for salt trading and pastoral life."
+   },
+   {
+    "name": "Somali Traditions",
+    "desc": "The Somali Issa community is prominent, with poetry, song and hospitality traditions."
+   },
+   {
+    "name": "Central Market Visit",
+    "desc": "A lively market where coffee, spices and fabrics are sold."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "27 June. National holiday marking independence from France in 1977."
+   },
+   {
+    "name": "Whale Shark Season",
+    "desc": "Roughly October to February. Boat trips near Arta Beach offer a chance to swim near whale sharks with licensed operators."
+   },
+   {
+    "name": "Camel Caravans at Lake Assal",
+    "desc": "Salt caravans cross the region; best seen with a local guide."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Family gatherings, prayers and feasting."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary by year. Sacrifice and sharing of meat."
+   },
+   {
+    "name": "Mawlid",
+    "desc": "Date varies. A religious observance marking the Prophet's birthday."
+   }
+  ],
+  "food": [
+   {
+    "name": "Skoudehkaris",
+    "desc": "A spiced rice dish with lamb or goat, a national favourite."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Fresh red snapper and similar fish, grilled and served with rice or bread."
+   },
+   {
+    "name": "Lahoh",
+    "desc": "A spongy pancake-like bread eaten with stew or honey."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Djibouti City Hotels",
+    "desc": "Most hotels are in the capital, with a wide range of prices; expect high costs."
+   },
+   {
+    "name": "Tadjoura Guesthouses",
+    "desc": "Simple stays in a quiet coastal setting."
+   },
+   {
+    "name": "Lake Abbe Camps",
+    "desc": "Basic tent or hut camps; organised through tour operators."
+   }
+  ],
+  "intro": "Djibouti is a small country on the Horn of Africa, on the Gulf of Aden and Red Sea. It is hot and dry, with striking volcanic and salt landscapes, and a major international port and military bases. Independent travel is possible but expensive and hot, and many trips go through local operators. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Djibouti City",
+     "items": [
+      "Markets, port area and waterfront"
+     ]
+    },
+    {
+     "title": "Day 2 — Lake Assal",
+     "items": [
+      "Day trip to the salt flats"
+     ]
+    },
+    {
+     "title": "Day 3 — Tadjoura",
+     "items": [
+      "Sea views and old town"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Moucha Island or Day Forest",
+     "items": [
+      "Snorkelling or a cooler highland stay"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Djibouti City",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 3 — Lake Assal",
+     "items": [
+      "Salt flats"
+     ]
+    },
+    {
+     "title": "Day 4 — Tadjoura",
+     "items": [
+      "Old town"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Lake Abbe",
+     "items": [
+      "Overnight camp and chimneys at sunrise"
+     ]
+    },
+    {
+     "title": "Day 7 — Return",
+     "items": [
+      "Back to the capital"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Djibouti City",
+     "items": [
+      "City and port"
+     ]
+    },
+    {
+     "title": "Day 3 — Lake Assal",
+     "items": [
+      "Salt flats"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Tadjoura",
+     "items": [
+      "Coast and old town"
+     ]
+    },
+    {
+     "title": "Day 6 — Day Forest National Park",
+     "items": [
+      "Highland walks"
+     ]
+    },
+    {
+     "title": "Day 7–9 — Lake Abbe",
+     "items": [
+      "Camp and landscape"
+     ]
+    },
+    {
+     "title": "Day 10 — Moucha Island",
+     "items": [
+      "Beach and snorkelling before departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "October to April is cooler. Summers are extremely hot. Whale shark season is roughly October to February.",
+   "currency": "Djiboutian franc (DJF), pegged to the US dollar. Cards work in some hotels; carry cash for travel outside the capital.",
+   "safety": "Generally stable, but there is a risk of terrorism and regional instability, and crime in the capital. Heat is a serious hazard. Avoid border zones with Eritrea and Somalia, and check your government's advice.",
+   "tipping": "Not required; small tips for guides and drivers are appreciated.",
+   "transport": "Taxis and minibuses in the capital; shared cars and 4x4 hire for the interior. Roads to remote sites can be rough, so a driver is advised."
+  }
+ },
+ "Dominica": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Morne Trois Pitons National Park",
+    "desc": "A UNESCO-listed rainforest park with volcanic peaks, hot springs and waterfalls."
+   },
+   {
+    "name": "Boiling Lake Hike",
+    "desc": "A demanding full-day trek through the Valley of Desolation to a large, steaming crater lake. A guide is strongly advised."
+   },
+   {
+    "name": "Trafalgar Falls",
+    "desc": "Twin waterfalls reached by a short walk, with hot springs nearby."
+   },
+   {
+    "name": "Champagne Reef",
+    "desc": "A snorkelling spot where volcanic gas bubbles rise from the seabed."
+   },
+   {
+    "name": "Roseau",
+    "desc": "The small capital, with a botanical garden, a market and colonial-era buildings."
+   },
+   {
+    "name": "Cabrits National Park",
+    "desc": "A forested peninsula near Portsmouth with the ruins of Fort Shirley and coastal views."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Kalinago Territory",
+    "desc": "The home of Dominica's indigenous Kalinago people, with a cultural village, crafts and basket weaving."
+   },
+   {
+    "name": "Creole Language and Music",
+    "desc": "Many locals speak a French-based Creole alongside English, and bouyon and string-band music are widely loved."
+   },
+   {
+    "name": "Nature Island Identity",
+    "desc": "Dominica promotes itself as the Nature Island, and guided hikes and river walks are a central part of local life."
+   }
+  ],
+  "events": [
+   {
+    "name": "Dominica Independence Celebrations",
+    "desc": "Early November. Parades, concerts and cultural shows mark independence from Britain."
+   },
+   {
+    "name": "Dive Fest",
+    "desc": "Usually July. A diving and water-sports festival based around the west coast."
+   },
+   {
+    "name": "World Creole Music Festival",
+    "desc": "Usually late October. Concerts of Creole and Caribbean music in Roseau, though dates and format can change."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Carnival (Mas Domnik)",
+    "desc": "February or March, before Lent. Street parades, costumes and calypso competitions in Roseau."
+   },
+   {
+    "name": "Creole in the Park",
+    "desc": "Around the end of October. A celebration of Creole food, music and dress."
+   },
+   {
+    "name": "Jazz 'n Creole",
+    "desc": "Usually May. Live music events and cultural shows around Roseau."
+   }
+  ],
+  "food": [
+   {
+    "name": "Callaloo Soup",
+    "desc": "A creamy soup made from dasheen leaves, often with crab or salted meat."
+   },
+   {
+    "name": "Local Seafood",
+    "desc": "Fresh fish and lobster are widely served; ask about sustainable catches and seasonal restrictions."
+   },
+   {
+    "name": "Provisions and Bakes",
+    "desc": "Boiled root vegetables such as yam and dasheen served with fish or stew, plus fried bakes for breakfast."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Eco-Lodges",
+    "desc": "Small lodges in the rainforest and near rivers, often with local guides and farm produce."
+   },
+   {
+    "name": "Guesthouses in Roseau",
+    "desc": "Simple, affordable places close to the market and ferry port."
+   },
+   {
+    "name": "Coastal Boutique Hotels",
+    "desc": "A few small hotels on the west coast, convenient for diving and snorkelling."
+   }
+  ],
+  "intro": "Dominica is a mountainous, forested island in the eastern Caribbean, known for rainforest hiking, hot springs and diving rather than long beaches. It is a small, quiet destination with limited flights, so most visitors connect through nearby islands. The island is also vulnerable to hurricanes, which can disrupt roads and services. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Roseau",
+     "items": [
+      "Arrive, walk around the market and botanical garden"
+     ]
+    },
+    {
+     "title": "Day 2 — Morne Trois Pitons",
+     "items": [
+      "Trafalgar Falls and nearby hot springs"
+     ]
+    },
+    {
+     "title": "Day 3 — Boiling Lake",
+     "items": [
+      "Full-day guided hike, or an easier alternative such as Middleham Falls"
+     ]
+    },
+    {
+     "title": "Day 4 — South Coast",
+     "items": [
+      "Champagne Reef snorkelling, Scotts Head village"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Free morning in Roseau before flights"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Roseau",
+     "items": [
+      "Arrival and market walk"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Morne Trois Pitons",
+     "items": [
+      "Trafalgar Falls, hot springs, a guided hike"
+     ]
+    },
+    {
+     "title": "Day 4 — Boiling Lake",
+     "items": [
+      "Guided full-day trek"
+     ]
+    },
+    {
+     "title": "Day 5 — Kalinago Territory",
+     "items": [
+      "Cultural village visit and east coast views"
+     ]
+    },
+    {
+     "title": "Day 6 — Portsmouth",
+     "items": [
+      "Cabrits National Park and a river boat trip"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Last-minute shopping in Roseau"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Roseau",
+     "items": [
+      "Gardens, museum and local food"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Morne Trois Pitons",
+     "items": [
+      "Waterfalls, hot springs and rainforest walks"
+     ]
+    },
+    {
+     "title": "Day 5 — Boiling Lake",
+     "items": [
+      "Guided trek"
+     ]
+    },
+    {
+     "title": "Day 6 — Kalinago Territory",
+     "items": [
+      "Cultural visit and coastline"
+     ]
+    },
+    {
+     "title": "Day 7–8 — North Coast",
+     "items": [
+      "Portsmouth, Cabrits National Park and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 9 — Southwest Coast",
+     "items": [
+      "Champagne Reef and Scotts Head"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Roseau and onward travel"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Roughly December to May is drier and best for hiking. June to November is the hurricane season, with more rain and some risk of storms.",
+   "currency": "Eastern Caribbean dollar (XCD), pegged to the US dollar at about 2.7 to 1. US dollars are often accepted in tourist areas.",
+   "safety": "Generally safe for visitors. Take usual precautions against petty theft, hire a guide for harder hikes, and follow weather and river warnings.",
+   "tipping": "A service charge is sometimes added to restaurant bills; if not, around 10 percent is customary. Guides appreciate a tip.",
+   "transport": "Minibuses run between towns and ferries link nearby islands, but hire cars or private drivers are easier for remote sites. Roads are narrow and winding. Drive on the left."
+  }
+ },
+ "Equatorial Guinea": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Malabo",
+    "desc": "The capital on Bioko Island, with colonial-era buildings and a cathedral."
+   },
+   {
+    "name": "Bata",
+    "desc": "The largest city on the mainland coast, with beaches and a busy waterfront."
+   },
+   {
+    "name": "Pico Basile",
+    "desc": "The highest point on Bioko Island, with forest and views, subject to access arrangements."
+   },
+   {
+    "name": "Annobón",
+    "desc": "A remote volcanic island far to the south-west, rarely visited."
+   },
+   {
+    "name": "Monte Alén National Park",
+    "desc": "A mainland rainforest park with gorillas, chimpanzees and elephants."
+   },
+   {
+    "name": "Luba",
+    "desc": "A coastal town on Bioko with beaches and forest nearby."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Fang and Bubi Traditions",
+    "desc": "The Fang on the mainland and the Bubi on Bioko have distinct music, crafts and customs."
+   },
+   {
+    "name": "Spanish Colonial Heritage",
+    "desc": "The country is Spanish-speaking, and Malabo's architecture reflects the colonial period."
+   },
+   {
+    "name": "Coastal Markets",
+    "desc": "Markets sell fish, produce and crafts, and are best visited with a local contact."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "12 October. Marks independence from Spain in 1968."
+   },
+   {
+    "name": "Freedom Day",
+    "desc": "3 August. A national holiday."
+   },
+   {
+    "name": "Labour Day",
+    "desc": "1 May. A national holiday."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Christmas",
+    "desc": "25 December. Church services and family meals."
+   },
+   {
+    "name": "Easter",
+    "desc": "Date varies yearly. Widely observed."
+   },
+   {
+    "name": "Corpus Christi",
+    "desc": "Dates vary yearly. Observed in a Catholic-majority country."
+   }
+  ],
+  "food": [
+   {
+    "name": "Pepesoup",
+    "desc": "A spicy soup with fish or meat, common on Bioko."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Fresh fish served with plantain or cassava."
+   },
+   {
+    "name": "Cassava and Plantain",
+    "desc": "Staple foods served with stews and sauces."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Malabo Hotels",
+    "desc": "The capital has a range of hotels, generally expensive due to the oil-industry market."
+   },
+   {
+    "name": "Bata Hotels",
+    "desc": "Mid-range and upscale hotels along the mainland coast."
+   },
+   {
+    "name": "Small Guesthouses",
+    "desc": "Available in smaller towns, but options are limited and quality varies."
+   }
+  ],
+  "intro": "Equatorial Guinea consists of a mainland region, Río Muni, and islands including Bioko, where the capital Malabo is. It is Spanish-speaking, has rainforest and beaches, and has a small tourism sector with high prices. Security, press and photography restrictions and crime are issues, so check current advice. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–3 — Malabo",
+     "items": [
+      "Cathedral, old town and waterfront"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Bioko Island",
+     "items": [
+      "Forest and coast outside the capital"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Malabo",
+     "items": [
+      "Cathedral, old town and waterfront"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Bioko Island",
+     "items": [
+      "Forest and coast"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Bata",
+     "items": [
+      "Mainland coast and city"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Malabo",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Bioko Island",
+     "items": [
+      "Forest and coast"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Bata",
+     "items": [
+      "Mainland coast"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Monte Alén National Park",
+     "items": [
+      "Rainforest with a local guide"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "The drier months of December to February are generally easier for travel, though weather is humid year-round.",
+   "currency": "Central African CFA franc (XAF). Cards work in some hotels, but carry cash.",
+   "safety": "Check your government's advice. Petty crime occurs, police checkpoints are frequent, and photographing government buildings, the airport and the presidential area can cause problems. Keep your documents with you.",
+   "tipping": "Not customary; small tips are appreciated.",
+   "transport": "Flights connect Malabo and Bata, and roads on the mainland vary. Taxis are common in cities."
+  }
+ },
+ "Eritrea": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Asmara",
+    "desc": "A high-altitude capital known for its modernist and Art Deco architecture, a UNESCO World Heritage Site."
+   },
+   {
+    "name": "Massawa",
+    "desc": "A historic Red Sea port with coral-stone buildings, some restored and some still damaged."
+   },
+   {
+    "name": "Dahlak Archipelago",
+    "desc": "Islands in the Red Sea known for coral reefs and diving, accessed with permits."
+   },
+   {
+    "name": "Keren",
+    "desc": "A market town with a lively Monday livestock market and a mix of cultures."
+   },
+   {
+    "name": "Qohaito",
+    "desc": "An ancient highland site with ruins and views over a dramatic escarpment."
+   },
+   {
+    "name": "Adulis",
+    "desc": "Archaeological remains of an ancient Red Sea port of the Aksumite era."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Coffee Ceremony",
+    "desc": "A ritual of roasting, grinding and brewing coffee, shared with guests and often with popcorn."
+   },
+   {
+    "name": "Asmara Architecture Walk",
+    "desc": "A walk past the Fiat Tagliero service station, cinemas and other early twentieth-century buildings."
+   },
+   {
+    "name": "Ethnic Diversity",
+    "desc": "Tigrinya, Tigre, Afar, Bilen and others each have their own music and dress."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "24 May. National holiday marking independence in 1993."
+   },
+   {
+    "name": "Martyrs' Day",
+    "desc": "20 June. A day of remembrance."
+   },
+   {
+    "name": "Keren Market",
+    "desc": "Monday livestock market with camels and goats; subject to permits."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Meskel",
+    "desc": "September. An Orthodox festival with bonfires and celebrations."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Family gatherings and feasts."
+   },
+   {
+    "name": "Timket (Epiphany)",
+    "desc": "January. An Orthodox celebration with processions."
+   }
+  ],
+  "food": [
+   {
+    "name": "Injera with Zigni",
+    "desc": "Spongy flatbread served with a spicy meat stew."
+   },
+   {
+    "name": "Shiro",
+    "desc": "A thick chickpea stew, widely eaten, especially on fasting days."
+   },
+   {
+    "name": "Italian-influenced Pasta and Coffee",
+    "desc": "A legacy of colonial history, with espresso and pasta common in Asmara cafes."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Asmara Hotels",
+    "desc": "Most visitors stay in the capital; options are limited and may be basic."
+   },
+   {
+    "name": "Massawa Hotels",
+    "desc": "A few coastal hotels; expect heat and humidity."
+   },
+   {
+    "name": "Keren Guesthouses",
+    "desc": "Simple stays; permits and arrangements are needed."
+   }
+  ],
+  "intro": "Eritrea is a country on the Red Sea in the Horn of Africa, with a high plateau capital, Asmara, and a hot coastal strip. Travel is tightly regulated: visitors typically need permits to leave the capital, and the US government advises reconsidering travel. Tourism facilities are limited, and conditions change, so check official advice. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Asmara",
+     "items": [
+      "Modernist architecture walk, markets and cafes"
+     ]
+    },
+    {
+     "title": "Day 3 — Massawa",
+     "items": [
+      "Coastal day trip with a permit"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Asmara",
+     "items": [
+      "More city sights and onward travel"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Asmara",
+     "items": [
+      "City walk"
+     ]
+    },
+    {
+     "title": "Day 3 — Keren",
+     "items": [
+      "Market town, with permits"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Massawa",
+     "items": [
+      "Old port and coast"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Asmara",
+     "items": [
+      "Final sights"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Asmara",
+     "items": [
+      "City, museums and cafes"
+     ]
+    },
+    {
+     "title": "Day 4 — Keren",
+     "items": [
+      "Market day, permits needed"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Massawa",
+     "items": [
+      "Port and Red Sea"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Qohaito",
+     "items": [
+      "Highland ruins, permits needed"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Asmara",
+     "items": [
+      "Return and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "October to March is cooler on the coast. The highlands have a mild climate; summer rains fall roughly June to September.",
+   "currency": "Eritrean nakfa (ERN). Cards and ATMs are rarely usable, and cash is generally needed; check current rules on foreign currency.",
+   "safety": "The US government advises reconsidering travel. Risks include arbitrary detention, restricted movement, landmines near border areas and limited consular help. Follow permit rules and official advice.",
+   "tipping": "Small tips are appreciated but not required.",
+   "transport": "Buses and taxis operate in the capital. Travel outside Asmara generally needs a permit, so arrange through an official operator."
+  }
+ },
+ "Eswatini": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Mlilwane Wildlife Sanctuary",
+    "desc": "A small reserve where visitors can walk, cycle or ride among zebra and antelope."
+   },
+   {
+    "name": "Hlane Royal National Park",
+    "desc": "Home to white rhino, elephant and lions in the lowveld."
+   },
+   {
+    "name": "Malolotja Nature Reserve",
+    "desc": "A highland park with hiking, waterfalls and birdlife."
+   },
+   {
+    "name": "Ezulwini Valley",
+    "desc": "The tourism hub with craft centres, spas and cultural villages."
+   },
+   {
+    "name": "Mantenga Cultural Village",
+    "desc": "A recreated village showing traditional Swazi life and dance."
+   },
+   {
+    "name": "Lubombo Mountains",
+    "desc": "A range along the eastern border with scenic drives and lookouts."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Monarchy and Tradition",
+    "desc": "Eswatini is one of Africa's few remaining absolute monarchies; show respect when discussing the royal family."
+   },
+   {
+    "name": "Swazi Crafts",
+    "desc": "Candle, glass, weaving and basket workshops in the Ezulwini area."
+   },
+   {
+    "name": "Traditional Dress",
+    "desc": "Colourful cloth and beadwork are worn at ceremonies."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "6 September. National celebrations marking independence in 1968."
+   },
+   {
+    "name": "Marula Festival",
+    "desc": "Around February or March. A cultural celebration linked to the marula fruit season."
+   },
+   {
+    "name": "Bushfire Festival",
+    "desc": "Late May or early June. A music and arts festival near Malkerns."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Umhlanga (Reed Dance)",
+    "desc": "Late August or September. Young women gather to cut reeds and dance for the Queen Mother."
+   },
+   {
+    "name": "Incwala",
+    "desc": "Around December or January. A sacred kingship ceremony; visitors are generally restricted."
+   },
+   {
+    "name": "Easter and Christmas",
+    "desc": "Widely observed with church services and family gatherings."
+   }
+  ],
+  "food": [
+   {
+    "name": "Sishwala",
+    "desc": "A stiff maize porridge, the staple of the country."
+   },
+   {
+    "name": "Umcombotsi",
+    "desc": "A traditional fermented maize drink made at home for ceremonies."
+   },
+   {
+    "name": "Braai Meats",
+    "desc": "Grilled beef, chicken and sausage, a social favourite."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Reserve Rest Camps",
+    "desc": "Cabins and huts in Mlilwane, Hlane and Malolotja."
+   },
+   {
+    "name": "Ezulwini Valley Hotels",
+    "desc": "Hotels and guesthouses close to attractions and markets."
+   },
+   {
+    "name": "Guesthouses in Mbabane and Manzini",
+    "desc": "Practical stays in the two main cities."
+   }
+  ],
+  "intro": "Eswatini is a small landlocked kingdom between South Africa and Mozambique, with mountains, lowveld parks and strong monarchy-led traditions. It is easy to cover in a short trip and is often combined with South Africa. Cultural ceremonies such as Umhlanga have rules for visitors, so check ahead. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Ezulwini Valley",
+     "items": [
+      "Arrive, craft markets, cultural village"
+     ]
+    },
+    {
+     "title": "Day 2 — Mlilwane",
+     "items": [
+      "Walk or cycle among wildlife"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Hlane",
+     "items": [
+      "Game drives and walking safaris"
+     ]
+    },
+    {
+     "title": "Day 5 — Return",
+     "items": [
+      "Drive out via the border"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Mbabane",
+     "items": [
+      "Arrive and orientation"
+     ]
+    },
+    {
+     "title": "Day 2 — Ezulwini Valley",
+     "items": [
+      "Cultural village and crafts"
+     ]
+    },
+    {
+     "title": "Day 3 — Mlilwane",
+     "items": [
+      "Wildlife sanctuary"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Hlane",
+     "items": [
+      "Safari experiences"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Malolotja",
+     "items": [
+      "Hiking and waterfalls"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1 — Mbabane",
+     "items": [
+      "Arrive and orientation"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Ezulwini Valley",
+     "items": [
+      "Culture and crafts"
+     ]
+    },
+    {
+     "title": "Day 4 — Mlilwane",
+     "items": [
+      "Wildlife"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Hlane",
+     "items": [
+      "Game drives"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Lubombo Mountains",
+     "items": [
+      "Scenic drives and viewpoints"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Malolotja",
+     "items": [
+      "Hikes before departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May–September is dry and cooler, good for wildlife and hiking. Summer (October–March) is hot and wet, though green.",
+   "currency": "Swazi lilangeni (SZL), pegged to the South African rand, which is widely accepted.",
+   "safety": "Generally calm, but check current advice on civil unrest and avoid demonstrations. Take normal precautions against theft and road accidents.",
+   "tipping": "About 10% in restaurants if no service charge is added.",
+   "transport": "Minibuses and buses connect towns; a rental car gives the most flexibility. Roads are mostly paved but watch for livestock and pedestrians."
+  }
+ },
+ "Gabon": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Loango National Park",
+    "desc": "Where rainforest meets the Atlantic coast, with elephants, hippos and whales offshore in season."
+   },
+   {
+    "name": "Libreville",
+    "desc": "The capital on the Gabon Estuary, with markets, a national museum and beaches."
+   },
+   {
+    "name": "Lopé National Park",
+    "desc": "A World Heritage site with savannah and forest, rich in wildlife and archaeology."
+   },
+   {
+    "name": "Pongara National Park",
+    "desc": "A coastal park near Libreville known for nesting sea turtles."
+   },
+   {
+    "name": "Ivindo National Park",
+    "desc": "Remote rainforest with the Kongou Falls, reached through specialist operators."
+   },
+   {
+    "name": "Mayumba National Park",
+    "desc": "A coastal park known for leatherback turtles and whales."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Fang and Mpongwe Traditions",
+    "desc": "Traditional masks and music remain part of local life and ceremony."
+   },
+   {
+    "name": "Bwiti Tradition",
+    "desc": "A spiritual tradition practised by some communities; observe only with respectful, informed local guidance."
+   },
+   {
+    "name": "Craft Markets",
+    "desc": "Markets in Libreville sell carvings, textiles and local produce."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "17 August. Marks independence from France in 1960, with parades."
+   },
+   {
+    "name": "Liberation Day",
+    "desc": "30 August. A national holiday."
+   },
+   {
+    "name": "Labour Day",
+    "desc": "1 May. A national holiday."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Christmas",
+    "desc": "25 December. Church services and family meals."
+   },
+   {
+    "name": "Easter",
+    "desc": "Date varies yearly. Widely observed."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Observed by Muslim communities."
+   }
+  ],
+  "food": [
+   {
+    "name": "Poulet Nyembwe",
+    "desc": "Chicken cooked in palm nut sauce, often seen as the national dish."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Fresh fish, often grilled on the coast with plantain or cassava."
+   },
+   {
+    "name": "Manioc Bâton",
+    "desc": "Fermented cassava wrapped in leaves and steamed, a common accompaniment."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Libreville Hotels",
+    "desc": "Hotels range from mid-range to upscale, with higher prices than most of the region."
+   },
+   {
+    "name": "Loango Lodges",
+    "desc": "Remote lodges in the park offer guided wildlife tours and are usually booked in advance."
+   },
+   {
+    "name": "Lopé Lodges",
+    "desc": "Lodging near the park, often with a guided programme."
+   }
+  ],
+  "intro": "Gabon is a forested country with a long Atlantic coastline and some of Central Africa's best-protected wildlife areas. Most visitors combine Libreville with national parks, and costs are relatively high. Check current advice for crime and political conditions and confirm entry rules. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Libreville",
+     "items": [
+      "National Museum, markets and the waterfront"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Pongara National Park",
+     "items": [
+      "Coastal forest and, in season, turtle nesting"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Libreville",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Pongara National Park",
+     "items": [
+      "Beach and forest"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Lopé National Park",
+     "items": [
+      "Savannah and forest wildlife"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Libreville",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Pongara National Park",
+     "items": [
+      "Beach and forest"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Lopé National Park",
+     "items": [
+      "Wildlife and archaeology"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Loango National Park",
+     "items": [
+      "Beaches, forest and wildlife with a lodge programme"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "The main dry season, roughly June to September, is generally best for wildlife and travel. Whale watching and turtle seasons vary by park.",
+   "currency": "Central African CFA franc (XAF). Cards work in larger hotels, and cash is needed elsewhere.",
+   "safety": "Check your government's advice. Petty crime occurs in Libreville and Port-Gentil, especially after dark, and there can be political tension. Follow park guidance on wildlife.",
+   "tipping": "Not obligatory; around 10 percent at restaurants is common if no service charge is added.",
+   "transport": "Domestic flights, trains and boats link some areas, and roads vary widely. Park access often requires flights or a lodge transfer."
+  }
+ },
+ "Gambia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Banjul and Albert Market",
+    "desc": "The small capital with a bustling market and colonial buildings."
+   },
+   {
+    "name": "Kunta Kinteh Island",
+    "desc": "A UNESCO-listed island fort on the River Gambia linked to the slave trade."
+   },
+   {
+    "name": "Kachikally Crocodile Pool",
+    "desc": "A sacred pool in Bakau where visitors can see Nile crocodiles."
+   },
+   {
+    "name": "Abuko Nature Reserve",
+    "desc": "A small forest reserve with monkeys and birds near the coast."
+   },
+   {
+    "name": "River Gambia National Park",
+    "desc": "Wetland islands with hippos and chimpanzees on a rehabilitation project."
+   },
+   {
+    "name": "Kotu and Kololi Beaches",
+    "desc": "Atlantic beaches with resorts and restaurants."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Roots Heritage",
+    "desc": "Juffureh and Albreda villages tell the story of Alex Haley's ancestors."
+   },
+   {
+    "name": "Drumming and Dance",
+    "desc": "Griots keep oral history through kora music and drumming."
+   },
+   {
+    "name": "Fishing Villages",
+    "desc": "Tanji and Gunjur have lively beach markets as boats return."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "18 February. National holiday celebrating independence from Britain in 1965."
+   },
+   {
+    "name": "Roots Homecoming Festival",
+    "desc": "Held in some years; check dates."
+   },
+   {
+    "name": "Kankurang Masquerade",
+    "desc": "A traditional initiation masquerade; observe respectfully."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan; dates vary yearly."
+   },
+   {
+    "name": "Eid al-Adha (Tobaski)",
+    "desc": "Dates vary yearly. Families share a sacrificial meal."
+   },
+   {
+    "name": "Christmas",
+    "desc": "Observed by the Christian minority and as a public holiday."
+   }
+  ],
+  "food": [
+   {
+    "name": "Domoda",
+    "desc": "A peanut stew with meat and vegetables, often called the national dish."
+   },
+   {
+    "name": "Benachin",
+    "desc": "A one-pot rice dish with fish or meat, vegetables and spices."
+   },
+   {
+    "name": "Fish Grilled on the Beach",
+    "desc": "Fresh fish from local boats, grilled and served with onion sauce."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Coastal Resorts",
+    "desc": "Hotels around Kotu, Kololi and Senegambia strip."
+   },
+   {
+    "name": "Small Guesthouses in Bakau",
+    "desc": "Simple, local-style accommodations."
+   },
+   {
+    "name": "Eco-Lodges Upriver",
+    "desc": "Camps and lodges along the River Gambia for birdwatching."
+   }
+  ],
+  "intro": "The Gambia is Africa's smallest mainland country, a narrow strip along the River Gambia almost surrounded by Senegal. It is known for birdwatching, a beach coast and a friendly culture. Electricity and facilities can be limited outside the coast. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Kololi",
+     "items": [
+      "Arrive and beach time"
+     ]
+    },
+    {
+     "title": "Day 2 — Banjul and Bakau",
+     "items": [
+      "Market and Kachikally pool"
+     ]
+    },
+    {
+     "title": "Day 3 — Abuko",
+     "items": [
+      "Nature reserve"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Coast",
+     "items": [
+      "Fishing village and relaxation"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Kololi",
+     "items": [
+      "Arrive"
+     ]
+    },
+    {
+     "title": "Day 2 — Banjul and Bakau",
+     "items": [
+      "Market and sights"
+     ]
+    },
+    {
+     "title": "Day 3 — Abuko",
+     "items": [
+      "Nature reserve"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Juffureh",
+     "items": [
+      "Boat to Kunta Kinteh Island"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Coast",
+     "items": [
+      "Beaches"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1 — Kololi",
+     "items": [
+      "Arrive"
+     ]
+    },
+    {
+     "title": "Day 2 — Banjul and Bakau",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 3 — Abuko",
+     "items": [
+      "Nature reserve"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Juffureh",
+     "items": [
+      "Kunta Kinteh Island"
+     ]
+    },
+    {
+     "title": "Day 6–8 — River Gambia",
+     "items": [
+      "Boat trip and birdwatching"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Coast",
+     "items": [
+      "Beach time before departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November–May is dry and cooler, best for birdwatching. The rainy season runs about June–October.",
+   "currency": "Gambian dalasi (GMD). Cash is common; cards work in some hotels.",
+   "safety": "Generally calm, with petty theft and persistent touts in tourist areas. Check current official advice, especially on border areas.",
+   "tipping": "Small tips are expected for guides and drivers; about 10% at restaurants if no service charge is added.",
+   "transport": "Shared taxis, yellow taxis and minibuses run along the coast. River ferries connect the north and south banks."
+  }
+ },
+ "Grenada": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "St George's",
+    "desc": "A colourful harbour town with forts and a market."
+   },
+   {
+    "name": "Grand Anse Beach",
+    "desc": "A long white-sand beach south of the capital."
+   },
+   {
+    "name": "Grand Etang National Park",
+    "desc": "A forest reserve around a crater lake."
+   },
+   {
+    "name": "Underwater Sculpture Park",
+    "desc": "Statues in Molinière Bay, visited by snorkellers and divers."
+   },
+   {
+    "name": "Carriacou",
+    "desc": "A smaller island with quiet beaches and a relaxed pace."
+   },
+   {
+    "name": "Spice Estates",
+    "desc": "Farms where nutmeg and cocoa are grown and processed."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Spice Island Heritage",
+    "desc": "Nutmeg and mace shape local life and cooking."
+   },
+   {
+    "name": "Folk Traditions",
+    "desc": "Drumming and storytelling are part of festivals, especially on Carriacou."
+   },
+   {
+    "name": "Chocolate Making",
+    "desc": "Small producers offer visits to learn about cocoa."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "7 February. Marks independence from Britain in 1974."
+   },
+   {
+    "name": "Thanksgiving Day",
+    "desc": "25 October. Remembers the 1983 events."
+   },
+   {
+    "name": "Grenada Sailing Festival",
+    "desc": "Typically January–February. Regattas and shore events."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Spicemas",
+    "desc": "August. Grenada's carnival with parades, music and traditional characters."
+   },
+   {
+    "name": "Carriacou Regatta",
+    "desc": "Typically early August. Boat races and celebrations."
+   },
+   {
+    "name": "Carriacou Maroon and String Band Music Festival",
+    "desc": "Typically April. Showcases local folk music."
+   }
+  ],
+  "food": [
+   {
+    "name": "Oil Down",
+    "desc": "A one-pot dish of breadfruit, meat, coconut milk and spices, widely regarded as the national dish."
+   },
+   {
+    "name": "Callaloo Soup",
+    "desc": "A soup made from dasheen leaves."
+   },
+   {
+    "name": "Nutmeg Ice Cream",
+    "desc": "A local dessert flavoured with nutmeg."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Grand Anse Hotels",
+    "desc": "Beach hotels near restaurants."
+   },
+   {
+    "name": "St George's Guesthouses",
+    "desc": "Small stays in the capital."
+   },
+   {
+    "name": "Carriacou Cottages",
+    "desc": "Quiet stays on the sister island."
+   }
+  ],
+  "intro": "Grenada, often called the Spice Island, is a small island in the southern Caribbean with rainforest, waterfalls and beaches. Its sister islands include Carriacou and Petite Martinique. Most visitors arrive at Maurice Bishop International Airport in the south. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — St George's",
+     "items": [
+      "Forts and market"
+     ]
+    },
+    {
+     "title": "Day 2 — Grand Anse",
+     "items": [
+      "Beach"
+     ]
+    },
+    {
+     "title": "Day 3 — Spice Estates",
+     "items": [
+      "Nutmeg and cocoa"
+     ]
+    },
+    {
+     "title": "Day 4 — Grand Etang",
+     "items": [
+      "Forest walk"
+     ]
+    },
+    {
+     "title": "Day 5 — Depart",
+     "items": [
+      "Final beach time"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — St George's",
+     "items": [
+      "Harbour and forts"
+     ]
+    },
+    {
+     "title": "Day 2 — Grand Anse",
+     "items": [
+      "Beach"
+     ]
+    },
+    {
+     "title": "Day 3 — Underwater Sculpture Park",
+     "items": [
+      "Snorkelling"
+     ]
+    },
+    {
+     "title": "Day 4 — Spice Estates",
+     "items": [
+      "Nutmeg and cocoa"
+     ]
+    },
+    {
+     "title": "Day 5 — Grand Etang",
+     "items": [
+      "Forest walk"
+     ]
+    },
+    {
+     "title": "Day 6–7 — South",
+     "items": [
+      "Beaches and departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — St George's",
+     "items": [
+      "Harbour and forts"
+     ]
+    },
+    {
+     "title": "Day 3 — Grand Anse",
+     "items": [
+      "Beach"
+     ]
+    },
+    {
+     "title": "Day 4 — Underwater Sculpture Park",
+     "items": [
+      "Snorkelling"
+     ]
+    },
+    {
+     "title": "Day 5 — Spice Estates",
+     "items": [
+      "Nutmeg and cocoa"
+     ]
+    },
+    {
+     "title": "Day 6 — Grand Etang",
+     "items": [
+      "Forest walk"
+     ]
+    },
+    {
+     "title": "Day 7–10 — Carriacou",
+     "items": [
+      "Beaches and relaxed island time"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "January–May is drier. June–November is wetter; Grenada is south of the main hurricane belt but not immune.",
+   "currency": "Eastern Caribbean dollar (XCD), pegged to the US dollar; US dollars are often accepted.",
+   "safety": "Generally safe for visitors, but petty crime occurs. Secure valuables and take care on steep roads.",
+   "tipping": "About 10 percent in restaurants unless a service charge is included.",
+   "transport": "Minibuses, taxis and rental cars; a local driving permit is required. Ferries link to Carriacou."
+  }
+ },
+ "Guinea": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Conakry",
+    "desc": "The coastal capital, busy and crowded, with markets, a national museum and nearby islands."
+   },
+   {
+    "name": "Iles de Los",
+    "desc": "A small island group off Conakry with beaches and quiet villages, reached by boat."
+   },
+   {
+    "name": "Fouta Djallon",
+    "desc": "A highland region with waterfalls, cliffs and Fulani villages, the country's best-known hiking area."
+   },
+   {
+    "name": "Kindia",
+    "desc": "A town in the green hills east of Conakry, a base for waterfalls and local walks."
+   },
+   {
+    "name": "Labe",
+    "desc": "A highland town in the Fouta Djallon used as a base for exploring villages and viewpoints."
+   },
+   {
+    "name": "Mount Nimba Reserve",
+    "desc": "A forested mountain on the border with Liberia and Ivory Coast, protected for its biodiversity; access requires official arrangements."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Fulani Highland Villages",
+    "desc": "Traditional round houses, cattle herding and local hospitality in the Fouta Djallon."
+   },
+   {
+    "name": "Drumming and Dance",
+    "desc": "Djembe drumming and dance have deep roots in Guinea, with performances in Conakry."
+   },
+   {
+    "name": "Markets",
+    "desc": "Colourful markets sell textiles, spices and produce; ask before taking photos."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "2 October. National holiday marking independence from France in 1958."
+   },
+   {
+    "name": "Local Music and Dance Performances",
+    "desc": "Held around Conakry; ask hotels or cultural centres for current schedules."
+   },
+   {
+    "name": "Market Days in Fouta Djallon",
+    "desc": "Weekly markets in highland towns bring communities together."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Dates vary yearly. Marks the end of Ramadan with prayers, family visits and shared meals."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and sharing of meat."
+   },
+   {
+    "name": "Tabaski Celebrations",
+    "desc": "Dates vary yearly. Widely marked in towns with new clothes and gatherings."
+   }
+  ],
+  "food": [
+   {
+    "name": "Riz Gras",
+    "desc": "Rice cooked in a rich tomato and vegetable sauce, usually with meat or fish."
+   },
+   {
+    "name": "Poulet Yassa",
+    "desc": "Chicken in a lemon and onion sauce, served with rice."
+   },
+   {
+    "name": "Grilled Fish and Fresh Seafood",
+    "desc": "Common along the coast, usually served with rice or plantain."
+   }
+  ],
+  "intro": "Guinea is a West African country with an Atlantic coast, highland waterfalls and a rich musical tradition. Political instability, crime and limited infrastructure mean travel needs careful planning, and many governments advise reconsidering travel. Check official advice and rules before you go. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Conakry",
+     "items": [
+      "National Museum and markets",
+      "Evening by the coast"
+     ]
+    },
+    {
+     "title": "Day 3 — Iles de Los",
+     "items": [
+      "Boat trip and beach time"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kindia",
+     "items": [
+      "Waterfalls and local walks"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Conakry",
+     "items": [
+      "Markets and museum"
+     ]
+    },
+    {
+     "title": "Day 3 — Iles de Los",
+     "items": [
+      "Day on the islands"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kindia",
+     "items": [
+      "Waterfalls and countryside"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Labe",
+     "items": [
+      "Highland scenery and villages"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Conakry",
+     "items": [
+      "Markets and museum"
+     ]
+    },
+    {
+     "title": "Day 3 — Iles de Los",
+     "items": [
+      "Island day trip"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kindia",
+     "items": [
+      "Waterfalls and local walks"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Fouta Djallon",
+     "items": [
+      "Dalaba, Labe and surrounding viewpoints"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Conakry",
+     "items": [
+      "Return and final market visits"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to April is the dry season and the easiest time to travel. The rainy season (roughly May to October) makes many roads difficult.",
+   "currency": "Guinean franc (GNF). Cash is widely used; cards and ATMs are limited outside Conakry.",
+   "safety": "Political demonstrations, crime and unrest can occur, particularly in and around Conakry. Check official advisories, avoid protests and use trusted local guides.",
+   "tipping": "Not obligatory; small tips for guides, drivers and good service are appreciated.",
+   "transport": "Roads outside the capital can be poor, especially in the rainy season. Shared taxis and minibuses are common; a hired vehicle with a driver is easier."
+  },
+  "stays": [
+   {
+    "name": "Conakry Hotels",
+    "desc": "A small range of mid-range and upmarket hotels; book ahead."
+   },
+   {
+    "name": "Highland Guesthouses (Dalaba and Labe)",
+    "desc": "Simple lodgings in the Fouta Djallon, sometimes arranged through local guides."
+   },
+   {
+    "name": "Iles de Los Guesthouses",
+    "desc": "Very basic accommodation on the islands; arrange in advance."
+   }
+  ]
+ },
+ "Guinea-Bissau": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Bissau",
+    "desc": "The small capital with colonial-era buildings, markets and a waterfront fort."
+   },
+   {
+    "name": "Bijagos Archipelago",
+    "desc": "A UNESCO biosphere reserve of islands with beaches, mangroves and traditional communities."
+   },
+   {
+    "name": "Bubaque",
+    "desc": "The main island of the Bijagos, with simple lodges and beaches."
+   },
+   {
+    "name": "Orango National Park",
+    "desc": "Part of the Bijagos, known for wildlife including saltwater hippos."
+   },
+   {
+    "name": "Cacheu",
+    "desc": "A historic town with an old fort and former slave-trade connections."
+   },
+   {
+    "name": "Varela and Cap Roxo",
+    "desc": "Quiet beach areas near the northern coast and the Senegal border."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Bijagos Traditions",
+    "desc": "Island communities keep distinct customs; visit with local guides and ask before photographing."
+   },
+   {
+    "name": "Gumbe Music",
+    "desc": "A popular rhythm of Guinea-Bissau, often performed at festivals and gatherings."
+   },
+   {
+    "name": "Portuguese Creole",
+    "desc": "Kriol is widely spoken, with Portuguese used officially."
+   }
+  ],
+  "events": [
+   {
+    "name": "National Carnival",
+    "desc": "Usually in February in Bissau, with parades, costumes and music."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "24 September. Marks independence from Portugal."
+   },
+   {
+    "name": "Local Football Matches",
+    "desc": "Football is hugely popular and local games are a good way to meet people."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Carnival",
+    "desc": "February or March. Dance groups and masks in Bissau."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Dates vary yearly. Marks the end of Ramadan."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and shared meals."
+   }
+  ],
+  "food": [
+   {
+    "name": "Caldo de Mancarra",
+    "desc": "A groundnut stew, usually with chicken or fish and rice."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Fresh fish from the coast, often served with rice and sauce."
+   },
+   {
+    "name": "Cashew Fruit and Nuts",
+    "desc": "Cashews are the main export crop; fresh fruit and juice are sold in season."
+   }
+  ],
+  "intro": "Guinea-Bissau is a small West African country known for the Bijagos Archipelago, mangroves and a lively music tradition. It has a history of political instability and limited tourist infrastructure, and many governments advise reconsidering travel. Check official advice before you go. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Bissau",
+     "items": [
+      "Old town and waterfront",
+      "Fortaleza de Sao Jose da Amura"
+     ]
+    },
+    {
+     "title": "Day 2 — Bissau",
+     "items": [
+      "Markets and local music"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Bubaque",
+     "items": [
+      "Boat or flight to the Bijagos",
+      "Beaches and village visits"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Bissau",
+     "items": [
+      "Town sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Cacheu region",
+     "items": [
+      "Historic fort and mangroves"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Bubaque",
+     "items": [
+      "Island beaches and walks"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Bissau",
+     "items": [
+      "Town sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Cacheu region",
+     "items": [
+      "Fort and wetlands"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Bubaque",
+     "items": [
+      "Island beaches"
+     ]
+    },
+    {
+     "title": "Day 7–9 — Orango and other islands",
+     "items": [
+      "Arrange guides and wildlife viewing in advance"
+     ]
+    },
+    {
+     "title": "Day 10 — Bissau",
+     "items": [
+      "Return and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to May is the dry season and best for travel. Heavy rains from June to October can make roads and boats difficult.",
+   "currency": "West African CFA franc (XOF). Cash is essential; cards and ATMs are very limited.",
+   "safety": "Political tensions and crime can arise, and medical care is limited. Follow official advice, travel with trusted guides and take malaria precautions.",
+   "tipping": "Not customary, but small tips for guides and drivers are appreciated.",
+   "transport": "Roads outside Bissau can be poor. Boats and small planes serve the Bijagos; schedules are irregular, so allow flexibility."
+  },
+  "stays": [
+   {
+    "name": "Bissau Hotels",
+    "desc": "A limited choice of mid-range hotels; book in advance."
+   },
+   {
+    "name": "Bubaque Lodges",
+    "desc": "Simple beach lodges and guesthouses on the main Bijagos island."
+   },
+   {
+    "name": "Community Stays on the Islands",
+    "desc": "Basic homestays arranged through local guides."
+   }
+  ]
+ },
+ "Guyana": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Kaieteur Falls",
+    "desc": "One of the world's tallest single-drop waterfalls, usually visited by small plane."
+   },
+   {
+    "name": "Georgetown",
+    "desc": "The capital, with wooden colonial architecture, the Stabroek Market and St George's Cathedral."
+   },
+   {
+    "name": "Iwokrama Forest",
+    "desc": "A rainforest reserve with canopy walkway, wildlife and community-run lodges."
+   },
+   {
+    "name": "Rupununi Savannah",
+    "desc": "Open grassland with ranches, wildlife and Amerindian villages."
+   },
+   {
+    "name": "Rewa and Karanambu",
+    "desc": "Riverside lodges known for giant otters and caiman watching."
+   },
+   {
+    "name": "Shell Beach",
+    "desc": "A protected stretch of coast where sea turtles nest in season."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Six Peoples",
+    "desc": "Guyana is home to Indigenous peoples, and people of African, Indian, Chinese, Portuguese and European descent."
+   },
+   {
+    "name": "Amerindian Villages",
+    "desc": "Community tourism in the interior includes crafts, farm visits and guided walks."
+   },
+   {
+    "name": "Cricket",
+    "desc": "Cricket is a popular national sport, and match days are lively."
+   }
+  ],
+  "events": [
+   {
+    "name": "Republic Day (Mashramani)",
+    "desc": "23 February. Parades, music and costumes mark the anniversary of becoming a republic."
+   },
+   {
+    "name": "Rupununi Rodeo",
+    "desc": "Usually around Easter in Lethem. Cowboy events, music and local food."
+   },
+   {
+    "name": "Emancipation Day",
+    "desc": "1 August. Commemorates the end of slavery with cultural events."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Mashramani",
+    "desc": "February. A carnival-style celebration of Guyana's republic status."
+   },
+   {
+    "name": "Phagwah",
+    "desc": "March. A Hindu festival of colours, with music and coloured powders."
+   },
+   {
+    "name": "Diwali",
+    "desc": "October or November. A Hindu festival of lights celebrated with lamps and sweets."
+   }
+  ],
+  "food": [
+   {
+    "name": "Pepperpot",
+    "desc": "A rich stew of meat flavoured with cassareep, usually served at Christmas."
+   },
+   {
+    "name": "Roti and Curry",
+    "desc": "Indian-influenced curries with soft flatbread are widely available."
+   },
+   {
+    "name": "Cook-up Rice",
+    "desc": "A one-pot dish of rice, beans, coconut milk and meat or fish."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Eco-Lodges",
+    "desc": "Remote lodges in the rainforest and savannah, usually booked as packages."
+   },
+   {
+    "name": "Georgetown Hotels",
+    "desc": "Business and mid-range hotels, with some guesthouses."
+   },
+   {
+    "name": "Indigenous Community Stays",
+    "desc": "Homestays arranged through village councils and local tour operators."
+   }
+  ],
+  "intro": "Guyana is on the north coast of South America, but its culture is closer to the Caribbean, with English as the official language. Most of the country is rainforest, savannah and rivers, and the interior is reached by small plane or long road journeys. Georgetown is the main entry point. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Georgetown",
+     "items": [
+      "Arrival, market and cathedral"
+     ]
+    },
+    {
+     "title": "Day 2 — Georgetown",
+     "items": [
+      "Botanical Gardens and museum"
+     ]
+    },
+    {
+     "title": "Day 3 — Kaieteur Falls",
+     "items": [
+      "Day trip by small plane"
+     ]
+    },
+    {
+     "title": "Day 4 — Atlantic Coast",
+     "items": [
+      "Local villages and sea wall"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Final shopping and flights"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Georgetown",
+     "items": [
+      "Markets, architecture, food"
+     ]
+    },
+    {
+     "title": "Day 3 — Kaieteur Falls",
+     "items": [
+      "Fly-in tour"
+     ]
+    },
+    {
+     "title": "Day 4–6 — Iwokrama",
+     "items": [
+      "Rainforest, wildlife and canopy walkway"
+     ]
+    },
+    {
+     "title": "Day 7 — Return",
+     "items": [
+      "Fly back to Georgetown and depart"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Georgetown",
+     "items": [
+      "Sightseeing"
+     ]
+    },
+    {
+     "title": "Day 3 — Kaieteur Falls",
+     "items": [
+      "Day trip"
+     ]
+    },
+    {
+     "title": "Day 4–6 — Rupununi",
+     "items": [
+      "Savannah, ranches and villages"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Iwokrama",
+     "items": [
+      "Canopy walk and wildlife"
+     ]
+    },
+    {
+     "title": "Day 9 — Karanambu or Rewa",
+     "items": [
+      "Riverside lodge"
+     ]
+    },
+    {
+     "title": "Day 10 — Return",
+     "items": [
+      "Fly to Georgetown"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "February to April and August to October are the drier periods. The interior can be wet at other times. Check conditions for flights to Kaieteur.",
+   "currency": "Guyanese dollar (GYD). Cards are accepted in some hotels, but cash is used widely.",
+   "safety": "Crime, including robbery, occurs in Georgetown and some other areas. Avoid walking at night, use registered taxis and follow official advice.",
+   "tipping": "Around 10 percent in restaurants where no service charge is added.",
+   "transport": "Minibuses and taxis in towns; small planes and river boats for the interior. Roads outside the coast can be rough. Drive on the left."
+  }
+ },
+ "Haiti": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Citadelle Laferrière",
+    "desc": "A massive early-19th-century fortress on a mountaintop in the north, a UNESCO site."
+   },
+   {
+    "name": "Sans-Souci Palace",
+    "desc": "The ruins of a royal palace near Milot."
+   },
+   {
+    "name": "Jacmel",
+    "desc": "A coastal arts town with colourful buildings, known for carnival and crafts."
+   },
+   {
+    "name": "Labadee",
+    "desc": "A cruise-ship destination on the north coast, separate from the rest of the country."
+   },
+   {
+    "name": "Port-au-Prince Museums",
+    "desc": "The capital has museums and markets, though access depends on the security situation."
+   },
+   {
+    "name": "Bassin-Bleu",
+    "desc": "A series of blue pools and waterfalls near Jacmel."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Revolution Heritage",
+    "desc": "Haiti was the first country founded by a successful slave revolt, in 1804."
+   },
+   {
+    "name": "Vodou",
+    "desc": "A recognised religion with music, art and ceremonies; approach respectfully."
+   },
+   {
+    "name": "Art",
+    "desc": "Haiti is known for vibrant painting, metal sculpture and paper-mâché crafts."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "1 January. Marks independence in 1804."
+   },
+   {
+    "name": "Flag Day",
+    "desc": "18 May. National celebrations of the flag and unity."
+   },
+   {
+    "name": "Carnival",
+    "desc": "February. Large street celebrations, depending on security."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Carnival",
+    "desc": "February. Music, masks and parades, with Jacmel known for its own style."
+   },
+   {
+    "name": "Rara",
+    "desc": "Lent to Easter. Street processions with music and drums."
+   },
+   {
+    "name": "Fête Gede",
+    "desc": "1–2 November. A Vodou festival honouring the dead."
+   }
+  ],
+  "food": [
+   {
+    "name": "Griot",
+    "desc": "Fried pork served with pikliz, a spicy cabbage relish."
+   },
+   {
+    "name": "Soup Joumou",
+    "desc": "A pumpkin soup traditionally eaten on 1 January."
+   },
+   {
+    "name": "Diri ak Djon Djon",
+    "desc": "Rice cooked with black mushrooms."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Security Considerations",
+    "desc": "Accommodation choices depend on current official advice; do not book without it."
+   },
+   {
+    "name": "Northern Coast Hotels",
+    "desc": "Some hotels operate around Cap-Haïtien, but access and conditions can change quickly."
+   },
+   {
+    "name": "Organised Secure Lodging",
+    "desc": "Aid workers and official visitors use pre-arranged, secured accommodation."
+   }
+  ],
+  "intro": "Haiti has an extraordinary history, art and culture, but it faces severe security risks. Armed gangs control large areas, kidnapping and violence are widespread, and flights, roads and services can be disrupted without warning. Most governments advise against all travel. This page is for general information and is not a recommendation to travel. This guide has 5, 7 and 10-day routes, shown only as outlines for reference.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — North",
+     "items": [
+      "Citadelle Laferrière and Sans-Souci, only if official advice allows"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Cap-Haïtien",
+     "items": [
+      "Old town and local arts"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — North",
+     "items": [
+      "Citadelle Laferrière and Cap-Haïtien, only if official advice allows"
+     ]
+    },
+    {
+     "title": "Day 4–6 — South",
+     "items": [
+      "Jacmel only if it is safe, via secure transport"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–4 — North",
+     "items": [
+      "Heritage sites, only if official advice allows"
+     ]
+    },
+    {
+     "title": "Day 5–8 — South",
+     "items": [
+      "Jacmel and Bassin-Bleu only if safe"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Drier months are roughly November to March, but security is the main factor, and hurricane season runs June to November.",
+   "currency": "Haitian gourde (HTG). US dollars are widely used.",
+   "safety": "Most governments advise against all travel. Do not plan a trip without current official advice, specialist support and appropriate insurance.",
+   "tipping": "Small tips are customary for service; amounts vary.",
+   "transport": "Road travel is dangerous in many areas and flights can be limited. Independent travel is not advisable under current conditions."
+  }
+ },
+ "Ivory Coast": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Abidjan",
+    "desc": "The largest city, with a modern skyline, lagoons, markets and lively nightlife."
+   },
+   {
+    "name": "Grand-Bassam",
+    "desc": "A former colonial capital and UNESCO World Heritage site with beaches nearby."
+   },
+   {
+    "name": "Yamoussoukro",
+    "desc": "The political capital, home to the huge Basilica of Our Lady of Peace."
+   },
+   {
+    "name": "Tai National Park",
+    "desc": "A rainforest park in the west, home to chimpanzees and other wildlife."
+   },
+   {
+    "name": "Assinie",
+    "desc": "A beach and lagoon area east of Abidjan, popular for weekend breaks."
+   },
+   {
+    "name": "Man",
+    "desc": "A town in a hilly western region, known for waterfalls and cultural traditions."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Baoule and Senufo Art",
+    "desc": "Wood carvings, masks and textiles sold in markets and workshops."
+   },
+   {
+    "name": "Abidjan Music Scene",
+    "desc": "Coupe-decale and zouglou are popular styles heard across the city."
+   },
+   {
+    "name": "Colonial Architecture",
+    "desc": "Grand-Bassam has a historic quarter with colonial-era buildings."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "7 August. A national holiday with ceremonies."
+   },
+   {
+    "name": "Abissa Festival",
+    "desc": "Usually October or November in Grand-Bassam, a Nzima celebration of renewal."
+   },
+   {
+    "name": "Music and Arts Events in Abidjan",
+    "desc": "Concerts and fairs are held regularly; check local listings."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Abissa",
+    "desc": "October or November. A cultural festival of the Nzima people in Grand-Bassam."
+   },
+   {
+    "name": "Fete du Dipri",
+    "desc": "Spring. A traditional ritual in Gomon, in the south."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Dates vary yearly. Marks the end of Ramadan."
+   }
+  ],
+  "food": [
+   {
+    "name": "Attieke with Grilled Fish",
+    "desc": "Fermented cassava couscous served with grilled fish and spicy sauce."
+   },
+   {
+    "name": "Kedjenou",
+    "desc": "A slow-cooked chicken stew made in a sealed pot."
+   },
+   {
+    "name": "Alloco",
+    "desc": "Fried plantain, often served with spicy sauce."
+   }
+  ],
+  "intro": "Ivory Coast, or Cote d'Ivoire, is a West African country with a cosmopolitan capital, Atlantic beaches and rainforest reserves. It is one of the region's larger economies, though security and political conditions can change. Check official advice and entry rules before you go. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Abidjan",
+     "items": [
+      "Markets, lagoon and city sights"
+     ]
+    },
+    {
+     "title": "Day 3 — Grand-Bassam",
+     "items": [
+      "Historic quarter and beach"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Assinie",
+     "items": [
+      "Lagoon and beaches"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Abidjan",
+     "items": [
+      "City sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3 — Grand-Bassam",
+     "items": [
+      "Historic quarter"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Yamoussoukro",
+     "items": [
+      "Basilica and city"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Assinie",
+     "items": [
+      "Beach rest days"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Abidjan",
+     "items": [
+      "City sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3 — Grand-Bassam",
+     "items": [
+      "Historic quarter"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Yamoussoukro",
+     "items": [
+      "Basilica and city"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Tai National Park",
+     "items": [
+      "Arrange guided rainforest visits in advance"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Assinie",
+     "items": [
+      "Beaches and lagoon"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "December to March is generally dry and pleasant. Rains are heaviest from May to July, with a shorter wet season in October and November.",
+   "currency": "West African CFA franc (XOF). Cards work in Abidjan hotels and shops; carry cash elsewhere.",
+   "safety": "Petty crime occurs in cities. Parts of the north near the borders carry greater risk, so check official advisories. Take malaria precautions.",
+   "tipping": "Not obligatory; 5 to 10 percent in restaurants is appreciated.",
+   "transport": "Abidjan has taxis and ride-hailing apps. Intercity buses, shared taxis and domestic flights connect main towns."
+  },
+  "stays": [
+   {
+    "name": "Abidjan Hotels",
+    "desc": "A wide range from mid-range to upmarket, mostly in Cocody and Plateau."
+   },
+   {
+    "name": "Beach Guesthouses at Assinie and Grand-Bassam",
+    "desc": "Relaxed seaside stays popular for weekends."
+   },
+   {
+    "name": "Lodges near Tai",
+    "desc": "Basic accommodation arranged through park authorities or local operators."
+   }
+  ]
+ },
+ "Kiribati": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "South Tarawa",
+    "desc": "The main urban area and capital, with World War II sites such as the Betio battlefield."
+   },
+   {
+    "name": "Betio",
+    "desc": "A densely populated islet with the site of the 1943 battle and wartime relics."
+   },
+   {
+    "name": "Abaiang",
+    "desc": "A quieter atoll with villages, lagoon scenery and meeting houses."
+   },
+   {
+    "name": "Kiritimati (Christmas Island)",
+    "desc": "The world's largest coral atoll by land area, known for fishing and bird life."
+   },
+   {
+    "name": "Tabuaeran (Fanning Island)",
+    "desc": "A remote atoll for fishing and quiet lagoon stays."
+   },
+   {
+    "name": "Lagoon Boat Trips",
+    "desc": "Boat trips across clear atoll lagoons, arranged locally."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Maneaba",
+    "desc": "The maneaba is a traditional meeting house with a thatched roof, central to community life."
+   },
+   {
+    "name": "I-Kiribati Dance",
+    "desc": "Traditional dances are performed at celebrations and tell stories through movement."
+   },
+   {
+    "name": "Weaving and Crafts",
+    "desc": "Pandanus mats and woven items are made across the islands."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "12 July, with parades and dancing."
+   },
+   {
+    "name": "Youth Day",
+    "desc": "Early August, with sports and cultural events."
+   },
+   {
+    "name": "Cultural Events",
+    "desc": "Held around the year. Check locally for dates."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Independence Celebrations",
+    "desc": "July. Marked by dance and sports."
+   },
+   {
+    "name": "Te Mauri Festival",
+    "desc": "Cultural events with local performances, with timing varying by year."
+   },
+   {
+    "name": "Christmas and New Year",
+    "desc": "Large community gatherings with dance and feasting."
+   }
+  ],
+  "food": [
+   {
+    "name": "Fresh Fish",
+    "desc": "Tuna and reef fish are staples, often grilled or cooked in coconut."
+   },
+   {
+    "name": "Coconut Products",
+    "desc": "Coconut milk, toddy and fresh coconut feature in local meals."
+   },
+   {
+    "name": "Breadfruit and Pandanus",
+    "desc": "Traditional starchy foods cooked in various ways."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Tarawa Guesthouses",
+    "desc": "The main choice for visitors, with a few hotels and guesthouses."
+   },
+   {
+    "name": "Outer Island Village Stays",
+    "desc": "Simple stays arranged with host families."
+   },
+   {
+    "name": "Kiritimati Fishing Lodges",
+    "desc": "Small lodges for anglers and bird watchers."
+   }
+  ],
+  "intro": "Kiribati is a Micronesian country of low-lying coral atolls spread across a huge area of the central Pacific. It is one of the least visited countries and facilities are simple. It is especially exposed to rising sea levels, which shapes daily life. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — South Tarawa",
+     "items": [
+      "Arrive and settle in"
+     ]
+    },
+    {
+     "title": "Day 2 — Betio",
+     "items": [
+      "World War II sites"
+     ]
+    },
+    {
+     "title": "Day 3 — Tarawa lagoon",
+     "items": [
+      "Boat trip and village visit"
+     ]
+    },
+    {
+     "title": "Day 4 — Maneaba visit",
+     "items": [
+      "Local culture and crafts"
+     ]
+    },
+    {
+     "title": "Day 5 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — South Tarawa",
+     "items": [
+      "Arrive and explore"
+     ]
+    },
+    {
+     "title": "Day 2 — Betio",
+     "items": [
+      "War relics and museum sites"
+     ]
+    },
+    {
+     "title": "Day 3 — Bairiki",
+     "items": [
+      "Government area and local market"
+     ]
+    },
+    {
+     "title": "Day 4 — Lagoon day",
+     "items": [
+      "Boat trip"
+     ]
+    },
+    {
+     "title": "Day 5 — Village visit",
+     "items": [
+      "Meet a host family"
+     ]
+    },
+    {
+     "title": "Day 6 — Rest and crafts",
+     "items": [
+      "Shopping for woven goods"
+     ]
+    },
+    {
+     "title": "Day 7 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — South Tarawa",
+     "items": [
+      "Town and Betio"
+     ]
+    },
+    {
+     "title": "Day 3 — Lagoon",
+     "items": [
+      "Boat trip"
+     ]
+    },
+    {
+     "title": "Day 4 — Fly to Abaiang",
+     "items": [
+      "Settle in"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Abaiang",
+     "items": [
+      "Village life and lagoon"
+     ]
+    },
+    {
+     "title": "Day 7 — Return to Tarawa",
+     "items": [
+      "Rest"
+     ]
+    },
+    {
+     "title": "Day 8 — Crafts and culture",
+     "items": [
+      "Maneaba visit"
+     ]
+    },
+    {
+     "title": "Day 9 — Free day",
+     "items": [
+      "Fishing or snorkelling"
+     ]
+    },
+    {
+     "title": "Day 10 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is slightly drier. Kiribati is hot and humid all year.",
+   "currency": "Australian dollar (AUD) is used as the main currency. Cash is important.",
+   "safety": "Generally safe, but take care with water, food and sun. Medical facilities are limited, so check travel insurance and health advice.",
+   "tipping": "Not customary or expected.",
+   "transport": "Local minibuses on Tarawa, with limited flights to outer islands. Schedules are often irregular."
+  }
+ },
+ "Kosovo": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Pristina",
+    "desc": "A young capital with cafes, the National Library and the Newborn monument."
+   },
+   {
+    "name": "Prizren",
+    "desc": "An Ottoman-era town with a fortress, stone bridge and mosques."
+   },
+   {
+    "name": "Peja and Rugova Gorge",
+    "desc": "Mountain town with a historic monastery and hiking in the Accursed Mountains."
+   },
+   {
+    "name": "Gjakova",
+    "desc": "A town known for its old bazaar and mosques."
+   },
+   {
+    "name": "Mitrovica",
+    "desc": "A divided city with a river bridge and strong local identity."
+   },
+   {
+    "name": "Gračanica Monastery",
+    "desc": "A medieval Serbian Orthodox monastery south of Pristina."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Coffee Culture",
+    "desc": "Cafes are central to social life; a leisurely espresso is customary."
+   },
+   {
+    "name": "Ottoman and Orthodox Heritage",
+    "desc": "Mosques, bazaars and medieval monasteries sit close together."
+   },
+   {
+    "name": "Hospitality",
+    "desc": "Guests are often invited for tea or meals; accept graciously."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "17 February. Celebrations mark the 2008 declaration of independence."
+   },
+   {
+    "name": "Dokufest",
+    "desc": "August in Prizren. A documentary and short film festival."
+   },
+   {
+    "name": "Kosovo Jazz Festival",
+    "desc": "Autumn. Concerts in Pristina and other towns."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Dokufest",
+    "desc": "August. Prizren fills with film screenings and guests."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Family visits and sweets."
+   },
+   {
+    "name": "Orthodox and Catholic Christmas",
+    "desc": "25 December and 7 January. Church services across communities."
+   }
+  ],
+  "food": [
+   {
+    "name": "Flija",
+    "desc": "Layered pancake baked slowly under a metal lid."
+   },
+   {
+    "name": "Burek",
+    "desc": "Flaky pastry with cheese or meat, often eaten for breakfast."
+   },
+   {
+    "name": "Pite and Tavë Kosi",
+    "desc": "Savory pies and baked lamb with yoghurt."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Hotels in Pristina",
+    "desc": "A range from simple guesthouses to business hotels."
+   },
+   {
+    "name": "Guesthouses in Prizren",
+    "desc": "Traditional stone houses in the old quarter."
+   },
+   {
+    "name": "Mountain Lodges near Peja",
+    "desc": "Basic lodges for hikers heading into the Rugova area."
+   }
+  ],
+  "intro": "Kosovo is a small landlocked country in the Balkans, with Ottoman towns, medieval monasteries and mountain scenery. It declared independence in 2008, and some countries do not recognise it. Tensions persist in the north, and travellers should follow official advisories before going. This guide has 5, 7 and 10-day routes covering the main towns and nature areas.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Pristina",
+     "items": [
+      "Newborn monument, National Library, cafes"
+     ]
+    },
+    {
+     "title": "Day 2 — Gračanica and Janjevo",
+     "items": [
+      "Medieval monastery, nearby village"
+     ]
+    },
+    {
+     "title": "Day 3 — Prizren",
+     "items": [
+      "Fortress, old bazaar and bridge"
+     ]
+    },
+    {
+     "title": "Day 4 — Gjakova",
+     "items": [
+      "Old bazaar and mosque"
+     ]
+    },
+    {
+     "title": "Day 5 — Peja",
+     "items": [
+      "Patriarchate of Pec and town walk"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Pristina",
+     "items": [
+      "Museums and cafes"
+     ]
+    },
+    {
+     "title": "Day 3 — Gračanica",
+     "items": [
+      "Monastery"
+     ]
+    },
+    {
+     "title": "Day 4 — Prizren",
+     "items": [
+      "Old town"
+     ]
+    },
+    {
+     "title": "Day 5 — Gjakova",
+     "items": [
+      "Bazaar and heritage"
+     ]
+    },
+    {
+     "title": "Day 6 — Peja",
+     "items": [
+      "Patriarchate"
+     ]
+    },
+    {
+     "title": "Day 7 — Rugova Gorge",
+     "items": [
+      "Day hike or scenic drive"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Pristina",
+     "items": [
+      "Capital highlights"
+     ]
+    },
+    {
+     "title": "Day 3 — Gračanica and Kosovo Polje area",
+     "items": [
+      "Monastery and surrounding sights"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Prizren",
+     "items": [
+      "Old town and Sharr Mountains edge"
+     ]
+    },
+    {
+     "title": "Day 6 — Gjakova",
+     "items": [
+      "Old bazaar"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Peja and Rugova",
+     "items": [
+      "Mountain hiking"
+     ]
+    },
+    {
+     "title": "Day 9 — Deçan",
+     "items": [
+      "Visoki Decani Monastery (check access rules)"
+     ]
+    },
+    {
+     "title": "Day 10 — Pristina",
+     "items": [
+      "Return and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to June and September to October. Winters are cold; the mountains have snow.",
+   "currency": "Euro (EUR), used though Kosovo is not in the EU.",
+   "safety": "Generally safe in main towns, but follow official advice, especially for Mitrovica and the north. Carry ID and avoid protests.",
+   "tipping": "Round up or leave about 10 percent in restaurants.",
+   "transport": "Buses and shared taxis link towns; the main airport is Pristina. Check border rules if entering from Serbia."
+  }
+ },
+ "Lesotho": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Maletsunyane Falls",
+    "desc": "A high waterfall near Semonkong, reached by road and viewpoint walks."
+   },
+   {
+    "name": "Sani Pass",
+    "desc": "A steep mountain pass on the border with South Africa, usually done with a 4x4."
+   },
+   {
+    "name": "Thaba-Bosiu",
+    "desc": "A flat-topped mountain of historic importance as the early capital of the Basotho nation."
+   },
+   {
+    "name": "Katse Dam",
+    "desc": "A large high-altitude reservoir with scenic viewpoints."
+   },
+   {
+    "name": "Afriski",
+    "desc": "A small mountain resort with winter snow sports when conditions allow."
+   },
+   {
+    "name": "Malealea",
+    "desc": "A village base for pony trekking and valley walks."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Basotho Blankets",
+    "desc": "Thick woollen blankets worn as everyday dress, with traditional patterns."
+   },
+   {
+    "name": "Pony Trekking",
+    "desc": "Sure-footed Basotho ponies are a traditional way to reach remote villages."
+   },
+   {
+    "name": "Mokorotlo Hat",
+    "desc": "The conical straw hat that is a national symbol."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "4 October. National holiday marking independence from Britain in 1966."
+   },
+   {
+    "name": "King's Birthday",
+    "desc": "July. A public holiday honouring the monarch."
+   },
+   {
+    "name": "Moshoeshoe Day",
+    "desc": "11 March. A holiday honouring the founder of the Basotho nation."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Morija Arts and Cultural Festival",
+    "desc": "Typically held around September or October in Morija, with music, dance and heritage."
+   },
+   {
+    "name": "Lesotho Ultra Trail Events",
+    "desc": "Mountain running events, usually in the cooler months; check for dates."
+   },
+   {
+    "name": "Easter and Christmas Celebrations",
+    "desc": "Widely observed in this largely Christian country, with family gatherings."
+   }
+  ],
+  "food": [
+   {
+    "name": "Papa",
+    "desc": "A stiff maize porridge, the staple of most meals."
+   },
+   {
+    "name": "Moroho",
+    "desc": "Cooked leafy greens, often served with papa."
+   },
+   {
+    "name": "Likhobe",
+    "desc": "Boiled maize and beans, a traditional rural dish."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Village Lodges in Malealea",
+    "desc": "Simple lodges with hiking and pony trekking offered."
+   },
+   {
+    "name": "Semonkong Lodge Area",
+    "desc": "Remote lodging near the waterfall for adventure activities."
+   },
+   {
+    "name": "Maseru Hotels",
+    "desc": "Hotels and guesthouses in the capital, handy for arrival and short stays."
+   }
+  ],
+  "intro": "Lesotho is a small, mountainous kingdom entirely surrounded by South Africa, and all of it lies above about 1,000 metres. It is known for highland scenery, pony trekking and the Basotho blanket tradition. Roads can be steep and weather changes fast, so plan carefully. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Maseru",
+     "items": [
+      "Arrive, craft shops, Thaba-Bosiu day trip"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Malealea",
+     "items": [
+      "Pony trek and village walks"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Return",
+     "items": [
+      "Drive back to Maseru for onward travel"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Maseru",
+     "items": [
+      "Arrive and city orientation"
+     ]
+    },
+    {
+     "title": "Day 2 — Thaba-Bosiu and Morija",
+     "items": [
+      "Historic hill and museum"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Malealea",
+     "items": [
+      "Pony trek and valley walks"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Semonkong",
+     "items": [
+      "Maletsunyane Falls and highland scenery"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1 — Maseru",
+     "items": [
+      "Arrive and orientation"
+     ]
+    },
+    {
+     "title": "Day 2 — Thaba-Bosiu and Morija",
+     "items": [
+      "Heritage sites"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Malealea",
+     "items": [
+      "Pony trek"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Semonkong",
+     "items": [
+      "Waterfall and walks"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Highlands",
+     "items": [
+      "Katse Dam and mountain roads, as conditions allow"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Return",
+     "items": [
+      "Back to Maseru for departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Spring (September–November) and autumn (March–May) are mild. Winter, June–August, can bring snow and very cold nights; summer has afternoon storms.",
+   "currency": "Lesotho loti (LSL), pegged to the South African rand, which is also widely accepted. Carry cash outside Maseru.",
+   "safety": "Take normal precautions in Maseru, avoid travelling at night, and be prepared for sudden mountain weather. Check current official advice.",
+   "tipping": "Not obligatory; small tips for guides and drivers are appreciated.",
+   "transport": "Minibus taxis link towns, and a 4x4 helps on mountain tracks. Many visitors arrive by road from South Africa. Allow extra time for steep roads."
+  }
+ },
+ "Liberia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Monrovia",
+    "desc": "The capital, with markets, a national museum and a lively seafront."
+   },
+   {
+    "name": "Robertsport",
+    "desc": "A quiet coastal town known for surfing and beaches."
+   },
+   {
+    "name": "Sapo National Park",
+    "desc": "A large rainforest park in the south-east, with elusive wildlife."
+   },
+   {
+    "name": "Marshall",
+    "desc": "A coastal town with beaches east of Monrovia."
+   },
+   {
+    "name": "Buchanan",
+    "desc": "A port city on the coast, with beaches and nearby villages."
+   },
+   {
+    "name": "Lake Piso",
+    "desc": "A coastal lagoon in the north-west, with birdlife and peaceful scenery."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Americo-Liberian Heritage",
+    "desc": "The country was founded by freed American slaves, shaping its architecture and history."
+   },
+   {
+    "name": "Surfing Culture",
+    "desc": "Robertsport has a small, growing surfing community."
+   },
+   {
+    "name": "Craft and Markets",
+    "desc": "Colourful markets sell textiles, woodcarvings and fresh produce."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "26 July. A major national holiday."
+   },
+   {
+    "name": "Flag Day",
+    "desc": "24 August. Celebrated with parades and ceremonies."
+   },
+   {
+    "name": "Local Football Matches",
+    "desc": "Football is hugely popular, with strong local interest."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Independence Celebrations",
+    "desc": "July. Parades and events across the country."
+   },
+   {
+    "name": "Christmas and New Year",
+    "desc": "December to January. Church services and street gatherings."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Dates vary yearly. Marks the end of Ramadan."
+   }
+  ],
+  "food": [
+   {
+    "name": "Jollof Rice",
+    "desc": "Rice cooked in tomato sauce, widely served at gatherings."
+   },
+   {
+    "name": "Cassava Leaf Stew",
+    "desc": "Cassava leaves cooked with palm oil and meat or fish."
+   },
+   {
+    "name": "Fufu and Soup",
+    "desc": "Pounded cassava or other starch served with a rich soup."
+   }
+  ],
+  "intro": "Liberia is a West African country on the Atlantic coast, known for forests, beaches and its link with freed American slaves. It is rebuilding after years of conflict and an Ebola outbreak, and infrastructure is limited. Check official advice and health requirements before travelling. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Monrovia",
+     "items": [
+      "National museum and markets",
+      "Seafront"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Robertsport",
+     "items": [
+      "Beach days and local fishing communities"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Monrovia",
+     "items": [
+      "City sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Robertsport",
+     "items": [
+      "Beaches and surf"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Marshall",
+     "items": [
+      "Coastal beaches"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Monrovia",
+     "items": [
+      "City sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Robertsport",
+     "items": [
+      "Beaches and lagoon visit"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Marshall and Buchanan",
+     "items": [
+      "Coastal towns"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Sapo National Park",
+     "items": [
+      "Arrange guided rainforest visits in advance"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to April is the dry season and easiest for travel. Rain is heavy from May to October.",
+   "currency": "Liberian dollar (LRD) and US dollars are both widely used; carry small US notes in good condition.",
+   "safety": "Petty crime occurs, particularly in Monrovia after dark. Medical care is limited, so insurance and malaria precautions matter.",
+   "tipping": "Not obligatory; small tips for guides, drivers and staff are appreciated.",
+   "transport": "Road quality varies and becomes difficult in the rainy season. Shared taxis, motorbike taxis and hired vehicles are used."
+  },
+  "stays": [
+   {
+    "name": "Monrovia Hotels",
+    "desc": "A range of mid-range and upmarket hotels; book ahead."
+   },
+   {
+    "name": "Robertsport Surf Lodges",
+    "desc": "Simple guesthouses near the beaches."
+   },
+   {
+    "name": "Guesthouses Near Sapo",
+    "desc": "Basic accommodation arranged through park authorities or local operators."
+   }
+  ]
+ },
+ "Libya": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Leptis Magna",
+    "desc": "One of the best-preserved Roman cities in the Mediterranean, a UNESCO site near Khoms."
+   },
+   {
+    "name": "Sabratha",
+    "desc": "A Roman port city with a seaside theatre, a UNESCO site."
+   },
+   {
+    "name": "Cyrene",
+    "desc": "An ancient Greek colony in the eastern highlands, a UNESCO site."
+   },
+   {
+    "name": "Ghadames",
+    "desc": "An old desert oasis town with whitewashed lanes, a UNESCO site."
+   },
+   {
+    "name": "Tripoli Old City",
+    "desc": "The medina with Ottoman buildings and the Red Castle museum."
+   },
+   {
+    "name": "Acacus Mountains",
+    "desc": "Rock formations and prehistoric rock art in the south-west desert."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Roman and Greek Heritage",
+    "desc": "Libya has major classical ruins, but access depends on security conditions."
+   },
+   {
+    "name": "Tuareg and Amazigh Traditions",
+    "desc": "Communities in the south and west keep their own languages, crafts and music."
+   },
+   {
+    "name": "Medina Markets",
+    "desc": "Traditional souks sell spices, gold, leather and carpets."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "24 December. National holiday marking independence in 1951."
+   },
+   {
+    "name": "Liberation Day",
+    "desc": "23 October. Commemorates the end of the 2011 conflict; observance varies."
+   },
+   {
+    "name": "Desert Date Harvest",
+    "desc": "Autumn in oases such as Ghadames and Fezzan."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Family gatherings and sweets."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary. Sacrifice and sharing of meat."
+   },
+   {
+    "name": "Ghadames Festival",
+    "desc": "Held in some years in the oasis town; check current availability and security."
+   }
+  ],
+  "food": [
+   {
+    "name": "Bazin",
+    "desc": "A dense barley dough served with tomato-based sauce and meat."
+   },
+   {
+    "name": "Shorba Libiya",
+    "desc": "A tomato and lamb soup with mint, often eaten during Ramadan."
+   },
+   {
+    "name": "Couscous",
+    "desc": "Served with lamb or fish, and widely eaten across North Africa."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Tripoli Hotels",
+    "desc": "A few hotels serve business visitors and officials; check current availability."
+   },
+   {
+    "name": "Benghazi Hotels",
+    "desc": "Limited options; conditions depend on security."
+   },
+   {
+    "name": "Traditional Oasis Houses",
+    "desc": "In Ghadames, restored houses have hosted visitors; check current access."
+   }
+  ],
+  "intro": "Libya is a large North African country with Mediterranean coast, desert, and remarkable Roman and Greek ruins. It has suffered years of conflict and political division, and most governments advise against all travel. Armed groups, kidnapping, landmines, and limited consular support are serious risks. This page is general information and not a recommendation to travel; the guide has 5, 7 and 10-day routes only as a reference.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Tripoli",
+     "items": [
+      "Old city and museum, only with current security advice"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Leptis Magna and Sabratha",
+     "items": [
+      "Roman ruins, only with approved arrangements"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Tripoli",
+     "items": [
+      "Old city"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Leptis Magna",
+     "items": [
+      "Roman city"
+     ]
+    },
+    {
+     "title": "Day 5 — Sabratha",
+     "items": [
+      "Seaside theatre"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Tripoli",
+     "items": [
+      "Return"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Tripoli",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Leptis Magna and Sabratha",
+     "items": [
+      "Roman sites"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Ghadames",
+     "items": [
+      "Desert oasis, subject to access"
+     ]
+    },
+    {
+     "title": "Day 7–10 — Cyrenaica",
+     "items": [
+      "Cyrene and the east, subject to security"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Spring and autumn are most moderate. Summers are very hot inland, and winters are cool and wet on the coast.",
+   "currency": "Libyan dinar (LYD). Cards and ATMs are unreliable, and cash is usually needed.",
+   "safety": "The US government advises against all travel to Libya. Risks include armed conflict, terrorism, kidnapping, unexploded ordnance and no routine consular support. Do not plan a trip without current official advice and specialist support.",
+   "tipping": "Not customary.",
+   "transport": "Road travel is risky and flights are limited. Independent travel is not advisable under current conditions."
+  }
+ },
+ "Liechtenstein": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Vaduz",
+    "desc": "The tiny capital with a castle above town, a small art museum and a pedestrian centre."
+   },
+   {
+    "name": "Vaduz Castle",
+    "desc": "The prince residence on a hill, visible from most of the valley; not open inside to the public."
+   },
+   {
+    "name": "Gutenberg Castle, Balzers",
+    "desc": "A restored medieval castle on a rock above the village."
+   },
+   {
+    "name": "Malbun",
+    "desc": "A small ski resort and summer hiking base in the mountains."
+   },
+   {
+    "name": "Triesenberg",
+    "desc": "A hillside village with a museum on the Walser settlers."
+   },
+   {
+    "name": "Rhine Valley Cycle Paths",
+    "desc": "Flat, well-marked trails along the river and across the valley."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Walser Heritage",
+    "desc": "Triesenberg Walser Museum covers a mountain-dwelling community that settled here centuries ago."
+   },
+   {
+    "name": "Princely Wine and Estates",
+    "desc": "The princely family runs a vineyard near Vaduz that welcomes visitors."
+   },
+   {
+    "name": "Postage Stamps",
+    "desc": "Liechtenstein stamps are collectors items; the national museum has a display."
+   }
+  ],
+  "events": [
+   {
+    "name": "National Day",
+    "desc": "15 August. Speeches at Vaduz Castle meadow, fireworks and a public party."
+   },
+   {
+    "name": "Mountain Hiking Season",
+    "desc": "Summer. Marked paths lead to alpine huts and ridge walks."
+   },
+   {
+    "name": "Christmas Markets",
+    "desc": "December. Small markets in Vaduz and nearby villages."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Staatsfeiertag",
+    "desc": "15 August. The national holiday with a morning ceremony."
+   },
+   {
+    "name": "Fasnacht",
+    "desc": "February. Carnival parades and costumes in several villages."
+   },
+   {
+    "name": "Alpabfahrt (Cattle Descent)",
+    "desc": "September. Villages celebrate the return of cattle from alpine pastures."
+   }
+  ],
+  "food": [
+   {
+    "name": "Kasknopfle",
+    "desc": "Small cheese dumplings with onion, a local comfort dish."
+   },
+   {
+    "name": "Ribel",
+    "desc": "A cornmeal dish traditionally served with apple sauce or coffee."
+   },
+   {
+    "name": "Hafalaab",
+    "desc": "A dumpling stuffed with meat or cheese, cooked on a griddle."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Hotels in Vaduz",
+    "desc": "A handful of mid-range and upmarket hotels in the centre."
+   },
+   {
+    "name": "Mountain Lodges in Malbun",
+    "desc": "Simple and family-friendly places, busy in ski season."
+   },
+   {
+    "name": "Stays in Buchs or Sargans, Switzerland",
+    "desc": "Cheaper alternatives just across the border with fast trains."
+   }
+  ],
+  "intro": "Liechtenstein is a tiny Alpine principality between Switzerland and Austria, roughly 25 kilometres long. It is a Schengen member and uses the Swiss franc. The capital Vaduz is compact, and most visitors combine it with walking, cycling and day trips to nearby Swiss and Austrian towns. This guide has 5, 7 and 10-day routes, built around Liechtenstein plus excursions across the border.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Vaduz",
+     "items": [
+      "Castle viewpoint, art museum, centre stroll"
+     ]
+    },
+    {
+     "title": "Day 2 — Schaan and Rhine paths",
+     "items": [
+      "Cycling or walking by the river"
+     ]
+    },
+    {
+     "title": "Day 3 — Triesenberg and Malbun",
+     "items": [
+      "Walser museum and mountain walk"
+     ]
+    },
+    {
+     "title": "Day 4 — Balzers and Gutenberg Castle",
+     "items": [
+      "Castle visit and village walk"
+     ]
+    },
+    {
+     "title": "Day 5 — St. Gallen or Chur, Switzerland",
+     "items": [
+      "Day trip by train or bus"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Vaduz",
+     "items": [
+      "Castle viewpoint, museums"
+     ]
+    },
+    {
+     "title": "Day 2 — Schaan and Nendeln",
+     "items": [
+      "Local museums and villages"
+     ]
+    },
+    {
+     "title": "Day 3 — Triesenberg",
+     "items": [
+      "Walser culture and views"
+     ]
+    },
+    {
+     "title": "Day 4 — Malbun",
+     "items": [
+      "Day hike or ski, seasonal"
+     ]
+    },
+    {
+     "title": "Day 5 — Balzers",
+     "items": [
+      "Castle and old town"
+     ]
+    },
+    {
+     "title": "Day 6 — Lake Constance area (Bregenz or Lindau)",
+     "items": [
+      "Day trip to Austria or Germany"
+     ]
+    },
+    {
+     "title": "Day 7 — Chur, Switzerland",
+     "items": [
+      "Oldest city in Switzerland, then departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1 — Vaduz",
+     "items": [
+      "Orientation and museums"
+     ]
+    },
+    {
+     "title": "Day 2 — Rhine cycling",
+     "items": [
+      "Easy long ride on valley paths"
+     ]
+    },
+    {
+     "title": "Day 3 — Triesenberg",
+     "items": [
+      "Village and viewpoints"
+     ]
+    },
+    {
+     "title": "Day 4 — Malbun",
+     "items": [
+      "Mountain day"
+     ]
+    },
+    {
+     "title": "Day 5 — Balzers",
+     "items": [
+      "Gutenberg Castle"
+     ]
+    },
+    {
+     "title": "Day 6 — Chur, Switzerland",
+     "items": [
+      "Old town day trip"
+     ]
+    },
+    {
+     "title": "Day 7 — Lake Constance",
+     "items": [
+      "Bregenz or Lindau by train"
+     ]
+    },
+    {
+     "title": "Day 8 — Zurich, Switzerland",
+     "items": [
+      "Big-city day trip by train and bus"
+     ]
+    },
+    {
+     "title": "Day 9 — Feldkirch, Austria",
+     "items": [
+      "Medieval centre close to the border"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Allow time for transfers"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "June to September for hiking; December to March for skiing in Malbun.",
+   "currency": "Swiss franc (CHF). Euros are sometimes accepted but change is given in francs.",
+   "safety": "Very safe. Mountain weather is the main risk.",
+   "tipping": "Service is included; rounding up is common.",
+   "transport": "Buses run across the country; there is no airport. Fly into Zurich or Altenrhein and continue by train and bus via Sargans or Buchs."
+  }
+ },
+ "Madagascar": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Avenue of the Baobabs",
+    "desc": "A famous road lined with giant baobab trees near Morondava in the west."
+   },
+   {
+    "name": "Andasibe-Mantadia National Park",
+    "desc": "Rainforest known for indri lemurs and their calls."
+   },
+   {
+    "name": "Isalo National Park",
+    "desc": "Sandstone canyons, natural pools and walking trails in the south."
+   },
+   {
+    "name": "Nosy Be and Nearby Islands",
+    "desc": "Beaches, snorkelling and boat trips off the north-west coast."
+   },
+   {
+    "name": "Tsingy de Bemaraha",
+    "desc": "A UNESCO landscape of limestone pinnacles in the west."
+   },
+   {
+    "name": "Antananarivo",
+    "desc": "The hilly capital with a historic upper town and markets."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Famadihana",
+    "desc": "A traditional ceremony in the highlands in which families honour their ancestors; visit only by invitation and with respect."
+   },
+   {
+    "name": "Malagasy Ancestor Customs",
+    "desc": "Many communities follow fady (taboos) that guides can explain; ask before photographing sacred places."
+   },
+   {
+    "name": "Highland Crafts",
+    "desc": "Silk weaving, wood carving and paper-making in towns like Antsirabe and Ambositra."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "26 June. National celebrations."
+   },
+   {
+    "name": "Hira Gasy",
+    "desc": "Traditional music and storytelling competitions, seen in the highlands."
+   },
+   {
+    "name": "Alahamadibe",
+    "desc": "A traditional festival of the Betsileo region; dates and activities vary."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Donia Festival",
+    "desc": "Typically May on Nosy Be. A music festival with local and regional artists."
+   },
+   {
+    "name": "Famadihana Season",
+    "desc": "Usually June to September in the highlands, by invitation."
+   },
+   {
+    "name": "Independence Celebrations",
+    "desc": "26 June. Parades, music and gatherings in towns."
+   }
+  ],
+  "food": [
+   {
+    "name": "Romazava",
+    "desc": "A beef and leafy-green stew often called the national dish."
+   },
+   {
+    "name": "Ravitoto",
+    "desc": "Pounded cassava leaves cooked with pork or coconut, served with rice."
+   },
+   {
+    "name": "Koba",
+    "desc": "A sweet snack of peanuts, rice and sugar wrapped in leaves."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Eco-Lodges near Parks",
+    "desc": "Simple lodges near Andasibe, Isalo and other reserves, often arranged with guides."
+   },
+   {
+    "name": "City Guesthouses",
+    "desc": "Small guesthouses in Antananarivo and larger towns."
+   },
+   {
+    "name": "Beach Bungalows",
+    "desc": "Basic to comfortable bungalows on Nosy Be and Sainte-Marie."
+   }
+  ],
+  "intro": "Madagascar is a large island off Africa's south-east coast, known for unique wildlife, baobabs, rainforests and a mix of African and Southeast Asian heritage. Roads are slow and infrastructure is basic, so travel takes patience and planning. Political and security conditions can change quickly, so check the latest advisories. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Antananarivo",
+     "items": [
+      "Arrive and see the upper town"
+     ]
+    },
+    {
+     "title": "Day 2 — Andasibe",
+     "items": [
+      "Travel to the park and see lemurs"
+     ]
+    },
+    {
+     "title": "Day 3 — Andasibe",
+     "items": [
+      "Morning forest walk, return"
+     ]
+    },
+    {
+     "title": "Day 4 — Antananarivo",
+     "items": [
+      "Markets and crafts"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Airport transfer"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Antananarivo",
+     "items": [
+      "Arrive and capital highlights"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Andasibe",
+     "items": [
+      "Lemurs and rainforest"
+     ]
+    },
+    {
+     "title": "Day 4 — Antsirabe",
+     "items": [
+      "Highland town and crafts"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Nosy Be",
+     "items": [
+      "Fly north, boat trips and beaches"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return flights"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Antananarivo",
+     "items": [
+      "Capital and Andasibe"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Andasibe",
+     "items": [
+      "Rainforest and lemurs"
+     ]
+    },
+    {
+     "title": "Day 5 — Antsirabe",
+     "items": [
+      "Highland crafts"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Isalo",
+     "items": [
+      "Flight and canyon walks"
+     ]
+    },
+    {
+     "title": "Day 8 — Morondava",
+     "items": [
+      "Avenue of the Baobabs"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Nosy Be or Return",
+     "items": [
+      "Beach time and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "April to October is drier and best for most trips. November to March is rainy with cyclone risk on the east coast.",
+   "currency": "Malagasy ariary (MGA). Cash is essential outside major hotels, and ATMs can be unreliable.",
+   "safety": "Crime and political unrest can occur, especially in the capital. Avoid travelling at night outside towns and follow official advice.",
+   "tipping": "Not mandatory, but small tips for guides, drivers and restaurant staff are appreciated.",
+   "transport": "Domestic flights link major regions. Roads are slow, and shared minibuses (taxi-brousse) are cheap but crowded; hiring a driver is more comfortable."
+  }
+ },
+ "Malawi": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Lake Malawi",
+    "desc": "A huge freshwater lake with beaches, snorkelling and colourful fish."
+   },
+   {
+    "name": "Likoma and Chizumulu Islands",
+    "desc": "Quiet islands in the lake with a large cathedral and village life."
+   },
+   {
+    "name": "Liwonde National Park",
+    "desc": "Boat safaris on the Shire River with elephants, hippos and birds."
+   },
+   {
+    "name": "Mount Mulanje",
+    "desc": "A granite massif with hiking trails and mountain huts."
+   },
+   {
+    "name": "Nyika Plateau",
+    "desc": "High grassland with wildflowers, wildlife and wide views in the north."
+   },
+   {
+    "name": "Zomba Plateau",
+    "desc": "Forest walks, viewpoints and waterfalls near the old capital."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Gule Wamkulu",
+    "desc": "A masked dance of the Chewa people, recognised by UNESCO; show respect and ask before photographing."
+   },
+   {
+    "name": "Village Visits",
+    "desc": "Community-led tours introduce daily life, crafts and farming."
+   },
+   {
+    "name": "Woodcarving at Lake Markets",
+    "desc": "Carved masks and animals are sold along the lakeshore, and prices are negotiated."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "6 July. National celebrations."
+   },
+   {
+    "name": "Lake of Stars Festival",
+    "desc": "A music festival held on the lakeshore in some years; check current dates."
+   },
+   {
+    "name": "Umunthu Cultural Gatherings",
+    "desc": "Traditional dances and community events held in different regions."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Mulhako wa Alhomwe",
+    "desc": "Usually October. A cultural festival of the Lhomwe people in the south."
+   },
+   {
+    "name": "Kulamba Ceremony",
+    "desc": "Usually August. A Chewa gathering in Zambia with Malawian participants."
+   },
+   {
+    "name": "Umhlangano",
+    "desc": "September. The Ngoni gathering in Mzimba."
+   }
+  ],
+  "food": [
+   {
+    "name": "Nsima",
+    "desc": "A thick maize porridge eaten with relishes, the national staple."
+   },
+   {
+    "name": "Chambo",
+    "desc": "A freshwater fish from the lake, grilled or fried."
+   },
+   {
+    "name": "Mandasi",
+    "desc": "Sweet fried dough balls, a popular snack."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Lakeshore Lodges",
+    "desc": "Simple to comfortable lodges at Nkhata Bay, Cape Maclear and Senga Bay."
+   },
+   {
+    "name": "Safari Camps",
+    "desc": "Tented or lodge-style stays in Liwonde and Majete."
+   },
+   {
+    "name": "Guesthouses in Towns",
+    "desc": "Budget stays in Lilongwe, Blantyre and Zomba."
+   }
+  ],
+  "intro": "Malawi is a landlocked country in south-eastern Africa, often called the Warm Heart of Africa for its friendly welcome. Lake Malawi dominates the east, with highlands, plateaus and national parks inland. Infrastructure is basic, and fuel and power supply can be unreliable. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Lilongwe",
+     "items": [
+      "Arrive and markets"
+     ]
+    },
+    {
+     "title": "Day 2 — Lake",
+     "items": [
+      "Travel to the lakeshore"
+     ]
+    },
+    {
+     "title": "Day 3 — Lake",
+     "items": [
+      "Snorkelling and boat trip"
+     ]
+    },
+    {
+     "title": "Day 4 — Lake",
+     "items": [
+      "Village walk"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Return to Lilongwe"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Lilongwe",
+     "items": [
+      "Arrive and explore"
+     ]
+    },
+    {
+     "title": "Day 2–4 — Lake Malawi",
+     "items": [
+      "Nkhata Bay or Cape Maclear"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Liwonde",
+     "items": [
+      "Boat safari"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return to Lilongwe or Blantyre"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1 — Lilongwe",
+     "items": [
+      "Arrive and explore"
+     ]
+    },
+    {
+     "title": "Day 2–4 — Lake Malawi",
+     "items": [
+      "Beaches and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Liwonde",
+     "items": [
+      "Boat and walking safari"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Zomba",
+     "items": [
+      "Plateau walks"
+     ]
+    },
+    {
+     "title": "Day 9 — Mulanje",
+     "items": [
+      "Foothill hikes"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Blantyre airport"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is dry and best for safaris. November to April is rainy, though green and quiet.",
+   "currency": "Malawian kwacha (MWK). Cash is widely needed, and ATMs may be limited outside cities.",
+   "safety": "Take care with petty crime in cities, avoid walking at night and swim only in recommended lake areas due to health risks in some waters.",
+   "tipping": "Not obligatory; small tips for guides and staff are appreciated.",
+   "transport": "Minibuses and buses are cheap but crowded. Domestic flights and car hire are limited, and fuel shortages can occur."
+  }
+ },
+ "Mali": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Djenné",
+    "desc": "Famous for its great mud-brick mosque and Monday market, a UNESCO World Heritage city."
+   },
+   {
+    "name": "Timbuktu",
+    "desc": "A legendary desert city of manuscripts and mosques. Currently very difficult and unsafe to visit."
+   },
+   {
+    "name": "Bandiagara Escarpment (Dogon Country)",
+    "desc": "Cliff villages and cultural traditions of the Dogon. Security conditions are poor."
+   },
+   {
+    "name": "Mopti",
+    "desc": "A river port at the meeting of the Niger and Bani rivers."
+   },
+   {
+    "name": "Bamako",
+    "desc": "The capital, with music, markets and museums."
+   },
+   {
+    "name": "Ségou",
+    "desc": "A quiet town on the Niger river with crafts and a cultural reputation."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Mud-Brick Mosques",
+    "desc": "Annual replastering of the Djenné mosque is a community event."
+   },
+   {
+    "name": "Malian Music",
+    "desc": "Griot traditions and modern artists have made Mali one of Africa's richest music cultures."
+   },
+   {
+    "name": "Dogon Traditions",
+    "desc": "Dogon masks, villages and cosmology are well known, though visiting is currently risky."
+   }
+  ],
+  "events": [
+   {
+    "name": "Festival sur le Niger",
+    "desc": "Traditionally held in Ségou in February. Check whether it is currently taking place."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "22 September. National celebrations mark independence from France."
+   },
+   {
+    "name": "Crepissage Festival",
+    "desc": "Typically in spring in Djenné. Locals repair the mosque in a communal event."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, dates change yearly. Prayers, family meals and new clothes."
+   },
+   {
+    "name": "Tabaski (Eid al-Adha)",
+    "desc": "Dates vary yearly. Animals are sacrificed and meat is shared with others."
+   },
+   {
+    "name": "Festival au Désert Traditions",
+    "desc": "Historically a major desert music gathering, now disrupted by conflict. Check current status."
+   }
+  ],
+  "food": [
+   {
+    "name": "Riz Gras",
+    "desc": "Rice cooked with tomato and meat or fish, popular at gatherings."
+   },
+   {
+    "name": "Tigadèguènan",
+    "desc": "A peanut-based sauce with meat served over rice."
+   },
+   {
+    "name": "Capitaine Fish",
+    "desc": "Nile perch from the Niger river, often grilled."
+   }
+  ],
+  "intro": "Mali is home to some of West Africa's most famous heritage sites, including Djenné and Timbuktu, but it faces serious security and political risks. Most governments advise against all travel and consular help is very limited. This page is for general information and is not a recommendation to travel. This guide has 5, 7 and 10-day routes, shown for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Bamako",
+     "items": [
+      "City, museums and markets, only with current advice"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Ségou",
+     "items": [
+      "Niger river and crafts, only if advice allows"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Bamako",
+     "items": [
+      "City and music"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Ségou",
+     "items": [
+      "River town"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Djenné",
+     "items": [
+      "Mosque and market, only if advice allows"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Bamako",
+     "items": [
+      "City and culture"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Ségou",
+     "items": [
+      "River town"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Djenné",
+     "items": [
+      "Mud-brick city"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Mopti",
+     "items": [
+      "River port, subject to current security"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to February is cooler and drier. March to May is extremely hot, with rains from June to September.",
+   "currency": "West African CFA franc (XOF), pegged to the euro. Cash is essential and cards are rarely accepted.",
+   "safety": "Most governments advise against all travel because of terrorism, kidnapping, crime and unrest. Do not plan a trip without current official advice and specialist support.",
+   "tipping": "Not customary.",
+   "transport": "Road travel outside Bamako is dangerous. Flights are limited and can change quickly. Independent travel is not advisable."
+  },
+  "stays": [
+   {
+    "name": "Bamako Hotels",
+    "desc": "A few established hotels serve business and official visitors. Check availability and advice."
+   },
+   {
+    "name": "Ségou Guesthouses",
+    "desc": "Small guesthouses by the river, subject to current security conditions."
+   },
+   {
+    "name": "Djenné Lodgings",
+    "desc": "Basic guesthouses. Do not plan stays here without current security guidance."
+   }
+  ]
+ },
+ "Marshall Islands": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Majuro Atoll",
+    "desc": "The capital atoll, a thin ribbon of land between lagoon and ocean with a small museum, markets and lagoon beaches."
+   },
+   {
+    "name": "Laura Beach",
+    "desc": "A quiet beach at the western end of Majuro, popular for picnics and swimming."
+   },
+   {
+    "name": "Bikini Atoll",
+    "desc": "Site of mid-20th-century nuclear tests; today a very remote dive destination with sunken warships. Access needs special permission and organised trips."
+   },
+   {
+    "name": "Arno Atoll",
+    "desc": "A short trip from Majuro, with village life, clear lagoons and traditional canoes."
+   },
+   {
+    "name": "Jaluit Atoll",
+    "desc": "A large, remote atoll with a historic German-era past and wartime remains."
+   },
+   {
+    "name": "Mili Atoll",
+    "desc": "A remote atoll with wartime relics, fishing and quiet villages, reached by boat or small plane."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Outrigger Canoes",
+    "desc": "Marshallese navigators were famed for ocean voyaging. Look for canoe building and sailing displays."
+   },
+   {
+    "name": "Stick Charts",
+    "desc": "Traditional navigation charts of shell and sticks that map ocean swells. Ask at local museums."
+   },
+   {
+    "name": "Handicrafts",
+    "desc": "Woven pandanus mats, baskets and shell jewellery, usually sold by local women's groups."
+   }
+  ],
+  "events": [
+   {
+    "name": "Constitution Day",
+    "desc": "1 May. National holiday with parades, sport and community events."
+   },
+   {
+    "name": "Fishermen's Day",
+    "desc": "September. Celebrates fishing and the sea with canoe races and local contests."
+   },
+   {
+    "name": "Remembrance Day",
+    "desc": "1 March. Honours people affected by the nuclear testing programme."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Gospel Day",
+    "desc": "First Friday of September. Church services and community gatherings."
+   },
+   {
+    "name": "Manit Day",
+    "desc": "Late September. A cultural day with traditional dance, food and crafts."
+   },
+   {
+    "name": "Christmas Season",
+    "desc": "December. Island churches hold singing and large community celebrations."
+   }
+  ],
+  "food": [
+   {
+    "name": "Breadfruit",
+    "desc": "A starchy staple, roasted, boiled or preserved."
+   },
+   {
+    "name": "Raw and Grilled Fish",
+    "desc": "Fresh tuna and reef fish, often with coconut."
+   },
+   {
+    "name": "Pandanus and Coconut Dishes",
+    "desc": "Sweet pandanus preparations and coconut-based foods are common on outer islands."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Majuro Hotels",
+    "desc": "A small number of hotels serve business and leisure visitors; book ahead."
+   },
+   {
+    "name": "Guesthouses (Majuro and Ebeye)",
+    "desc": "Simple guesthouses for budget travellers."
+   },
+   {
+    "name": "Outer-Atoll Homestays",
+    "desc": "Basic stays arranged locally. Facilities are limited and transport is infrequent."
+   }
+  ],
+  "intro": "The Republic of the Marshall Islands is a Pacific nation of low coral atolls and islands, with Majuro as its capital. Tourism is small, flights are limited and outer islands have basic facilities. Atolls are sensitive to sea-level rise and the country has a significant history of nuclear testing. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Arrive Majuro",
+     "items": [
+      "Settle in, explore the lagoon side of town"
+     ]
+    },
+    {
+     "title": "Day 2 — Majuro",
+     "items": [
+      "Alele Museum, markets, harbour"
+     ]
+    },
+    {
+     "title": "Day 3 — Laura",
+     "items": [
+      "Beach day and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Lagoon Trip",
+     "items": [
+      "Boat trip or a short flight to a nearby atoll if schedules allow"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Majuro",
+     "items": [
+      "Museum, markets, crafts"
+     ]
+    },
+    {
+     "title": "Day 3 — Laura Beach",
+     "items": [
+      "Swimming and village visit"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Arno Atoll",
+     "items": [
+      "Boat day trip or overnight stay"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Majuro",
+     "items": [
+      "Diving or snorkelling, rest day"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Majuro",
+     "items": [
+      "Local museums and markets"
+     ]
+    },
+    {
+     "title": "Day 3 — Laura",
+     "items": [
+      "Beach and lagoon"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Arno Atoll",
+     "items": [
+      "Village life and lagoon"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Outer Atoll",
+     "items": [
+      "Subject to flight and boat schedules; Mili or Jaluit"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Majuro",
+     "items": [
+      "Diving and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Roughly December to April is drier and breezier; the wetter season brings heavier rain. The islands are hot year-round.",
+   "currency": "US dollar (USD). Cards work in town; cash is needed on outer atolls.",
+   "safety": "Generally low crime. Take care in the sun and with ocean currents and reef. Healthcare is limited, so insurance with medical evacuation is wise.",
+   "tipping": "Not customary.",
+   "transport": "Flights connect Majuro with a few regional hubs and some outer atolls. Local travel is by taxi and shared vehicles. Boats serve lagoon trips. Schedules change, so allow extra days."
+  }
+ },
+ "Mauritania": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Chinguetti",
+    "desc": "A Saharan oasis town known for its old mosque and libraries of ancient manuscripts."
+   },
+   {
+    "name": "Ouadane",
+    "desc": "The ruins of an old caravan town in the desert near Chinguetti."
+   },
+   {
+    "name": "Banc d'Arguin National Park",
+    "desc": "A coastal park where migratory birds gather on sandbanks."
+   },
+   {
+    "name": "Adrar Plateau",
+    "desc": "Desert plateau with dunes, oases and rock formations."
+   },
+   {
+    "name": "Nouakchott",
+    "desc": "The capital, with a fish market on the beach and a camel market."
+   },
+   {
+    "name": "Eye of the Sahara (Richat Structure)",
+    "desc": "A huge circular geological feature in the desert, best seen from the air or with an organised tour."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Saharan Manuscripts",
+    "desc": "Private libraries in Chinguetti and Ouadane hold centuries-old writings. Visit with a guide and respect family custodians."
+   },
+   {
+    "name": "Nomadic Hospitality",
+    "desc": "Sweet mint tea is served in three rounds. Accept at least one glass as a courtesy."
+   },
+   {
+    "name": "Beach Fish Market",
+    "desc": "At Nouakchott's port, fishermen land their catch in colourful pirogues each afternoon."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "28 November. National commemorations mark independence from France."
+   },
+   {
+    "name": "Ouadane Festival",
+    "desc": "Held in some years in the desert, with music, camels and crafts. Check current status."
+   },
+   {
+    "name": "Date Harvest",
+    "desc": "Late summer in Adrar oases. Families gather palm dates, with local markets selling them."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, dates change yearly. Prayers, meals and visits."
+   },
+   {
+    "name": "Tabaski (Eid al-Adha)",
+    "desc": "Dates vary yearly. Sheep are sacrificed and meat is shared."
+   },
+   {
+    "name": "Festival of Ancient Cities",
+    "desc": "A heritage festival rotated between ancient desert towns in some years. Check current schedule."
+   }
+  ],
+  "food": [
+   {
+    "name": "Thieboudienne",
+    "desc": "Rice cooked with fish, vegetables and a tomato base, popular along the coast."
+   },
+   {
+    "name": "Méchoui",
+    "desc": "Roast lamb or camel meat, often served for special occasions."
+   },
+   {
+    "name": "Camel Milk",
+    "desc": "A traditional drink of nomadic communities, sold fresh or fermented."
+   }
+  ],
+  "intro": "Mauritania is a large Saharan country where the Atlantic coast meets endless dunes and ancient caravan towns. Its manuscript libraries and Banc d'Arguin National Park are highlights. Security risks near the borders and in parts of the interior mean most governments advise reconsidering travel. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Nouakchott",
+     "items": [
+      "Arrival, fish market and camel market"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Atar",
+     "items": [
+      "Travel to Adrar and oasis visits"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Chinguetti",
+     "items": [
+      "Old town and manuscript libraries"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Nouakchott",
+     "items": [
+      "Arrival and city sights"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Atar",
+     "items": [
+      "Adrar plateau and oases"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Chinguetti",
+     "items": [
+      "Dunes and libraries"
+     ]
+    },
+    {
+     "title": "Day 6 — Ouadane",
+     "items": [
+      "Ruined caravan town"
+     ]
+    },
+    {
+     "title": "Day 7 — Return",
+     "items": [
+      "Travel back to Nouakchott"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Nouakchott",
+     "items": [
+      "City and coast"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Banc d'Arguin",
+     "items": [
+      "Bird and coastal visit arranged through a licensed operator"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Atar",
+     "items": [
+      "Adrar plateau and oases"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Chinguetti",
+     "items": [
+      "Old town and libraries"
+     ]
+    },
+    {
+     "title": "Day 9 — Ouadane",
+     "items": [
+      "Ruins"
+     ]
+    },
+    {
+     "title": "Day 10 — Return",
+     "items": [
+      "Travel back to Nouakchott"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to February is the coolest. Summers are extremely hot in the interior. Coastal areas are milder.",
+   "currency": "Mauritanian ouguiya (MRU). Cash is needed outside Nouakchott.",
+   "safety": "Parts of the country, especially near the Mali border and in remote areas, carry serious risks. Use licensed operators, check current advice and avoid independent desert travel.",
+   "tipping": "Not required, though small tips for guides and drivers are appreciated.",
+   "transport": "Distances are long. Use a reliable 4WD with an experienced driver for desert routes. The iron-ore train is a famous but demanding trip."
+  },
+  "stays": [
+   {
+    "name": "Nouakchott Hotels",
+    "desc": "Mid-range and business hotels in the capital."
+   },
+   {
+    "name": "Atar and Chinguetti Guesthouses",
+    "desc": "Small guesthouses and desert auberges serving tour groups."
+   },
+   {
+    "name": "Desert Camps",
+    "desc": "Tented or hut camps arranged with licensed operators. Confirm security and logistics in advance."
+   }
+  ]
+ },
+ "Mauritius": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Le Morne Peninsula",
+    "desc": "A dramatic mountain on a south-west peninsula, a UNESCO site with a hike and kitesurfing lagoon."
+   },
+   {
+    "name": "Black River Gorges National Park",
+    "desc": "Forest trails, waterfalls and viewpoints, with a chance to see rare native birds."
+   },
+   {
+    "name": "Port Louis",
+    "desc": "The capital, with a lively central market, waterfront and small museums."
+   },
+   {
+    "name": "Chamarel",
+    "desc": "Known for the Seven Coloured Earths and a tall waterfall in the south-west."
+   },
+   {
+    "name": "Grand Baie",
+    "desc": "The north's main resort town with beaches, shops and boat trips."
+   },
+   {
+    "name": "Île aux Cerfs",
+    "desc": "A small island off the east coast reached by boat, popular for its lagoon."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Creole Mix of Cultures",
+    "desc": "Hindu, Tamil, Chinese, Muslim and Christian communities live side by side, and temples, mosques and pagodas are easy to visit respectfully."
+   },
+   {
+    "name": "Sega Music and Dance",
+    "desc": "The island's folk tradition, rooted in Creole history, often performed at hotels and local gatherings."
+   },
+   {
+    "name": "Sugar Heritage",
+    "desc": "Former sugar estates and the Aapravasi Ghat site in Port Louis tell the story of the island's migrants."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "12 March. National celebrations with parades and ceremonies."
+   },
+   {
+    "name": "Divali",
+    "desc": "October or November. Homes and streets are lit with lamps and sweets are shared."
+   },
+   {
+    "name": "Cavadee",
+    "desc": "January or February. A Tamil Hindu festival with processions and devotees carrying decorated frames."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Maha Shivaratri",
+    "desc": "February or March. Thousands of pilgrims walk to Grand Bassin lake dressed in white."
+   },
+   {
+    "name": "Chinese Spring Festival",
+    "desc": "January or February. Lion dances and family feasts in Port Louis and other towns."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Date varies with the lunar calendar. Marks the end of Ramadan with prayers and shared meals."
+   }
+  ],
+  "food": [
+   {
+    "name": "Dholl Puri",
+    "desc": "Thin flatbread filled with ground split peas, served with curry and chutney. A popular street snack."
+   },
+   {
+    "name": "Gateaux Piments",
+    "desc": "Small fried chilli-and-lentil cakes, sold from roadside stalls."
+   },
+   {
+    "name": "Rougaille and Rice",
+    "desc": "A Creole tomato-based stew with fish, sausage or chicken, served with rice."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Beach Resorts",
+    "desc": "Mostly on the north and west coasts, often with lagoons and all-inclusive options."
+   },
+   {
+    "name": "Guesthouses and Chambres d'Hotes",
+    "desc": "Small family-run places, good value and a chance to meet locals."
+   },
+   {
+    "name": "Villas and Apartments",
+    "desc": "Self-catering rentals, widely available around Grand Baie and Flic en Flac."
+   }
+  ],
+  "intro": "Mauritius is an Indian Ocean island nation east of Madagascar, known for lagoons, mountains and a mix of Indian, African, Chinese and European cultures. English and French are widely used, with Creole spoken daily. Beaches are the draw, but hiking and food are also rewarding. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Port Louis",
+     "items": [
+      "Central market and waterfront",
+      "Aapravasi Ghat"
+     ]
+    },
+    {
+     "title": "Day 2 — South-West",
+     "items": [
+      "Chamarel and coloured earths",
+      "Black River Gorges viewpoints"
+     ]
+    },
+    {
+     "title": "Day 3 — Le Morne",
+     "items": [
+      "Beach time and optional hike"
+     ]
+    },
+    {
+     "title": "Day 4 — North",
+     "items": [
+      "Grand Baie and a boat trip"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Last swim and airport transfer"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Port Louis and Centre",
+     "items": [
+      "Market, museums, Curepipe crater"
+     ]
+    },
+    {
+     "title": "Day 3 — Black River Gorges",
+     "items": [
+      "Forest walks and waterfalls"
+     ]
+    },
+    {
+     "title": "Day 4 — Chamarel",
+     "items": [
+      "Waterfall and coloured earths"
+     ]
+    },
+    {
+     "title": "Day 5 — Le Morne",
+     "items": [
+      "Lagoon and beach"
+     ]
+    },
+    {
+     "title": "Day 6 — North",
+     "items": [
+      "Grand Baie and nearby islands"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Airport transfer"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Port Louis",
+     "items": [
+      "Markets, history, street food"
+     ]
+    },
+    {
+     "title": "Day 3 — Centre",
+     "items": [
+      "Curepipe, Grand Bassin"
+     ]
+    },
+    {
+     "title": "Day 4–5 — South-West",
+     "items": [
+      "Black River Gorges, Chamarel"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Le Morne",
+     "items": [
+      "Beach and watersports"
+     ]
+    },
+    {
+     "title": "Day 8 — East",
+     "items": [
+      "Boat trip to Île aux Cerfs"
+     ]
+    },
+    {
+     "title": "Day 9 — North",
+     "items": [
+      "Grand Baie and islets"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Airport transfer"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to December is cooler and drier. January to March is hot and wetter, with a risk of cyclones.",
+   "currency": "Mauritian rupee (MUR). Cards are widely accepted and ATMs are common.",
+   "safety": "Generally safe. Take usual care with valuables on beaches, and heed cyclone warnings and strong currents outside the lagoons.",
+   "tipping": "Not required, but a small tip is appreciated in restaurants and for guides.",
+   "transport": "Buses are cheap but slow. Taxis are easy to find, and many visitors rent a car, driving on the left. Check current road rules."
+  }
+ },
+ "Micronesia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Chuuk Lagoon",
+    "desc": "A lagoon known worldwide for wreck diving, with dozens of sunken ships and aircraft from the Second World War."
+   },
+   {
+    "name": "Nan Madol, Pohnpei",
+    "desc": "Ruins of an ancient city of basalt-built islets on the reef, a UNESCO World Heritage Site."
+   },
+   {
+    "name": "Yap",
+    "desc": "Famous for giant stone money discs, traditional villages and manta ray dives."
+   },
+   {
+    "name": "Kosrae",
+    "desc": "A quiet green island with reefs, mangroves and the ruins at Leluh."
+   },
+   {
+    "name": "Sokehs Rock",
+    "desc": "A volcanic plug on Pohnpei with a ridge hike and views over the lagoon."
+   },
+   {
+    "name": "Ulithi Atoll",
+    "desc": "A remote atoll in Yap State with a large lagoon and traditional island life."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Stone Money (Rai)",
+    "desc": "Large stone discs of Yap, still used in traditional exchange. Ask villages before entering their paths."
+   },
+   {
+    "name": "Traditional Dance",
+    "desc": "Yapese and other island dances are performed at festivals and sometimes for visitors."
+   },
+   {
+    "name": "Sakau Ceremony",
+    "desc": "On Pohnpei, a ritual drink made from the sakau root, not alcohol. Join only with local guidance."
+   }
+  ],
+  "events": [
+   {
+    "name": "Yap Day",
+    "desc": "March. A multi-day celebration of Yapese culture with dances and crafts."
+   },
+   {
+    "name": "FSM Constitution Day",
+    "desc": "10 May. National holiday with parades and local events."
+   },
+   {
+    "name": "FSM Independence Day",
+    "desc": "3 November. Celebrations around the islands."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Kosrae Liberation Day",
+    "desc": "8 September. Community gatherings, food and sports."
+   },
+   {
+    "name": "Pohnpei Liberation Day",
+    "desc": "11 September. Local celebrations and canoe events."
+   },
+   {
+    "name": "Christmas",
+    "desc": "December. Church singing and community feasts across the states."
+   }
+  ],
+  "food": [
+   {
+    "name": "Breadfruit and Taro",
+    "desc": "Staples served boiled, roasted or fermented."
+   },
+   {
+    "name": "Fresh Fish",
+    "desc": "Tuna, reef fish and seafood grilled or in coconut milk."
+   },
+   {
+    "name": "Coconut Dishes",
+    "desc": "Coconut cream and sweets are common in many islands."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Dive Lodges, Chuuk",
+    "desc": "Dive-oriented hotels and live-aboard boats serve wreck divers."
+   },
+   {
+    "name": "Hotels in Pohnpei and Yap",
+    "desc": "A handful of simple hotels and guesthouses, some with lagoon views."
+   },
+   {
+    "name": "Kosrae Guesthouses",
+    "desc": "Small resorts and guesthouses on a quiet island."
+   }
+  ],
+  "intro": "The Federated States of Micronesia is made of four states, Chuuk, Pohnpei, Yap and Kosrae, spread across a huge area of the western Pacific. Visitors come mainly for diving, history and quiet island life, and facilities are basic. Flights are limited, so plan with care. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Arrive Pohnpei",
+     "items": [
+      "Kolonia town and market"
+     ]
+    },
+    {
+     "title": "Day 2 — Nan Madol",
+     "items": [
+      "Boat trip to the ancient ruins"
+     ]
+    },
+    {
+     "title": "Day 3 — Sokehs Rock",
+     "items": [
+      "Short hike and views"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Pohnpei",
+     "items": [
+      "Waterfalls and relaxed island days"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Pohnpei",
+     "items": [
+      "Kolonia, Nan Madol"
+     ]
+    },
+    {
+     "title": "Day 3 — Pohnpei",
+     "items": [
+      "Sokehs Rock, waterfalls"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kosrae",
+     "items": [
+      "Leluh ruins and reefs"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Pohnpei",
+     "items": [
+      "Departure buffer"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Pohnpei",
+     "items": [
+      "Kolonia, Nan Madol, hikes"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kosrae",
+     "items": [
+      "Reefs, ruins, mangroves"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Chuuk",
+     "items": [
+      "Wreck diving or snorkelling around Weno"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Pohnpei",
+     "items": [
+      "Rest and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Generally drier from roughly December to April; rain is common most of the year. It is hot and humid year-round.",
+   "currency": "US dollar (USD). Cash is widely used.",
+   "safety": "Mostly relaxed, but take sensible precautions with belongings. Dive carefully and follow local safety guidance. Healthcare is limited, so insurance with medical evacuation is wise.",
+   "tipping": "Not customary.",
+   "transport": "Regional flights link the four state capitals. Local transport is by taxi, shared vehicle or boat. Schedules are limited and can change."
+  }
+ },
+ "Moldova": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Chisinau",
+    "desc": "A leafy capital with Soviet-era architecture, parks and a lively food scene."
+   },
+   {
+    "name": "Orheiul Vechi",
+    "desc": "A cliffside archaeological and monastery complex above a river bend."
+   },
+   {
+    "name": "Milestii Mici",
+    "desc": "A massive underground winery complex with kilometres of cellars."
+   },
+   {
+    "name": "Cricova",
+    "desc": "Another large underground winery with guided tours."
+   },
+   {
+    "name": "Saharna and Tipova",
+    "desc": "Cliffside monasteries and waterfalls along the Dniester."
+   },
+   {
+    "name": "Gagauzia",
+    "desc": "An autonomous region with its own language and culture."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Wine Heritage",
+    "desc": "Winemaking is central to national identity; many estates welcome visitors."
+   },
+   {
+    "name": "Orthodox Monasteries",
+    "desc": "Active monasteries welcome visitors; dress modestly."
+   },
+   {
+    "name": "Martisor Tradition",
+    "desc": "In March, red and white threads are exchanged as a sign of spring."
+   }
+  ],
+  "events": [
+   {
+    "name": "National Wine Day",
+    "desc": "First weekend of October. Festival with tastings, music and parades in Chisinau."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "27 August. Public events mark the 1991 declaration."
+   },
+   {
+    "name": "Limba Noastra",
+    "desc": "31 August. A celebration of the Romanian language."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "National Wine Festival",
+    "desc": "October. Chisinau fills with stalls, music and traditional dress."
+   },
+   {
+    "name": "Martisor",
+    "desc": "1 March. Spring tokens and small gifts."
+   },
+   {
+    "name": "Orthodox Easter",
+    "desc": "April or May. Church services and egg customs."
+   }
+  ],
+  "food": [
+   {
+    "name": "Mamaliga",
+    "desc": "Cornmeal porridge served with cheese or stews."
+   },
+   {
+    "name": "Placinte",
+    "desc": "Thin pastries filled with cheese, potato or cabbage."
+   },
+   {
+    "name": "Sarmale",
+    "desc": "Cabbage rolls stuffed with rice and meat."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Hotels in Chisinau",
+    "desc": "A mix of business hotels and small boutique hotels."
+   },
+   {
+    "name": "Rural Guesthouses near Orheiul Vechi",
+    "desc": "Village stays with home cooking."
+   },
+   {
+    "name": "Winery Guesthouses",
+    "desc": "Rooms at some wine estates, usually booked in advance."
+   }
+  ],
+  "intro": "Moldova is a small landlocked country between Romania and Ukraine, known for vineyards, monasteries and rural landscapes. The Transnistria region is outside central government control, and the war in neighbouring Ukraine affects security and travel to the east. Check official advisories before travelling. This guide has 5, 7 and 10-day routes based on Chisinau and the central and southern regions.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Chisinau",
+     "items": [
+      "Central Park, cathedral, markets"
+     ]
+    },
+    {
+     "title": "Day 2 — Cricova",
+     "items": [
+      "Underground winery visit"
+     ]
+    },
+    {
+     "title": "Day 3 — Orheiul Vechi",
+     "items": [
+      "Cave monastery and village walk"
+     ]
+    },
+    {
+     "title": "Day 4 — Milestii Mici",
+     "items": [
+      "Winery cellar visit"
+     ]
+    },
+    {
+     "title": "Day 5 — Chisinau",
+     "items": [
+      "Museums and farewell dinner"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Chisinau",
+     "items": [
+      "Capital highlights"
+     ]
+    },
+    {
+     "title": "Day 3 — Cricova",
+     "items": [
+      "Winery"
+     ]
+    },
+    {
+     "title": "Day 4 — Orheiul Vechi",
+     "items": [
+      "Archaeology and monastery"
+     ]
+    },
+    {
+     "title": "Day 5 — Saharna and Tipova",
+     "items": [
+      "Dniester valley sights"
+     ]
+    },
+    {
+     "title": "Day 6 — Milestii Mici",
+     "items": [
+      "Cellars"
+     ]
+    },
+    {
+     "title": "Day 7 — Chisinau",
+     "items": [
+      "Departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Chisinau",
+     "items": [
+      "Capital highlights"
+     ]
+    },
+    {
+     "title": "Day 3 — Cricova",
+     "items": [
+      "Winery"
+     ]
+    },
+    {
+     "title": "Day 4 — Orheiul Vechi",
+     "items": [
+      "Cave monastery"
+     ]
+    },
+    {
+     "title": "Day 5 — Saharna and Tipova",
+     "items": [
+      "Waterfalls and cliffs"
+     ]
+    },
+    {
+     "title": "Day 6 — Soroca",
+     "items": [
+      "Fortress by the river"
+     ]
+    },
+    {
+     "title": "Day 7 — Milestii Mici",
+     "items": [
+      "Cellars"
+     ]
+    },
+    {
+     "title": "Day 8–9 — Gagauzia (Comrat)",
+     "items": [
+      "Local culture and cooking"
+     ]
+    },
+    {
+     "title": "Day 10 — Chisinau",
+     "items": [
+      "Departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to June and September to October for mild weather and harvest season.",
+   "currency": "Moldovan leu (MDL).",
+   "safety": "Generally safe in main areas; follow official advisories, especially on Transnistria and the eastern borders.",
+   "tipping": "About 10 percent in restaurants is appreciated.",
+   "transport": "Minibuses (marshrutka) link towns; trains are slow. Chisinau has the only international airport."
+  }
+ },
+ "Monaco": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Monte Carlo Casino",
+    "desc": "A belle-epoque landmark; visitors may enter the atrium and gaming rooms with ID and appropriate dress."
+   },
+   {
+    "name": "Prince Palace and Monaco-Ville",
+    "desc": "The old town on the Rock, with changing-of-the-guard ceremonies."
+   },
+   {
+    "name": "Oceanographic Museum",
+    "desc": "An aquarium and museum perched on the cliff above the sea."
+   },
+   {
+    "name": "Jardin Exotique",
+    "desc": "A garden of succulents on a steep hillside with sea views."
+   },
+   {
+    "name": "Port Hercule",
+    "desc": "The yacht harbour, lined with cafes and the Formula 1 harbour section."
+   },
+   {
+    "name": "Fontvieille",
+    "desc": "A newer district with a rose garden and small museums."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Monaco Cathedral",
+    "desc": "Burial place of the Grimaldi family, in the old town."
+   },
+   {
+    "name": "Opera de Monte-Carlo",
+    "desc": "Concerts and operas in a Garnier-designed hall."
+   },
+   {
+    "name": "Princely Traditions",
+    "desc": "Ceremonies at the palace and local festivals reflect the Grimaldi heritage."
+   }
+  ],
+  "events": [
+   {
+    "name": "Monaco Grand Prix",
+    "desc": "May. Formula 1 racing through the streets; book far ahead and expect high prices."
+   },
+   {
+    "name": "Monte-Carlo Rally",
+    "desc": "January. Historic rally with mountain stages starting in Monaco."
+   },
+   {
+    "name": "Monaco Yacht Show",
+    "desc": "September. A major gathering of superyachts and luxury trade."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Sainte Devote",
+    "desc": "Late January. Procession and boat-burning ceremony for the patron saint."
+   },
+   {
+    "name": "Monaco National Day",
+    "desc": "19 November. A mass, parade and fireworks."
+   },
+   {
+    "name": "Monte-Carlo Fireworks Competition",
+    "desc": "Summer. Teams from different countries compete over the harbour."
+   }
+  ],
+  "food": [
+   {
+    "name": "Barbajuan",
+    "desc": "Fried pastry filled with greens and cheese, a national snack."
+   },
+   {
+    "name": "Fougasse Monegasque",
+    "desc": "Sweet bread flavoured with orange blossom and nuts."
+   },
+   {
+    "name": "Stocafi",
+    "desc": "Salt cod stewed with tomatoes and olives."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Luxury Hotels in Monte Carlo",
+    "desc": "High-end places near the casino with high prices."
+   },
+   {
+    "name": "Hotels in La Condamine",
+    "desc": "More modest options near the port."
+   },
+   {
+    "name": "Stays in Nice or Menton, France",
+    "desc": "Often cheaper, with a short train ride into Monaco."
+   }
+  ],
+  "intro": "Monaco is a tiny city-state on the French Riviera, among the smallest countries in the world. It is known for its harbour, casino and the Grand Prix. Prices are high, and many visitors stay in nearby French towns. This guide has 5, 7 and 10-day routes, built around Monaco with day trips along the Cote d Azur and into Italy.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Monaco-Ville",
+     "items": [
+      "Palace, cathedral and old town"
+     ]
+    },
+    {
+     "title": "Day 2 — Monte Carlo",
+     "items": [
+      "Casino square, gardens and Opera"
+     ]
+    },
+    {
+     "title": "Day 3 — Oceanographic Museum and Jardin Exotique",
+     "items": [
+      "Sea and garden views"
+     ]
+    },
+    {
+     "title": "Day 4 — Nice, France",
+     "items": [
+      "Day trip by train"
+     ]
+    },
+    {
+     "title": "Day 5 — Menton, France",
+     "items": [
+      "Lemon town and coastal walk"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Monaco-Ville",
+     "items": [
+      "Old town"
+     ]
+    },
+    {
+     "title": "Day 2 — Monte Carlo and Larvotto",
+     "items": [
+      "Casino square and beach"
+     ]
+    },
+    {
+     "title": "Day 3 — Fontvieille",
+     "items": [
+      "Rose garden and museums"
+     ]
+    },
+    {
+     "title": "Day 4 — Nice, France",
+     "items": [
+      "Old town and promenade"
+     ]
+    },
+    {
+     "title": "Day 5 — Eze, France",
+     "items": [
+      "Hill village and coastal views"
+     ]
+    },
+    {
+     "title": "Day 6 — Menton, France",
+     "items": [
+      "Old town and gardens"
+     ]
+    },
+    {
+     "title": "Day 7 — Ventimiglia, Italy",
+     "items": [
+      "Market day trip, then departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Monaco",
+     "items": [
+      "Old town, Monte Carlo and museums"
+     ]
+    },
+    {
+     "title": "Day 3 — Fontvieille and Larvotto",
+     "items": [
+      "Gardens and beach"
+     ]
+    },
+    {
+     "title": "Day 4 — Nice, France",
+     "items": [
+      "City day trip"
+     ]
+    },
+    {
+     "title": "Day 5 — Antibes, France",
+     "items": [
+      "Old town and Picasso museum"
+     ]
+    },
+    {
+     "title": "Day 6 — Cannes, France",
+     "items": [
+      "Seafront and old quarter"
+     ]
+    },
+    {
+     "title": "Day 7 — Eze and Cap d Ail",
+     "items": [
+      "Village and coastal path"
+     ]
+    },
+    {
+     "title": "Day 8 — Menton, France",
+     "items": [
+      "Gardens and old town"
+     ]
+    },
+    {
+     "title": "Day 9 — Bordighera or Sanremo, Italy",
+     "items": [
+      "Ligurian coast day trip"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Allow time for trains"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "April to June and September to October for pleasant weather; May for the Grand Prix (very busy).",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe and heavily policed. Watch for pickpockets in busy areas.",
+   "tipping": "Service is usually included; rounding up is common.",
+   "transport": "Compact and walkable with lifts and escalators; trains run along the coast. The nearest major airport is Nice, with helicopter and bus links."
+  }
+ },
+ "Mozambique": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Maputo",
+    "desc": "The capital, with a mix of Portuguese-era architecture, markets and seafood."
+   },
+   {
+    "name": "Ilha de Moçambique",
+    "desc": "A UNESCO island town on the north coast with historic forts and old streets."
+   },
+   {
+    "name": "Bazaruto Archipelago",
+    "desc": "Islands off the central coast known for beaches and diving, reached by boat or air."
+   },
+   {
+    "name": "Tofo and Inhambane",
+    "desc": "A coastal area popular for diving, whale sharks and whale watching in season."
+   },
+   {
+    "name": "Gorongosa National Park",
+    "desc": "A wildlife park recovering through major restoration work."
+   },
+   {
+    "name": "Vilankulo",
+    "desc": "A base for trips to Bazaruto, with beaches and a small-town feel."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Marrabenta Music",
+    "desc": "A lively urban music and dance style from Maputo."
+   },
+   {
+    "name": "Makonde Carving",
+    "desc": "Detailed wooden carvings from the north, sold at markets in Maputo and elsewhere."
+   },
+   {
+    "name": "Portuguese and Swahili Heritage",
+    "desc": "Colonial and coastal Swahili influences are visible in the architecture and food."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "25 June. National celebrations."
+   },
+   {
+    "name": "Maputo International Music Festival",
+    "desc": "Check local listings for dates and venues."
+   },
+   {
+    "name": "Women's Day",
+    "desc": "7 April. Celebrates women's contributions with events."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Mozambique Carnival",
+    "desc": "February. Parades and music in Maputo and other towns."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Date varies. Celebrated especially along the northern coast."
+   },
+   {
+    "name": "Christmas and New Year",
+    "desc": "December. Church services, family gatherings and beach events."
+   }
+  ],
+  "food": [
+   {
+    "name": "Piri-Piri Prawns",
+    "desc": "Grilled prawns with a spicy chilli sauce, a coastal highlight."
+   },
+   {
+    "name": "Matapa",
+    "desc": "Cassava leaves cooked with coconut and peanuts, served with rice."
+   },
+   {
+    "name": "Xima",
+    "desc": "A maize porridge eaten with relishes and stews."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Beach Lodges",
+    "desc": "From simple to high-end along the southern and central coast."
+   },
+   {
+    "name": "Guesthouses in Cities",
+    "desc": "Small hotels and guesthouses in Maputo and Inhambane."
+   },
+   {
+    "name": "Safari Camps",
+    "desc": "Tented camps in Gorongosa and other parks."
+   }
+  ],
+  "intro": "Mozambique is a long Indian Ocean country in south-eastern Africa, known for beaches, island archipelagos and Portuguese-influenced cities. Conditions vary a lot by region. The far north, including Cabo Delgado, has serious security problems, and political unrest has also occurred elsewhere, so check official advisories first. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Maputo",
+     "items": [
+      "Arrive, markets, seafood dinner"
+     ]
+    },
+    {
+     "title": "Day 2 — Maputo",
+     "items": [
+      "Fort, museums, old town"
+     ]
+    },
+    {
+     "title": "Day 3 — Inhambane",
+     "items": [
+      "Travel south-east"
+     ]
+    },
+    {
+     "title": "Day 4 — Tofo",
+     "items": [
+      "Beach and diving"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Maputo",
+     "items": [
+      "City highlights"
+     ]
+    },
+    {
+     "title": "Day 3 — Inhambane",
+     "items": [
+      "Old town"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Tofo",
+     "items": [
+      "Ocean activities"
+     ]
+    },
+    {
+     "title": "Day 6 — Vilankulo",
+     "items": [
+      "Fly or travel by road"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Maputo",
+     "items": [
+      "City highlights"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Tofo and Inhambane",
+     "items": [
+      "Beach, diving, whale watching in season"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Vilankulo and Bazaruto",
+     "items": [
+      "Boat trips and islands"
+     ]
+    },
+    {
+     "title": "Day 9 — Gorongosa",
+     "items": [
+      "Visit the park if time allows"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is drier and cooler. November to April is hot and wet, with cyclone risk.",
+   "currency": "Mozambican metical (MZN). Cash is useful, and ATMs are mainly in cities.",
+   "safety": "Crime and unrest can occur, and some northern areas are very risky. Avoid night driving, follow official advisories and use reputable operators.",
+   "tipping": "Not mandatory; around 10 percent in restaurants is common for good service.",
+   "transport": "Long distances and poor roads. Flights link main cities, and minibuses (chapas) are cheap but crowded; check road conditions locally."
+  }
+ },
+ "Namibia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Sossusvlei & Namib Desert",
+    "desc": "Towering red dunes and a white clay pan, best visited at sunrise."
+   },
+   {
+    "name": "Etosha National Park",
+    "desc": "One of southern Africa's main safari parks, with waterhole viewing in the dry season."
+   },
+   {
+    "name": "Swakopmund",
+    "desc": "A coastal town with German-era architecture and a base for desert and ocean activities."
+   },
+   {
+    "name": "Fish River Canyon",
+    "desc": "One of the largest canyons in Africa, in the far south."
+   },
+   {
+    "name": "Skeleton Coast",
+    "desc": "A remote, fog-bound Atlantic coast with shipwrecks and seal colonies."
+   },
+   {
+    "name": "Damaraland",
+    "desc": "Rugged desert country with rock engravings at Twyfelfontein."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Himba Communities",
+    "desc": "Semi-nomadic herders in the north-west; visit only with a reputable local guide and respect photography etiquette."
+   },
+   {
+    "name": "Twyfelfontein Rock Art",
+    "desc": "A UNESCO-listed site with thousands of ancient rock engravings."
+   },
+   {
+    "name": "Windhoek Heritage",
+    "desc": "The capital mixes colonial buildings, craft markets and museums on independence and history."
+   }
+  ],
+  "events": [
+   {
+    "name": "Windhoek Karneval (WIKA)",
+    "desc": "Typically April. A German-heritage carnival in the capital with parades and music."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "21 March. National celebrations marking independence in 1990."
+   },
+   {
+    "name": "Heroes' Day",
+    "desc": "26 August. A public holiday remembering those who fought for independence."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Maherero Day",
+    "desc": "Usually August in Okahandja. Herero communities gather in traditional dress to honour past leaders."
+   },
+   {
+    "name": "Oktoberfest Windhoek",
+    "desc": "Usually October. A German-style community festival with food and music."
+   },
+   {
+    "name": "Windhoek Jazz and Cultural Events",
+    "desc": "Held at various times of year; check local listings for dates."
+   }
+  ],
+  "food": [
+   {
+    "name": "Biltong",
+    "desc": "Air-dried spiced meat, a popular snack across southern Africa."
+   },
+   {
+    "name": "Kapana",
+    "desc": "Grilled street-side meat served with spices, common in northern towns."
+   },
+   {
+    "name": "Oshifima with Stew",
+    "desc": "A firm maize or millet porridge eaten with meat or vegetable stew."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Safari Lodges near Etosha",
+    "desc": "Range from camps in the park to private lodges just outside the gates."
+   },
+   {
+    "name": "Swakopmund Guesthouses",
+    "desc": "Small guesthouses and hotels in town, good for coastal activities."
+   },
+   {
+    "name": "Desert Camps near Sossusvlei",
+    "desc": "Tented camps and lodges close to the dune entrance; book well ahead."
+   }
+  ],
+  "intro": "Namibia is a large, sparsely populated country on Africa's south-west coast, known for desert dunes, wildlife parks and a long Atlantic shoreline. Distances are big and many roads are gravel, so self-drive trips need planning. Entry rules have changed recently, so confirm them before booking. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Windhoek",
+     "items": [
+      "Arrive, city orientation, craft market"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Sossusvlei",
+     "items": [
+      "Drive south-west; dunes at sunrise, Sesriem Canyon"
+     ]
+    },
+    {
+     "title": "Day 4 — Swakopmund",
+     "items": [
+      "Coastal drive, town and waterfront"
+     ]
+    },
+    {
+     "title": "Day 5 — Return",
+     "items": [
+      "Drive or fly back via Windhoek"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Windhoek",
+     "items": [
+      "Arrive and rest"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Sossusvlei",
+     "items": [
+      "Dunes and desert walks"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Swakopmund",
+     "items": [
+      "Coastal town, optional dune or ocean activities"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Damaraland",
+     "items": [
+      "Rock art and desert landscapes, then return"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1 — Windhoek",
+     "items": [
+      "Arrive and orientation"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Sossusvlei",
+     "items": [
+      "Dunes and canyon"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Swakopmund",
+     "items": [
+      "Coastal town and activities"
+     ]
+    },
+    {
+     "title": "Day 6 — Damaraland",
+     "items": [
+      "Twyfelfontein rock art"
+     ]
+    },
+    {
+     "title": "Day 7–9 — Etosha",
+     "items": [
+      "Game drives and waterholes"
+     ]
+    },
+    {
+     "title": "Day 10 — Return",
+     "items": [
+      "Drive back to Windhoek for departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May–October is the dry season, good for wildlife viewing at waterholes. November–April is hotter with rain, and can be green and quiet.",
+   "currency": "Namibian dollar (NAD), pegged to the South African rand, which is widely accepted. Cards work in towns; carry cash for remote areas.",
+   "safety": "Generally stable. Take usual care against petty theft in cities, and watch for wildlife, long distances and fuel availability when driving.",
+   "tipping": "About 10% in restaurants is common; guides and fuel attendants are usually tipped a small amount.",
+   "transport": "Self-drive is the most common way to travel, on long tar and gravel roads. Fuel stations can be far apart. Domestic flights and organised tours are alternatives."
+  }
+ },
+ "Nauru": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Anibare Bay",
+    "desc": "A curved bay on the east coast with a sandy shore and rocky reef."
+   },
+   {
+    "name": "Buada Lagoon",
+    "desc": "A small freshwater lagoon ringed by greenery in the island's interior."
+   },
+   {
+    "name": "Command Ridge",
+    "desc": "The highest point on the island, with the remains of a Japanese wartime gun position."
+   },
+   {
+    "name": "Moqua Caves",
+    "desc": "Underground freshwater pools in a limestone cave."
+   },
+   {
+    "name": "Topside",
+    "desc": "The inland phosphate plateau showing the island's mining history."
+   },
+   {
+    "name": "Coastal Ring Road",
+    "desc": "An easy loop road around the whole island, good for a half-day tour."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Phosphate Heritage",
+    "desc": "Mining shaped Nauru's history and economy; local guides can explain the past and its effects."
+   },
+   {
+    "name": "Local Sport",
+    "desc": "Australian rules football and weightlifting are popular."
+   },
+   {
+    "name": "Island Hospitality",
+    "desc": "Nauruans are welcoming; ask before photographing people."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "31 January. Parades, sport and celebrations."
+   },
+   {
+    "name": "Angam Day",
+    "desc": "26 October. Marks the recovery of the population after hard periods in the 20th century."
+   },
+   {
+    "name": "Constitution Day",
+    "desc": "17 May. National holiday."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Angam Day",
+    "desc": "26 October. A cherished national celebration with music, sport and food."
+   },
+   {
+    "name": "Independence Celebrations",
+    "desc": "Late January. Community events across the island."
+   },
+   {
+    "name": "Christmas",
+    "desc": "December. Church services and family gatherings."
+   }
+  ],
+  "food": [
+   {
+    "name": "Fresh Fish",
+    "desc": "Tuna and reef fish are common."
+   },
+   {
+    "name": "Coconut",
+    "desc": "Coconut milk and fresh coconut are staples."
+   },
+   {
+    "name": "Local Chinese and Island Dishes",
+    "desc": "Rice, noodles and imported ingredients feature on menus."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Menen Hotel",
+    "desc": "The largest hotel on the island, near the coast."
+   },
+   {
+    "name": "Government Guesthouses",
+    "desc": "Simple options; arrange ahead."
+   },
+   {
+    "name": "Small Guesthouses",
+    "desc": "A few small options; book in advance."
+   }
+  ],
+  "intro": "Nauru is a tiny island nation in the central Pacific, one of the world's smallest countries by area, with a ring road around its coast. Phosphate mining shaped the island, and tourism is very limited. Plan flights and accommodation well ahead. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Arrive",
+     "items": [
+      "Settle in and walk the coast"
+     ]
+    },
+    {
+     "title": "Day 2 — Ring Road",
+     "items": [
+      "Drive the island loop and visit the shoreline"
+     ]
+    },
+    {
+     "title": "Day 3 — Buada",
+     "items": [
+      "Lagoon and village life"
+     ]
+    },
+    {
+     "title": "Day 4 — Command Ridge",
+     "items": [
+      "Wartime relics and views"
+     ]
+    },
+    {
+     "title": "Day 5 — Moqua Caves",
+     "items": [
+      "Caves and farewell"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Arrive",
+     "items": [
+      "Settle in"
+     ]
+    },
+    {
+     "title": "Day 2 — Ring Road",
+     "items": [
+      "Island loop"
+     ]
+    },
+    {
+     "title": "Day 3 — Buada Lagoon",
+     "items": [
+      "Village and lagoon"
+     ]
+    },
+    {
+     "title": "Day 4 — Command Ridge",
+     "items": [
+      "Wartime relics and views"
+     ]
+    },
+    {
+     "title": "Day 5 — Anibare Bay",
+     "items": [
+      "Beach and reef"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Moqua Caves and Topside",
+     "items": [
+      "Caves, plateau and rest"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Settle in",
+     "items": [
+      "Walking and local visits"
+     ]
+    },
+    {
+     "title": "Day 3 — Ring Road",
+     "items": [
+      "Complete the loop"
+     ]
+    },
+    {
+     "title": "Day 4 — Buada Lagoon",
+     "items": [
+      "Lagoon and village"
+     ]
+    },
+    {
+     "title": "Day 5 — Command Ridge",
+     "items": [
+      "Wartime relics and views"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Anibare Bay",
+     "items": [
+      "Beach and reef"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Topside and Caves",
+     "items": [
+      "Phosphate heritage and rest"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Hot and humid all year. Roughly May to October is a little drier; flights run on limited schedules.",
+   "currency": "Australian dollar (AUD). Cards and ATMs are limited, so bring cash.",
+   "safety": "Generally safe, with limited medical care. Insurance with medical evacuation is wise.",
+   "tipping": "Not customary.",
+   "transport": "The island is small. Taxis, hired cars and scooters are the usual ways to get around. Flights are infrequent, so book early."
+  }
+ },
+ "Niger": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Agadez",
+    "desc": "A historic Saharan trading city with a famed mud-brick mosque. Security conditions are poor."
+   },
+   {
+    "name": "Niamey",
+    "desc": "The capital, on the Niger river, with a national museum and craft markets."
+   },
+   {
+    "name": "Aïr Mountains",
+    "desc": "A Saharan massif with desert scenery. Not currently safe to visit independently."
+   },
+   {
+    "name": "Ténéré Desert",
+    "desc": "A vast Saharan expanse once visited on long overland journeys."
+   },
+   {
+    "name": "W National Park",
+    "desc": "A transboundary park shared with Benin and Burkina Faso, with wildlife. Security concerns apply."
+   },
+   {
+    "name": "Zinder",
+    "desc": "A historic city with a sultan's palace and old quarter."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Tuareg Heritage",
+    "desc": "Tuareg silver jewellery, leatherwork and music are celebrated across Niger."
+   },
+   {
+    "name": "Niamey National Museum",
+    "desc": "Displays on the country's people, crafts and archaeology, including dinosaur fossils."
+   },
+   {
+    "name": "Niger River Life",
+    "desc": "Fishermen, markets and boats on the river define life near the capital."
+   }
+  ],
+  "events": [
+   {
+    "name": "Cure Salée",
+    "desc": "Annual Fulani and Tuareg gathering near In-Gall, traditionally in September. Check whether it takes place."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "3 August. National commemorations mark independence from France."
+   },
+   {
+    "name": "Tabaski (Eid al-Adha)",
+    "desc": "Dates vary yearly. Family gatherings and meat sharing."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, dates change yearly. Prayers, meals and family visits."
+   },
+   {
+    "name": "Festival de l'Aïr",
+    "desc": "A Tuareg music and culture festival historically held in the north. Check current status."
+   },
+   {
+    "name": "Gerewol",
+    "desc": "A Wodaabe courtship gathering in the Sahel, usually in autumn. Conditions make access difficult."
+   }
+  ],
+  "food": [
+   {
+    "name": "Riz au Gras",
+    "desc": "Rice cooked with oil, tomato and meat."
+   },
+   {
+    "name": "Brochettes (Soya)",
+    "desc": "Spiced grilled meat skewers sold at street stalls."
+   },
+   {
+    "name": "Millet Porridge (Fura)",
+    "desc": "Millet balls mixed with milk, a common refreshment."
+   }
+  ],
+  "intro": "Niger is a vast Sahelian country with Saharan landscapes and a strong Tuareg heritage, but it faces serious security risks including terrorism and kidnapping. Most governments advise against all travel and consular help is limited. This page is for general information and is not a recommendation to travel. This guide has 5, 7 and 10-day routes, shown for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Niamey",
+     "items": [
+      "National museum and river views, only with current advice"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Niamey area",
+     "items": [
+      "Craft markets and local meetings"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Niamey",
+     "items": [
+      "City sights"
+     ]
+    },
+    {
+     "title": "Day 4–7 — Dosso region",
+     "items": [
+      "Rural visits, only if advice allows"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Niamey",
+     "items": [
+      "City and museum"
+     ]
+    },
+    {
+     "title": "Day 4–6 — Dosso region",
+     "items": [
+      "Rural stops"
+     ]
+    },
+    {
+     "title": "Day 7–10 — Zinder",
+     "items": [
+      "Historic city, subject to current security"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to February is cooler and drier. March to June is extremely hot, with rains from June to September.",
+   "currency": "West African CFA franc (XOF), pegged to the euro. Cash is essential outside Niamey.",
+   "safety": "Most governments advise against all travel because of terrorism, kidnapping, crime and unrest. Do not plan a trip without current official advice and specialist support.",
+   "tipping": "Not customary.",
+   "transport": "Road travel outside Niamey is dangerous. Flights are limited. Independent travel is not advisable."
+  },
+  "stays": [
+   {
+    "name": "Niamey Hotels",
+    "desc": "A few hotels serve business and official visitors. Check availability and current advice."
+   },
+   {
+    "name": "Agadez Guesthouses",
+    "desc": "Small lodgings that have traditionally served desert travellers. Check security first."
+   },
+   {
+    "name": "Zinder Lodgings",
+    "desc": "Basic hotels, subject to current security conditions."
+   }
+  ]
+ },
+ "North Korea": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Pyongyang",
+    "desc": "The capital, with monuments, wide avenues and museums, visited only on organised programmes."
+   },
+   {
+    "name": "Demilitarized Zone",
+    "desc": "A heavily guarded border area at Panmunjom."
+   },
+   {
+    "name": "Kaesong",
+    "desc": "A historic city with old Goryeo-era sites."
+   },
+   {
+    "name": "Mount Kumgang",
+    "desc": "A scenic mountain area on the east coast."
+   },
+   {
+    "name": "Mount Paektu",
+    "desc": "The highest mountain on the Korean Peninsula, on the Chinese border."
+   },
+   {
+    "name": "Wonsan",
+    "desc": "A coastal city with a beach resort area."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Mass Gymnastics and Performance",
+    "desc": "Large-scale choreographed performances have been a notable cultural feature."
+   },
+   {
+    "name": "Monuments and Museums",
+    "desc": "Tours focus on state monuments and history museums."
+   },
+   {
+    "name": "Strict Etiquette",
+    "desc": "Show respect for official figures and monuments, and follow guide instructions."
+   }
+  ],
+  "events": [
+   {
+    "name": "Day of the Sun",
+    "desc": "15 April is a major national holiday."
+   },
+   {
+    "name": "Foundation Day",
+    "desc": "9 September marks the founding of the state."
+   },
+   {
+    "name": "Party Foundation Day",
+    "desc": "10 October is a key national day."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Lunar New Year",
+    "desc": "January or February. Family gatherings and traditional foods."
+   },
+   {
+    "name": "Chuseok",
+    "desc": "September or October. Harvest holiday with ancestor commemorations."
+   },
+   {
+    "name": "Day of the Sun",
+    "desc": "15 April. Major national celebrations."
+   }
+  ],
+  "food": [
+   {
+    "name": "Pyongyang Naengmyeon",
+    "desc": "Cold buckwheat noodles in broth, a famous local dish."
+   },
+   {
+    "name": "Kimchi",
+    "desc": "Fermented vegetables served with most meals."
+   },
+   {
+    "name": "Bibimbap",
+    "desc": "Rice topped with vegetables and egg."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Yanggakdo International Hotel",
+    "desc": "A tall hotel on an island in the Taedong River used by many foreign visitors."
+   },
+   {
+    "name": "Koryo Hotel",
+    "desc": "A twin-tower hotel in central Pyongyang."
+   },
+   {
+    "name": "Tour-Assigned Hotels",
+    "desc": "Visitors stay only in hotels assigned by the authorised travel organiser."
+   }
+  ],
+  "intro": "North Korea is among the most tightly controlled countries, and independent travel is not possible. Visitors in recent years have been accompanied by state guides at all times, and many governments warn of serious risks of arrest and long detention. Some nationalities are barred from visiting, and access has been limited since border closures. This page is general information, not a recommendation to travel; the guide has 5, 7 and 10-day routes for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–3 — Pyongyang",
+     "items": [
+      "Monuments, museums and organised sights"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kaesong & DMZ",
+     "items": [
+      "Historic sites and border area"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Pyongyang",
+     "items": [
+      "Organised sights"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kaesong & DMZ",
+     "items": [
+      "Historic and border sites"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Wonsan",
+     "items": [
+      "Coastal area, if included in the tour"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Pyongyang",
+     "items": [
+      "Organised sights"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kaesong & DMZ",
+     "items": [
+      "Historic and border sites"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Wonsan",
+     "items": [
+      "Coast and beach area"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Mount Kumgang or Paektu",
+     "items": [
+      "Mountain scenery, subject to tour approval"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "April to June and September to October are the most pleasant; winters are long and very cold.",
+   "currency": "North Korean won, but tourists generally pay in euros, Chinese yuan or US dollars. Cards from abroad do not work.",
+   "safety": "Governments warn of the risk of arbitrary arrest and detention. Follow all rules and instructions and read official advice carefully.",
+   "tipping": "Not customary; small gifts for guides are sometimes given.",
+   "transport": "All travel is on organised itineraries with escorts; independent movement is not allowed."
+  }
+ },
+ "Palau": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Rock Islands Southern Lagoon",
+    "desc": "Hundreds of green limestone islands, lagoons and reefs, a UNESCO World Heritage Site."
+   },
+   {
+    "name": "Blue Corner",
+    "desc": "A famous dive site for sharks, turtles and reef fish."
+   },
+   {
+    "name": "Milky Way Lagoon",
+    "desc": "Calm, pale-blue water known for soft white mud used in skin treatments."
+   },
+   {
+    "name": "Peleliu",
+    "desc": "A quiet island with preserved sites from one of the Pacific war's major battles."
+   },
+   {
+    "name": "Ngardmau Waterfall",
+    "desc": "A forest waterfall on Babeldaob reached by a jungle walk."
+   },
+   {
+    "name": "Belau National Museum",
+    "desc": "A small museum in Koror covering Palauan history and traditional life."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Bai (Meeting House)",
+    "desc": "Traditional men's meeting houses with painted storyboards; some are open to visitors."
+   },
+   {
+    "name": "Storyboards",
+    "desc": "Carved wooden panels depicting legends and daily life."
+   },
+   {
+    "name": "Palau Pledge",
+    "desc": "On arrival, visitors sign a promise in their passport to protect the islands. It reflects the country's conservation focus."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "1 October. National day with parades and community gatherings."
+   },
+   {
+    "name": "Constitution Day",
+    "desc": "9 July. Observed with local events."
+   },
+   {
+    "name": "Peleliu Landing Anniversary",
+    "desc": "15 September. Remembrance of the 1944 landings, observed on Peleliu."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Independence Season",
+    "desc": "October. Cultural performances, sport and local food."
+   },
+   {
+    "name": "Christmas",
+    "desc": "December. A major family time with church services and community feasts."
+   },
+   {
+    "name": "Easter",
+    "desc": "March or April. Church observances and family gatherings."
+   }
+  ],
+  "food": [
+   {
+    "name": "Fresh Fish and Seafood",
+    "desc": "Grilled reef fish, tuna sashimi and local crab."
+   },
+   {
+    "name": "Taro and Tapioca",
+    "desc": "Starchy staples often served with fish or in coconut milk."
+   },
+   {
+    "name": "Coconut Dishes",
+    "desc": "Coconut milk and sweets are used in many local meals."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Koror Hotels",
+    "desc": "The main hotels and dive resorts are in and around Koror."
+   },
+   {
+    "name": "Dive Lodges",
+    "desc": "Smaller lodges focused on diving and snorkelling."
+   },
+   {
+    "name": "Peleliu or Babeldaob Guesthouses",
+    "desc": "Simple stays for quieter visits."
+   }
+  ],
+  "intro": "Palau is a small Pacific country known for clear water, diving, coral lagoons and a strong conservation culture. Most visitors stay around Koror and make day trips to the Rock Islands. Many activities need permits or licensed guides. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Koror",
+     "items": [
+      "Arrive, museum and town"
+     ]
+    },
+    {
+     "title": "Day 2 — Rock Islands",
+     "items": [
+      "Boat day with snorkelling and lagoons"
+     ]
+    },
+    {
+     "title": "Day 3 — Diving or Snorkelling",
+     "items": [
+      "Blue Corner or other reef sites"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Babeldaob",
+     "items": [
+      "Waterfall hike and villages"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Koror",
+     "items": [
+      "Museum, harbour"
+     ]
+    },
+    {
+     "title": "Day 2–3 — Rock Islands",
+     "items": [
+      "Lagoons, snorkelling, Milky Way"
+     ]
+    },
+    {
+     "title": "Day 4 — Babeldaob",
+     "items": [
+      "Ngardmau Waterfall"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Peleliu",
+     "items": [
+      "History and quiet beaches"
+     ]
+    },
+    {
+     "title": "Day 7 — Koror",
+     "items": [
+      "Departure buffer"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Koror",
+     "items": [
+      "Museum, markets"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Rock Islands",
+     "items": [
+      "Snorkelling, kayaking, dives"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Babeldaob",
+     "items": [
+      "Waterfalls, villages"
+     ]
+    },
+    {
+     "title": "Day 8–9 — Peleliu",
+     "items": [
+      "War history and quiet island time"
+     ]
+    },
+    {
+     "title": "Day 10 — Koror",
+     "items": [
+      "Departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Roughly November to May is drier and calmer for diving. Rain is possible all year. Typhoons are uncommon but possible.",
+   "currency": "US dollar (USD). Cards are common in Koror; carry some cash.",
+   "safety": "Generally very safe. Follow boat and dive guidance, protect yourself from sun and respect reef-protection rules.",
+   "tipping": "Not required; small tips for guides are appreciated.",
+   "transport": "Rental cars and taxis are common on the main islands. Boats are needed for the Rock Islands. Peleliu is reached by boat or ferry."
+  }
+ },
+ "Palestine": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Bethlehem",
+    "desc": "The Church of the Nativity and nearby old town, a major pilgrimage site."
+   },
+   {
+    "name": "Jericho",
+    "desc": "One of the world's oldest continuously inhabited cities, in a low desert valley."
+   },
+   {
+    "name": "Hebron Old City",
+    "desc": "A historic market quarter with a complex political situation."
+   },
+   {
+    "name": "Nablus",
+    "desc": "A city with an old souk, soap workshops and traditional sweets."
+   },
+   {
+    "name": "Ramallah",
+    "desc": "The main administrative and cultural centre of the West Bank."
+   },
+   {
+    "name": "Sebastia",
+    "desc": "An archaeological site with Roman, Byzantine and earlier remains."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Embroidery",
+    "desc": "Traditional hand-stitched patterns vary by village and region."
+   },
+   {
+    "name": "Olive Harvest",
+    "desc": "A seasonal family tradition across the West Bank."
+   },
+   {
+    "name": "Hospitality",
+    "desc": "Offering coffee and tea is a strong custom. Local guides can explain current conditions."
+   }
+  ],
+  "events": [
+   {
+    "name": "Olive Harvest Season",
+    "desc": "October to November. Families harvest and press olives."
+   },
+   {
+    "name": "Land Day",
+    "desc": "30 March. Commemorations held across Palestinian communities."
+   },
+   {
+    "name": "Palestine Festival of Literature",
+    "desc": "Typically spring. Writers and artists travel to events; dates vary."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Christmas in Bethlehem",
+    "desc": "December and early January. Services at the Church of the Nativity."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Family gatherings and sweets."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Family gatherings and shared meals."
+   }
+  ],
+  "food": [
+   {
+    "name": "Musakhan",
+    "desc": "Roast chicken with onions, sumac and olive oil on flatbread."
+   },
+   {
+    "name": "Maqluba",
+    "desc": "A rice dish with vegetables and meat, flipped before serving."
+   },
+   {
+    "name": "Knafeh Nabulsiyeh",
+    "desc": "A cheese and syrup pastry associated with Nablus."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Bethlehem Hotels",
+    "desc": "A range of hotels and guesthouses near the old town; availability depends on conditions."
+   },
+   {
+    "name": "Ramallah Hotels",
+    "desc": "A few hotels serving business and cultural visitors."
+   },
+   {
+    "name": "Guesthouses",
+    "desc": "Family-run guesthouses in some towns; check current advice."
+   }
+  ],
+  "intro": "Palestine, including the West Bank and the Gaza Strip, has deep historical, religious and cultural importance but faces serious security and legal risks. Many governments advise against or restrict travel to parts of the territory, and Gaza in particular is extremely dangerous. Entry and movement are controlled by Israeli authorities, and conditions can change quickly. Check official advice before considering any trip. This page is general information, not a recommendation to travel. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Bethlehem",
+     "items": [
+      "Old town and Church of the Nativity, if conditions allow"
+     ]
+    },
+    {
+     "title": "Day 3 — Jericho",
+     "items": [
+      "Historic sites and desert valley"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Ramallah",
+     "items": [
+      "Museums, cafes and cultural venues"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Bethlehem",
+     "items": [
+      "Old town and pilgrimage sites"
+     ]
+    },
+    {
+     "title": "Day 3 — Jericho",
+     "items": [
+      "Historic sites"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Ramallah",
+     "items": [
+      "Museums and cultural venues"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Nablus",
+     "items": [
+      "Old city, soap and sweets, subject to conditions"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Bethlehem",
+     "items": [
+      "Old town and pilgrimage sites"
+     ]
+    },
+    {
+     "title": "Day 3 — Jericho",
+     "items": [
+      "Historic sites"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Ramallah",
+     "items": [
+      "Museums and cultural venues"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Nablus",
+     "items": [
+      "Old city and local workshops"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Sebastia and Hebron",
+     "items": [
+      "Only if conditions and official advice allow; use a local guide"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Spring (March to May) and autumn (October to November) are most comfortable. Summers are hot and winters can be cool and wet. Security conditions matter more than season.",
+   "currency": "Israeli shekel (ILS) is the main currency; Jordanian dinar and US dollar are also used.",
+   "safety": "Serious security risks exist, and conditions change quickly. Gaza is extremely dangerous and many governments advise against all travel there; many also advise against or restrict travel to parts of the West Bank. Consult your government's advice and consider insurance and local guidance.",
+   "tipping": "Around 10 percent in restaurants if service is not included.",
+   "transport": "Movement is affected by checkpoints and closures. Shared taxis and buses link towns; use licensed drivers and check conditions before moving between areas."
+  }
+ },
+ "Republic of the Congo": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Brazzaville",
+    "desc": "The capital on the Congo River, facing Kinshasa across the water, with markets, music and a basilica."
+   },
+   {
+    "name": "Pointe-Noire",
+    "desc": "The main port and coastal city, with beaches and a lively atmosphere."
+   },
+   {
+    "name": "Odzala-Kokoua National Park",
+    "desc": "A large rainforest park in the north with gorillas and forest elephants."
+   },
+   {
+    "name": "Nouabalé-Ndoki National Park",
+    "desc": "A remote northern rainforest park with forest wildlife, accessed through specialist operators."
+   },
+   {
+    "name": "Loango Coast",
+    "desc": "A stretch of Atlantic coastline with beaches, though most tourism is in neighbouring areas."
+   },
+   {
+    "name": "Congo River Rapids",
+    "desc": "The river at Brazzaville has rapids near the city."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Congolese Rumba",
+    "desc": "The two Congolese capitals share a vibrant music scene, with live performances in Brazzaville."
+   },
+   {
+    "name": "Sapeurs",
+    "desc": "Brazzaville is known for its sapeurs, who wear flamboyant tailored outfits."
+   },
+   {
+    "name": "Local Markets",
+    "desc": "Markets such as Total sell fabrics, produce and crafts."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "15 August. Marks independence from France in 1960."
+   },
+   {
+    "name": "Labour Day",
+    "desc": "1 May. A national holiday with parades."
+   },
+   {
+    "name": "Labour Day",
+    "desc": "1 May. A national holiday."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Christmas",
+    "desc": "25 December. Church services and family meals."
+   },
+   {
+    "name": "Easter",
+    "desc": "Date varies yearly. Widely observed."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan. Observed by Muslim communities."
+   }
+  ],
+  "food": [
+   {
+    "name": "Poulet Moambé",
+    "desc": "Chicken cooked in palm nut sauce, a national dish."
+   },
+   {
+    "name": "Saka-Saka",
+    "desc": "Cassava leaves cooked with oil and fish or meat."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Fish from the river or sea, often served with plantain or cassava."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Brazzaville Hotels",
+    "desc": "International-style hotels in the capital, usually expensive."
+   },
+   {
+    "name": "Pointe-Noire Hotels",
+    "desc": "Business hotels near the coast, popular with oil-industry visitors."
+   },
+   {
+    "name": "Odzala Lodges",
+    "desc": "Lodges operate in the park and are arranged through the operator."
+   }
+  ],
+  "intro": "The Republic of the Congo has rainforest, Atlantic beaches and a lively music culture in Brazzaville. Its security risks include crime and past unrest in some areas, and infrastructure is limited, so check your government's current advice. This guide is for general information, and prices, access and conditions change. It has 5, 7 and 10-day routes, with outlines kept deliberately simple.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Brazzaville",
+     "items": [
+      "Markets, music and the riverside"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Pointe-Noire",
+     "items": [
+      "Fly or travel to the coast for beaches and local cuisine"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Brazzaville",
+     "items": [
+      "City sights and music"
+     ]
+    },
+    {
+     "title": "Day 4–7 — Pointe-Noire",
+     "items": [
+      "Coastal city and beaches"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Brazzaville",
+     "items": [
+      "City sights and music"
+     ]
+    },
+    {
+     "title": "Day 4–6 — Pointe-Noire",
+     "items": [
+      "Coast and beaches"
+     ]
+    },
+    {
+     "title": "Day 7–10 — Odzala-Kokoua National Park",
+     "items": [
+      "Rainforest and gorilla viewing through an operator"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "The drier months of June to September are generally the easiest for travel; the rainy seasons make roads difficult.",
+   "currency": "Central African CFA franc (XAF). Cards work in a few hotels, so carry cash.",
+   "safety": "Check your government's advice. Petty crime exists in cities, and some regions have had unrest. Take care at night and avoid demonstrations.",
+   "tipping": "Not required; small tips are appreciated in restaurants and for guides.",
+   "transport": "Domestic flights link major towns, and the Brazzaville to Pointe-Noire road and rail are the main routes. Many roads in the north are poor."
+  }
+ },
+ "Saint Kitts and Nevis": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Brimstone Hill Fortress",
+    "desc": "A large 18th-century fort and UNESCO World Heritage Site with wide sea views."
+   },
+   {
+    "name": "Basseterre",
+    "desc": "The capital of St Kitts, with a central square called the Circus and colonial-era buildings."
+   },
+   {
+    "name": "Mount Liamuiga",
+    "desc": "A dormant volcano with a hiking trail to the crater rim, best done with a guide."
+   },
+   {
+    "name": "Pinney's Beach",
+    "desc": "A long Nevis beach with calm water and casual beach bars."
+   },
+   {
+    "name": "Charlestown",
+    "desc": "Nevis's small main town, with the Alexander Hamilton birthplace museum."
+   },
+   {
+    "name": "Scenic Railway",
+    "desc": "A tourist train around St Kitts, built on the route of an old sugar railway."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Sugar Heritage",
+    "desc": "The islands' history is tied to sugar plantations and the enslaved people who worked them; museums and old estates explain this."
+   },
+   {
+    "name": "Hamilton Birthplace",
+    "desc": "Nevis is known as the birthplace of Alexander Hamilton, and a small museum records his early life."
+   },
+   {
+    "name": "Kittitian and Nevisian Music",
+    "desc": "Soca, calypso and steelpan are popular, especially around carnival."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "19 September. Parades and ceremonies mark independence from Britain in 1983."
+   },
+   {
+    "name": "St Kitts Music Festival",
+    "desc": "Usually June. A multi-day festival of Caribbean and international acts in Basseterre."
+   },
+   {
+    "name": "Nevis Culturama",
+    "desc": "Late July to early August. Nevis's cultural festival, with shows, pageants and street parades."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "St Kitts Carnival (Sugar Mas)",
+    "desc": "December to early January. Parades, costumes and calypso competitions."
+   },
+   {
+    "name": "Culturama",
+    "desc": "Late July to early August. Nevis's main cultural festival."
+   },
+   {
+    "name": "Nevis Mango Festival",
+    "desc": "Usually July. A food-focused event celebrating the local mango harvest."
+   }
+  ],
+  "food": [
+   {
+    "name": "Goat Water",
+    "desc": "A thick, spiced goat stew, often described as the national dish."
+   },
+   {
+    "name": "Fresh Fish and Lobster",
+    "desc": "Grilled or stewed fish and lobster are common at beachside restaurants."
+   },
+   {
+    "name": "Johnny Cakes and Salt Fish",
+    "desc": "Fried dough served with saltfish, a familiar breakfast or snack."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Historic Plantation Inns",
+    "desc": "Restored sugar estates converted into small inns, usually at the higher end."
+   },
+   {
+    "name": "Beach Resorts",
+    "desc": "Larger resorts, mainly on the southeast peninsula of St Kitts and along Nevis's west coast."
+   },
+   {
+    "name": "Guesthouses and Apartments",
+    "desc": "Smaller, cheaper options in Basseterre and Charlestown."
+   }
+  ],
+  "intro": "Saint Kitts and Nevis is a two-island country in the eastern Caribbean, with volcanic hills, old plantation houses and the Brimstone Hill Fortress. St Kitts is the larger island and the main centre, while Nevis is quieter and reached by a short ferry. The islands lie in the hurricane belt, so storm season can affect travel. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Basseterre",
+     "items": [
+      "Arrive, walk around the Circus and waterfront"
+     ]
+    },
+    {
+     "title": "Day 2 — Brimstone Hill",
+     "items": [
+      "Fortress and the north coast of St Kitts"
+     ]
+    },
+    {
+     "title": "Day 3 — St Kitts Scenic Railway",
+     "items": [
+      "Rail and bus tour around the island"
+     ]
+    },
+    {
+     "title": "Day 4 — Nevis",
+     "items": [
+      "Ferry to Charlestown, Hamilton museum and Pinney's Beach"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Return to St Kitts and fly out"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Basseterre",
+     "items": [
+      "Arrival and town walk"
+     ]
+    },
+    {
+     "title": "Day 2 — Brimstone Hill",
+     "items": [
+      "Fort and nearby villages"
+     ]
+    },
+    {
+     "title": "Day 3 — Mount Liamuiga",
+     "items": [
+      "Guided hike, or a rainforest walk"
+     ]
+    },
+    {
+     "title": "Day 4 — Southeast Peninsula",
+     "items": [
+      "Beaches and viewpoints"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Nevis",
+     "items": [
+      "Charlestown, beaches and a plantation inn lunch"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Ferry and flight"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Basseterre",
+     "items": [
+      "Town, markets and museums"
+     ]
+    },
+    {
+     "title": "Day 3 — Brimstone Hill",
+     "items": [
+      "Fortress and coast"
+     ]
+    },
+    {
+     "title": "Day 4 — Mount Liamuiga",
+     "items": [
+      "Guided crater hike"
+     ]
+    },
+    {
+     "title": "Day 5 — Scenic Railway",
+     "items": [
+      "Island tour by rail"
+     ]
+    },
+    {
+     "title": "Day 6 — Southeast Peninsula",
+     "items": [
+      "Beach day"
+     ]
+    },
+    {
+     "title": "Day 7–9 — Nevis",
+     "items": [
+      "Charlestown, Nevis Peak views, beaches"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Return to St Kitts"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Roughly December to April is the driest and most popular season. June to November is hurricane season.",
+   "currency": "Eastern Caribbean dollar (XCD), pegged to the US dollar. US dollars are widely accepted in tourist areas.",
+   "safety": "Generally safe, but petty theft occurs. Keep valuables out of sight, avoid isolated areas at night and follow weather advisories.",
+   "tipping": "Restaurants often add a service charge; if not, 10 to 15 percent is usual.",
+   "transport": "Minibuses and taxis serve both islands, and a ferry links Basseterre to Charlestown. Many visitors hire a car or taxi. Drive on the left."
+  }
+ },
+ "Saint Lucia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "The Pitons",
+    "desc": "Two volcanic spires in Soufrière, a UNESCO World Heritage site."
+   },
+   {
+    "name": "Soufrière",
+    "desc": "A small town with sulphur springs, botanical gardens and waterfalls."
+   },
+   {
+    "name": "Rodney Bay",
+    "desc": "A bay with beaches, restaurants and a marina."
+   },
+   {
+    "name": "Castries",
+    "desc": "The capital and port, with a central market and cathedral."
+   },
+   {
+    "name": "Marigot Bay",
+    "desc": "A sheltered bay popular with sailors."
+   },
+   {
+    "name": "Pigeon Island National Landmark",
+    "desc": "A park with fort ruins and island viewpoints."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Creole Language",
+    "desc": "Many residents speak Kwéyòl alongside English."
+   },
+   {
+    "name": "Market Life",
+    "desc": "Castries market is a place to try local produce and crafts."
+   },
+   {
+    "name": "Folk Music",
+    "desc": "Kwadril dance and other traditions are celebrated at cultural events."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "22 February. Marks independence from Britain in 1979."
+   },
+   {
+    "name": "Nobel Laureate Week",
+    "desc": "January. Celebrates the island's two Nobel Prize winners."
+   },
+   {
+    "name": "Saint Lucia Jazz and Arts Festival",
+    "desc": "Typically May. Concerts across the island."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Carnival",
+    "desc": "July. Parades and music in Castries."
+   },
+   {
+    "name": "La Rose and La Marguerite",
+    "desc": "August and October. Traditional flower societies celebrate with song and dress."
+   },
+   {
+    "name": "Jounen Kwéyòl",
+    "desc": "October. A celebration of Creole language and food."
+   }
+  ],
+  "food": [
+   {
+    "name": "Green Fig and Saltfish",
+    "desc": "Boiled green bananas with salted cod, widely regarded as the national dish."
+   },
+   {
+    "name": "Bouyon",
+    "desc": "A hearty soup with vegetables and meat."
+   },
+   {
+    "name": "Fresh Fish and Provision",
+    "desc": "Fish served with local root vegetables."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Soufrière Guesthouses",
+    "desc": "Small stays near the Pitons."
+   },
+   {
+    "name": "Rodney Bay Hotels",
+    "desc": "Beach hotels near restaurants and the marina."
+   },
+   {
+    "name": "Villas",
+    "desc": "Self-catering villas across the north and south."
+   }
+  ],
+  "intro": "Saint Lucia is a mountainous volcanic island in the eastern Caribbean, with rainforest, beaches and the twin Pitons. Most visitors arrive at Hewanorra International Airport in the south or the smaller airport near Castries. Roads are winding, and journeys take longer than distances suggest. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Rodney Bay",
+     "items": [
+      "Beach and marina"
+     ]
+    },
+    {
+     "title": "Day 2 — Castries",
+     "items": [
+      "Market and cathedral"
+     ]
+    },
+    {
+     "title": "Day 3 — Marigot Bay",
+     "items": [
+      "Boat trip"
+     ]
+    },
+    {
+     "title": "Day 4 — Soufrière",
+     "items": [
+      "The Pitons and sulphur springs"
+     ]
+    },
+    {
+     "title": "Day 5 — South",
+     "items": [
+      "Beach, then departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Rodney Bay",
+     "items": [
+      "Beaches and Pigeon Island"
+     ]
+    },
+    {
+     "title": "Day 3 — Castries",
+     "items": [
+      "Market and city"
+     ]
+    },
+    {
+     "title": "Day 4 — Marigot Bay",
+     "items": [
+      "Boating"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Soufrière",
+     "items": [
+      "Pitons, gardens and waterfalls"
+     ]
+    },
+    {
+     "title": "Day 7 — South",
+     "items": [
+      "Departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Rodney Bay",
+     "items": [
+      "Beaches and Pigeon Island"
+     ]
+    },
+    {
+     "title": "Day 4 — Castries",
+     "items": [
+      "Market and cathedral"
+     ]
+    },
+    {
+     "title": "Day 5 — Marigot Bay",
+     "items": [
+      "Boat trip"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Soufrière",
+     "items": [
+      "Pitons hikes and springs"
+     ]
+    },
+    {
+     "title": "Day 9–10 — South",
+     "items": [
+      "Beaches and departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "December–April is the driest and busiest. June–November is wetter with hurricane risk.",
+   "currency": "Eastern Caribbean dollar (XCD), pegged to the US dollar; US dollars are often accepted.",
+   "safety": "Generally safe for visitors, but petty and occasionally violent crime occurs. Avoid isolated areas and secure valuables.",
+   "tipping": "About 10–15 percent in restaurants unless a service charge is included.",
+   "transport": "Taxis and minibuses; rental cars require a local driving permit. Driving is on the left."
+  }
+ },
+ "Saint Vincent and the Grenadines": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "La Soufrière Volcano",
+    "desc": "An active volcano in the north of St Vincent; the 2021 eruptions changed the landscape, so check current access."
+   },
+   {
+    "name": "Bequia",
+    "desc": "A relaxed island with a harbour at Admiralty Bay, small restaurants and a boat-building tradition."
+   },
+   {
+    "name": "Tobago Cays Marine Park",
+    "desc": "A protected group of small islands and reefs, popular for snorkelling and turtles."
+   },
+   {
+    "name": "Mustique",
+    "desc": "A small, private-feeling island known for its upscale villas and quiet beaches."
+   },
+   {
+    "name": "Kingstown",
+    "desc": "The capital and port, with a market, a cathedral and the Botanic Gardens."
+   },
+   {
+    "name": "Union Island",
+    "desc": "A hub for sailing and kitesurfing, with a lively harbour at Clifton."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Sailing Culture",
+    "desc": "Yachting is central to life in the Grenadines, with charters and regattas based at Bequia and Union Island."
+   },
+   {
+    "name": "Garifuna Heritage",
+    "desc": "Descendants of the Garifuna people, who resisted European colonisation, are part of the country's history."
+   },
+   {
+    "name": "Whaling and Boatbuilding on Bequia",
+    "desc": "Bequia has a small-scale boatbuilding tradition and a limited, regulated aboriginal whaling history; ask locally before taking tours."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "27 October. Marks independence from Britain in 1979, with parades and ceremonies."
+   },
+   {
+    "name": "Bequia Easter Regatta",
+    "desc": "Around Easter. A sailing race series with parties ashore."
+   },
+   {
+    "name": "Nine Mornings",
+    "desc": "December. Early-morning street events and music leading up to Christmas."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Vincy Mas",
+    "desc": "Late June to July. The national carnival, with calypso and soca competitions and costume parades."
+   },
+   {
+    "name": "Bequia Music Fest",
+    "desc": "Usually in January. Live music at venues around Bequia."
+   },
+   {
+    "name": "Nine Mornings",
+    "desc": "Mid to late December. Dawn gatherings of music and street food ahead of Christmas."
+   }
+  ],
+  "food": [
+   {
+    "name": "Roasted Breadfruit and Fried Jackfish",
+    "desc": "A traditional pairing often described as the national dish."
+   },
+   {
+    "name": "Fresh Seafood",
+    "desc": "Grilled fish, lobster and conch are common across the Grenadines."
+   },
+   {
+    "name": "Arrowroot Products",
+    "desc": "St Vincent has long grown arrowroot, used in biscuits and snacks."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Bequia Guesthouses and Small Hotels",
+    "desc": "Friendly, modest places near Admiralty Bay."
+   },
+   {
+    "name": "Villas and Resorts in the Grenadines",
+    "desc": "Upmarket stays, particularly on Mustique and some smaller cays."
+   },
+   {
+    "name": "Yacht Charters",
+    "desc": "Sailing is a major way to see the islands, with crewed and bareboat options."
+   }
+  ],
+  "intro": "Saint Vincent and the Grenadines is a Caribbean country made up of the main island of St Vincent and a chain of smaller islands to the south. St Vincent has a volcanic interior and green hiking, while the Grenadines are known for sailing, reefs and quiet beaches. Island hopping uses ferries and small planes. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Kingstown",
+     "items": [
+      "Arrive, market and Botanic Gardens"
+     ]
+    },
+    {
+     "title": "Day 2 — Leeward Coast",
+     "items": [
+      "Beaches and the Dark View Falls area"
+     ]
+    },
+    {
+     "title": "Day 3 — Bequia",
+     "items": [
+      "Ferry to Bequia and Admiralty Bay"
+     ]
+    },
+    {
+     "title": "Day 4 — Bequia",
+     "items": [
+      "Beaches and a boat trip"
+     ]
+    },
+    {
+     "title": "Day 5 — Return",
+     "items": [
+      "Ferry and departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Kingstown",
+     "items": [
+      "Arrival and town"
+     ]
+    },
+    {
+     "title": "Day 2 — St Vincent North",
+     "items": [
+      "La Soufrière area, subject to current access"
+     ]
+    },
+    {
+     "title": "Day 3 — Leeward Coast",
+     "items": [
+      "Waterfalls and beaches"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Bequia",
+     "items": [
+      "Ferry, beaches and harbour"
+     ]
+    },
+    {
+     "title": "Day 6 — Mustique",
+     "items": [
+      "Day trip by boat"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return to St Vincent"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — St Vincent",
+     "items": [
+      "Kingstown, Botanic Gardens and the coast"
+     ]
+    },
+    {
+     "title": "Day 3 — La Soufrière",
+     "items": [
+      "Guided hike if permitted"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Bequia",
+     "items": [
+      "Beaches and sailing"
+     ]
+    },
+    {
+     "title": "Day 6 — Mustique",
+     "items": [
+      "Beach and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Canouan and Tobago Cays",
+     "items": [
+      "Marine park by boat"
+     ]
+    },
+    {
+     "title": "Day 9 — Union Island",
+     "items": [
+      "Clifton harbour"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Return via ferry or flight"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Roughly December to May is drier and best for sailing. June to November is hurricane season.",
+   "currency": "Eastern Caribbean dollar (XCD), pegged to the US dollar. US dollars are often accepted in tourist areas.",
+   "safety": "Generally safe for visitors, though petty theft occurs. Follow guidance about La Soufrière and weather, and take care at sea.",
+   "tipping": "A service charge may be added at restaurants; otherwise about 10 percent is usual.",
+   "transport": "Ferries and small planes link the islands, and minibuses run on St Vincent. Check schedules in advance. Drive on the left."
+  }
+ },
+ "Samoa": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "To Sua Ocean Trench",
+    "desc": "A large seawater-filled sinkhole on Upolu reached by a ladder, good for a calm swim."
+   },
+   {
+    "name": "Lalomanu Beach",
+    "desc": "A long white-sand beach on southeast Upolu, with beach fale (open huts) to stay in."
+   },
+   {
+    "name": "Apia",
+    "desc": "The small capital, with a market, a clock tower and a waterfront."
+   },
+   {
+    "name": "Robert Louis Stevenson Museum",
+    "desc": "The writer's former home at Vailima, set on a hillside above Apia."
+   },
+   {
+    "name": "Savai'i",
+    "desc": "The larger, quieter island with lava fields, blowholes and village life."
+   },
+   {
+    "name": "Piula Cave Pool",
+    "desc": "A freshwater spring pool beneath a church, near the north coast of Upolu."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Fa'a Samoa",
+    "desc": "The Samoan way of life centres on family, village chiefs and respect. Ask before visiting villages and follow local guidance."
+   },
+   {
+    "name": "Sunday in the Villages",
+    "desc": "Sunday is a day for church and family, and many villages are quiet. Dress modestly."
+   },
+   {
+    "name": "Fine Mat and Tattoo Traditions",
+    "desc": "Fine mats and the traditional tattoo (pe'a and malu) are important cultural symbols."
+   }
+  ],
+  "events": [
+   {
+    "name": "Teuila Festival",
+    "desc": "Typically early September in Apia, with dance, music and cultural competitions."
+   },
+   {
+    "name": "Independence Celebrations",
+    "desc": "Around 1 June, with parades and village performances."
+   },
+   {
+    "name": "Palolo Rising",
+    "desc": "The palolo sea worm appears around October or November and is a local tradition, with dates varying each year."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Teuila Festival",
+    "desc": "September. A week of dancing, canoe races and crafts in Apia."
+   },
+   {
+    "name": "White Sunday (Lotu a Tamaiti)",
+    "desc": "October. Children lead church services and are given special food."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "Early June. Celebrated with parades, sports and fa'a Samoa events."
+   }
+  ],
+  "food": [
+   {
+    "name": "Oka",
+    "desc": "Raw fish marinated in lime juice and coconut cream."
+   },
+   {
+    "name": "Palusami",
+    "desc": "Taro leaves baked with coconut cream, often cooked in an umu (earth oven)."
+   },
+   {
+    "name": "Koko Samoa",
+    "desc": "A hot cocoa drink made from locally roasted cacao."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Beach Fale, Lalomanu or south coast",
+    "desc": "Simple open huts on the sand with mattresses and mosquito nets. Basic but atmospheric."
+   },
+   {
+    "name": "Apia Hotels",
+    "desc": "The best choice for transport links, restaurants and a base for day trips."
+   },
+   {
+    "name": "Village Homestays, Savai'i",
+    "desc": "Stay with a local family for a close look at everyday life."
+   }
+  ],
+  "intro": "Samoa is a Polynesian country in the South Pacific made up of two main islands, Upolu and Savai'i. Life is guided by fa'a Samoa, a strong village and family tradition, and visitors should respect local customs. Beaches, waterfalls and volcanic landscapes are the main attractions. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Apia",
+     "items": [
+      "Arrive, walk the waterfront and market",
+      "Visit the Robert Louis Stevenson Museum"
+     ]
+    },
+    {
+     "title": "Day 2 — Southeast Upolu",
+     "items": [
+      "Papase'ea Sliding Rock or waterfall stops",
+      "To Sua Ocean Trench"
+     ]
+    },
+    {
+     "title": "Day 3 — Lalomanu",
+     "items": [
+      "Beach time and snorkelling in calm water"
+     ]
+    },
+    {
+     "title": "Day 4 — North coast",
+     "items": [
+      "Piula Cave Pool and village visit"
+     ]
+    },
+    {
+     "title": "Day 5 — Apia",
+     "items": [
+      "Last shopping and departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Apia",
+     "items": [
+      "Arrive and explore the town"
+     ]
+    },
+    {
+     "title": "Day 2 — Apia highlights",
+     "items": [
+      "Robert Louis Stevenson Museum",
+      "Local market"
+     ]
+    },
+    {
+     "title": "Day 3 — Southeast Upolu",
+     "items": [
+      "To Sua Ocean Trench and waterfalls"
+     ]
+    },
+    {
+     "title": "Day 4 — Lalomanu",
+     "items": [
+      "Beach day"
+     ]
+    },
+    {
+     "title": "Day 5 — Ferry to Savai'i",
+     "items": [
+      "Cross by ferry and settle in"
+     ]
+    },
+    {
+     "title": "Day 6 — Savai'i",
+     "items": [
+      "Lava fields and blowholes"
+     ]
+    },
+    {
+     "title": "Day 7 — Return",
+     "items": [
+      "Ferry back and depart"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Apia",
+     "items": [
+      "Museum, market, waterfront"
+     ]
+    },
+    {
+     "title": "Day 3 — Upolu south",
+     "items": [
+      "To Sua Ocean Trench and waterfalls"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Lalomanu",
+     "items": [
+      "Beach days and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 6 — North coast",
+     "items": [
+      "Piula Cave Pool"
+     ]
+    },
+    {
+     "title": "Day 7 — Ferry to Savai'i",
+     "items": [
+      "Cross by ferry"
+     ]
+    },
+    {
+     "title": "Day 8–9 — Savai'i",
+     "items": [
+      "Lava fields, blowholes and village life"
+     ]
+    },
+    {
+     "title": "Day 10 — Depart",
+     "items": [
+      "Ferry back to Upolu and fly out"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is the drier season, with more comfortable weather. Cyclone season runs roughly November to April.",
+   "currency": "Samoan tala (WST). Cards are accepted in larger places, but carry cash for villages and small stalls.",
+   "safety": "Generally safe. Take care with sun, rip currents and reef cuts, and keep valuables out of sight.",
+   "tipping": "Not expected or traditional. A small thank-you for good service is welcome but optional.",
+   "transport": "Taxis, local buses and rental cars on Upolu; a ferry links Upolu and Savai'i. Check timetables, as services can change."
+  }
+ },
+ "San Marino": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Three Towers of Monte Titano",
+    "desc": "Guaita, Cesta and Montale, hilltop fortresses on a ridge."
+   },
+   {
+    "name": "City of San Marino",
+    "desc": "A UNESCO-listed historic centre with steep lanes and views to the Adriatic."
+   },
+   {
+    "name": "Piazza della Liberta",
+    "desc": "The main square with the Palazzo Pubblico and the guard ceremony."
+   },
+   {
+    "name": "Basilica di San Marino",
+    "desc": "A neoclassical church in the old town."
+   },
+   {
+    "name": "Borgo Maggiore",
+    "desc": "A market town reached by cable car from the capital."
+   },
+   {
+    "name": "Serravalle",
+    "desc": "Home to shops and a motor museum area, a short ride from the capital."
+   }
+  ],
+  "culture": [
+   {
+    "name": "World Heritage Old Town",
+    "desc": "Narrow streets with museums and small shops, listed by UNESCO."
+   },
+   {
+    "name": "Guard Changing",
+    "desc": "The Crossbow Corps and guard ceremonies in summer."
+   },
+   {
+    "name": "Philately and Coins",
+    "desc": "San Marino stamps and coins are popular souvenirs."
+   }
+  ],
+  "events": [
+   {
+    "name": "Medieval Days",
+    "desc": "July. Costumed parades, markets and crossbow competitions in the old town."
+   },
+   {
+    "name": "San Marino Grand Prix Area Motor Events",
+    "desc": "Occasional. Motorsport events reflect the area enthusiasm."
+   },
+   {
+    "name": "Republic Day Celebrations",
+    "desc": "3 September. Ceremonies mark the founding legend."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Feast of San Marino (Saint Marinus Day)",
+    "desc": "3 September. Ceremonies, parade and fireworks."
+   },
+   {
+    "name": "Medieval Days",
+    "desc": "July. Historical costumes and crossbow contests."
+   },
+   {
+    "name": "Christmas Lights",
+    "desc": "December. Decorations and markets in the old town."
+   }
+  ],
+  "food": [
+   {
+    "name": "Piadina",
+    "desc": "Flatbread with ham, cheese or greens, typical of the region."
+   },
+   {
+    "name": "Nidi di Rondine",
+    "desc": "Baked pasta rolls with ham and cheese."
+   },
+   {
+    "name": "Torta Tre Monti",
+    "desc": "Wafer cake layered with chocolate and hazelnut, named for the three towers."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Hotels in the Historic Centre",
+    "desc": "Small hotels near the towers."
+   },
+   {
+    "name": "Hotels in Borgo Maggiore",
+    "desc": "Good value with the cable car link."
+   },
+   {
+    "name": "Stays in Rimini, Italy",
+    "desc": "Beach resort with many hotels and a bus to San Marino."
+   }
+  ],
+  "intro": "San Marino is a small republic surrounded by Italy, with a UNESCO-listed old town on top of Monte Titano. It is one of the oldest states in the world by tradition. Most visitors come on day trips from the Adriatic coast, but it rewards a slower stay. This guide has 5, 7 and 10-day routes, built around San Marino with day trips in Emilia-Romagna and the Marche.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — City of San Marino",
+     "items": [
+      "Old town and Basilica"
+     ]
+    },
+    {
+     "title": "Day 2 — Three Towers",
+     "items": [
+      "Guaita, Cesta and Montale"
+     ]
+    },
+    {
+     "title": "Day 3 — Borgo Maggiore",
+     "items": [
+      "Market and cable car"
+     ]
+    },
+    {
+     "title": "Day 4 — Rimini, Italy",
+     "items": [
+      "Roman arch, beach and old town"
+     ]
+    },
+    {
+     "title": "Day 5 — Urbino, Italy",
+     "items": [
+      "Renaissance palace day trip"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — City of San Marino",
+     "items": [
+      "Orientation"
+     ]
+    },
+    {
+     "title": "Day 2 — Three Towers",
+     "items": [
+      "Walking route along the ridge"
+     ]
+    },
+    {
+     "title": "Day 3 — Borgo Maggiore and Serravalle",
+     "items": [
+      "Market and local museums"
+     ]
+    },
+    {
+     "title": "Day 4 — Rimini",
+     "items": [
+      "Roman and seaside sights"
+     ]
+    },
+    {
+     "title": "Day 5 — Ravenna, Italy",
+     "items": [
+      "Mosaics day trip"
+     ]
+    },
+    {
+     "title": "Day 6 — San Leo, Italy",
+     "items": [
+      "Fortress village nearby"
+     ]
+    },
+    {
+     "title": "Day 7 — Urbino or Departure",
+     "items": [
+      "Hill town visit"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — San Marino",
+     "items": [
+      "Old town, towers, museums"
+     ]
+    },
+    {
+     "title": "Day 3 — Borgo Maggiore",
+     "items": [
+      "Market and countryside"
+     ]
+    },
+    {
+     "title": "Day 4 — Rimini",
+     "items": [
+      "Seaside and Roman sights"
+     ]
+    },
+    {
+     "title": "Day 5 — Ravenna",
+     "items": [
+      "Byzantine mosaics"
+     ]
+    },
+    {
+     "title": "Day 6 — San Leo",
+     "items": [
+      "Fortress and hill views"
+     ]
+    },
+    {
+     "title": "Day 7 — Urbino",
+     "items": [
+      "Palace and old town"
+     ]
+    },
+    {
+     "title": "Day 8 — Bologna",
+     "items": [
+      "Food-focused day trip"
+     ]
+    },
+    {
+     "title": "Day 9 — Gradara or Pesaro",
+     "items": [
+      "Medieval castle or coast"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Return via Rimini"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "April to June and September to October. Summer is busy; winter can be foggy and cold.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe. Steep cobbled streets, so wear sturdy shoes.",
+   "tipping": "Not required; rounding up or 5 to 10 percent is common.",
+   "transport": "No airport or train. Buses run from Rimini to San Marino, and a cable car links the lower town to the centre."
+  }
+ },
+ "Sao Tome and Principe": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Sao Tome City",
+    "desc": "A small, relaxed capital with colonial-era buildings, a cathedral and a lively waterfront market."
+   },
+   {
+    "name": "Ilheu das Rolas",
+    "desc": "A small island off the southern tip of Sao Tome that straddles the equator, with a marker for the line."
+   },
+   {
+    "name": "Roca Sundy (Principe)",
+    "desc": "A former plantation estate on Principe, set among forest and known for its history and nearby coast."
+   },
+   {
+    "name": "Obo National Park",
+    "desc": "Rainforest covering much of the island's south, with rare birds, endemic plants and waterfalls."
+   },
+   {
+    "name": "Praia Banana (Principe)",
+    "desc": "A quiet palm-fringed beach on Principe, popular for swimming and sunsets."
+   },
+   {
+    "name": "Sao Tome's Plantation Estates",
+    "desc": "Old cocoa and coffee estates, called rocas, that offer a look at the islands' agricultural past."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Cocoa and Coffee Heritage",
+    "desc": "Visit a working roca to see how cocoa is grown and dried. Chocolate is one of the islands' signature products."
+   },
+   {
+    "name": "Tchiloli",
+    "desc": "A traditional theatrical performance that tells a medieval tale with masks and elaborate costumes."
+   },
+   {
+    "name": "Ússua and Dexa Music",
+    "desc": "Local dance and music styles with African and Portuguese roots, heard at festivals and community gatherings."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "12 July. National holiday marking independence from Portugal in 1975, with public events."
+   },
+   {
+    "name": "Sea Turtle Nesting Season",
+    "desc": "Roughly October to April. Conservation groups run guided night walks on some beaches; follow guidance and keep lights off."
+   },
+   {
+    "name": "Bird Watching Season",
+    "desc": "Dry months offer easier trails to see the islands' endemic species with a local guide."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Festa de Sao Lourenco",
+    "desc": "August. A religious celebration with processions and communal meals in local communities."
+   },
+   {
+    "name": "Festival Gravana",
+    "desc": "Around February. Pre-Lent festivities with costumes and music."
+   },
+   {
+    "name": "Festas da Cidade (Auto de Floripes)",
+    "desc": "August on Principe. A traditional performance and community festival."
+   }
+  ],
+  "food": [
+   {
+    "name": "Calulu",
+    "desc": "A slow-cooked stew of fish or meat with leafy greens and palm oil, usually served with rice or cassava."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Fresh catch from local fishing boats, often served with breadfruit or banana."
+   },
+   {
+    "name": "Local Chocolate",
+    "desc": "Dark chocolate made from cocoa grown on the islands, sold by small producers."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Guesthouses in Sao Tome City",
+    "desc": "Small, simple options close to the centre, convenient for market and museum visits."
+   },
+   {
+    "name": "Roca Lodges (area)",
+    "desc": "Restored plantation buildings on both islands offering rustic stays in forested settings."
+   },
+   {
+    "name": "Beach Hotels (Principe and south Sao Tome)",
+    "desc": "A few resort-style stays with sea views; book ahead, as capacity is limited."
+   }
+  ],
+  "intro": "Sao Tome and Principe is a small island nation in the Gulf of Guinea, off the west coast of central Africa. Its volcanic islands are covered in rainforest, with old cocoa estates, quiet beaches and few crowds. Infrastructure is basic and tourism is small-scale, so plan ahead. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Sao Tome City",
+     "items": [
+      "Arrive, walk the waterfront and the old town",
+      "National Museum in the fort"
+     ]
+    },
+    {
+     "title": "Day 2 — North Coast",
+     "items": [
+      "Drive along the coast to beaches and small fishing villages"
+     ]
+    },
+    {
+     "title": "Day 3 — Roca Agostinho Neto",
+     "items": [
+      "Tour a former plantation and sample cocoa and coffee"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Obo National Park",
+     "items": [
+      "Guided forest walk and waterfalls, then a return to the capital"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Sao Tome City",
+     "items": [
+      "Market, cathedral, fort museum"
+     ]
+    },
+    {
+     "title": "Day 3 — Plantation Day",
+     "items": [
+      "Visit a cocoa roca"
+     ]
+    },
+    {
+     "title": "Day 4–5 — South of the Island",
+     "items": [
+      "Ilheu das Rolas and the equator marker"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Obo National Park",
+     "items": [
+      "Forest walks and birdwatching with a guide"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Sao Tome City",
+     "items": [
+      "City sights and market"
+     ]
+    },
+    {
+     "title": "Day 3 — Plantations",
+     "items": [
+      "Cocoa and coffee estates"
+     ]
+    },
+    {
+     "title": "Day 4–5 — South of the Island",
+     "items": [
+      "Beaches and Ilheu das Rolas"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Obo National Park",
+     "items": [
+      "Guided hikes"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Principe",
+     "items": [
+      "Fly to Principe for beaches, a roca and island nature walks"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "The dry season, roughly June to September, is easiest for roads and trails. Turtle nesting runs roughly October to April.",
+   "currency": "Sao Tomean dobra (STN), pegged to the euro. Euros are widely understood; card acceptance is limited, so carry cash.",
+   "safety": "Generally calm with low violent crime, but petty theft occurs. Heavy rain can damage roads and malaria precautions are advised. Check current official advice.",
+   "tipping": "Not expected; small tips for guides and drivers are appreciated.",
+   "transport": "Taxis and shared vans in towns, with hired cars and drivers for the countryside. Domestic flights link Sao Tome and Principe. Roads can be rough."
+  }
+ },
+ "Senegal": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Dakar",
+    "desc": "A lively capital with markets, music and seafront neighbourhoods."
+   },
+   {
+    "name": "Gorée Island",
+    "desc": "A small island near Dakar with a UNESCO-listed memorial to the Atlantic slave trade."
+   },
+   {
+    "name": "Saint-Louis",
+    "desc": "A colonial-era island city on the Senegal River, with a UNESCO-listed old town."
+   },
+   {
+    "name": "Lac Rose (Retba)",
+    "desc": "A shallow salt lake near Dakar whose colour can look pink."
+   },
+   {
+    "name": "Saloum Delta",
+    "desc": "A maze of mangrove channels, islands and birdlife."
+   },
+   {
+    "name": "Parc National des Oiseaux du Djoudj",
+    "desc": "A major wetland reserve with large numbers of migratory birds."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Teranga Hospitality",
+    "desc": "Senegal is known for its welcoming culture; greeting properly matters."
+   },
+   {
+    "name": "Music and Mbalax",
+    "desc": "Senegalese music, led by mbalax rhythms, is central to everyday life in Dakar."
+   },
+   {
+    "name": "Wrestling (Laamb)",
+    "desc": "A popular national sport with ritual, drumming and large crowds."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "4 April. A national holiday with parades."
+   },
+   {
+    "name": "Dakar Biennale",
+    "desc": "Held in some years, a major contemporary art event; check dates."
+   },
+   {
+    "name": "Saint-Louis Jazz Festival",
+    "desc": "Typically in May or June, with concerts in the old town."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Grand Magal of Touba",
+    "desc": "The annual Mouride pilgrimage, with date set by the Islamic calendar."
+   },
+   {
+    "name": "Tabaski (Eid al-Adha)",
+    "desc": "Dates vary yearly. Families share a sacrificial meal."
+   },
+   {
+    "name": "Korité (Eid al-Fitr)",
+    "desc": "End of Ramadan; dates vary yearly."
+   }
+  ],
+  "food": [
+   {
+    "name": "Thieboudienne",
+    "desc": "Fish with rice and vegetables, widely considered the national dish."
+   },
+   {
+    "name": "Yassa",
+    "desc": "Chicken or fish in a lemon and onion sauce, served with rice."
+   },
+   {
+    "name": "Mafé",
+    "desc": "A peanut-based stew, usually with meat."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Dakar Hotels",
+    "desc": "Choices from simple to upmarket, near the Plateau and seafront."
+   },
+   {
+    "name": "Saint-Louis Guesthouses",
+    "desc": "Restored colonial houses turned into small guesthouses."
+   },
+   {
+    "name": "Saloum Delta Eco-Lodges",
+    "desc": "Lodges reached by boat in the mangroves."
+   }
+  ],
+  "intro": "Senegal is a stable and widely visited West African country with a long Atlantic coast, a lively capital and a strong music tradition. French is the official language, and Wolof is widely spoken. Some border areas and parts of the south, such as Casamance, have had security concerns, so check current advice. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Dakar",
+     "items": [
+      "Arrive, markets and seafront"
+     ]
+    },
+    {
+     "title": "Day 2 — Gorée Island",
+     "items": [
+      "Ferry, memorial house and old streets"
+     ]
+    },
+    {
+     "title": "Day 3 — Lac Rose",
+     "items": [
+      "Day trip from Dakar"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Saint-Louis",
+     "items": [
+      "Travel north and explore the old town"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Dakar",
+     "items": [
+      "City sights and Gorée Island"
+     ]
+    },
+    {
+     "title": "Day 3 — Lac Rose",
+     "items": [
+      "Salt lake and coast"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Saint-Louis",
+     "items": [
+      "Historic island city"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Djoudj Bird Park",
+     "items": [
+      "Boat trips and birdwatching"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Dakar",
+     "items": [
+      "City and Gorée Island"
+     ]
+    },
+    {
+     "title": "Day 3 — Lac Rose",
+     "items": [
+      "Day trip"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Saint-Louis",
+     "items": [
+      "Old town and river"
+     ]
+    },
+    {
+     "title": "Day 6 — Djoudj",
+     "items": [
+      "Birdwatching"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Saloum Delta",
+     "items": [
+      "Mangrove boat trips"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Petite Côte",
+     "items": [
+      "Beach time before departure"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November–May is the dry and cooler season. The rainy season, roughly June–October, brings humidity and some flooding.",
+   "currency": "West African CFA franc (XOF). Cash is widely used; cards are accepted in some hotels and shops in Dakar.",
+   "safety": "Take normal care against petty theft and scams in busy areas. Check current official advice for the Casamance region and the eastern border areas.",
+   "tipping": "About 5–10% in restaurants is appreciated; small tips for guides and drivers.",
+   "transport": "Shared taxis and minibuses link towns, and ride-hailing exists in Dakar. A new train line and highways serve the Dakar area; allow extra time for road travel."
+  }
+ },
+ "Seychelles": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Anse Source d'Argent, La Digue",
+    "desc": "Granite boulders and shallow, calm water, one of the most photographed beaches in the world."
+   },
+   {
+    "name": "Vallée de Mai, Praslin",
+    "desc": "A UNESCO forest of coco de mer palms and rare birds."
+   },
+   {
+    "name": "Beau Vallon, Mahé",
+    "desc": "A long, lively beach with restaurants and water sports."
+   },
+   {
+    "name": "Morne Seychellois National Park",
+    "desc": "Mahé's mountain interior with forest trails and views."
+   },
+   {
+    "name": "Victoria",
+    "desc": "One of the world's smallest capitals, with a colourful market and clock tower."
+   },
+   {
+    "name": "Curieuse and St Pierre",
+    "desc": "Small islands reachable by boat from Praslin, with tortoises and snorkelling."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Creole Heritage",
+    "desc": "Seychellois Creole (Kreol) blends African, French and Asian roots in language, music and food."
+   },
+   {
+    "name": "Moutya and Sega",
+    "desc": "Traditional dance and drum music, performed at festivals and some hotels."
+   },
+   {
+    "name": "Giant Tortoises",
+    "desc": "Aldabra giant tortoises are part of the national identity and can be seen on several islands."
+   }
+  ],
+  "events": [
+   {
+    "name": "Seychelles Carnival",
+    "desc": "Typically in spring. A parade of costumes and music in Victoria."
+   },
+   {
+    "name": "Independence Day",
+    "desc": "29 June. National celebrations and cultural events."
+   },
+   {
+    "name": "Festival Kreol",
+    "desc": "Typically late October. A week of music, food and art celebrating Creole culture."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Festival Kreol",
+    "desc": "Late October. Concerts, exhibitions and food stalls across the islands."
+   },
+   {
+    "name": "Assumption Day",
+    "desc": "15 August. A religious holiday observed with church services, especially in La Digue."
+   },
+   {
+    "name": "Christmas and New Year",
+    "desc": "December. Church services, gatherings and festive meals."
+   }
+  ],
+  "food": [
+   {
+    "name": "Fish Curry",
+    "desc": "Fresh local fish in a coconut or spiced sauce, served with rice."
+   },
+   {
+    "name": "Grilled Fish with Creole Sauce",
+    "desc": "A common lunch of the catch of the day with a tomato-based sauce."
+   },
+   {
+    "name": "Octopus Curry",
+    "desc": "A local favourite in coconut milk, found in many small restaurants."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Boutique Guesthouses",
+    "desc": "Small, family-run places on Mahé, Praslin and La Digue, often the best-value option."
+   },
+   {
+    "name": "Self-Catering Apartments",
+    "desc": "Available on the main islands for longer stays."
+   },
+   {
+    "name": "Resorts and Private Islands",
+    "desc": "High-end stays; prices are generally high, so check ahead."
+   }
+  ],
+  "intro": "Seychelles is an archipelago of over 100 islands in the western Indian Ocean, famous for granite boulders, beaches and wildlife. Most visitors base themselves on Mahé, Praslin and La Digue. It is a pricey destination, though guesthouses make it more affordable. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Mahé",
+     "items": [
+      "Arrive, Victoria market"
+     ]
+    },
+    {
+     "title": "Day 2 — Mahé",
+     "items": [
+      "Beau Vallon and Morne Seychellois"
+     ]
+    },
+    {
+     "title": "Day 3 — Praslin",
+     "items": [
+      "Ferry, Vallée de Mai"
+     ]
+    },
+    {
+     "title": "Day 4 — La Digue",
+     "items": [
+      "Ferry and cycling to Anse Source d'Argent"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Ferry back and flight"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Mahé",
+     "items": [
+      "Capital, beaches, hikes"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Praslin",
+     "items": [
+      "Vallée de Mai, Anse Lazio"
+     ]
+    },
+    {
+     "title": "Day 5–6 — La Digue",
+     "items": [
+      "Beaches and cycling"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return to Mahé"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Mahé",
+     "items": [
+      "Capital, beaches, national park"
+     ]
+    },
+    {
+     "title": "Day 4–6 — Praslin",
+     "items": [
+      "Forest, beaches, boat to Curieuse"
+     ]
+    },
+    {
+     "title": "Day 7–9 — La Digue",
+     "items": [
+      "Cycling, beaches, snorkelling"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Ferry and flight"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "April to May and October to November are calmer and transitional. Wind and sea conditions vary by season, so check beach exposure.",
+   "currency": "Seychelles rupee (SCR). Euros and US dollars are accepted by many hotels, and cards are widely used.",
+   "safety": "Generally safe. Avoid leaving valuables on beaches, and heed warning flags on rough water.",
+   "tipping": "Service is sometimes included. A small tip for good service is appreciated.",
+   "transport": "Buses on Mahé and Praslin are cheap. Ferries link the main islands, and small planes serve some others. Cycling is common on La Digue."
+  }
+ },
+ "Sierra Leone": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Freetown",
+    "desc": "A hilly coastal capital with markets, a historic cotton tree and the national museum."
+   },
+   {
+    "name": "Lumley and River No. 2 Beaches",
+    "desc": "Popular beaches near Freetown, with simple beach bars and seafood."
+   },
+   {
+    "name": "Tacugama Chimpanzee Sanctuary",
+    "desc": "A sanctuary in the hills above Freetown that rescues and cares for chimpanzees."
+   },
+   {
+    "name": "Bunce Island",
+    "desc": "A historic island fort in the Sierra Leone River once used in the transatlantic slave trade."
+   },
+   {
+    "name": "Tiwai Island",
+    "desc": "A wildlife reserve in the Moa River with primates and birds, run with local communities."
+   },
+   {
+    "name": "Banana Islands",
+    "desc": "A small island group off the peninsula with quiet beaches and ruins."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Krio Heritage",
+    "desc": "Descendants of freed slaves shaped Freetown's architecture, language and customs."
+   },
+   {
+    "name": "Local Craft Markets",
+    "desc": "Fabrics, wood carvings and beadwork sold in Freetown's markets."
+   },
+   {
+    "name": "Community Tourism",
+    "desc": "Village visits are often arranged through local conservation projects."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "27 April. Marks independence from Britain in 1961."
+   },
+   {
+    "name": "Freetown Football Matches",
+    "desc": "Football is hugely popular and match days are lively."
+   },
+   {
+    "name": "Local Music Nights",
+    "desc": "Live music is common in Freetown's bars and beachfront venues."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "Dates vary yearly. Marks the end of Ramadan."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and shared meals."
+   },
+   {
+    "name": "Christmas and New Year",
+    "desc": "December to January. Street parties and gatherings are widespread."
+   }
+  ],
+  "food": [
+   {
+    "name": "Cassava Leaf Stew",
+    "desc": "Pounded cassava leaves cooked with palm oil and meat or fish, served with rice."
+   },
+   {
+    "name": "Jollof Rice",
+    "desc": "Rice cooked in tomato sauce, common at gatherings."
+   },
+   {
+    "name": "Grilled Fish",
+    "desc": "Freshly grilled fish with pepper sauce along the coast."
+   }
+  ],
+  "intro": "Sierra Leone is a West African country on the Atlantic coast, known for Freetown, beaches, rainforest reserves and its history with the transatlantic slave trade. Infrastructure is limited and health risks, including malaria, require care. Conditions and official advice can change. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Freetown",
+     "items": [
+      "Cotton Tree, markets and national museum"
+     ]
+    },
+    {
+     "title": "Day 2 — Tacugama",
+     "items": [
+      "Chimpanzee sanctuary visit"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Peninsula beaches",
+     "items": [
+      "Lumley, River No. 2 and Banana Islands"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Freetown",
+     "items": [
+      "City sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3 — Tacugama",
+     "items": [
+      "Sanctuary and hills"
+     ]
+    },
+    {
+     "title": "Day 4 — Bunce Island",
+     "items": [
+      "Historical boat trip"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Peninsula beaches",
+     "items": [
+      "River No. 2 and Banana Islands"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Freetown",
+     "items": [
+      "City sights and markets"
+     ]
+    },
+    {
+     "title": "Day 3 — Tacugama",
+     "items": [
+      "Sanctuary and hills"
+     ]
+    },
+    {
+     "title": "Day 4 — Bunce Island",
+     "items": [
+      "Historical boat trip"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Peninsula beaches",
+     "items": [
+      "River No. 2, Banana Islands"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Tiwai Island",
+     "items": [
+      "Travel inland for wildlife walks and boat trips"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to April is the dry season and the best time to visit. Heavy rains from May to October affect roads.",
+   "currency": "Sierra Leonean leone (SLE). Cash is the norm; cards are rare outside upmarket hotels.",
+   "safety": "Take care against theft and avoid political gatherings. Health risks include malaria and other tropical diseases; take medical advice before you go.",
+   "tipping": "Not obligatory; small tips for guides and drivers are appreciated.",
+   "transport": "Freetown's airport is across the estuary, reached by ferry, helicopter or road. Road quality varies and shared taxis are common."
+  },
+  "stays": [
+   {
+    "name": "Freetown Hotels",
+    "desc": "Mid-range and upmarket hotels with some sea views; book ahead."
+   },
+   {
+    "name": "Peninsula Beach Lodges",
+    "desc": "Simple beachfront guesthouses at Lumley, River No. 2 and nearby."
+   },
+   {
+    "name": "Tiwai Island Lodge",
+    "desc": "Basic eco-lodging arranged through the community project."
+   }
+  ]
+ },
+ "Solomon Islands": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Honiara",
+    "desc": "The capital on Guadalcanal, with a market and World War II sites."
+   },
+   {
+    "name": "Guadalcanal Battlefields",
+    "desc": "Memorials and relics from the Pacific campaign near Honiara."
+   },
+   {
+    "name": "Marovo Lagoon",
+    "desc": "One of the world's largest double-barrier lagoons, in Western Province."
+   },
+   {
+    "name": "Gizo",
+    "desc": "The main town of Western Province, with diving and wrecks."
+   },
+   {
+    "name": "Munda",
+    "desc": "A base for diving, snorkelling and World War II sites in New Georgia."
+   },
+   {
+    "name": "Malaita",
+    "desc": "A large island known for strong traditions and artificial islands in Langa Langa Lagoon."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Shell Money",
+    "desc": "Shell money is still made on Malaita and has cultural and ceremonial value."
+   },
+   {
+    "name": "Wood Carving",
+    "desc": "Carved bowls and figures are made in Western Province, often inlaid with shell."
+   },
+   {
+    "name": "Village Customs",
+    "desc": "Land and reef belong to families and communities. Ask for permission before visiting or snorkelling."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "7 July, celebrated with parades and community events."
+   },
+   {
+    "name": "Guadalcanal Remembrance",
+    "desc": "Commemorations of the 1942 battle, held in early August."
+   },
+   {
+    "name": "Provincial Cultural Events",
+    "desc": "Held around the year in different provinces. Check dates locally."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Independence Day",
+    "desc": "July. National celebrations in Honiara."
+   },
+   {
+    "name": "Provincial Festivals",
+    "desc": "Dates vary by province, and are best confirmed locally."
+   },
+   {
+    "name": "Church and Community Events",
+    "desc": "Frequent through the year, especially around Christmas."
+   }
+  ],
+  "food": [
+   {
+    "name": "Poi",
+    "desc": "A starchy pudding made from taro or other root crops."
+   },
+   {
+    "name": "Fresh Fish and Coconut",
+    "desc": "Reef fish cooked with coconut cream is common."
+   },
+   {
+    "name": "Roast Root Vegetables",
+    "desc": "Taro, sweet potato and cassava are staples cooked in earth ovens."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Honiara Hotels",
+    "desc": "The best choice for transport links and facilities."
+   },
+   {
+    "name": "Western Province Dive Lodges",
+    "desc": "Small lodges around Gizo, Munda and Marovo for diving."
+   },
+   {
+    "name": "Village Guesthouses",
+    "desc": "Simple stays arranged with local communities."
+   }
+  ],
+  "intro": "Solomon Islands is a Melanesian country of hundreds of islands, with famous diving and World War II history. Facilities outside the capital and main towns are limited, and travel often relies on boats and small aircraft. Check security and health advice before planning. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Honiara",
+     "items": [
+      "Arrive, market and waterfront"
+     ]
+    },
+    {
+     "title": "Day 2 — Guadalcanal",
+     "items": [
+      "War memorials and museum"
+     ]
+    },
+    {
+     "title": "Day 3 — Honiara area",
+     "items": [
+      "Beach or river visit with a local guide"
+     ]
+    },
+    {
+     "title": "Day 4 — Rest and shopping",
+     "items": [
+      "Local crafts"
+     ]
+    },
+    {
+     "title": "Day 5 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Honiara",
+     "items": [
+      "Arrive and explore"
+     ]
+    },
+    {
+     "title": "Day 2 — Guadalcanal sites",
+     "items": [
+      "Memorials with a guide"
+     ]
+    },
+    {
+     "title": "Day 3 — Fly to Western Province",
+     "items": [
+      "Gizo or Munda"
+     ]
+    },
+    {
+     "title": "Day 4 — Diving or snorkelling",
+     "items": [
+      "With a local operator"
+     ]
+    },
+    {
+     "title": "Day 5 — Wartime sites",
+     "items": [
+      "Boat or land tour"
+     ]
+    },
+    {
+     "title": "Day 6 — Village visit",
+     "items": [
+      "Carving and local culture"
+     ]
+    },
+    {
+     "title": "Day 7 — Depart",
+     "items": [
+      "Return via Honiara"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Honiara",
+     "items": [
+      "Town and memorials"
+     ]
+    },
+    {
+     "title": "Day 3 — Fly to Gizo",
+     "items": [
+      "Settle in"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Gizo area",
+     "items": [
+      "Diving and village visits"
+     ]
+    },
+    {
+     "title": "Day 6 — Munda",
+     "items": [
+      "Wartime sites"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Marovo Lagoon",
+     "items": [
+      "Boat trips and traditional culture"
+     ]
+    },
+    {
+     "title": "Day 9 — Return to Honiara",
+     "items": [
+      "Rest and shopping"
+     ]
+    },
+    {
+     "title": "Day 10 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "April to October is generally drier and a better time for diving. The wetter season runs roughly November to March, with cyclone risk.",
+   "currency": "Solomon Islands dollar (SBD). Cash is essential outside Honiara.",
+   "safety": "Take care in Honiara, avoid walking alone at night and follow local advice. Malaria is present, so seek medical advice before travel. The US advisory is Level 2.",
+   "tipping": "Not customary. A small payment to guides is welcome.",
+   "transport": "Domestic flights and boats link provinces, but schedules can change at short notice. Allow flexibility."
+  }
+ },
+ "Somalia": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Mogadishu",
+    "desc": "The capital and largest city, with a long coastline and historic quarters; security is a major constraint."
+   },
+   {
+    "name": "Lido Beach area",
+    "desc": "Sandy Indian Ocean shoreline near the capital that is popular with local families."
+   },
+   {
+    "name": "Hargeisa",
+    "desc": "Capital of the self-declared Somaliland region, with lively markets and a relatively calmer reputation."
+   },
+   {
+    "name": "Laas Geel",
+    "desc": "Rock shelters near Hargeisa with well-preserved prehistoric cave paintings."
+   },
+   {
+    "name": "Berbera",
+    "desc": "A historic Red Sea port town in Somaliland with old Ottoman-era buildings and beaches."
+   },
+   {
+    "name": "Zeila",
+    "desc": "A small, ancient coastal settlement near the Djibouti border with old mosques."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Poetry Tradition",
+    "desc": "Oral poetry is central to Somali identity and is performed and discussed at social gatherings."
+   },
+   {
+    "name": "Hospitality",
+    "desc": "Guests are welcomed with tea and food; dress and behave modestly."
+   },
+   {
+    "name": "Camel Herding Heritage",
+    "desc": "Pastoral life shapes much of rural culture, and camels hold great social value."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "1 July marks independence and union; observance and security arrangements vary."
+   },
+   {
+    "name": "Somaliland Independence Day",
+    "desc": "18 May is marked in Somaliland with public gatherings."
+   },
+   {
+    "name": "Poetry Gatherings",
+    "desc": "Poetry events take place at various times; ask locally."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, with family meals, new clothes and sweets."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and sharing of meat."
+   },
+   {
+    "name": "Ramadan",
+    "desc": "A month of daytime fasting; the evening meal is a major shared occasion."
+   }
+  ],
+  "food": [
+   {
+    "name": "Bariis iyo Hilib",
+    "desc": "Spiced rice served with goat or camel meat."
+   },
+   {
+    "name": "Canjeero",
+    "desc": "A soft, spongy pancake-like flatbread eaten at breakfast."
+   },
+   {
+    "name": "Sambusa",
+    "desc": "Fried triangular pastry with meat or vegetable filling, especially popular in Ramadan."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Secured Hotels in Mogadishu",
+    "desc": "A small number of guarded hotels serve visitors; arrangements should be made through trusted contacts."
+   },
+   {
+    "name": "Hargeisa Hotels",
+    "desc": "Mid-range hotels in Somaliland's capital, with generally easier access than the south."
+   },
+   {
+    "name": "Berbera Coastal Guesthouses",
+    "desc": "Basic accommodation near the port; check availability in advance."
+   }
+  ],
+  "intro": "Somalia has a long coastline, a rich oral culture and a distinct history, but it faces serious security risks including terrorism, kidnapping, piracy and limited government services. Many governments advise against all travel, and consular help is very limited. Somaliland in the north-west is governed separately and is treated differently by some advisories, though risks remain. This page is general information, not a recommendation to travel; the guide has 5, 7 and 10-day routes for reference.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Hargeisa",
+     "items": [
+      "Markets and museums; only with local arrangements and current advice"
+     ]
+    },
+    {
+     "title": "Day 3 — Laas Geel",
+     "items": [
+      "Rock art shelters with a licensed guide"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Berbera",
+     "items": [
+      "Old port quarter and coast"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Hargeisa",
+     "items": [
+      "City and markets with local support"
+     ]
+    },
+    {
+     "title": "Day 3 — Laas Geel",
+     "items": [
+      "Prehistoric paintings"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Berbera",
+     "items": [
+      "Historic port and beaches"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Sheikh area",
+     "items": [
+      "Highland scenery, subject to security guidance"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Hargeisa",
+     "items": [
+      "City, markets and local contacts"
+     ]
+    },
+    {
+     "title": "Day 4 — Laas Geel",
+     "items": [
+      "Rock art"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Berbera",
+     "items": [
+      "Port and coast"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Sheikh area",
+     "items": [
+      "Highlands, if advised as safe"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Hargeisa",
+     "items": [
+      "Return and onward travel"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "December to February is cooler and drier; the rest of the year is hot, with rain seasons in spring and autumn.",
+   "currency": "Somali shilling and Somaliland shilling; US dollars are widely used and mobile money is common. Cards and ATMs are very limited.",
+   "safety": "Most governments advise against all travel. Do not travel without current official advice, specialist security support and appropriate insurance.",
+   "tipping": "Not strongly expected; small gifts for guides or drivers are appreciated.",
+   "transport": "Domestic flights link major towns; road travel can be dangerous and often requires armed escort. Independent travel is not advisable."
+  }
+ },
+ "South Sudan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Juba",
+    "desc": "The capital on the White Nile, with markets, riverside spots and the Jebel Kujur hill."
+   },
+   {
+    "name": "Nile River",
+    "desc": "The White Nile is the lifeblood of the country, with fishing and river life."
+   },
+   {
+    "name": "Boma National Park",
+    "desc": "A vast wilderness known for large animal migrations, with very limited access."
+   },
+   {
+    "name": "Nimule National Park",
+    "desc": "Riverside park near the Uganda border with wildlife and the Fula rapids nearby."
+   },
+   {
+    "name": "Imatong Mountains",
+    "desc": "Highland forest and the country's tallest peak, Mount Kinyeti, near the border."
+   },
+   {
+    "name": "Sudd Wetland",
+    "desc": "One of the largest wetlands in Africa, rich in birdlife and difficult to reach."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Cattle Culture",
+    "desc": "Cattle are central to the identity of communities such as the Dinka, Nuer and Mundari."
+   },
+   {
+    "name": "Many Ethnic Groups",
+    "desc": "Dozens of peoples live in the country, each with their own languages and customs."
+   },
+   {
+    "name": "Music and Dance",
+    "desc": "Communal dance and song accompany ceremonies and gatherings."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "9 July marks independence from Sudan in 2011."
+   },
+   {
+    "name": "Peace Agreement Anniversary",
+    "desc": "Events mark the 2005 peace agreement in January; observance varies."
+   },
+   {
+    "name": "Christmas and Easter",
+    "desc": "Churches are central to community life; services are widely attended."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Christmas",
+    "desc": "25 December. Church services and family gatherings."
+   },
+   {
+    "name": "Easter",
+    "desc": "Dates vary yearly. Church services and community meals."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, observed by Muslim communities."
+   }
+  ],
+  "food": [
+   {
+    "name": "Kisra",
+    "desc": "A thin fermented flatbread eaten with stews."
+   },
+   {
+    "name": "Fish Stew",
+    "desc": "River fish cooked with onions and spices, common along the Nile."
+   },
+   {
+    "name": "Ful",
+    "desc": "Stewed beans, a common breakfast shared with Sudan."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Juba Hotels",
+    "desc": "A handful of hotels and compounds serve aid workers and officials; book ahead and confirm security."
+   },
+   {
+    "name": "Nimule Lodges",
+    "desc": "Basic lodges near the Uganda border; check availability."
+   },
+   {
+    "name": "Organisation Guesthouses",
+    "desc": "Many visitors stay in guarded compounds arranged by employers or operators."
+   }
+  ],
+  "intro": "South Sudan, independent since 2011, has major wildlife areas and rich cultural diversity, but it faces armed conflict, crime, flooding and severe humanitarian needs. Most governments advise against all travel, services are limited and roads are hazardous. This page is general information and not a recommendation to travel; the guide has 5, 7 and 10-day routes for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Juba",
+     "items": [
+      "Markets, riverside and the Jebel Kujur area, only with local arrangements and current advice"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Nimule",
+     "items": [
+      "Nile scenery and national park, subject to security"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Juba",
+     "items": [
+      "City sights with local support"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Nimule",
+     "items": [
+      "National park and river"
+     ]
+    },
+    {
+     "title": "Day 6–7 — Return",
+     "items": [
+      "Onward travel"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Juba",
+     "items": [
+      "City sights and contacts"
+     ]
+    },
+    {
+     "title": "Day 4–6 — Nimule",
+     "items": [
+      "Park and river"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Eastern Equatoria",
+     "items": [
+      "Highland scenery, only if advised as safe"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Juba",
+     "items": [
+      "Return and onward travel"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "The dry season from about November to March is easier for travel; the rainy season floods roads and swamps large areas.",
+   "currency": "South Sudanese pound (SSP). US dollars are widely used; cards and ATMs are scarce and prices change quickly.",
+   "safety": "Most governments advise against all travel. Seek current official advice, specialist security support and comprehensive insurance.",
+   "tipping": "Not customary; small gifts for helpers are appreciated.",
+   "transport": "Flights link Juba to some towns; roads are poor and unsafe in many areas. Independent travel is not advisable."
+  }
+ },
+ "Sudan": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Meroë Pyramids",
+    "desc": "Steep-sided royal tombs of the Kingdom of Kush rising from the desert north of Khartoum."
+   },
+   {
+    "name": "Jebel Barkal",
+    "desc": "A sacred sandstone hill with temples near Karima."
+   },
+   {
+    "name": "Nile Confluence at Khartoum",
+    "desc": "The meeting of the Blue and White Niles at the capital, which has been heavily affected by conflict."
+   },
+   {
+    "name": "Kerma",
+    "desc": "An early Nubian centre with ancient mudbrick monuments."
+   },
+   {
+    "name": "Red Sea Coast",
+    "desc": "Port Sudan and nearby reefs are known for diving."
+   },
+   {
+    "name": "Jebel Marra",
+    "desc": "A volcanic highland in Darfur with cooler weather, currently in a conflict-affected region."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Nubian Heritage",
+    "desc": "Ancient Nubian kingdoms left pyramids and temples that are among Africa's least-visited archaeological sites."
+   },
+   {
+    "name": "Coffee and Tea Ceremonies",
+    "desc": "Spiced coffee (jebena) and sweet tea are central to hospitality."
+   },
+   {
+    "name": "Sufi Traditions",
+    "desc": "Sufi orders hold dhikr gatherings, especially in the Omdurman area."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "1 January marks independence in 1956."
+   },
+   {
+    "name": "Omdurman Dhikr",
+    "desc": "Weekly Friday-evening Sufi gatherings in Omdurman have been a cultural highlight; check current conditions."
+   },
+   {
+    "name": "Date Harvest",
+    "desc": "Late summer in northern Sudan, when the date harvest takes place."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan with family visits and sweets."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and sharing of meat."
+   },
+   {
+    "name": "Mawlid",
+    "desc": "Dates vary yearly. Celebrated with processions and sweets."
+   }
+  ],
+  "food": [
+   {
+    "name": "Ful Medames",
+    "desc": "Slow-cooked fava beans served with bread."
+   },
+   {
+    "name": "Kisra",
+    "desc": "A thin fermented flatbread served with stews."
+   },
+   {
+    "name": "Mullah",
+    "desc": "Rich stews of meat or okra eaten with kisra or asida."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Port Sudan Hotels",
+    "desc": "Port Sudan has been a refuge for many organisations; availability is limited."
+   },
+   {
+    "name": "Northern Sudan Guesthouses",
+    "desc": "Small guesthouses near Meroë and Karima served visitors before the conflict; check status."
+   },
+   {
+    "name": "Not Currently Advisable",
+    "desc": "Khartoum hotels are largely not operating normally."
+   }
+  ],
+  "intro": "Sudan has some of Africa's finest ancient sites, including Nubian pyramids and temples, but it has been in a major armed conflict since April 2023 with severe humanitarian consequences. Governments advise against all travel, most embassies have limited or no services and flights are disrupted. This page is general information, not a recommendation to travel; the guide has 5, 7 and 10-day routes for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–2 — Khartoum",
+     "items": [
+      "Not currently advisable; historically a base for museums and the Nile"
+     ]
+    },
+    {
+     "title": "Day 3–5 — Meroë",
+     "items": [
+      "Pyramid fields and Naga, historically a desert day trip"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Khartoum & Omdurman",
+     "items": [
+      "Historical sights, no longer advisable"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Meroë",
+     "items": [
+      "Royal pyramids"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Karima",
+     "items": [
+      "Jebel Barkal and Nuri pyramids"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Khartoum",
+     "items": [
+      "Historical base"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Meroë",
+     "items": [
+      "Pyramids"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Karima",
+     "items": [
+      "Jebel Barkal and Kurru"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Kerma",
+     "items": [
+      "Nubian monuments and the Nile"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to March is cooler; summers are extremely hot and the rainy season brings floods in places.",
+   "currency": "Sudanese pound (SDG). Inflation is high; cards are generally not accepted and cash access is difficult.",
+   "safety": "Governments advise against all travel because of armed conflict, shortages, crime and a very limited consular presence.",
+   "tipping": "Small gratuities are appreciated but not obligatory.",
+   "transport": "Many airports and roads are disrupted or dangerous. Independent travel is not advisable."
+  }
+ },
+ "Suriname": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Paramaribo Historic Centre",
+    "desc": "A UNESCO-listed old town with wooden colonial buildings, a mosque and a synagogue side by side."
+   },
+   {
+    "name": "Central Suriname Nature Reserve",
+    "desc": "A huge protected rainforest, a UNESCO site, reached by organised trips."
+   },
+   {
+    "name": "Brownsberg Nature Park",
+    "desc": "A forested plateau with hiking trails, waterfalls and a view of a large reservoir."
+   },
+   {
+    "name": "Galibi Nature Reserve",
+    "desc": "A coastal reserve where sea turtles nest in season."
+   },
+   {
+    "name": "Jodensavanne",
+    "desc": "The ruins of a historic Jewish settlement beside the Suriname River."
+   },
+   {
+    "name": "Commewijne River",
+    "desc": "Former plantations on the river, with boat trips and heritage sites."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Multicultural Society",
+    "desc": "Suriname's people include Indigenous, Maroon, Creole, Hindustani, Javanese, Chinese and European descendants."
+   },
+   {
+    "name": "Maroon Communities",
+    "desc": "Descendants of escaped enslaved people live in the interior, with their own traditions and crafts."
+   },
+   {
+    "name": "Dutch Heritage",
+    "desc": "Dutch is the official language, and street names and buildings reflect the colonial past."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "25 November. Marks independence from the Netherlands in 1975."
+   },
+   {
+    "name": "Keti Koti",
+    "desc": "1 July. Commemorates the end of slavery with ceremonies and cultural events."
+   },
+   {
+    "name": "Indigenous Peoples Day",
+    "desc": "9 August. Celebrations of Indigenous cultures."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Phagwa",
+    "desc": "March. A Hindu festival of colours."
+   },
+   {
+    "name": "Diwali",
+    "desc": "October or November. A festival of lights celebrated with lamps and sweets."
+   },
+   {
+    "name": "Javanese Immigration Day",
+    "desc": "9 August. Events honouring the arrival of Javanese workers."
+   }
+  ],
+  "food": [
+   {
+    "name": "Pom",
+    "desc": "A baked dish of grated root vegetable with chicken, often served at celebrations."
+   },
+   {
+    "name": "Roti and Curry",
+    "desc": "A well-known Hindustani-influenced meal with chicken or vegetables."
+   },
+   {
+    "name": "Javanese Dishes",
+    "desc": "Warung food such as bami and nasi is common in Paramaribo."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Paramaribo Hotels",
+    "desc": "A range from guesthouses to larger hotels in the old town."
+   },
+   {
+    "name": "Eco-Lodges",
+    "desc": "Small lodges in the interior, usually booked with tour operators."
+   },
+   {
+    "name": "Plantation Stays",
+    "desc": "Restored river estates around the Commewijne."
+   }
+  ],
+  "intro": "Suriname is a small country on South America's north coast, with a Dutch-speaking culture and a very diverse population. Most of it is covered by rainforest, much of it protected. Paramaribo is the base for most trips, and the interior is usually visited with tour operators. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Paramaribo",
+     "items": [
+      "Arrive and walk the historic centre"
+     ]
+    },
+    {
+     "title": "Day 2 — Paramaribo",
+     "items": [
+      "Palm garden, markets and museums"
+     ]
+    },
+    {
+     "title": "Day 3 — Commewijne",
+     "items": [
+      "River and plantation tour"
+     ]
+    },
+    {
+     "title": "Day 4 — Brownsberg",
+     "items": [
+      "Park trails and waterfalls"
+     ]
+    },
+    {
+     "title": "Day 5 — Departure",
+     "items": [
+      "Final stop and flights"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Paramaribo",
+     "items": [
+      "Old town and local food"
+     ]
+    },
+    {
+     "title": "Day 3 — Commewijne",
+     "items": [
+      "Plantation tour"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Brownsberg",
+     "items": [
+      "Hiking and wildlife"
+     ]
+    },
+    {
+     "title": "Day 6 — Jodensavanne",
+     "items": [
+      "Historic site visit"
+     ]
+    },
+    {
+     "title": "Day 7 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Paramaribo",
+     "items": [
+      "Sightseeing"
+     ]
+    },
+    {
+     "title": "Day 3 — Commewijne",
+     "items": [
+      "River and estates"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Brownsberg",
+     "items": [
+      "Forest walks"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Upper Suriname River",
+     "items": [
+      "Maroon villages by boat, with an operator"
+     ]
+    },
+    {
+     "title": "Day 9 — Jodensavanne",
+     "items": [
+      "History"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Return"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "February to April and August to November are drier. The country is warm and humid year-round.",
+   "currency": "Surinamese dollar (SRD). Exchange rates move, so check before travel; euros and US dollars are often exchanged.",
+   "safety": "Generally safe but petty theft and some street crime occur, especially at night in Paramaribo. Use licensed transport and take care near rivers.",
+   "tipping": "Not strictly required; a small tip or round-up is appreciated.",
+   "transport": "Minibuses and taxis in towns, boats and small planes for the interior. Roads outside the north are limited. Drive on the left."
+  }
+ },
+ "Syria": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Damascus Old City",
+    "desc": "A very old continuously inhabited city with the Umayyad Mosque and covered souks."
+   },
+   {
+    "name": "Aleppo",
+    "desc": "A historic trading city with a citadel and souks, heavily damaged in the war and partly rebuilding."
+   },
+   {
+    "name": "Palmyra",
+    "desc": "Ruins of a great caravan city in the desert, severely damaged and in a risky region."
+   },
+   {
+    "name": "Crac des Chevaliers",
+    "desc": "A well-preserved Crusader castle in the west."
+   },
+   {
+    "name": "Bosra",
+    "desc": "A Roman and Islamic town in the south with a large theatre."
+   },
+   {
+    "name": "Syrian Coast",
+    "desc": "Mediterranean towns such as Latakia and Tartus."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Old City Life",
+    "desc": "Narrow lanes, courtyard houses and souks form the traditional urban fabric."
+   },
+   {
+    "name": "Hospitality",
+    "desc": "Visitors are often offered tea or coffee; dress modestly."
+   },
+   {
+    "name": "Crafts",
+    "desc": "Traditions such as soap-making, brocade and woodwork have long histories."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "17 April marks the end of the French mandate."
+   },
+   {
+    "name": "Olive Harvest",
+    "desc": "Autumn in rural areas."
+   },
+   {
+    "name": "Cultural Events",
+    "desc": "Public events have been disrupted; check locally."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan with family gatherings and sweets."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and sharing of meat."
+   },
+   {
+    "name": "Christmas and Easter",
+    "desc": "Observed by Syrian Christian communities."
+   }
+  ],
+  "food": [
+   {
+    "name": "Kibbeh",
+    "desc": "Meat and bulgur croquettes, with many regional variations."
+   },
+   {
+    "name": "Fattoush",
+    "desc": "Salad with toasted bread and sumac."
+   },
+   {
+    "name": "Muhammara",
+    "desc": "A dip of red pepper and walnuts, associated with Aleppo."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Damascus Hotels",
+    "desc": "Some hotels operate in the capital; availability and services vary."
+   },
+   {
+    "name": "Old City Guesthouses",
+    "desc": "Courtyard houses converted to guesthouses; check status."
+   },
+   {
+    "name": "Not Widely Available",
+    "desc": "Accommodation elsewhere is limited and conditions vary."
+   }
+  ],
+  "intro": "Syria has some of the world's oldest cities and major archaeological sites, but after more than a decade of conflict it faces serious risks including violence, landmines, kidnapping and unstable governance. Governments advise against all travel and consular support is limited. Conditions can change quickly after the political changes of late 2024. This page is general information, not a recommendation to travel; the guide has 5, 7 and 10-day routes for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–3 — Damascus",
+     "items": [
+      "Umayyad Mosque, souks and the old city, subject to current advice"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Bosra",
+     "items": [
+      "Roman theatre and old town, subject to security"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Damascus",
+     "items": [
+      "Old city and museums"
+     ]
+    },
+    {
+     "title": "Day 4 — Bosra",
+     "items": [
+      "Roman theatre"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Aleppo",
+     "items": [
+      "Citadel and souks, conditions permitting"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Damascus",
+     "items": [
+      "Old city"
+     ]
+    },
+    {
+     "title": "Day 4 — Bosra",
+     "items": [
+      "Roman theatre"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Aleppo",
+     "items": [
+      "Citadel and souks"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Coast and castles",
+     "items": [
+      "Crac des Chevaliers and the Mediterranean, if accessible"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Spring (March to May) and autumn (September to November) are the most comfortable, but advice matters more than season.",
+   "currency": "Syrian pound (SYP). Inflation has been high; cash is typically needed and cards and ATMs are unreliable.",
+   "safety": "Governments advise against all travel. Landmines, unexploded ordnance and armed groups are risks. Seek current official advice.",
+   "tipping": "Small tips are customary in restaurants.",
+   "transport": "Road conditions and checkpoints vary and some roads are unsafe. Flights are limited. Independent travel is not advisable."
+  }
+ },
+ "Timor-Leste": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Dili",
+    "desc": "A small capital with a harbour promenade, the Cristo Rei statue, markets and museums."
+   },
+   {
+    "name": "Atauro Island",
+    "desc": "A short ferry ride from Dili, known for diving, snorkelling and community-run stays."
+   },
+   {
+    "name": "Mount Ramelau",
+    "desc": "Timor-Leste's highest peak; many hike overnight to see sunrise from the summit."
+   },
+   {
+    "name": "Baucau",
+    "desc": "A hill town with colonial architecture and beaches nearby."
+   },
+   {
+    "name": "Jaco Island",
+    "desc": "A small, protected island off the eastern tip, with white sand and clear water."
+   },
+   {
+    "name": "Maubisse",
+    "desc": "A cool highland town with views and old colonial buildings."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Tais Weaving",
+    "desc": "Hand-woven cloth with traditional patterns, sold at Tais Market in Dili."
+   },
+   {
+    "name": "Resistance Heritage",
+    "desc": "Museums and sites recount the independence struggle."
+   },
+   {
+    "name": "Coffee Villages",
+    "desc": "Highland farms grow Timorese coffee; visits are possible with a local guide."
+   }
+  ],
+  "events": [
+   {
+    "name": "Restoration of Independence Day",
+    "desc": "20 May. National celebrations and parades."
+   },
+   {
+    "name": "Popular Consultation Day",
+    "desc": "30 August. Marks the 1999 vote for independence."
+   },
+   {
+    "name": "Easter Processions",
+    "desc": "March or April. Catholic processions, especially in Dili."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Independence Season",
+    "desc": "May. Concerts, ceremonies and sport."
+   },
+   {
+    "name": "Holy Week",
+    "desc": "March or April. Processions across the country."
+   },
+   {
+    "name": "Christmas",
+    "desc": "December. A major religious and family time."
+   }
+  ],
+  "food": [
+   {
+    "name": "Ikan Sabuko",
+    "desc": "Grilled or fried fish served with spicy sauce."
+   },
+   {
+    "name": "Batar Da'an",
+    "desc": "A stew of corn, beans and vegetables."
+   },
+   {
+    "name": "Timorese Coffee",
+    "desc": "Grown in the highlands and widely served."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Dili Hotels",
+    "desc": "The widest range of hotels and guesthouses."
+   },
+   {
+    "name": "Atauro Eco-lodges",
+    "desc": "Simple beachside stays and community-run options."
+   },
+   {
+    "name": "Highland Guesthouses",
+    "desc": "Basic stays near Mount Ramelau and in Maubisse."
+   }
+  ],
+  "intro": "Timor-Leste is a young nation on the eastern half of Timor island, with mountains, coral reefs and a Portuguese and Indonesian past. Facilities outside Dili are basic and roads can be rough. Diving, hiking and heritage are the main draws. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Dili",
+     "items": [
+      "Cristo Rei, waterfront and museum"
+     ]
+    },
+    {
+     "title": "Day 2 — Dili",
+     "items": [
+      "Tais Market and Santa Cruz Cemetery"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Atauro Island",
+     "items": [
+      "Snorkelling and village stays"
+     ]
+    },
+    {
+     "title": "Day 5 — Dili",
+     "items": [
+      "Departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Dili",
+     "items": [
+      "Museums, markets, waterfront"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Atauro Island",
+     "items": [
+      "Reefs and quiet beaches"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Maubisse",
+     "items": [
+      "Highland road and scenery"
+     ]
+    },
+    {
+     "title": "Day 7 — Dili",
+     "items": [
+      "Departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Dili",
+     "items": [
+      "Museums, markets, waterfront"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Atauro Island",
+     "items": [
+      "Snorkelling and reefs"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Maubisse and Ramelau",
+     "items": [
+      "Highland stays and a sunrise hike"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Baucau",
+     "items": [
+      "Old town and beaches"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Jaco Island area",
+     "items": [
+      "Beach days and return to Dili"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Roughly May to November is drier and better for travel; the wet season brings heavy rain and difficult roads.",
+   "currency": "US dollar (USD). ATMs are mostly in Dili; carry cash elsewhere.",
+   "safety": "Generally calm, but watch for petty theft in Dili, and take care with roads and water. Healthcare is limited, so insurance with medical evacuation is wise.",
+   "tipping": "Not required; small tips are appreciated.",
+   "transport": "Shared minibuses (micro-lets) and taxis are common; hiring a driver or 4x4 helps outside Dili. Flights and ferries serve some routes."
+  }
+ },
+ "Togo": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Lomé",
+    "desc": "A coastal capital with a lively grand marché, fetish market and beaches."
+   },
+   {
+    "name": "Togoville",
+    "desc": "A lakeside town of historical and religious significance, reached by boat from Aného or the lake shore."
+   },
+   {
+    "name": "Kpalimé and Mount Agou",
+    "desc": "Green hills, waterfalls and cocoa and coffee country, good for hiking and butterflies."
+   },
+   {
+    "name": "Koutammakou",
+    "desc": "A UNESCO-listed landscape of tower-like Batammariba mud houses in the north-east."
+   },
+   {
+    "name": "Aného",
+    "desc": "A historic coastal town and former colonial capital with old buildings and Vodun heritage."
+   },
+   {
+    "name": "Fazao-Malfakassa National Park",
+    "desc": "A large forest and savanna park in central Togo with walking trails."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Batammariba Architecture",
+    "desc": "Two-storey earthen houses called takienta are central to the life of the community. Visit with a local guide."
+   },
+   {
+    "name": "Lomé Markets",
+    "desc": "The grand marché and Akodessewa fetish market show everyday and ritual life. Ask before photographing."
+   },
+   {
+    "name": "Textile and Wax-Print Culture",
+    "desc": "Women traders known as Nana Benz built a famous business in cloth. Look for tailors who will sew your fabric."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "27 April. National ceremonies mark independence from France."
+   },
+   {
+    "name": "Fête de la Lutte (Kabye wrestling)",
+    "desc": "Held in the north around the Evala season, usually in July. Young men compete in rites of passage."
+   },
+   {
+    "name": "Lomé Jazz and Music Events",
+    "desc": "Local concerts and cultural nights take place through the year. Check listings in Lomé."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Evala",
+    "desc": "Usually July in Kara region. A traditional Kabye wrestling and initiation festival."
+   },
+   {
+    "name": "Epe-Ekpe (Guin people)",
+    "desc": "Typically September in Aného. A traditional ceremony of the Guin people."
+   },
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan, dates change each year. Observed with prayers and family meals."
+   }
+  ],
+  "food": [
+   {
+    "name": "Fufu with Sauce",
+    "desc": "Pounded yam or cassava eaten with peanut, palm nut or tomato sauce."
+   },
+   {
+    "name": "Akoumé",
+    "desc": "A maize dough eaten with spicy tomato or okra sauce, a staple in the south."
+   },
+   {
+    "name": "Grilled Fish and Attiéké",
+    "desc": "Fish grilled over charcoal served with cassava couscous and pepper sauce."
+   }
+  ],
+  "intro": "Togo is a narrow West African country stretching from the Gulf of Guinea to the savanna of the north. It has beaches, forested hills around Kpalimé and the earthen houses of Koutammakou. Tourism is low-key and travel takes patience. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Lomé",
+     "items": [
+      "Grand marché and the coast"
+     ]
+    },
+    {
+     "title": "Day 2 — Aného and Togoville",
+     "items": [
+      "Heritage coastal towns"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Kpalimé",
+     "items": [
+      "Hills, waterfalls and village walks"
+     ]
+    },
+    {
+     "title": "Day 5 — Lomé",
+     "items": [
+      "Return and departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Lomé",
+     "items": [
+      "Arrival and markets"
+     ]
+    },
+    {
+     "title": "Day 2 — Aného and Togoville",
+     "items": [
+      "Day trip east"
+     ]
+    },
+    {
+     "title": "Day 3–4 — Kpalimé",
+     "items": [
+      "Mount Agou and waterfall walks"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Atakpamé area",
+     "items": [
+      "Rural stops and central hills"
+     ]
+    },
+    {
+     "title": "Day 7 — Lomé",
+     "items": [
+      "Departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Lomé",
+     "items": [
+      "City and coast"
+     ]
+    },
+    {
+     "title": "Day 3 — Aného and Togoville",
+     "items": [
+      "Heritage coast"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Kpalimé",
+     "items": [
+      "Hills and plantations"
+     ]
+    },
+    {
+     "title": "Day 6 — Atakpamé",
+     "items": [
+      "Central stop"
+     ]
+    },
+    {
+     "title": "Day 7–8 — Kara",
+     "items": [
+      "Northern city and Kabye villages"
+     ]
+    },
+    {
+     "title": "Day 9–10 — Koutammakou",
+     "items": [
+      "Batammariba houses, only after checking current northern security advice"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "November to February is drier and cooler. Heavy rains fall from roughly April to July.",
+   "currency": "West African CFA franc (XOF), pegged to the euro. Cash is widely needed outside Lomé.",
+   "safety": "Take usual city precautions in Lomé. The far north near the Burkina Faso border has security concerns, so check current advice. Yellow fever vaccination and malaria precautions are advised.",
+   "tipping": "Not obligatory. Small tips for guides and drivers are welcome.",
+   "transport": "Shared taxis and buses link main towns and motorbike taxis (zémidjans) are common in cities. Hiring a driver is easiest for long routes."
+  },
+  "stays": [
+   {
+    "name": "Lomé Hotels",
+    "desc": "Mid-range and upscale hotels near the coast and airport, plus small guesthouses."
+   },
+   {
+    "name": "Kpalimé Guesthouses",
+    "desc": "Small lodgings in the hills with garden settings and nature access."
+   },
+   {
+    "name": "Kara and Northern Hotels",
+    "desc": "Simple hotels in towns. Book ahead and check conditions locally."
+   }
+  ]
+ },
+ "Tonga": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Tongatapu",
+    "desc": "The main island, home to Nuku'alofa, the royal palace and coastal blowholes."
+   },
+   {
+    "name": "Ha'apai Islands",
+    "desc": "Remote, low-lying islands known for quiet beaches and traditional life."
+   },
+   {
+    "name": "Vava'u",
+    "desc": "A sheltered island group with calm waters, popular for sailing and kayaking."
+   },
+   {
+    "name": "Mapu'a 'a Vaea Blowholes",
+    "desc": "A line of blowholes on Tongatapu's south coast that shoot spray into the air."
+   },
+   {
+    "name": "Ha'amonga 'a Maui Trilithon",
+    "desc": "An ancient stone gateway on Tongatapu, built from huge coral limestone blocks."
+   },
+   {
+    "name": "Swimming with Humpback Whales",
+    "desc": "Whales visit roughly July to October, with licensed operators taking guests out."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Sunday Church Services",
+    "desc": "Sunday is a day of rest, with beautiful choral singing. Most shops and activities pause."
+   },
+   {
+    "name": "Tapa and Mat Weaving",
+    "desc": "Tapa cloth and woven mats are central to ceremonies and gift-giving."
+   },
+   {
+    "name": "Respect for the Monarchy",
+    "desc": "Tonga is a constitutional monarchy, and royal traditions are respected. Dress modestly."
+   }
+  ],
+  "events": [
+   {
+    "name": "Heilala Festival",
+    "desc": "Held around July in Nuku'alofa, with parades, music, sports and a pageant."
+   },
+   {
+    "name": "Whale Season",
+    "desc": "July to October, when humpback whales migrate to Tongan waters."
+   },
+   {
+    "name": "King's Birthday Celebrations",
+    "desc": "Marked with ceremonies and events in Nuku'alofa, with dates set annually."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Heilala Festival",
+    "desc": "July. A week of cultural events, dance and sports in the capital."
+   },
+   {
+    "name": "Vava'u Sailing Events",
+    "desc": "Typically mid-year, with regattas for yachts visiting the islands."
+   },
+   {
+    "name": "Church Conferences",
+    "desc": "Mid-year gatherings with large choirs and community events."
+   }
+  ],
+  "food": [
+   {
+    "name": "Lu Pulu",
+    "desc": "Corned beef and onion wrapped in taro leaves with coconut cream, baked in an umu."
+   },
+   {
+    "name": "'Ota 'Ika",
+    "desc": "Raw fish in lime juice and coconut milk."
+   },
+   {
+    "name": "'Umu Feast",
+    "desc": "Food cooked in an earth oven, often served at celebrations."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Nuku'alofa Hotels and Guesthouses",
+    "desc": "A practical base on Tongatapu with restaurants and transport."
+   },
+   {
+    "name": "Vava'u Island Lodges",
+    "desc": "Small lodges and guesthouses around Neiafu, good for sailing and whale trips."
+   },
+   {
+    "name": "Ha'apai Beach Fale",
+    "desc": "Simple beachfront stays for a quiet, remote experience."
+   }
+  ],
+  "intro": "Tonga is a Polynesian kingdom of about 170 islands in the South Pacific, and has never been colonised. Visitors come for whale watching, quiet beaches and a strongly traditional way of life. Most visitors stay on Tongatapu, Vava'u or Ha'apai. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Nuku'alofa",
+     "items": [
+      "Arrive, royal palace exterior and market"
+     ]
+    },
+    {
+     "title": "Day 2 — Tongatapu south",
+     "items": [
+      "Blowholes and coastal viewpoints"
+     ]
+    },
+    {
+     "title": "Day 3 — Tongatapu east",
+     "items": [
+      "Ha'amonga 'a Maui Trilithon"
+     ]
+    },
+    {
+     "title": "Day 4 — Beaches",
+     "items": [
+      "Swimming and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 5 — Depart",
+     "items": [
+      "Final shopping and flight"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Nuku'alofa",
+     "items": [
+      "Arrive and explore"
+     ]
+    },
+    {
+     "title": "Day 2 — Tongatapu sights",
+     "items": [
+      "Blowholes and ancient sites"
+     ]
+    },
+    {
+     "title": "Day 3 — Fly to Vava'u",
+     "items": [
+      "Settle in at Neiafu"
+     ]
+    },
+    {
+     "title": "Day 4 — Vava'u lagoons",
+     "items": [
+      "Boat trip and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 5 — Whale season or kayaking",
+     "items": [
+      "Licensed whale swim (July–October) or sea kayaking"
+     ]
+    },
+    {
+     "title": "Day 6 — Relax",
+     "items": [
+      "Beach time"
+     ]
+    },
+    {
+     "title": "Day 7 — Return",
+     "items": [
+      "Fly back and depart"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Nuku'alofa",
+     "items": [
+      "Town, market and nearby sights"
+     ]
+    },
+    {
+     "title": "Day 3 — Tongatapu",
+     "items": [
+      "Blowholes and trilithon"
+     ]
+    },
+    {
+     "title": "Day 4 — Fly to Ha'apai",
+     "items": [
+      "Remote island life"
+     ]
+    },
+    {
+     "title": "Day 5–6 — Ha'apai",
+     "items": [
+      "Beaches and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 7 — Fly to Vava'u",
+     "items": [
+      "Move on to Neiafu"
+     ]
+    },
+    {
+     "title": "Day 8–9 — Vava'u",
+     "items": [
+      "Island boat trips and whale season activities"
+     ]
+    },
+    {
+     "title": "Day 10 — Depart",
+     "items": [
+      "Return to Tongatapu and fly out"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is cooler and drier, and covers whale season (about July to October). Cyclone season runs roughly November to April.",
+   "currency": "Tongan pa'anga (TOP). Carry cash for outer islands, as card acceptance is limited.",
+   "safety": "Generally safe, with low violent crime. Take care with sun, reef and sea conditions, and avoid swimming alone at night.",
+   "tipping": "Not customary. A small thank-you to guides or boat crews is welcome but optional.",
+   "transport": "Taxis and rental cars on Tongatapu. Domestic flights and ferries link island groups, but schedules can change, so confirm in advance."
+  }
+ },
+ "Trinidad and Tobago": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 3,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Port of Spain",
+    "desc": "The capital, with the Queen's Park Savannah, historic houses and lively food scene."
+   },
+   {
+    "name": "Maracas Bay",
+    "desc": "A popular north coast beach known for bake and shark sandwiches."
+   },
+   {
+    "name": "Asa Wright Nature Centre",
+    "desc": "A highland lodge and reserve famed for birdwatching."
+   },
+   {
+    "name": "Caroni Bird Sanctuary",
+    "desc": "A mangrove wetland where scarlet ibis roost at dusk."
+   },
+   {
+    "name": "Pitch Lake",
+    "desc": "A natural asphalt lake at La Brea, one of the largest of its kind."
+   },
+   {
+    "name": "Tobago Beaches and Reef",
+    "desc": "Pigeon Point, Store Bay and Buccoo Reef are favoured for swimming and snorkelling."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Steelpan",
+    "desc": "Invented in Trinidad; hear pan yards rehearse in the weeks before Carnival."
+   },
+   {
+    "name": "Calypso and Soca",
+    "desc": "Musical forms rooted in local history and social commentary."
+   },
+   {
+    "name": "Hindu and Muslim Heritage",
+    "desc": "A large Indo-Trinidadian community shapes food, festivals and architecture."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "31 August. Marks independence from Britain in 1962."
+   },
+   {
+    "name": "Tobago Heritage Festival",
+    "desc": "July–August, Tobago. Village events celebrating folk traditions."
+   },
+   {
+    "name": "Hosay",
+    "desc": "Commemorated in St James and other towns. A Muslim observance with processions of decorated tadjahs."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Carnival",
+    "desc": "February or March, before Lent. Two days of masquerade, music and parades in Port of Spain."
+   },
+   {
+    "name": "Divali",
+    "desc": "October or November. The Hindu festival of lights, celebrated with lamps and sweets."
+   },
+   {
+    "name": "Tobago Jazz Experience",
+    "desc": "Typically April. A music festival on Tobago."
+   }
+  ],
+  "food": [
+   {
+    "name": "Doubles",
+    "desc": "Soft fried flatbread filled with curried chickpeas, a popular street breakfast."
+   },
+   {
+    "name": "Roti",
+    "desc": "Flatbread filled with curried meat or vegetables."
+   },
+   {
+    "name": "Pelau",
+    "desc": "A one-pot dish of rice, pigeon peas and meat or chicken."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Port of Spain Hotels",
+    "desc": "Business hotels and guesthouses near the Savannah."
+   },
+   {
+    "name": "Tobago Guesthouses",
+    "desc": "Smaller stays near Store Bay and Speyside, often with dive or nature access."
+   },
+   {
+    "name": "Eco-Lodges",
+    "desc": "Nature lodges in the Northern Range for birdwatching."
+   }
+  ],
+  "intro": "Trinidad and Tobago is a two-island nation near Venezuela, known for Carnival, steelpan music and a mix of African, Indian and other cultural influences. Trinidad is the larger, industrial island, while Tobago is quieter and known for beaches and reefs. Crime is a serious concern, so read official advisories before travelling. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Port of Spain",
+     "items": [
+      "Savannah, museums and local food"
+     ]
+    },
+    {
+     "title": "Day 2 — North Coast",
+     "items": [
+      "Maracas Bay"
+     ]
+    },
+    {
+     "title": "Day 3 — Nature Day",
+     "items": [
+      "Caroni Bird Sanctuary at dusk"
+     ]
+    },
+    {
+     "title": "Day 4 — Fly to Tobago",
+     "items": [
+      "Pigeon Point and Store Bay"
+     ]
+    },
+    {
+     "title": "Day 5 — Buccoo Reef",
+     "items": [
+      "Snorkelling, then departure"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–2 — Port of Spain",
+     "items": [
+      "Sightseeing and food"
+     ]
+    },
+    {
+     "title": "Day 3 — Northern Range",
+     "items": [
+      "Birdwatching in the highlands"
+     ]
+    },
+    {
+     "title": "Day 4 — South Trinidad",
+     "items": [
+      "Pitch Lake"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Tobago",
+     "items": [
+      "Beaches, reef and forest walks"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Port of Spain",
+     "items": [
+      "City sights and food"
+     ]
+    },
+    {
+     "title": "Day 3 — North Coast",
+     "items": [
+      "Maracas Bay"
+     ]
+    },
+    {
+     "title": "Day 4 — Nature Day",
+     "items": [
+      "Wetlands and birds"
+     ]
+    },
+    {
+     "title": "Day 5 — South Trinidad",
+     "items": [
+      "Pitch Lake"
+     ]
+    },
+    {
+     "title": "Day 6–10 — Tobago",
+     "items": [
+      "Beaches, reef and rainforest"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "January–May is the dry season. Carnival time is busiest and costly.",
+   "currency": "Trinidad and Tobago dollar (TTD).",
+   "safety": "Violent crime is a serious concern, particularly in parts of Port of Spain and elsewhere in Trinidad. Take advice from your accommodation, avoid isolated areas and use trusted transport.",
+   "tipping": "About 10–15 percent in restaurants unless service is included.",
+   "transport": "Taxis, shared route taxis, buses and rental cars in Trinidad; flights and a ferry link to Tobago."
+  }
+ },
+ "Tuvalu": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Funafuti Lagoon",
+    "desc": "A large lagoon with clear water, used for boat trips and snorkelling."
+   },
+   {
+    "name": "Funafuti Conservation Area",
+    "desc": "A protected area of islets, reef and bird life."
+   },
+   {
+    "name": "Funafuti Town",
+    "desc": "The small capital, with a main street, government buildings and the airstrip."
+   },
+   {
+    "name": "Fongafale",
+    "desc": "The main island of Funafuti atoll, where most people live."
+   },
+   {
+    "name": "Nanumea",
+    "desc": "A remote atoll with traditional life and wartime history."
+   },
+   {
+    "name": "Vaitupu",
+    "desc": "A larger outer island with a school and villages."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Fatele",
+    "desc": "A traditional group song and dance performed at gatherings."
+   },
+   {
+    "name": "Falekaupule",
+    "desc": "Community meeting houses central to decision-making and ceremony."
+   },
+   {
+    "name": "Weaving and Crafts",
+    "desc": "Woven mats and shell crafts are made across the islands."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "1 October, with parades and cultural performances."
+   },
+   {
+    "name": "Christmas and New Year",
+    "desc": "Big community events with song and dance."
+   },
+   {
+    "name": "Church Events",
+    "desc": "Church days are central to community life."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Independence Celebrations",
+    "desc": "October. Parades and dance."
+   },
+   {
+    "name": "Fatele Gatherings",
+    "desc": "Held at celebrations through the year."
+   },
+   {
+    "name": "Christmas and New Year",
+    "desc": "December and January. Community feasts and performances."
+   }
+  ],
+  "food": [
+   {
+    "name": "Fresh Fish",
+    "desc": "Tuna and reef fish are staples, often grilled or cooked in coconut."
+   },
+   {
+    "name": "Pulaka",
+    "desc": "A giant swamp taro grown in pits and eaten across the islands."
+   },
+   {
+    "name": "Coconut Dishes",
+    "desc": "Coconut milk and fresh coconut flavour many meals."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Funafuti Guesthouses",
+    "desc": "A small number of hotels and guesthouses serve visitors."
+   },
+   {
+    "name": "Outer Island Stays",
+    "desc": "Basic stays arranged with local hosts."
+   },
+   {
+    "name": "Home Stays",
+    "desc": "Stay with a local family for a close look at daily life."
+   }
+  ],
+  "intro": "Tuvalu is a tiny Polynesian nation of nine low-lying islands and atolls in the South Pacific. It is one of the least visited and smallest countries in the world, with simple facilities and a strong sense of community. Rising seas are a major concern. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Funafuti",
+     "items": [
+      "Arrive and walk Fongafale"
+     ]
+    },
+    {
+     "title": "Day 2 — Lagoon",
+     "items": [
+      "Boat trip and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 3 — Conservation Area",
+     "items": [
+      "Bird life and quiet islets"
+     ]
+    },
+    {
+     "title": "Day 4 — Culture",
+     "items": [
+      "Community visit and crafts"
+     ]
+    },
+    {
+     "title": "Day 5 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Funafuti",
+     "items": [
+      "Arrive and settle in"
+     ]
+    },
+    {
+     "title": "Day 2 — Town walk",
+     "items": [
+      "Main street and market"
+     ]
+    },
+    {
+     "title": "Day 3 — Lagoon",
+     "items": [
+      "Boat trip and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 4 — Conservation Area",
+     "items": [
+      "Bird watching"
+     ]
+    },
+    {
+     "title": "Day 5 — Village life",
+     "items": [
+      "Community visit"
+     ]
+    },
+    {
+     "title": "Day 6 — Free day",
+     "items": [
+      "Fishing or rest"
+     ]
+    },
+    {
+     "title": "Day 7 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Funafuti",
+     "items": [
+      "Town and lagoon"
+     ]
+    },
+    {
+     "title": "Day 3 — Conservation Area",
+     "items": [
+      "Boat day"
+     ]
+    },
+    {
+     "title": "Day 4 — Culture",
+     "items": [
+      "Fatele and crafts"
+     ]
+    },
+    {
+     "title": "Day 5 — Outer island option",
+     "items": [
+      "Subject to ferry or flight availability"
+     ]
+    },
+    {
+     "title": "Day 6–8 — Outer island",
+     "items": [
+      "Village stay"
+     ]
+    },
+    {
+     "title": "Day 9 — Return to Funafuti",
+     "items": [
+      "Rest"
+     ]
+    },
+    {
+     "title": "Day 10 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is drier. It is hot and humid year-round, with cyclone risk from about November to April.",
+   "currency": "Australian dollar (AUD) and Tuvaluan coins are used. Carry cash.",
+   "safety": "Very low crime, but facilities are limited. Take care with sun, water and reef. Medical care is basic, so check insurance.",
+   "tipping": "Not customary or expected.",
+   "transport": "Flights to Funafuti are limited and irregular. Inter-island ferries are infrequent, so allow flexibility."
+  }
+ },
+ "Vanuatu": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 2,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Port Vila",
+    "desc": "The capital on Efate, with a market, waterfront restaurants and nearby beaches."
+   },
+   {
+    "name": "Mount Yasur, Tanna",
+    "desc": "An active volcano with a crater that can be viewed from the rim, subject to alert levels."
+   },
+   {
+    "name": "Champagne Beach, Espiritu Santo",
+    "desc": "A white-sand beach with clear water on the island's east coast."
+   },
+   {
+    "name": "Millennium Cave, Espiritu Santo",
+    "desc": "A guided jungle trek and river walk through a large cave system."
+   },
+   {
+    "name": "Blue Holes, Espiritu Santo",
+    "desc": "Freshwater pools with clear blue water, good for swimming."
+   },
+   {
+    "name": "Mele Cascades, Efate",
+    "desc": "A series of waterfalls and pools close to Port Vila."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Kastom",
+    "desc": "Kastom is the traditional way of life that guides land, ceremony and village rules. Ask before photographing people or visiting villages."
+   },
+   {
+    "name": "Land Diving, Pentecost",
+    "desc": "Known as naghol, men dive from wooden towers with vines tied to their ankles. Held in the dry season, usually April to June."
+   },
+   {
+    "name": "Kava Ceremonies",
+    "desc": "Kava is a traditional drink with cultural importance, prepared and shared in a set way."
+   }
+  ],
+  "events": [
+   {
+    "name": "Independence Day",
+    "desc": "30 July, celebrated with parades and community events."
+   },
+   {
+    "name": "Naghol Land Diving Season",
+    "desc": "April to June on Pentecost island, with times set by local communities."
+   },
+   {
+    "name": "Fest'Napuan",
+    "desc": "A music festival in Port Vila, usually held around late July or November in some years."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Naghol Land Diving",
+    "desc": "April to June. A traditional ritual on southern Pentecost."
+   },
+   {
+    "name": "Independence Celebrations",
+    "desc": "July. Parades and cultural events across the country."
+   },
+   {
+    "name": "Fest'Napuan",
+    "desc": "Held in Port Vila in some years. Check dates in advance."
+   }
+  ],
+  "food": [
+   {
+    "name": "Lap Lap",
+    "desc": "A pudding of grated root vegetables baked with coconut cream, sometimes with meat or fish."
+   },
+   {
+    "name": "Tuluk",
+    "desc": "A pounded root dish steamed in leaves, often served with meat."
+   },
+   {
+    "name": "Fresh Seafood",
+    "desc": "Coconut crab, reef fish and prawns feature on menus. Ask about sourcing."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Port Vila Hotels and Resorts",
+    "desc": "The widest choice, with beaches and restaurants nearby."
+   },
+   {
+    "name": "Tanna Bungalows",
+    "desc": "Simple bungalows near Mount Yasur, often arranged with local hosts."
+   },
+   {
+    "name": "Espiritu Santo Guesthouses",
+    "desc": "Small guesthouses and dive lodges around Luganville."
+   }
+  ],
+  "intro": "Vanuatu is an archipelago of about 80 islands in Melanesia with a strong tradition of kastom. Visitors come for volcanoes, diving, waterfalls and village culture. It is subject to cyclones, earthquakes and volcanic activity, so check local conditions. This guide has 5, 7 and 10-day routes.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — Port Vila",
+     "items": [
+      "Arrive, market and waterfront"
+     ]
+    },
+    {
+     "title": "Day 2 — Efate",
+     "items": [
+      "Mele Cascades and beach time"
+     ]
+    },
+    {
+     "title": "Day 3 — Island loop",
+     "items": [
+      "Coastal drive and villages"
+     ]
+    },
+    {
+     "title": "Day 4 — Snorkel or dive",
+     "items": [
+      "Reef day with a local operator"
+     ]
+    },
+    {
+     "title": "Day 5 — Depart",
+     "items": [
+      "Final shopping and flight"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — Port Vila",
+     "items": [
+      "Arrive and settle in"
+     ]
+    },
+    {
+     "title": "Day 2 — Efate",
+     "items": [
+      "Waterfalls and beaches"
+     ]
+    },
+    {
+     "title": "Day 3 — Fly to Tanna",
+     "items": [
+      "Settle near Mount Yasur"
+     ]
+    },
+    {
+     "title": "Day 4 — Mount Yasur",
+     "items": [
+      "Evening visit if alert levels allow"
+     ]
+    },
+    {
+     "title": "Day 5 — Tanna villages",
+     "items": [
+      "Local culture and coffee plantations"
+     ]
+    },
+    {
+     "title": "Day 6 — Return to Port Vila",
+     "items": [
+      "Relax"
+     ]
+    },
+    {
+     "title": "Day 7 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Port Vila",
+     "items": [
+      "Market and nearby waterfalls"
+     ]
+    },
+    {
+     "title": "Day 3 — Fly to Tanna",
+     "items": [
+      "Arrive and rest"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Tanna",
+     "items": [
+      "Mount Yasur and village visits"
+     ]
+    },
+    {
+     "title": "Day 6 — Fly to Espiritu Santo",
+     "items": [
+      "Settle at Luganville"
+     ]
+    },
+    {
+     "title": "Day 7 — Champagne Beach",
+     "items": [
+      "Beach and snorkelling"
+     ]
+    },
+    {
+     "title": "Day 8 — Blue Holes and Millennium Cave",
+     "items": [
+      "Guided walks and swimming"
+     ]
+    },
+    {
+     "title": "Day 9 — Return to Port Vila",
+     "items": [
+      "Rest day"
+     ]
+    },
+    {
+     "title": "Day 10 — Depart",
+     "items": [
+      "Fly out"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "May to October is cooler and drier. Cyclone season runs roughly November to April.",
+   "currency": "Vanuatu vatu (VUV). Carry cash outside Port Vila and Luganville.",
+   "safety": "Mostly safe, but petty theft occurs, and natural hazards include volcanoes, cyclones and earthquakes. Follow local warnings, especially near Yasur.",
+   "tipping": "Not expected. A small tip for guides is welcome but optional.",
+   "transport": "Minibuses and taxis in Port Vila. Domestic flights link the islands, but schedules change, so allow buffer time."
+  }
+ },
+ "Vatican City": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 1,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "St. Peter Basilica",
+    "desc": "The largest church in Christendom, with Michelangelo dome and Pieta."
+   },
+   {
+    "name": "Vatican Museums",
+    "desc": "Vast collections of art and antiquities, ending in the Sistine Chapel."
+   },
+   {
+    "name": "Sistine Chapel",
+    "desc": "Michelangelo ceiling and Last Judgment; photography is not allowed."
+   },
+   {
+    "name": "St. Peter Square",
+    "desc": "Bernini colonnade and the main gathering place for papal events."
+   },
+   {
+    "name": "Vatican Gardens",
+    "desc": "Guided visits are available by prior booking."
+   },
+   {
+    "name": "Castel Sant Angelo (nearby, Rome)",
+    "desc": "A fortress by the river, linked to the Vatican by a historic passage."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Papal Audience",
+    "desc": "Public audiences are often held on Wednesdays; free tickets are requested in advance."
+   },
+   {
+    "name": "Swiss Guard",
+    "desc": "Colourful guards protect the entrances; see them at the gates."
+   },
+   {
+    "name": "Dress Code",
+    "desc": "Shoulders and knees must be covered in churches and museums."
+   }
+  ],
+  "events": [
+   {
+    "name": "Wednesday General Audience",
+    "desc": "Weekly, subject to papal schedule. Held in St. Peter Square or hall."
+   },
+   {
+    "name": "Easter Week Ceremonies",
+    "desc": "March or April. The Pope leads major services."
+   },
+   {
+    "name": "Christmas Midnight Mass",
+    "desc": "24 December. A major service in the basilica."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Easter",
+    "desc": "March or April. Ceremonies throughout Holy Week."
+   },
+   {
+    "name": "Feast of Saints Peter and Paul",
+    "desc": "29 June. A major feast with special Mass."
+   },
+   {
+    "name": "Immaculate Conception",
+    "desc": "8 December. A feast with prayer at the Spanish Steps in Rome."
+   }
+  ],
+  "food": [
+   {
+    "name": "Roman Pizza al Taglio",
+    "desc": "Rectangular pizza sold by weight near the Vatican walls."
+   },
+   {
+    "name": "Supplì",
+    "desc": "Fried rice balls with a mozzarella centre."
+   },
+   {
+    "name": "Carbonara and Cacio e Pepe",
+    "desc": "Classic Roman pasta dishes served in nearby Prati."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Hotels in Prati, Rome",
+    "desc": "Quiet district next to the Vatican with many mid-range hotels."
+   },
+   {
+    "name": "Guesthouses run by religious orders",
+    "desc": "Simple, affordable rooms in Rome; book ahead."
+   },
+   {
+    "name": "Hotels near Termini, Rome",
+    "desc": "Good train links, a short metro ride away."
+   }
+  ],
+  "intro": "Vatican City is the smallest independent state in the world, an enclave within Rome and the centre of the Catholic Church. Its main sights are St. Peter Basilica, the museums and the Sistine Chapel. There is no accommodation inside, so visitors stay in Rome and cross on foot. This guide has 5, 7 and 10-day routes, built around Vatican City with Rome and nearby day trips.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1 — St. Peter Square and Basilica",
+     "items": [
+      "Climb the dome if open"
+     ]
+    },
+    {
+     "title": "Day 2 — Vatican Museums",
+     "items": [
+      "Book tickets ahead"
+     ]
+    },
+    {
+     "title": "Day 3 — Rome centre",
+     "items": [
+      "Pantheon, Trevi Fountain and Piazza Navona"
+     ]
+    },
+    {
+     "title": "Day 4 — Ancient Rome",
+     "items": [
+      "Colosseum and Forum"
+     ]
+    },
+    {
+     "title": "Day 5 — Castel Sant Angelo and Trastevere",
+     "items": [
+      "River walk and dinner"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1 — St. Peter Basilica",
+     "items": [
+      "Square and church"
+     ]
+    },
+    {
+     "title": "Day 2 — Vatican Museums",
+     "items": [
+      "Sistine Chapel"
+     ]
+    },
+    {
+     "title": "Day 3 — Papal Audience or Gardens",
+     "items": [
+      "Subject to schedule"
+     ]
+    },
+    {
+     "title": "Day 4 — Rome centre",
+     "items": [
+      "Pantheon and piazzas"
+     ]
+    },
+    {
+     "title": "Day 5 — Ancient Rome",
+     "items": [
+      "Colosseum and Forum"
+     ]
+    },
+    {
+     "title": "Day 6 — Ostia Antica",
+     "items": [
+      "Roman port ruins by train"
+     ]
+    },
+    {
+     "title": "Day 7 — Trastevere",
+     "items": [
+      "Evening stroll and departure"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–2 — Vatican",
+     "items": [
+      "Basilica, museums, square"
+     ]
+    },
+    {
+     "title": "Day 3 — Vatican Gardens",
+     "items": [
+      "Guided tour, if available"
+     ]
+    },
+    {
+     "title": "Day 4 — Rome centre",
+     "items": [
+      "Landmarks"
+     ]
+    },
+    {
+     "title": "Day 5 — Ancient Rome",
+     "items": [
+      "Colosseum and Forum"
+     ]
+    },
+    {
+     "title": "Day 6 — Villa Borghese",
+     "items": [
+      "Gardens and museums"
+     ]
+    },
+    {
+     "title": "Day 7 — Tivoli",
+     "items": [
+      "Villa d Este and Hadrian Villa"
+     ]
+    },
+    {
+     "title": "Day 8 — Ostia Antica",
+     "items": [
+      "Ancient port"
+     ]
+    },
+    {
+     "title": "Day 9 — Orvieto or Castel Gandolfo",
+     "items": [
+      "Hill town or papal summer residence area"
+     ]
+    },
+    {
+     "title": "Day 10 — Departure",
+     "items": [
+      "Allow time for transfers"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "April to June and September to October. Summer is hot and crowded; book tickets ahead year-round.",
+   "currency": "Euro (EUR).",
+   "safety": "Very safe, but watch for pickpockets and unofficial ticket sellers in queues.",
+   "tipping": "Not expected; rounding up is fine in cafes.",
+   "transport": "Reached on foot or by metro line A (Ottaviano or Cipro) and buses from Rome. Fly into Rome Fiumicino."
+  }
+ },
+ "Yemen": {
+  "advisory": {
+   "checked": "October 2026",
+   "level": 4,
+   "source": "US Department of State"
+  },
+  "bestOf": [
+   {
+    "name": "Sana'a Old City",
+    "desc": "A UNESCO-listed city of tall decorated tower houses, severely affected by the conflict."
+   },
+   {
+    "name": "Socotra",
+    "desc": "A remote island known for unique plants such as dragon's blood trees, with its own access conditions."
+   },
+   {
+    "name": "Shibam",
+    "desc": "A walled desert town famous for its tall mudbrick towers."
+   },
+   {
+    "name": "Zabid",
+    "desc": "A historic town with a long scholarly tradition."
+   },
+   {
+    "name": "Kawkaban",
+    "desc": "A hilltop town overlooking the western mountains."
+   },
+   {
+    "name": "Aden",
+    "desc": "A port city with an old crater district."
+   }
+  ],
+  "culture": [
+   {
+    "name": "Tower Houses",
+    "desc": "Multi-storey stone and mud houses have defined Yemeni architecture for centuries."
+   },
+   {
+    "name": "Qat Gatherings",
+    "desc": "Afternoon gatherings in many areas centre on chewing qat and conversation; participation is optional."
+   },
+   {
+    "name": "Jambiya Daggers",
+    "desc": "A traditional curved dagger worn by many men as part of dress."
+   }
+  ],
+  "events": [
+   {
+    "name": "Unity Day",
+    "desc": "22 May marks the 1990 unification."
+   },
+   {
+    "name": "Coffee Harvest",
+    "desc": "Highland coffee is harvested in the cooler months."
+   },
+   {
+    "name": "Local Weddings",
+    "desc": "Weddings are major social events with music and dancing."
+   }
+  ],
+  "festivals": [
+   {
+    "name": "Eid al-Fitr",
+    "desc": "End of Ramadan with family visits and sweets."
+   },
+   {
+    "name": "Eid al-Adha",
+    "desc": "Dates vary yearly. Animal sacrifice and sharing of meat."
+   },
+   {
+    "name": "Mawlid",
+    "desc": "Dates vary yearly. Celebrated with recitation and gatherings."
+   }
+  ],
+  "food": [
+   {
+    "name": "Saltah",
+    "desc": "A bubbling stew topped with fenugreek froth, often eaten at midday."
+   },
+   {
+    "name": "Mandi",
+    "desc": "Slow-cooked meat with rice."
+   },
+   {
+    "name": "Fahsa",
+    "desc": "A meat stew served in a stone dish."
+   }
+  ],
+  "stays": [
+   {
+    "name": "Sana'a and Aden Hotels",
+    "desc": "A few hotels serve visitors and aid workers; check availability."
+   },
+   {
+    "name": "Socotra Guesthouses",
+    "desc": "Basic guesthouses and camps arranged via operators when access is possible."
+   },
+   {
+    "name": "Not Currently Advisable",
+    "desc": "Most areas lack dependable tourism infrastructure."
+   }
+  ],
+  "intro": "Yemen has remarkable architecture and landscapes, but it is affected by armed conflict, terrorism, landmines, kidnapping and a severe humanitarian crisis. Governments advise against all travel and consular services are minimal. Some areas are controlled by different authorities and conditions can change quickly. This page is general information, not a recommendation to travel; the guide has 5, 7 and 10-day routes for reference only.",
+  "itineraries": {
+   "5": [
+    {
+     "title": "Day 1–3 — Sana'a",
+     "items": [
+      "Historic old city, historically; not currently advisable"
+     ]
+    },
+    {
+     "title": "Day 4–5 — Shibam",
+     "items": [
+      "Mudbrick towers, historically"
+     ]
+    }
+   ],
+   "7": [
+    {
+     "title": "Day 1–3 — Sana'a",
+     "items": [
+      "Old city"
+     ]
+    },
+    {
+     "title": "Day 4 — Kawkaban",
+     "items": [
+      "Hilltop town"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Shibam",
+     "items": [
+      "Wadi Hadramawt"
+     ]
+    }
+   ],
+   "10": [
+    {
+     "title": "Day 1–3 — Sana'a",
+     "items": [
+      "Old city"
+     ]
+    },
+    {
+     "title": "Day 4 — Kawkaban",
+     "items": [
+      "Hilltop town"
+     ]
+    },
+    {
+     "title": "Day 5–7 — Shibam & Hadramawt",
+     "items": [
+      "Valley towns"
+     ]
+    },
+    {
+     "title": "Day 8–10 — Socotra",
+     "items": [
+      "Unique plants, only if access and safety allow"
+     ]
+    }
+   ]
+  },
+  "practical": {
+   "bestTime": "Highlands are most pleasant from October to April; the coast and desert are extremely hot in summer.",
+   "currency": "Yemeni rial (YER). Rates differ by region and cards are rarely accepted; cash is needed.",
+   "safety": "Governments advise against all travel. Do not travel without current official advice and specialist support.",
+   "tipping": "Small tips are appreciated.",
+   "transport": "Flights are very limited and roads face checkpoints and landmine risk. Independent travel is not advisable."
+  }
  }
 };
