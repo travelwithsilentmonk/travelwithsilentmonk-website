@@ -24237,7 +24237,7 @@ window.COUNTRY_GUIDES = {
  "Antigua and Barbuda": {
   "advisory": {
    "checked": "October 2026",
-   "level": 2,
+   "level": 1,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -26944,7 +26944,7 @@ window.COUNTRY_GUIDES = {
  "Eritrea": {
   "advisory": {
    "checked": "October 2026",
-   "level": 3,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -27726,7 +27726,7 @@ window.COUNTRY_GUIDES = {
  "Grenada": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -27947,7 +27947,7 @@ window.COUNTRY_GUIDES = {
  "Guinea": {
   "advisory": {
    "checked": "October 2026",
-   "level": 3,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -28326,7 +28326,7 @@ window.COUNTRY_GUIDES = {
  "Guyana": {
   "advisory": {
    "checked": "October 2026",
-   "level": 2,
+   "level": 3,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -30166,7 +30166,7 @@ window.COUNTRY_GUIDES = {
  "Madagascar": {
   "advisory": {
    "checked": "October 2026",
-   "level": 3,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -31163,7 +31163,7 @@ window.COUNTRY_GUIDES = {
  "Mauritius": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -31816,7 +31816,7 @@ window.COUNTRY_GUIDES = {
  "Monaco": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -32061,7 +32061,7 @@ window.COUNTRY_GUIDES = {
  "Mozambique": {
   "advisory": {
    "checked": "October 2026",
-   "level": 3,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -32270,7 +32270,7 @@ window.COUNTRY_GUIDES = {
  "Namibia": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -33422,7 +33422,7 @@ window.COUNTRY_GUIDES = {
  "Republic of the Congo": {
   "advisory": {
    "checked": "October 2026",
-   "level": 3,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -34482,7 +34482,7 @@ window.COUNTRY_GUIDES = {
  "San Marino": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -34727,7 +34727,7 @@ window.COUNTRY_GUIDES = {
  "Sao Tome and Principe": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -34925,7 +34925,7 @@ window.COUNTRY_GUIDES = {
  "Senegal": {
   "advisory": {
    "checked": "October 2026",
-   "level": 2,
+   "level": 1,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -36674,7 +36674,7 @@ window.COUNTRY_GUIDES = {
  "Timor-Leste": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -37749,7 +37749,7 @@ window.COUNTRY_GUIDES = {
  "Vanuatu": {
   "advisory": {
    "checked": "October 2026",
-   "level": 2,
+   "level": 1,
    "source": "US Department of State"
   },
   "bestOf": [
@@ -37988,7 +37988,7 @@ window.COUNTRY_GUIDES = {
  "Vatican City": {
   "advisory": {
    "checked": "October 2026",
-   "level": 1,
+   "level": 2,
    "source": "US Department of State"
   },
   "bestOf": [

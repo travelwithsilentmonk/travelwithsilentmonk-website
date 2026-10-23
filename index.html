@@ -30,6 +30,7 @@
             <a href="#destinations">Destinations</a>
             <a href="#festivals">Festivals</a>
             <a href="#videos">Videos</a>
+            <a href="hangouts.html">Hangouts</a>
             <a href="#about">About</a>
         </nav>
 
@@ -562,6 +563,11 @@
 
     <!-- FOOTER -->
 
+    <section id="communityStrip" class="dark-section" style="display:none;padding:50px 7%;">
+        <p class="section-label">FROM THE COMMUNITY</p>
+        <div id="communityStripContent"></div>
+    </section>
+
     <footer>
 
         <img src="logo.png" alt="TravelWithSilentMonk" style="height: 130px; width: 130px; margin-bottom: 15px;">
@@ -643,5 +649,8 @@
         render();
     })();
     </script>
+    <script src="site-config.js"></script>
+    <script src="hangouts.js"></script>
+    <script>if (window.Hangouts) window.Hangouts.mountStrip(document.getElementById('communityStripContent'));</script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller Hangouts | TravelWithSilentMonk</title>
+    <meta name="description" content="Upcoming traveller hangouts by country, city and date. Plan a meet-up or join one.">
+    <link rel="canonical" href="https://travelwithsilentmonk.com/hangouts.html">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hub { max-width: 860px; margin: 0 auto; padding: 40px 6% 60px; }
+        .hub h1 { font-size: 2rem; margin-bottom: 6px; }
+        .hub .lead { color: #444; margin-bottom: 18px; }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.png" alt="TravelWithSilentMonk" style="height: 70px; width: 70px; vertical-align: middle;">
+            </a>
+        </div>
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+            <a href="index.html#festivals">Festivals</a>
+            <a href="hangouts.html">Hangouts</a>
+            <a href="index.html#about">About</a>
+        </nav>
+    </header>
+
+    <main class="hub">
+        <p class="section-label">MEET OTHER TRAVELLERS</p>
+        <h1>Traveller Hangouts</h1>
+        <p class="lead">Plans posted by travellers to meet up: dinners, walks, hostel nights and trips. Each shows the country, city and date. Join the group chat to take part.</p>
+        <div id="hangoutsRoot"></div>
+    </main>
+
+    <footer>
+        <img src="logo.png" alt="TravelWithSilentMonk" style="height: 130px; width: 130px; margin-bottom: 15px;">
+        <p>Travel • Food • Festivals • Hostels • Experiences</p>
+        <p class="footer-social" style="margin:10px 0"><a href="https://youtube.com/@travelwithsilentmonk" target="_blank" rel="noopener">YouTube</a> • <a href="https://instagram.com/travelwithsilentmonk" target="_blank" rel="noopener">Instagram</a> • <a href="https://chat.whatsapp.com/C3p3SAuVMl3CoI6VROSWdT?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener">WhatsApp Community</a></p>
+        <p class="footer-legal" style="margin:10px 0"><a href="about.html">About &amp; Contact</a> • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
+        <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
+    </footer>
+
+    <script src="site-config.js"></script>
+    <script src="hangouts.js"></script>
+    <script>
+        const COUNTRIES = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Democratic Republic of the Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Ivory Coast", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway", "Oman", "Pakistan", "Palau", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Republic of the Congo", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"];
+        window.Hangouts.mountPage(document.getElementById('hangoutsRoot'), COUNTRIES);
+    </script>
+</body>
+</html>
