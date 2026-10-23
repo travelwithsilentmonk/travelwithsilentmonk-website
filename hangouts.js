@@ -68,7 +68,7 @@
         if (!session) { holder.replaceChildren(el('span', { text: 'Please sign in to see the group link. ' }), el('button', { style: btn, text: 'Sign in with Google', onclick: () => client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.href } }) })); return; }
         const { data } = await client.from('hangout_links').select('group_link').eq('hangout_id', h.id).maybeSingle();
         if (data && LINK_OK.test(data.group_link)) holder.replaceChildren(el('a', { href: data.group_link, target: '_blank', rel: 'noopener noreferrer', style: btn, text: 'Open the group chat' }), el('span', { style: 'font-size:12px;color:#888;margin-left:10px;', text: 'Meet in public places and stay safe.' }));
-        else holder.replaceChildren(el('span', { text: 'The group link is not available.' }));
+        else holder.replaceChildren(el('span', { text: 'The host has not added a group chat link. Meet at the place and time above.' }));
       } }));
       holder.appendChild(el('button', { style: 'background:none;border:0;color:#888;font-size:13px;cursor:pointer;text-decoration:underline;margin-left:14px;', text: 'Report', onclick: async () => {
         if (!session) { alert('Please sign in to report a hangout, or email us from the About & Contact page.'); return; }
@@ -92,7 +92,7 @@
     const place = el('input', { style: field, placeholder: 'Public meeting point, e.g. hostel common room or a named cafe', maxlength: '120' });
     const desc = el('textarea', { style: field + 'min-height:90px;', placeholder: 'What is the plan? (20 to 500 characters). No phone numbers or private addresses.', maxlength: '500' });
     const max = el('input', { style: field, type: 'number', min: '2', max: '50', placeholder: 'Maximum people (optional)' });
-    const link = el('input', { style: field, placeholder: 'Group chat link (WhatsApp, Telegram, Signal or Discord invite)', maxlength: '300' });
+    const link = el('input', { style: field, placeholder: 'Group chat link (optional): WhatsApp, Telegram, Signal or Discord invite', maxlength: '300' });
     const agree = el('input', { type: 'checkbox' });
     const msg = el('p', { style: 'margin:10px 0 0;font-size:14px;' });
     const go = el('button', { style: btn, text: 'Submit for review', onclick: async () => {
@@ -100,7 +100,7 @@
       const when_ = new Date(dt.value);
       if (!city.value.trim() || title.value.trim().length < 5 || place.value.trim().length < 3 || desc.value.trim().length < 20 || !dt.value) { msg.textContent = 'Please fill in every field (title 5+ characters, description 20+ characters).'; return; }
       if (isNaN(when_) || when_ <= new Date()) { msg.textContent = 'Please choose a date and time in the future.'; return; }
-      if (!LINK_OK.test(link.value.trim())) { msg.textContent = 'The group link must be a WhatsApp, Telegram, Signal or Discord invite link starting with https://.'; return; }
+      if (link.value.trim() && !LINK_OK.test(link.value.trim())) { msg.textContent = 'The group link must be a WhatsApp, Telegram, Signal or Discord invite link starting with https://.'; return; }
       if (!agree.checked) { msg.textContent = 'Please confirm the box above.'; return; }
       go.disabled = true;
       const ins = await client.from('hangouts').insert({
@@ -108,7 +108,7 @@
         starts_at: when_.toISOString(), place: place.value.trim(), description: desc.value.trim(), max_people: max.value ? Number(max.value) : null
       }).select('id').single();
       if (ins.error) { go.disabled = false; msg.textContent = 'Could not save your hangout (you can post up to 3 a day, and the date must be within 120 days).'; return; }
-      const lk = await client.from('hangout_links').insert({ hangout_id: ins.data.id, group_link: link.value.trim() });
+      const lk = link.value.trim() ? await client.from('hangout_links').insert({ hangout_id: ins.data.id, group_link: link.value.trim() }) : {};
       if (lk.error) { await client.from('hangouts').delete().eq('id', ins.data.id); go.disabled = false; msg.textContent = 'Could not save the group link. Please check it and try again.'; return; }
       wrap.replaceChildren(el('p', { text: 'Thank you! Your hangout will appear after we review it.' }));
       onDone && onDone();
