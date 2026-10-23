@@ -8,6 +8,7 @@
   const btn = 'background:#1a5d3a;color:#fff;border:0;border-radius:999px;padding:10px 20px;font-size:15px;cursor:pointer;display:inline-block;text-decoration:none;';
   const field = 'width:100%;padding:10px;border:1px solid #ccc;border-radius:8px;font-size:15px;margin:4px 0 12px;font-family:inherit;';
   let client = null, session = null;
+  const mineIds = new Set();
 
   function el(tag, attrs, kids) {
     const e = document.createElement(tag);
@@ -77,6 +78,14 @@
         alert(error ? 'Could not send the report. Please email us instead.' : 'Thanks, we will review it.');
       } }));
     }
+    if (session && mineIds.has(h.id)) {
+      holder.appendChild(el('button', { style: 'background:none;border:0;color:#b00020;font-size:13px;cursor:pointer;text-decoration:underline;margin-left:14px;', text: 'Delete my hangout', onclick: async () => {
+        if (!confirm('Delete this hangout?')) return;
+        const { error } = await client.from('hangouts').delete().eq('id', h.id);
+        if (error) { alert('Could not delete it. Please try again.'); return; }
+        const card_ = document.getElementById('h-' + h.id); if (card_) card_.remove();
+      } }));
+    }
     return el('div', { id: 'h-' + h.id, style: card }, kids);
   }
 
@@ -106,11 +115,11 @@
       const ins = await client.from('hangouts').insert({
         user_id: session.user.id, host_name: firstName(), country: sel.value, city: city.value.trim(), title: title.value.trim(),
         starts_at: when_.toISOString(), place: place.value.trim(), description: desc.value.trim(), max_people: max.value ? Number(max.value) : null
-      }).select('id').single();
+      }).select('id,status').single();
       if (ins.error) { go.disabled = false; msg.textContent = 'Could not save your hangout (you can post up to 3 a day, and the date must be within 120 days).'; return; }
       const lk = link.value.trim() ? await client.from('hangout_links').insert({ hangout_id: ins.data.id, group_link: link.value.trim() }) : {};
       if (lk.error) { await client.from('hangouts').delete().eq('id', ins.data.id); go.disabled = false; msg.textContent = 'Could not save the group link. Please check it and try again.'; return; }
-      wrap.replaceChildren(el('p', { text: 'Thank you! Your hangout will appear after we review it.' }));
+      wrap.replaceChildren(el('p', { text: ins.data.status === 'approved' ? 'Your hangout is live. Thank you!' : 'Thank you! Your hangout is pending review and will appear once approved.' }));
       onDone && onDone();
     } });
     const label = el('label', { style: 'font-size:14px;display:block;margin-bottom:12px;' }, [agree, ' I am 18 or over, I will host this in a public place, and I agree to the ', el('a', { href: 'terms.html', target: '_blank', text: 'Terms', style: 'text-decoration:underline;' }), '.']);
@@ -132,6 +141,8 @@
       sel.value = filter;
       let rows = [], failed = false;
       try { rows = await upcoming(filter, 50); } catch (e) { failed = true; }
+      mineIds.clear();
+      if (session && rows.length) { try { const r = await client.from('hangouts').select('id').eq('user_id', session.user.id); (r.data || []).forEach(x => mineIds.add(x.id)); } catch (e) {} }
       if (mine !== seq) return;
       const nodes = [el('p', { style: 'font-size:13px;color:#666;', text: SAFETY + ' Times are shown in your device\'s time zone.' }), sel];
       if (failed) nodes.push(el('p', { text: 'Hangouts could not load. Please try again later.' }));
