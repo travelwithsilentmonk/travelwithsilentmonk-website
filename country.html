@@ -49,6 +49,7 @@
             <button class="tab-btn" data-tab="food">Food</button>
             <button class="tab-btn" data-tab="stays">Hostels / Stays</button>
             <button class="tab-btn" data-tab="book">Book &amp; Get Around</button>
+            <button class="tab-btn" data-tab="community">Community Tips</button>
             <button class="tab-btn" data-tab="practical" id="practicalTabBtn" style="display:none;">Practical Info</button>
         </div>
     </section>
@@ -80,6 +81,13 @@
         <h2>Book &amp; Get Around</h2>
         <p class="section-description">The apps and sites that work best for trains, buses, flights, stays and tours here.</p>
         <div id="bookContent"></div>
+    </section>
+
+    <section class="section tab-content" id="tab-community" style="display:none;">
+        <p class="section-label">FROM TRAVELLERS</p>
+        <h2>Community Tips</h2>
+        <p class="section-description">Stays, food spots, hidden places and tips shared by other travellers. Posts are reviewed before they appear.</p>
+        <div id="communityContent"></div>
     </section>
 
     <section class="section tab-content" id="tab-festivals" style="display:none;">
@@ -144,6 +152,7 @@
         <img src="logo.png" alt="TravelWithSilentMonk" style="height: 130px; width: 130px; margin-bottom: 15px;">
         <p>Travel • Food • Festivals • Hostels • Experiences</p>
         <p class="footer-social" style="margin:10px 0"><a href="https://youtube.com/@travelwithsilentmonk" target="_blank" rel="noopener">YouTube</a> • <a href="https://instagram.com/travelwithsilentmonk" target="_blank" rel="noopener">Instagram</a> • <a href="https://chat.whatsapp.com/C3p3SAuVMl3CoI6VROSWdT?s=cl&amp;p=a&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener">WhatsApp Community</a></p>
+        <p class="footer-legal" style="margin:10px 0"><a href="about.html">About &amp; Contact</a> • <a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a> • <a href="affiliate-disclosure.html">Affiliate Disclosure</a></p>
         <p class="copyright">© 2026 TravelWithSilentMonk. All rights reserved.</p>
     </footer>
 
@@ -152,6 +161,8 @@
     <script src="partners-data.js"></script>
     <script src="budget-data.js"></script>
     <script src="trip-tools.js"></script>
+    <script src="site-config.js"></script>
+    <script src="community.js"></script>
     <script>
         const countryData = window.COUNTRY_GUIDES || {};
 
@@ -300,6 +311,7 @@
                 document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
                 btn.classList.add('active');
                 document.getElementById('tab-' + btn.dataset.tab).style.display = 'block';
+                if (btn.dataset.tab === 'community' && window.Community) window.Community.init(country);
             });
         });
     </script>
