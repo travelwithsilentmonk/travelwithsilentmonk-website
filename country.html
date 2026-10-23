@@ -49,7 +49,7 @@
             <button class="tab-btn" data-tab="food">Food</button>
             <button class="tab-btn" data-tab="stays">Hostels / Stays</button>
             <button class="tab-btn" data-tab="book">Book &amp; Get Around</button>
-            <button class="tab-btn" data-tab="community">Community Tips</button>
+            <button class="tab-btn" data-tab="community">Community</button>
             <button class="tab-btn" data-tab="practical" id="practicalTabBtn" style="display:none;">Practical Info</button>
         </div>
     </section>
@@ -85,8 +85,10 @@
 
     <section class="section tab-content" id="tab-community" style="display:none;">
         <p class="section-label">FROM TRAVELLERS</p>
-        <h2>Community Tips</h2>
-        <p class="section-description">Stays, food spots, hidden places and tips shared by other travellers. Posts are reviewed before they appear.</p>
+        <h2>Community</h2>
+        <p class="section-description">Hangouts, stays, food spots, hidden places and tips shared by other travellers. Posts are reviewed before they appear.</p>
+        <div id="hangoutsContent"></div>
+        <h3 style="margin:6px 0 4px;">Traveller tips</h3>
         <div id="communityContent"></div>
     </section>
 
@@ -163,6 +165,7 @@
     <script src="trip-tools.js"></script>
     <script src="site-config.js"></script>
     <script src="community.js"></script>
+    <script src="hangouts.js"></script>
     <script>
         const countryData = window.COUNTRY_GUIDES || {};
 
@@ -311,7 +314,7 @@
                 document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
                 btn.classList.add('active');
                 document.getElementById('tab-' + btn.dataset.tab).style.display = 'block';
-                if (btn.dataset.tab === 'community' && window.Community) window.Community.init(country);
+                if (btn.dataset.tab === 'community') { if (window.Community) window.Community.init(country); if (window.Hangouts) window.Hangouts.mountCountry(document.getElementById('hangoutsContent'), country); }
             });
         });
     </script>
