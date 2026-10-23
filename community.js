@@ -93,23 +93,26 @@
     const s = await client.auth.getSession(); session = s.data.session;
     client.auth.onAuthStateChange((_e, sess) => { session = sess; });
 
+    let drawSeq = 0;
     async function draw(filter) {
-      root.replaceChildren();
+      const mine = ++drawSeq;
       const bar = el('div', { style: 'display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;' });
       [['', 'All']].concat(Object.entries(TYPES)).forEach(([k, v]) => bar.appendChild(el('button', { text: v, style: 'border:1px solid #1a5d3a;border-radius:999px;padding:6px 14px;cursor:pointer;background:' + (filter === k ? '#1a5d3a;color:#fff' : '#fff;color:#1a5d3a'), onclick: () => draw(k) })));
-      root.appendChild(bar);
       let q = client.from('tips').select('id,created_at,display_name,city,type,place,rating,body').eq('country', country).eq('status', 'approved').order('created_at', { ascending: false }).limit(50);
       if (filter) q = q.eq('type', filter);
       const { data, error } = await q;
-      if (error) root.appendChild(el('p', { text: 'Community tips could not load. Please try again later.' }));
-      else if (!data.length) root.appendChild(el('p', { text: 'No tips here yet. Be the first to share a stay, food spot or hidden place.', style: 'margin:10px 0;' }));
-      else data.forEach(t => root.appendChild(renderTip(t)));
-      if (session) root.appendChild(formUi(country, () => {}));
-      else root.appendChild(el('div', { style: card }, [
+      if (mine !== drawSeq) return; // a newer redraw has started; drop this stale one
+      const nodes = [bar];
+      if (error) nodes.push(el('p', { text: 'Community tips could not load. Please try again later.' }));
+      else if (!data.length) nodes.push(el('p', { text: 'No tips here yet. Be the first to share a stay, food spot or hidden place.', style: 'margin:10px 0;' }));
+      else data.forEach(t => nodes.push(renderTip(t)));
+      if (session) nodes.push(formUi(country, () => {}));
+      else nodes.push(el('div', { style: card }, [
         el('p', { text: 'Sign in with Google to share your own tip. Only your first name is shown.' }),
         el('button', { style: btn + 'margin-top:10px;', text: 'Sign in with Google', onclick: () => client.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.href } }) })
       ]));
-      root.appendChild(el('p', { style: 'font-size:13px;color:#888;margin-top:14px;' }, ['Posts are reviewed before they appear. See our ', el('a', { href: 'terms.html', text: 'Terms', style: 'text-decoration:underline;' }), ' and ', el('a', { href: 'privacy.html', text: 'Privacy Policy', style: 'text-decoration:underline;' }), '.']));
+      nodes.push(el('p', { style: 'font-size:13px;color:#888;margin-top:14px;' }, ['Posts are reviewed before they appear. See our ', el('a', { href: 'terms.html', text: 'Terms', style: 'text-decoration:underline;' }), ' and ', el('a', { href: 'privacy.html', text: 'Privacy Policy', style: 'text-decoration:underline;' }), '.']));
+      root.replaceChildren(...nodes);
     }
     draw('');
   }
